@@ -1,0 +1,22 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# Platform klasörleri CI'da `flutter create` ile üretilir.
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+
+# IDE
+.idea/
+*.iml
+.vscode/
