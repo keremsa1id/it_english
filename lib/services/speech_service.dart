@@ -38,6 +38,8 @@ class SpeechService {
       _available = await _speech.initialize(
         onStatus: _onStatus,
         onError: _onError,
+        // Bluetooth kulaklık desteği ek izinler istediği için kapalı.
+        options: [SpeechToText.androidNoBluetooth],
       );
       if (_available) {
         _localeId = await _englishLocale();
@@ -87,10 +89,10 @@ class SpeechService {
     try {
       await _speech.listen(
         onResult: _onResult,
-        localeId: _localeId,
-        listenFor: const Duration(seconds: 6),
-        pauseFor: const Duration(seconds: 2),
         listenOptions: SpeechListenOptions(
+          localeId: _localeId,
+          listenFor: const Duration(seconds: 6),
+          pauseFor: const Duration(seconds: 2),
           partialResults: false,
           cancelOnError: true,
           listenMode: ListenMode.confirmation,

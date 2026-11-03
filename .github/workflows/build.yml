@@ -24,9 +24,6 @@ jobs:
           channel: stable
           cache: true
 
-      - name: Android platform dosyalarını oluştur
-        run: flutter create . --platforms=android --project-name it_english
-
       - name: Paketleri indir
         run: flutter pub get
 
