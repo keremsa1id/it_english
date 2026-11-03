@@ -16,9 +16,21 @@ class ItEnglishApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'IT English',
+      // Siyah zemin, kırmızı vurgular.
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.indigo,
+        scaffoldBackgroundColor: Colors.black,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFFD32F2F),
+          brightness: Brightness.dark,
+        ).copyWith(
+          primary: const Color(0xFFE53935),
+          onPrimary: Colors.white,
+          primaryContainer: const Color(0xFF3A0D0D),
+          onPrimaryContainer: Colors.white,
+          surface: Colors.black,
+          onSurface: Colors.white,
+        ),
       ),
       home: const HomeScreen(),
     );
