@@ -161,6 +161,9 @@ void main() {
         ),
       );
 
+      // Kartlar küçük test ekranına sığmayabilir; önce görünür yap.
+      await tester.ensureVisible(find.text(mode.title));
+      await tester.pumpAndSettle();
       await tester.tap(find.text(mode.title));
       // Yükleme göstergesi sürekli döndüğü için pumpAndSettle kullanılmıyor.
       await tester.pump();
