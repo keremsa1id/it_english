@@ -72,6 +72,30 @@ void main() {
     expect(questions.first.options, hasLength(4));
   });
 
+  test('askOnly verilince yalnızca seçilen terimleri sorar', () {
+    final List<QuizQuestion> questions = generator().generate(
+      terms,
+      askOnly: (Term t) => t.term == 'router',
+    );
+
+    expect(questions, hasLength(1));
+    expect(questions.single.answer.term, 'router');
+    // Yanlış şıklar diğer terimlerden gelir.
+    expect(questions.single.options, hasLength(4));
+  });
+
+  test('requireBlank false ise cümlesinde terim geçmeyen kayıt da sorulur', () {
+    final List<Term> withBroken = <Term>[
+      ...terms.take(3),
+      _term('server', 'hardware', sentence: 'This sentence has no term in it at all.'),
+    ];
+
+    final List<QuizQuestion> questions =
+        generator().generate(withBroken, requireBlank: false);
+
+    expect(questions, hasLength(4));
+  });
+
   test('ikiden az terimle soru üretmez', () {
     expect(generator().generate(terms.take(1).toList()), isEmpty);
     expect(generator().generate(const <Term>[]), isEmpty);

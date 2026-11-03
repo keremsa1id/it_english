@@ -1,0 +1,30 @@
+name: Test
+
+# Her dalda ve her PR'da çalışır; böylece main'e gelmeden hatalar görülür.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Flutter kur
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Paketleri indir
+        run: flutter pub get
+
+      - name: Kodu analiz et
+        run: flutter analyze
+
+      - name: Testleri çalıştır
+        run: flutter test

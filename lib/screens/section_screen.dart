@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../models/section.dart';
 import '../services/term_repository.dart';
 import '../widgets/menu_card.dart';
-import 'quiz_screen.dart';
+import '../widgets/progress_footer.dart';
+import 'quiz_mode_screen.dart';
 import 'sentences_screen.dart';
 import 'words_screen.dart';
 
@@ -54,10 +55,22 @@ class SectionScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   MenuCard(
                     title: 'Quiz',
-                    subtitle: 'Fill in the blank with the right word',
+                    subtitle: 'Test yourself in different ways',
                     icon: Icons.quiz_rounded,
-                    onTap: () =>
-                        _open(context, QuizScreen(repository: repository)),
+                    onTap: () => _open(
+                      context,
+                      QuizModeScreen(
+                        setup: QuizSetup(
+                          title: '${section.title} Quiz',
+                          repository: repository,
+                          quizId: section.assetPath,
+                        ),
+                      ),
+                    ),
+                    footer: ProgressFooter(
+                      sections: <Section>[section],
+                      quizId: section.assetPath,
+                    ),
                   ),
                 ],
               ),

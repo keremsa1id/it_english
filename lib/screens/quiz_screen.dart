@@ -1,30 +1,49 @@
 import 'package:flutter/material.dart';
 
+import '../models/quiz_mode.dart';
 import '../models/term.dart';
+import '../services/progress_service.dart';
 import '../services/quiz_generator.dart';
 import '../services/term_repository.dart';
 import '../services/tts_service.dart';
+import '../utils/answer_check.dart';
 import '../utils/sentence_parts.dart';
 import '../widgets/category_style.dart';
 import '../widgets/message_view.dart';
 
-/// Boşluk doldurma oyunu.
+/// Quiz ekranı; soru biçimi [mode]'a göre değişir (bkz. [QuizMode]).
 ///
-/// Her soruda bir örnek cümle, terimin yerinde boşlukla gösterilir; alttaki
-/// 4 terimden doğrusu seçilir. Yanlış seçenek kırmızı olur ve tekrar
-/// denenebilir. Doğru seçilince boşluk dolar, cümle sesli okunur ve
-/// "Next" butonu çıkar. İlk denemede bilinen sorular puan sayılır.
+/// Şıklı türlerde alttaki 4 terimden doğrusu seçilir; yanlış seçenek
+/// işaretlenir ve tekrar denenebilir. Yazma türünde terim yazılır; yanlışta
+/// uyarı çıkar, istenirse cevap gösterilir. Doğru cevaptan sonra boşluk
+/// dolar, cümle (ya da terim) sesli okunur ve "Next" butonu çıkar. İlk
+/// denemede bilinen sorular puan sayılır.
 class QuizScreen extends StatefulWidget {
   const QuizScreen({
     super.key,
     this.repository = const TermRepository(),
     this.questionCount = 10,
     this.title = 'Quiz',
+    this.mode = QuizMode.fillBlank,
+    this.quizId,
+    this.askOnly,
+    this.emptyMessage = 'There are not enough words for a quiz.',
   });
 
   final TermRepository repository;
   final int questionCount;
   final String title;
+  final QuizMode mode;
+
+  /// Verilirse tur sonunda skor bu anahtarla kaydedilir.
+  final String? quizId;
+
+  /// Verilirse yalnızca bunu sağlayan kelimeler sorulur; her turun başında
+  /// yeniden uygulanır (bkz. [QuizGenerator.generate]).
+  final bool Function(Term term)? askOnly;
+
+  /// Sorulacak kelime yoksa gösterilen mesaj.
+  final String emptyMessage;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -40,6 +59,9 @@ class _QuizScreenState extends State<QuizScreen> {
   bool _solved = false;
   bool _finished = false;
   final Set<Term> _wrongPicks = <Term>{};
+
+  /// Yazma quiz'inde mevcut soruya yanlış cevap verildi mi.
+  bool _typedWrong = false;
 
   @override
   void initState() {
@@ -69,12 +91,29 @@ class _QuizScreenState extends State<QuizScreen> {
     _questions = _generator.generate(
       terms,
       questionCount: widget.questionCount,
+      askOnly: widget.askOnly,
+      requireBlank: widget.mode.needsBlank,
     );
     _currentIndex = 0;
     _score = 0;
     _solved = false;
     _finished = false;
     _wrongPicks.clear();
+    _typedWrong = false;
+    // İlk soru ekrana gelince okunsun.
+    WidgetsBinding.instance.addPostFrameCallback((_) => _speakPrompt());
+  }
+
+  /// Dinleme quiz'inde mevcut sorunun kelimesini okur; diğer türlerde
+  /// bir şey yapmaz.
+  void _speakPrompt() {
+    if (!mounted ||
+        widget.mode != QuizMode.listening ||
+        _finished ||
+        _questions.isEmpty) {
+      return;
+    }
+    TtsService.instance.speak(_questions[_currentIndex].answer.term);
   }
 
   void _onOptionTap(Term option) {
@@ -84,21 +123,89 @@ class _QuizScreenState extends State<QuizScreen> {
     final QuizQuestion question = _questions[_currentIndex];
 
     if (!identical(option, question.answer)) {
+      // Yanlış bilinen kelime öğrenilmiş sayılmaz, Review destesine girer.
+      ProgressService.instance.recordAnswer(question.answer, correct: false);
       setState(() => _wrongPicks.add(option));
       return;
     }
 
+    _markSolved(question, firstTry: _wrongPicks.isEmpty);
+  }
+
+  /// Yazma quiz'inde gönderilen cevabı kontrol eder.
+  void _onTypedAnswer(String input) {
+    if (_solved || input.trim().isEmpty) {
+      return;
+    }
+    final QuizQuestion question = _questions[_currentIndex];
+
+    if (!isCorrectAnswer(input, question.answer.term)) {
+      if (!_typedWrong) {
+        ProgressService.instance.recordAnswer(question.answer, correct: false);
+      }
+      setState(() => _typedWrong = true);
+      return;
+    }
+
+    _markSolved(question, firstTry: !_typedWrong);
+  }
+
+  /// Yazma quiz'inde cevabı gösterir; soru yanlış bilinmiş sayılır.
+  void _revealAnswer() {
+    if (_solved) {
+      return;
+    }
+    final QuizQuestion question = _questions[_currentIndex];
+    if (!_typedWrong) {
+      ProgressService.instance.recordAnswer(question.answer, correct: false);
+    }
+    _typedWrong = true;
+    _markSolved(question, firstTry: false);
+  }
+
+  /// Soruyu çözülmüş yapar. [firstTry] ise puan verilir ve kelime öğrenilmiş
+  /// sayılır. Ardından cümle (ya da terim) sesli okunur.
+  void _markSolved(QuizQuestion question, {required bool firstTry}) {
+    if (firstTry) {
+      ProgressService.instance.recordAnswer(question.answer, correct: true);
+    }
+    ProgressService.instance.recordPractice().then(_celebrateGoal);
     setState(() {
       _solved = true;
-      if (_wrongPicks.isEmpty) {
+      if (firstTry) {
         _score++;
       }
     });
-    TtsService.instance.speak(question.answer.exampleSentence);
+    TtsService.instance.speak(
+      widget.mode.needsBlank
+          ? question.answer.exampleSentence
+          : question.answer.term,
+    );
+  }
+
+  /// Günlük hedef bu soruyla tutturulduysa kısa bir kutlama gösterir.
+  void _celebrateGoal(bool reachedNow) {
+    if (!reachedNow || !mounted) {
+      return;
+    }
+    final int streak = ProgressService.instance.streak;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          'Daily goal reached! '
+          '$streak-day streak ${streak > 1 ? '— keep it going!' : '— great start!'}',
+        ),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
   }
 
   void _goToNextQuestion() {
     TtsService.instance.stop();
+    final String? quizId = widget.quizId;
+    if (quizId != null && _currentIndex >= _questions.length - 1) {
+      ProgressService.instance.recordQuiz(quizId, _score, _questions.length);
+    }
     setState(() {
       if (_currentIndex >= _questions.length - 1) {
         _finished = true;
@@ -107,7 +214,9 @@ class _QuizScreenState extends State<QuizScreen> {
       _currentIndex++;
       _solved = false;
       _wrongPicks.clear();
+      _typedWrong = false;
     });
+    _speakPrompt();
   }
 
   @override
@@ -136,9 +245,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
             final List<Term> terms = snapshot.data ?? const <Term>[];
             if (_questions.isEmpty) {
-              return const MessageView(
+              return MessageView(
                 icon: Icons.inbox_rounded,
-                message: 'There are not enough words for a quiz.',
+                message: widget.emptyMessage,
               );
             }
 
@@ -195,7 +304,7 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
           const SizedBox(height: 16),
           Text(
-            'Choose the word that completes the sentence.',
+            '${widget.mode.subtitle}.',
             textAlign: TextAlign.center,
             style: theme.textTheme.titleMedium?.copyWith(
               color: theme.colorScheme.onSurfaceVariant,
@@ -203,22 +312,56 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
           const SizedBox(height: 12),
           Expanded(
-            child: _BlankSentenceCard(
-              term: question.answer,
-              solved: _solved,
-            ),
+            child: switch (widget.mode) {
+              QuizMode.fillBlank => _BlankTextCard(
+                  term: question.answer,
+                  text: question.answer.exampleSentence,
+                  solved: _solved,
+                ),
+              // Tanımda terimin kendisi geçiyorsa cevabı ele vermesin diye
+              // o kısım da boşluk olarak gösterilir.
+              QuizMode.definition => _BlankTextCard(
+                  term: question.answer,
+                  text: question.answer.definition,
+                  solved: _solved,
+                  label: 'DEFINITION',
+                ),
+              QuizMode.listening => _ListeningCard(
+                  term: question.answer,
+                  solved: _solved,
+                  onListen: _speakPrompt,
+                ),
+              QuizMode.typing => _BlankTextCard(
+                  term: question.answer,
+                  text: question.answer.exampleSentence,
+                  solved: _solved,
+                  hint: question.answer.turkish.isEmpty
+                      ? null
+                      : 'Turkish: ${question.answer.turkish}',
+                ),
+            },
           ),
           const SizedBox(height: 16),
-          for (final Term option in question.options) ...[
-            _OptionButton(
-              // Soru değişince buton durumu (animasyon) sıfırlansın.
-              key: ValueKey<String>('$_currentIndex-${option.term}'),
-              label: option.term,
-              state: _stateOf(question, option),
-              onPressed: () => _onOptionTap(option),
-            ),
-            const SizedBox(height: 10),
-          ],
+          if (widget.mode.isTyped)
+            _TypingAnswer(
+              // Soru değişince yazılan metin sıfırlansın.
+              key: ValueKey<int>(_currentIndex),
+              solved: _solved,
+              wrong: _typedWrong,
+              onSubmit: _onTypedAnswer,
+              onReveal: _revealAnswer,
+            )
+          else
+            for (final Term option in question.options) ...[
+              _OptionButton(
+                // Soru değişince buton durumu (animasyon) sıfırlansın.
+                key: ValueKey<String>('$_currentIndex-${option.term}'),
+                label: option.term,
+                state: _stateOf(question, option),
+                onPressed: () => _onOptionTap(option),
+              ),
+              const SizedBox(height: 10),
+            ],
           // Yer hep ayrılı kalsın ki doğru cevapta düzen zıplamasın.
           const SizedBox(height: 6),
           SizedBox(
@@ -254,15 +397,26 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 }
 
-/// Terimin yerinde boşluk olan cümle kartı. [solved] true olunca boşluk
-/// doğru terimle yeşil olarak dolar.
-class _BlankSentenceCard extends StatelessWidget {
-  const _BlankSentenceCard({required this.term, required this.solved});
+/// [text] metnini terimin geçtiği yerler boşluk olacak şekilde gösteren kart
+/// (örnek cümle ya da tanım). [solved] true olunca boşluk doğru terimle
+/// yeşil olarak dolar. [label] verilirse metnin üstünde küçük başlık,
+/// [hint] verilirse altında ipucu olur.
+class _BlankTextCard extends StatelessWidget {
+  const _BlankTextCard({
+    required this.term,
+    required this.text,
+    required this.solved,
+    this.label,
+    this.hint,
+  });
 
   static const Color _correctColor = Color(0xFF2E7D32);
 
   final Term term;
+  final String text;
   final bool solved;
+  final String? label;
+  final String? hint;
 
   @override
   Widget build(BuildContext context) {
@@ -295,27 +449,215 @@ class _BlankSentenceCard extends StatelessWidget {
               fit: BoxFit.scaleDown,
               child: ConstrainedBox(
                 constraints: BoxConstraints(maxWidth: constraints.maxWidth),
-                child: Text.rich(
-                  TextSpan(
-                    children: <TextSpan>[
-                      for (final SentencePart part
-                          in splitSentence(term.exampleSentence, term.term))
-                        if (part.isTerm)
-                          TextSpan(
-                            text: solved ? part.text : ' ________ ',
-                            style: blankStyle,
-                          )
-                        else
-                          TextSpan(text: part.text, style: baseStyle),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (label != null) ...[
+                      Text(
+                        label!,
+                        style: theme.textTheme.labelLarge?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                          letterSpacing: 1.5,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
                     ],
-                  ),
-                  textAlign: TextAlign.center,
+                    Text.rich(
+                      TextSpan(
+                        children: <TextSpan>[
+                          for (final SentencePart part
+                              in splitSentence(text, term.term))
+                            if (part.isTerm)
+                              TextSpan(
+                                text: solved ? part.text : ' ________ ',
+                                style: blankStyle,
+                              )
+                            else
+                              TextSpan(text: part.text, style: baseStyle),
+                        ],
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    if (hint != null) ...[
+                      const SizedBox(height: 12),
+                      Text(
+                        hint!,
+                        textAlign: TextAlign.center,
+                        style: theme.textTheme.titleMedium?.copyWith(
+                          fontStyle: FontStyle.italic,
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ],
+                  ],
                 ),
               ),
             ),
           );
         },
       ),
+    );
+  }
+}
+
+/// Dinleme sorusunun kartı: kelime yazılmaz, büyük hoparlör butonuyla
+/// tekrar dinlenir. [solved] true olunca kelime ve Türkçesi görünür.
+class _ListeningCard extends StatelessWidget {
+  const _ListeningCard({
+    required this.term,
+    required this.solved,
+    required this.onListen,
+  });
+
+  static const Color _correctColor = Color(0xFF2E7D32);
+
+  final Term term;
+  final bool solved;
+  final VoidCallback onListen;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+    final CategoryStyle style = CategoryStyle.of(term.category);
+
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        color: style.color.withValues(alpha: 0.06),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: style.color.withValues(alpha: 0.6), width: 2),
+      ),
+      padding: const EdgeInsets.all(20),
+      child: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              IconButton.filled(
+                onPressed: onListen,
+                tooltip: 'Listen again',
+                iconSize: 56,
+                padding: const EdgeInsets.all(24),
+                style: IconButton.styleFrom(
+                  backgroundColor: style.color,
+                  foregroundColor: Colors.white,
+                ),
+                icon: const Icon(Icons.volume_up_rounded),
+              ),
+              const SizedBox(height: 16),
+              if (solved) ...[
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    term.term,
+                    style: theme.textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: _correctColor,
+                    ),
+                  ),
+                ),
+                if (term.turkish.isNotEmpty)
+                  Text(
+                    term.turkish,
+                    textAlign: TextAlign.center,
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+              ] else
+                Text(
+                  'Tap to listen again',
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Yazma quiz'inin cevap alanı: metin kutusu, "Check" ve "Show answer".
+/// Yanlış cevapta kutunun altında uyarı çıkar.
+class _TypingAnswer extends StatefulWidget {
+  const _TypingAnswer({
+    super.key,
+    required this.solved,
+    required this.wrong,
+    required this.onSubmit,
+    required this.onReveal,
+  });
+
+  final bool solved;
+  final bool wrong;
+  final ValueChanged<String> onSubmit;
+  final VoidCallback onReveal;
+
+  @override
+  State<_TypingAnswer> createState() => _TypingAnswerState();
+}
+
+class _TypingAnswerState extends State<_TypingAnswer> {
+  final TextEditingController _controller = TextEditingController();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        TextField(
+          controller: _controller,
+          enabled: !widget.solved,
+          autofocus: true,
+          autocorrect: false,
+          enableSuggestions: false,
+          textInputAction: TextInputAction.done,
+          style: const TextStyle(fontSize: 20),
+          onSubmitted: widget.onSubmit,
+          decoration: InputDecoration(
+            hintText: 'Type the missing word',
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+            errorText: widget.wrong && !widget.solved
+                ? 'Not quite. Try again or show the answer.'
+                : null,
+          ),
+        ),
+        const SizedBox(height: 10),
+        Row(
+          children: [
+            Expanded(
+              child: OutlinedButton(
+                onPressed: widget.solved ? null : widget.onReveal,
+                style: OutlinedButton.styleFrom(
+                  minimumSize: const Size.fromHeight(52),
+                ),
+                child: const Text('Show answer'),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: FilledButton(
+                onPressed: widget.solved
+                    ? null
+                    : () => widget.onSubmit(_controller.text),
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size.fromHeight(52),
+                ),
+                child: const Text('Check'),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 10),
+      ],
     );
   }
 }
@@ -332,7 +674,8 @@ class _OptionButton extends StatelessWidget {
   });
 
   static const Color _correctColor = Color(0xFF2E7D32);
-  static const Color _wrongColor = Color(0xFFC62828);
+  // Temanın kırmızı butonlarıyla karışmasın diye yanlış şık turuncu-amber.
+  static const Color _wrongColor = Color(0xFFFFA726);
 
   final String label;
   final _OptionState state;
@@ -385,6 +728,13 @@ class _OptionButton extends StatelessWidget {
                   label,
                   textAlign: TextAlign.center,
                   overflow: TextOverflow.ellipsis,
+                  style: state == _OptionState.wrong
+                      ? const TextStyle(
+                          decoration: TextDecoration.lineThrough,
+                          decorationColor: _wrongColor,
+                          decorationThickness: 2,
+                        )
+                      : null,
                 ),
               ),
               SizedBox(width: 28, child: icon == null ? null : Icon(icon)),

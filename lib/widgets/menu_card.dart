@@ -8,12 +8,16 @@ class MenuCard extends StatelessWidget {
     required this.subtitle,
     required this.icon,
     required this.onTap,
+    this.footer,
   });
 
   final String title;
   final String subtitle;
   final IconData icon;
   final VoidCallback onTap;
+
+  /// Alt yazının altında gösterilen ek içerik, ör. ilerleme çubuğu.
+  final Widget? footer;
 
   @override
   Widget build(BuildContext context) {
@@ -50,6 +54,7 @@ class MenuCard extends StatelessWidget {
                         color: theme.colorScheme.onPrimaryContainer,
                       ),
                     ),
+                    if (footer != null) footer!,
                   ],
                 ),
               ),
