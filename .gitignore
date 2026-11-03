@@ -9,8 +9,7 @@ build/
 pubspec.lock
 
 # Platform klasörleri CI'da `flutter create` ile üretilir. android/ ise
-# izin ayarları (mikrofon, bildirim) gerektiği için repoda tutulur; ilk kez
-# "Android klasörünü oluştur" workflow'u ile oluşturulur.
+# izin ayarları (mikrofon, bildirim) gerektiği için repoda tutulur.
 ios/
 web/
 windows/
