@@ -21,6 +21,7 @@ void main() {
   testWidgets('Bölüm kartı bölüm ekranını açar', (WidgetTester tester) async {
     await tester.pumpWidget(const ItEnglishApp());
 
+    await tester.scrollUntilVisible(find.text('Verbs 1'), 100);
     await tester.tap(find.text('Verbs 1'));
     await tester.pumpAndSettle();
 
@@ -28,6 +29,17 @@ void main() {
     expect(find.text('Words'), findsOneWidget);
     expect(find.text('Sentences'), findsOneWidget);
     expect(find.text('Quiz'), findsOneWidget);
+  });
+
+  testWidgets('Mixed Quiz kartı quiz ekranını açar', (WidgetTester tester) async {
+    await tester.pumpWidget(const ItEnglishApp());
+
+    await tester.tap(find.text('Mixed Quiz'));
+    // Yükleme göstergesi sürekli döndüğü için pumpAndSettle kullanılmıyor.
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
+
+    expect(find.byType(QuizScreen), findsOneWidget);
   });
 
   for (final (String label, Type screen) in <(String, Type)>[

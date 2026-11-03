@@ -19,10 +19,12 @@ class QuizScreen extends StatefulWidget {
     super.key,
     this.repository = const TermRepository(),
     this.questionCount = 10,
+    this.title = 'Quiz',
   });
 
   final TermRepository repository;
   final int questionCount;
+  final String title;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -111,7 +113,7 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Quiz'), centerTitle: true),
+      appBar: AppBar(title: Text(widget.title), centerTitle: true),
       body: SafeArea(
         child: FutureBuilder<List<Term>>(
           future: _termsFuture,

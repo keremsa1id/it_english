@@ -1,0 +1,322 @@
+[
+  {
+    "term": "AI",
+    "fullForm": "Artificial Intelligence",
+    "turkish": "yapay zekâ",
+    "category": "data",
+    "definition": "Computer systems that can learn, reason and solve problems like people.",
+    "exampleSentence": "Our support chatbot uses AI to answer customer questions at night."
+  },
+  {
+    "term": "HTTP",
+    "fullForm": "Hypertext Transfer Protocol",
+    "turkish": "web sayfası aktarım protokolü",
+    "category": "networking",
+    "definition": "The basic set of rules browsers and servers use to send web pages.",
+    "exampleSentence": "When you open a website, your browser sends an HTTP request to the server."
+  },
+  {
+    "term": "HTML",
+    "fullForm": "HyperText Markup Language",
+    "turkish": "web sayfası işaretleme dili",
+    "category": "software",
+    "definition": "The language used to build the structure of web pages.",
+    "exampleSentence": "Every web page you visit is built with HTML at its core."
+  },
+  {
+    "term": "CSS",
+    "fullForm": "Cascading Style Sheets",
+    "turkish": "web stil dili",
+    "category": "software",
+    "definition": "The language used to set colors, fonts and layout on web pages.",
+    "exampleSentence": "The designer changed the CSS to make all the buttons red."
+  },
+  {
+    "term": "JSON",
+    "fullForm": "JavaScript Object Notation",
+    "turkish": "veri değişim biçimi",
+    "category": "data",
+    "definition": "A simple text format for storing and sending data.",
+    "exampleSentence": "The server returns the list of users as a JSON file."
+  },
+  {
+    "term": "XML",
+    "fullForm": "Extensible Markup Language",
+    "turkish": "genişletilebilir işaretleme dili",
+    "category": "data",
+    "definition": "A text format that uses tags to store and describe data.",
+    "exampleSentence": "Older systems often exchange data with each other using XML documents."
+  },
+  {
+    "term": "SQL",
+    "fullForm": "Structured Query Language",
+    "turkish": "yapılandırılmış sorgu dili",
+    "category": "data",
+    "definition": "The language used to read and change data in databases.",
+    "exampleSentence": "She wrote a short SQL command to find all orders from last week."
+  },
+  {
+    "term": "REST",
+    "fullForm": "Representational State Transfer",
+    "turkish": "web servis mimarisi",
+    "category": "software",
+    "definition": "A common style for designing web services that use HTTP.",
+    "exampleSentence": "The mobile app gets its data from a REST service on our server."
+  },
+  {
+    "term": "SDK",
+    "fullForm": "Software Development Kit",
+    "turkish": "yazılım geliştirme kiti",
+    "category": "software",
+    "definition": "A set of tools and libraries for building apps for a platform.",
+    "exampleSentence": "Download the Android SDK before you start building your first mobile app."
+  },
+  {
+    "term": "IDE",
+    "fullForm": "Integrated Development Environment",
+    "turkish": "entegre geliştirme ortamı",
+    "category": "software",
+    "definition": "A program where developers write, run and debug code.",
+    "exampleSentence": "Visual Studio Code is a popular IDE among web developers today."
+  },
+  {
+    "term": "CLI",
+    "fullForm": "Command-Line Interface",
+    "turkish": "komut satırı arayüzü",
+    "category": "software",
+    "definition": "A way to control a program by typing text commands.",
+    "exampleSentence": "Many developers prefer the CLI because typing commands is faster than clicking."
+  },
+  {
+    "term": "GUI",
+    "fullForm": "Graphical User Interface",
+    "turkish": "grafik kullanıcı arayüzü",
+    "category": "software",
+    "definition": "A way to use a program with windows, icons and buttons.",
+    "exampleSentence": "Beginners usually find a GUI easier than typing commands in a terminal."
+  },
+  {
+    "term": "UI",
+    "fullForm": "User Interface",
+    "turkish": "kullanıcı arayüzü",
+    "category": "software",
+    "definition": "Everything on the screen that a user sees and touches in an app.",
+    "exampleSentence": "The new UI has bigger buttons and clearer menus for older users."
+  },
+  {
+    "term": "UX",
+    "fullForm": "User Experience",
+    "turkish": "kullanıcı deneyimi",
+    "category": "software",
+    "definition": "How easy and pleasant a product feels to use.",
+    "exampleSentence": "Good UX means people can finish their tasks without getting confused."
+  },
+  {
+    "term": "SaaS",
+    "fullForm": "Software as a Service",
+    "turkish": "hizmet olarak yazılım",
+    "category": "data",
+    "definition": "Software you use online by subscription instead of installing it.",
+    "exampleSentence": "Many companies now pay monthly for SaaS tools like email and chat."
+  },
+  {
+    "term": "CI/CD",
+    "fullForm": "Continuous Integration / Continuous Delivery",
+    "turkish": "sürekli entegrasyon / sürekli teslimat",
+    "category": "software",
+    "definition": "Automatic testing and releasing of code every time it changes.",
+    "exampleSentence": "Our CI/CD pipeline runs all the tests before every new release."
+  },
+  {
+    "term": "DevOps",
+    "fullForm": "Development and Operations",
+    "turkish": "geliştirme ve operasyon",
+    "category": "software",
+    "definition": "A way of working where developers and IT operations teams work closely together.",
+    "exampleSentence": "The DevOps team makes sure new code reaches the servers safely."
+  },
+  {
+    "term": "QA",
+    "fullForm": "Quality Assurance",
+    "turkish": "kalite güvencesi",
+    "category": "software",
+    "definition": "Testing a product to make sure it works well before release.",
+    "exampleSentence": "The QA engineers found three bugs before the app was released."
+  },
+  {
+    "term": "MVP",
+    "fullForm": "Minimum Viable Product",
+    "turkish": "minimum uygulanabilir ürün",
+    "category": "software",
+    "definition": "The simplest version of a product that can be tested with real users.",
+    "exampleSentence": "The startup built a small MVP in two months to test its idea."
+  },
+  {
+    "term": "SLA",
+    "fullForm": "Service Level Agreement",
+    "turkish": "hizmet seviyesi anlaşması",
+    "category": "data",
+    "definition": "A contract that says how reliable a service must be.",
+    "exampleSentence": "Our SLA promises that the website will be online 99.9 percent of the time."
+  },
+  {
+    "term": "TCP",
+    "fullForm": "Transmission Control Protocol",
+    "turkish": "iletim kontrol protokolü",
+    "category": "networking",
+    "definition": "A protocol that sends data reliably and in the correct order.",
+    "exampleSentence": "Web browsers use TCP to make sure no part of a page is lost."
+  },
+  {
+    "term": "UDP",
+    "fullForm": "User Datagram Protocol",
+    "turkish": "kullanıcı veri birimi protokolü",
+    "category": "networking",
+    "definition": "A fast protocol that sends data without checking that it arrived.",
+    "exampleSentence": "Online games often use UDP because speed matters more than perfect delivery."
+  },
+  {
+    "term": "FTP",
+    "fullForm": "File Transfer Protocol",
+    "turkish": "dosya aktarım protokolü",
+    "category": "networking",
+    "definition": "A protocol for moving files between computers over a network.",
+    "exampleSentence": "In the past, web designers used FTP to upload files to their servers."
+  },
+  {
+    "term": "SSH",
+    "fullForm": "Secure Shell",
+    "turkish": "güvenli uzaktan bağlantı",
+    "category": "security",
+    "definition": "A secure way to connect to and control another computer remotely.",
+    "exampleSentence": "The administrator used SSH to log in to the server from home."
+  },
+  {
+    "term": "SSL",
+    "fullForm": "Secure Sockets Layer",
+    "turkish": "güvenli yuva katmanı",
+    "category": "security",
+    "definition": "An older technology that encrypts the connection between a browser and a website.",
+    "exampleSentence": "Old tutorials often say SSL when they talk about secure websites."
+  },
+  {
+    "term": "TLS",
+    "fullForm": "Transport Layer Security",
+    "turkish": "aktarım katmanı güvenliği",
+    "category": "security",
+    "definition": "The modern technology that encrypts data sent over the internet.",
+    "exampleSentence": "Banking websites use TLS to keep your card details private."
+  },
+  {
+    "term": "DDoS",
+    "fullForm": "Distributed Denial of Service",
+    "turkish": "dağıtık hizmet engelleme saldırısı",
+    "category": "security",
+    "definition": "An attack that floods a server with traffic from many computers until it stops working.",
+    "exampleSentence": "A DDoS attack made the online shop unavailable for several hours."
+  },
+  {
+    "term": "SMTP",
+    "fullForm": "Simple Mail Transfer Protocol",
+    "turkish": "basit posta aktarım protokolü",
+    "category": "networking",
+    "definition": "The protocol used to send email between servers.",
+    "exampleSentence": "Our application connects to an SMTP server to send welcome emails."
+  },
+  {
+    "term": "ISP",
+    "fullForm": "Internet Service Provider",
+    "turkish": "internet servis sağlayıcısı",
+    "category": "networking",
+    "definition": "A company that sells internet access to homes and businesses.",
+    "exampleSentence": "Call your ISP if the internet connection keeps dropping at home."
+  },
+  {
+    "term": "WAN",
+    "fullForm": "Wide Area Network",
+    "turkish": "geniş alan ağı",
+    "category": "networking",
+    "definition": "A network that connects computers across cities or countries.",
+    "exampleSentence": "The company uses a WAN to link its offices in three countries."
+  },
+  {
+    "term": "IoT",
+    "fullForm": "Internet of Things",
+    "turkish": "nesnelerin interneti",
+    "category": "hardware",
+    "definition": "Everyday devices that connect to the internet, like smart lights or watches.",
+    "exampleSentence": "Smart thermostats and doorbells are common examples of IoT devices at home."
+  },
+  {
+    "term": "CDN",
+    "fullForm": "Content Delivery Network",
+    "turkish": "içerik dağıtım ağı",
+    "category": "networking",
+    "definition": "A group of servers around the world that deliver web content quickly.",
+    "exampleSentence": "Video sites use a CDN so viewers can stream movies without delays."
+  },
+  {
+    "term": "VM",
+    "fullForm": "Virtual Machine",
+    "turkish": "sanal makine",
+    "category": "data",
+    "definition": "A computer that runs as software inside another computer.",
+    "exampleSentence": "Developers often test new software inside a VM to protect their main system."
+  },
+  {
+    "term": "NFC",
+    "fullForm": "Near Field Communication",
+    "turkish": "yakın alan iletişimi",
+    "category": "hardware",
+    "definition": "Technology that lets devices share data when they are very close together.",
+    "exampleSentence": "You can pay at the store by holding your phone near the NFC reader."
+  },
+  {
+    "term": "OTP",
+    "fullForm": "One-Time Password",
+    "turkish": "tek kullanımlık şifre",
+    "category": "security",
+    "definition": "A code that works only once, often sent by text message.",
+    "exampleSentence": "The bank sent an OTP to my phone to confirm the payment."
+  },
+  {
+    "term": "PDF",
+    "fullForm": "Portable Document Format",
+    "turkish": "taşınabilir belge biçimi",
+    "category": "data",
+    "definition": "A file format that keeps a document looking the same on every device.",
+    "exampleSentence": "Please send your resume as a PDF so the layout does not change."
+  },
+  {
+    "term": "LLM",
+    "fullForm": "Large Language Model",
+    "turkish": "büyük dil modeli",
+    "category": "data",
+    "definition": "An AI system trained on huge amounts of text to understand and write language.",
+    "exampleSentence": "An LLM can summarize a long article in just a few seconds."
+  },
+  {
+    "term": "CRUD",
+    "fullForm": "Create, Read, Update, Delete",
+    "turkish": "oluştur, oku, güncelle, sil",
+    "category": "data",
+    "definition": "The four basic actions an app performs on stored data.",
+    "exampleSentence": "Most business apps are built around simple CRUD operations on a database."
+  },
+  {
+    "term": "OOP",
+    "fullForm": "Object-Oriented Programming",
+    "turkish": "nesne yönelimli programlama",
+    "category": "software",
+    "definition": "A style of programming that organizes code into objects with data and behavior.",
+    "exampleSentence": "Java and Kotlin are languages that strongly support OOP concepts."
+  },
+  {
+    "term": "BIOS",
+    "fullForm": "Basic Input/Output System",
+    "turkish": "temel giriş/çıkış sistemi",
+    "category": "hardware",
+    "definition": "Built-in software that starts a computer before the operating system loads.",
+    "exampleSentence": "You can change the boot order by opening the BIOS when the computer starts."
+  }
+]

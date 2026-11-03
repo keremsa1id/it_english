@@ -1,0 +1,282 @@
+[
+  {
+    "term": "get used to",
+    "turkish": "alışmak",
+    "category": "phrase",
+    "definition": "To become familiar with something new until it feels normal.",
+    "exampleSentence": "It may take a few weeks to get used to your new keyboard."
+  },
+  {
+    "term": "turn on",
+    "turkish": "açmak (cihaz)",
+    "category": "phrase",
+    "definition": "To start a machine or light by pressing a button or switch.",
+    "exampleSentence": "Please turn on the projector before the presentation starts."
+  },
+  {
+    "term": "turn off",
+    "turkish": "kapatmak (cihaz)",
+    "category": "phrase",
+    "definition": "To stop a machine or light by pressing a button or switch.",
+    "exampleSentence": "Remember to turn off the lights when you leave the classroom."
+  },
+  {
+    "term": "log in",
+    "turkish": "giriş yapmak",
+    "category": "phrase",
+    "definition": "To enter an account by typing your name and password.",
+    "exampleSentence": "You need a valid password to log in to the school system."
+  },
+  {
+    "term": "log out",
+    "turkish": "çıkış yapmak",
+    "category": "phrase",
+    "definition": "To leave an account so others cannot use it.",
+    "exampleSentence": "Always log out of your account when you use a public computer."
+  },
+  {
+    "term": "sign up",
+    "turkish": "kaydolmak",
+    "category": "phrase",
+    "definition": "To put your name on a list to join a service, class or event.",
+    "exampleSentence": "You can sign up for the free English course on our website."
+  },
+  {
+    "term": "back up",
+    "turkish": "yedeklemek",
+    "category": "phrase",
+    "definition": "To make a copy of your files in case the originals are lost.",
+    "exampleSentence": "It is a good habit to back up your photos every month."
+  },
+  {
+    "term": "check out",
+    "turkish": "göz atmak, incelemek",
+    "category": "phrase",
+    "definition": "To look at something because it is interesting.",
+    "exampleSentence": "You should check out the new cafe that opened near the station."
+  },
+  {
+    "term": "fill out",
+    "turkish": "doldurmak (form)",
+    "category": "phrase",
+    "definition": "To write the needed information on a form.",
+    "exampleSentence": "Please fill out this form and give it to the receptionist."
+  },
+  {
+    "term": "look up",
+    "turkish": "(sözlükte, internette) aramak",
+    "category": "phrase",
+    "definition": "To search for information in a book or online.",
+    "exampleSentence": "If you do not know a word, look up its meaning in a dictionary."
+  },
+  {
+    "term": "come up with",
+    "turkish": "(fikir) bulmak",
+    "category": "phrase",
+    "definition": "To think of an idea, plan or answer.",
+    "exampleSentence": "Our team needs to come up with a better name for the app."
+  },
+  {
+    "term": "run out of",
+    "turkish": "tükenmek, bitirmek",
+    "category": "phrase",
+    "definition": "To use all of something so that none is left.",
+    "exampleSentence": "Our printer will soon run out of paper, so please order more."
+  },
+  {
+    "term": "keep in mind",
+    "turkish": "aklında tutmak",
+    "category": "phrase",
+    "definition": "To remember something important when you make a plan or decision.",
+    "exampleSentence": "Keep in mind that the store closes early on Sundays."
+  },
+  {
+    "term": "in charge of",
+    "turkish": "-den sorumlu",
+    "category": "phrase",
+    "definition": "Responsible for controlling a group, task or place.",
+    "exampleSentence": "Sarah is in charge of the security team at our company."
+  },
+  {
+    "term": "deal with",
+    "turkish": "ilgilenmek, başa çıkmak",
+    "category": "phrase",
+    "definition": "To take action to solve a problem or handle a task.",
+    "exampleSentence": "Customer support teams deal with hundreds of complaints every single day."
+  },
+  {
+    "term": "depend on",
+    "turkish": "-e bağlı olmak",
+    "category": "phrase",
+    "definition": "To need someone or something in order to succeed or exist.",
+    "exampleSentence": "Many small shops depend on tourists during the summer season."
+  },
+  {
+    "term": "get along with",
+    "turkish": "iyi geçinmek",
+    "category": "phrase",
+    "definition": "To have a friendly relationship with someone.",
+    "exampleSentence": "I get along with all of my colleagues at my new job."
+  },
+  {
+    "term": "take a break",
+    "turkish": "mola vermek",
+    "category": "phrase",
+    "definition": "To stop working or doing something for a short time to rest.",
+    "exampleSentence": "After two hours of coding, it is important to take a break."
+  },
+  {
+    "term": "make a decision",
+    "turkish": "karar vermek",
+    "category": "phrase",
+    "definition": "To choose what to do after thinking about it.",
+    "exampleSentence": "We have to make a decision about the new design by Friday."
+  },
+  {
+    "term": "make a mistake",
+    "turkish": "hata yapmak",
+    "category": "phrase",
+    "definition": "To do something wrong without meaning to.",
+    "exampleSentence": "Do not worry if you make a mistake; everyone learns that way."
+  },
+  {
+    "term": "have a look",
+    "turkish": "bir göz atmak",
+    "category": "phrase",
+    "definition": "To look at something quickly.",
+    "exampleSentence": "Could you have a look at my code and tell me what is wrong?"
+  },
+  {
+    "term": "on purpose",
+    "turkish": "bilerek, kasten",
+    "category": "phrase",
+    "definition": "Done because you wanted to, not by accident.",
+    "exampleSentence": "I am sure he did not break the window on purpose."
+  },
+  {
+    "term": "by mistake",
+    "turkish": "yanlışlıkla",
+    "category": "phrase",
+    "definition": "Done by accident, without meaning to.",
+    "exampleSentence": "I deleted the important file by mistake and had to restore it."
+  },
+  {
+    "term": "in advance",
+    "turkish": "önceden",
+    "category": "phrase",
+    "definition": "Before a particular time or event.",
+    "exampleSentence": "You should book your flight tickets in advance to get a cheaper price."
+  },
+  {
+    "term": "up to date",
+    "turkish": "güncel",
+    "category": "phrase",
+    "definition": "Modern, or having the newest information or version.",
+    "exampleSentence": "Keep your operating system up to date to stay protected from attacks."
+  },
+  {
+    "term": "out of order",
+    "turkish": "bozuk, çalışmıyor",
+    "category": "phrase",
+    "definition": "Not working, usually said about a machine.",
+    "exampleSentence": "The elevator is out of order, so we have to take the stairs."
+  },
+  {
+    "term": "as a result",
+    "turkish": "sonuç olarak",
+    "category": "phrase",
+    "definition": "Because of the thing that was just mentioned.",
+    "exampleSentence": "It rained heavily all night; as a result, many roads were closed."
+  },
+  {
+    "term": "in addition",
+    "turkish": "ek olarak, ayrıca",
+    "category": "phrase",
+    "definition": "Used to add another fact or point.",
+    "exampleSentence": "The job offers a good salary; in addition, you can work from home."
+  },
+  {
+    "term": "at the same time",
+    "turkish": "aynı anda",
+    "category": "phrase",
+    "definition": "Together, in the same moment.",
+    "exampleSentence": "It is hard to listen to music and study at the same time."
+  },
+  {
+    "term": "from time to time",
+    "turkish": "zaman zaman",
+    "category": "phrase",
+    "definition": "Sometimes, but not often or regularly.",
+    "exampleSentence": "From time to time we visit our old school to see our teachers."
+  },
+  {
+    "term": "sooner or later",
+    "turkish": "er ya da geç",
+    "category": "phrase",
+    "definition": "At some time in the future, even if you do not know when.",
+    "exampleSentence": "If you keep practicing, sooner or later you will speak fluently."
+  },
+  {
+    "term": "so far",
+    "turkish": "şimdiye kadar",
+    "category": "phrase",
+    "definition": "Until now.",
+    "exampleSentence": "So far, the new system has worked without any serious problems."
+  },
+  {
+    "term": "in general",
+    "turkish": "genel olarak",
+    "category": "phrase",
+    "definition": "Usually, or when thinking about most cases.",
+    "exampleSentence": "In general, people in this city are friendly and helpful to visitors."
+  },
+  {
+    "term": "for sure",
+    "turkish": "kesin olarak",
+    "category": "phrase",
+    "definition": "Certainly, without any doubt.",
+    "exampleSentence": "I do not know for sure when the package will arrive."
+  },
+  {
+    "term": "be able to",
+    "turkish": "-ebilmek",
+    "category": "phrase",
+    "definition": "To have the skill or chance to do something.",
+    "exampleSentence": "After this course, you will be able to write simple programs in Python."
+  },
+  {
+    "term": "be good at",
+    "turkish": "-de iyi olmak",
+    "category": "phrase",
+    "definition": "To have a skill and do something well.",
+    "exampleSentence": "You do not have to be good at math to learn programming."
+  },
+  {
+    "term": "be interested in",
+    "turkish": "-e ilgi duymak",
+    "category": "phrase",
+    "definition": "To want to learn more about something or someone.",
+    "exampleSentence": "Many young people seem to be interested in artificial intelligence today."
+  },
+  {
+    "term": "be afraid of",
+    "turkish": "-den korkmak",
+    "category": "phrase",
+    "definition": "To feel fear because of someone or something.",
+    "exampleSentence": "There is no reason to be afraid of making mistakes when speaking English."
+  },
+  {
+    "term": "would like to",
+    "turkish": "-mek istemek (kibarca)",
+    "category": "phrase",
+    "definition": "A polite way to say that you want to do something.",
+    "exampleSentence": "I would like to order a large pizza and two drinks, please."
+  },
+  {
+    "term": "point out",
+    "turkish": "belirtmek, dikkat çekmek",
+    "category": "phrase",
+    "definition": "To tell someone about a fact or a mistake they had not noticed.",
+    "exampleSentence": "My teacher was kind enough to point out the errors in my essay."
+  }
+]

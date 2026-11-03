@@ -49,6 +49,18 @@ void main() {
             reason: 'Terim cümlede tam olarak bir kez geçmeli (quiz boşluğu).',
           );
           expect(term.definition.trim(), isNotEmpty);
+          expect(
+            term.turkish.trim(),
+            isNotEmpty,
+            reason: 'Her kelimenin Türkçe karşılığı olmalı.',
+          );
+          if (section.kind == SectionKind.advancedIt) {
+            expect(
+              term.fullForm.trim(),
+              isNotEmpty,
+              reason: 'Kısaltmanın açılımı olmalı.',
+            );
+          }
         });
       }
     });

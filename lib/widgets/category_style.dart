@@ -16,6 +16,7 @@ class CategoryStyle {
     'data': CategoryStyle('Data & Cloud', Icons.cloud_rounded, Color(0xFFAB47BC)),
     'verb': CategoryStyle('Verb', Icons.directions_run_rounded, Color(0xFFEF6C00)),
     'noun': CategoryStyle('Noun', Icons.category_rounded, Color(0xFF00897B)),
+    'phrase': CategoryStyle('Phrase', Icons.chat_bubble_rounded, Color(0xFFFFB300)),
   };
 
   /// Bilinmeyen kategoriler için gri, genel bir stil.
