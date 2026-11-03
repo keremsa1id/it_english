@@ -1,0 +1,282 @@
+[
+  {
+    "term": "in addition to",
+    "turkish": "-e ek olarak",
+    "category": "linker",
+    "definition": "As well as.",
+    "exampleSentence": "In addition to her salary, she receives a yearly bonus."
+  },
+  {
+    "term": "in light of",
+    "turkish": "-in ışığında",
+    "category": "linker",
+    "definition": "Because of; considering.",
+    "exampleSentence": "In light of the new data, we have changed our plan."
+  },
+  {
+    "term": "owing to",
+    "turkish": "-den dolayı",
+    "category": "linker",
+    "definition": "Because of.",
+    "exampleSentence": "The meeting was postponed owing to the CEO's illness."
+  },
+  {
+    "term": "notwithstanding",
+    "turkish": "-e rağmen (resmi)",
+    "category": "linker",
+    "definition": "Despite (very formal).",
+    "exampleSentence": "Notwithstanding the many delays, the project was a big success."
+  },
+  {
+    "term": "whereby",
+    "turkish": "ki bununla",
+    "category": "linker",
+    "definition": "By which; through which.",
+    "exampleSentence": "We introduced a system whereby employees can book desks online."
+  },
+  {
+    "term": "thereby",
+    "turkish": "böylece, bu sayede",
+    "category": "linker",
+    "definition": "As a result of this action.",
+    "exampleSentence": "We automated the process, thereby saving ten hours a week."
+  },
+  {
+    "term": "regarding",
+    "turkish": "hakkında, ile ilgili",
+    "category": "linker",
+    "definition": "About.",
+    "exampleSentence": "I have a short question regarding the invoice you sent."
+  },
+  {
+    "term": "concerning",
+    "turkish": "ile ilgili",
+    "category": "linker",
+    "definition": "About; relating to.",
+    "exampleSentence": "We received several complaints concerning the new booking software."
+  },
+  {
+    "term": "considering",
+    "turkish": "göz önüne alınırsa",
+    "category": "linker",
+    "definition": "Taking something into account.",
+    "exampleSentence": "Considering the short deadline, the team did an excellent job."
+  },
+  {
+    "term": "as far as",
+    "turkish": "-dığı kadarıyla",
+    "category": "linker",
+    "definition": "To the extent that.",
+    "exampleSentence": "As far as I know, the server will be back online soon."
+  },
+  {
+    "term": "in the event that",
+    "turkish": "-mesi durumunda",
+    "category": "linker",
+    "definition": "If something happens.",
+    "exampleSentence": "In the event that the system fails, call the support line immediately."
+  },
+  {
+    "term": "on the grounds that",
+    "turkish": "gerekçesiyle",
+    "category": "linker",
+    "definition": "Because of the reason that.",
+    "exampleSentence": "The request was rejected on the grounds that it was too expensive."
+  },
+  {
+    "term": "prior to",
+    "turkish": "-den önce",
+    "category": "linker",
+    "definition": "Before.",
+    "exampleSentence": "Please read the documents prior to the meeting."
+  },
+  {
+    "term": "following",
+    "turkish": "-in ardından",
+    "category": "linker",
+    "definition": "After; as a result of.",
+    "exampleSentence": "Following the meeting, we will send everyone a summary."
+  },
+  {
+    "term": "with the exception of",
+    "turkish": "hariç",
+    "category": "linker",
+    "definition": "Except.",
+    "exampleSentence": "Everyone attended the training with the exception of the sales team."
+  },
+  {
+    "term": "as opposed to",
+    "turkish": "-in aksine",
+    "category": "linker",
+    "definition": "In contrast to.",
+    "exampleSentence": "We prefer video calls as opposed to long email threads."
+  },
+  {
+    "term": "conversely",
+    "turkish": "tersine",
+    "category": "linker",
+    "definition": "In the opposite way.",
+    "exampleSentence": "Sales rose in Europe; conversely, they fell in Asia."
+  },
+  {
+    "term": "alternatively",
+    "turkish": "alternatif olarak",
+    "category": "linker",
+    "definition": "As another possibility.",
+    "exampleSentence": "You can call us; alternatively, you can send an email."
+  },
+  {
+    "term": "additionally",
+    "turkish": "ek olarak",
+    "category": "linker",
+    "definition": "Also; in addition.",
+    "exampleSentence": "Additionally, all staff will receive a new laptop next year."
+  },
+  {
+    "term": "equally",
+    "turkish": "aynı derecede",
+    "category": "linker",
+    "definition": "In the same way; to the same degree.",
+    "exampleSentence": "Quality is important, but equally, we must meet our deadlines."
+  },
+  {
+    "term": "admittedly",
+    "turkish": "kabul etmek gerekir ki",
+    "category": "linker",
+    "definition": "Used to accept that something is true.",
+    "exampleSentence": "Admittedly, the new design is expensive, but customers love it."
+  },
+  {
+    "term": "undoubtedly",
+    "turkish": "şüphesiz",
+    "category": "linker",
+    "definition": "Certainly; without doubt.",
+    "exampleSentence": "She is undoubtedly the best engineer in our team."
+  },
+  {
+    "term": "ultimately",
+    "turkish": "nihayetinde",
+    "category": "linker",
+    "definition": "Finally; in the end.",
+    "exampleSentence": "Ultimately, the client will decide which design we use."
+  },
+  {
+    "term": "in essence",
+    "turkish": "özünde",
+    "category": "linker",
+    "definition": "Basically; at its core.",
+    "exampleSentence": "In essence, the new policy gives employees more freedom."
+  },
+  {
+    "term": "to illustrate",
+    "turkish": "örneklemek gerekirse",
+    "category": "linker",
+    "definition": "Used to introduce an example.",
+    "exampleSentence": "To illustrate, let me show you last month's sales figures."
+  },
+  {
+    "term": "specifically",
+    "turkish": "özellikle, özel olarak",
+    "category": "linker",
+    "definition": "In a detailed and exact way.",
+    "exampleSentence": "The training is designed specifically for new managers."
+  },
+  {
+    "term": "notably",
+    "turkish": "bilhassa",
+    "category": "linker",
+    "definition": "Especially; in a way that is worth noticing.",
+    "exampleSentence": "Several teams, notably sales and support, exceeded their targets."
+  },
+  {
+    "term": "in brief",
+    "turkish": "kısaca",
+    "category": "linker",
+    "definition": "In a few words.",
+    "exampleSentence": "In brief, the project is on time and on budget."
+  },
+  {
+    "term": "for the purpose of",
+    "turkish": "amacıyla",
+    "category": "linker",
+    "definition": "In order to.",
+    "exampleSentence": "This data is collected for the purpose of improving our service."
+  },
+  {
+    "term": "with this in mind",
+    "turkish": "bunu göz önünde bulundurarak",
+    "category": "linker",
+    "definition": "Considering what was just said.",
+    "exampleSentence": "Many customers use phones; with this in mind, we redesigned the app."
+  },
+  {
+    "term": "in any case",
+    "turkish": "her halükârda",
+    "category": "linker",
+    "definition": "Whatever happens.",
+    "exampleSentence": "In any case, please send me the report by Friday."
+  },
+  {
+    "term": "at any rate",
+    "turkish": "her neyse, ne olursa olsun",
+    "category": "linker",
+    "definition": "Anyway; whatever else happens.",
+    "exampleSentence": "I am not sure about the date; at any rate, it will be in May."
+  },
+  {
+    "term": "on balance",
+    "turkish": "her şey hesaba katıldığında",
+    "category": "linker",
+    "definition": "After considering all the facts.",
+    "exampleSentence": "On balance, the cloud option is cheaper for us."
+  },
+  {
+    "term": "all things considered",
+    "turkish": "her şey düşünüldüğünde",
+    "category": "linker",
+    "definition": "After thinking about everything.",
+    "exampleSentence": "All things considered, the launch was a great success."
+  },
+  {
+    "term": "as a whole",
+    "turkish": "bir bütün olarak",
+    "category": "linker",
+    "definition": "Considering all parts together.",
+    "exampleSentence": "The company as a whole performed well this year."
+  },
+  {
+    "term": "by and large",
+    "turkish": "genel olarak",
+    "category": "linker",
+    "definition": "Mostly; in general.",
+    "exampleSentence": "By and large, our customers are happy with the service."
+  },
+  {
+    "term": "first and foremost",
+    "turkish": "her şeyden önce",
+    "category": "linker",
+    "definition": "Most importantly.",
+    "exampleSentence": "First and foremost, I want to thank the whole team."
+  },
+  {
+    "term": "last but not least",
+    "turkish": "son olarak ama önemli",
+    "category": "linker",
+    "definition": "Used to introduce the final item, which is also important.",
+    "exampleSentence": "Last but not least, I would like to thank our sponsors."
+  },
+  {
+    "term": "in the first place",
+    "turkish": "en başta, ilk etapta",
+    "category": "linker",
+    "definition": "At the beginning; originally.",
+    "exampleSentence": "Why did we choose this vendor in the first place?"
+  },
+  {
+    "term": "as a consequence",
+    "turkish": "bunun sonucunda",
+    "category": "linker",
+    "definition": "As a result.",
+    "exampleSentence": "The server crashed; as a consequence, orders were lost."
+  }
+]

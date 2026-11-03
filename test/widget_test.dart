@@ -65,7 +65,7 @@ void main() {
     expect(find.text('Quiz'), findsOneWidget);
   });
 
-  testWidgets('Tek bölümlü klasör doğrudan bölümü açar',
+  testWidgets('Advanced IT klasörü iki bölümünü gösterir',
       (WidgetTester tester) async {
     await tester.pumpWidget(const ItEnglishApp());
 
@@ -73,8 +73,9 @@ void main() {
     await tester.tap(find.text('Advanced IT'));
     await tester.pumpAndSettle();
 
-    expect(find.byType(GroupScreen), findsNothing);
-    expect(find.byType(SectionScreen), findsOneWidget);
+    expect(find.byType(GroupScreen), findsOneWidget);
+    expect(find.text('Advanced IT 1'), findsOneWidget);
+    expect(find.text('Advanced IT 2'), findsOneWidget);
   });
 
   testWidgets('Review kartı Review ekranını açar', (WidgetTester tester) async {

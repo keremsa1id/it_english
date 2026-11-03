@@ -1,0 +1,282 @@
+[
+  {
+    "term": "the bottom line",
+    "turkish": "işin özü, net sonuç",
+    "category": "idiom",
+    "definition": "The most important fact, or the final profit.",
+    "exampleSentence": "The bottom line is that we need more customers to survive."
+  },
+  {
+    "term": "low-hanging fruit",
+    "turkish": "kolay kazanımlar",
+    "category": "idiom",
+    "definition": "Tasks that are easy to do and bring quick results.",
+    "exampleSentence": "Let us start with the low-hanging fruit and fix the simple bugs first."
+  },
+  {
+    "term": "get down to business",
+    "turkish": "işe koyulmak",
+    "category": "idiom",
+    "definition": "To start working on the main task.",
+    "exampleSentence": "Now that everyone is here, let us get down to business."
+  },
+  {
+    "term": "a win-win situation",
+    "turkish": "herkesin kazandığı durum",
+    "category": "idiom",
+    "definition": "A result that is good for everyone involved.",
+    "exampleSentence": "Flexible hours are a win-win situation for staff and the company."
+  },
+  {
+    "term": "a ballpark figure",
+    "turkish": "kabaca bir rakam",
+    "category": "idiom",
+    "definition": "A rough estimate.",
+    "exampleSentence": "Can you give me a ballpark figure for the cost of the project?"
+  },
+  {
+    "term": "think on your feet",
+    "turkish": "anında doğru karar vermek",
+    "category": "idiom",
+    "definition": "To react quickly and well to new situations.",
+    "exampleSentence": "In a live demo, you have to think on your feet when something breaks."
+  },
+  {
+    "term": "in the pipeline",
+    "turkish": "hazırlık aşamasında",
+    "category": "idiom",
+    "definition": "Being planned or developed.",
+    "exampleSentence": "We have several new features in the pipeline for next year."
+  },
+  {
+    "term": "hit the ground running",
+    "turkish": "hızlı bir başlangıç yapmak",
+    "category": "idiom",
+    "definition": "To start a new job or project quickly and successfully.",
+    "exampleSentence": "We need someone who can hit the ground running from day one."
+  },
+  {
+    "term": "back to basics",
+    "turkish": "temellere dönüş",
+    "category": "idiom",
+    "definition": "Returning to the simple, most important things.",
+    "exampleSentence": "Sales are falling, so it is time to go back to basics."
+  },
+  {
+    "term": "cut your losses",
+    "turkish": "zararı kesip çekilmek",
+    "category": "idiom",
+    "definition": "To stop doing something that is failing before you lose more.",
+    "exampleSentence": "It is sometimes smarter to cut your losses than to keep trying."
+  },
+  {
+    "term": "the ball is in your court",
+    "turkish": "top sende",
+    "category": "idiom",
+    "definition": "It is your turn to act or decide.",
+    "exampleSentence": "We sent our final offer, so the ball is in your court now."
+  },
+  {
+    "term": "a level playing field",
+    "turkish": "eşit şartlar",
+    "category": "idiom",
+    "definition": "A situation where everyone has the same chances.",
+    "exampleSentence": "The new rules create a level playing field for small companies."
+  },
+  {
+    "term": "pass the buck",
+    "turkish": "sorumluluğu başkasına atmak",
+    "category": "idiom",
+    "definition": "To blame someone else instead of taking responsibility.",
+    "exampleSentence": "When things go wrong, good managers do not pass the buck."
+  },
+  {
+    "term": "red tape",
+    "turkish": "bürokrasi",
+    "category": "idiom",
+    "definition": "Too many official rules and too much paperwork.",
+    "exampleSentence": "It took months to open the office because of all the red tape."
+  },
+  {
+    "term": "a game changer",
+    "turkish": "oyunun kurallarını değiştiren şey",
+    "category": "idiom",
+    "definition": "Something that completely changes a situation.",
+    "exampleSentence": "Cloud computing was a game changer for small software companies."
+  },
+  {
+    "term": "step on someone's toes",
+    "turkish": "birinin alanına girmek",
+    "category": "idiom",
+    "definition": "To upset someone by doing their job or interfering.",
+    "exampleSentence": "I do not want to step on someone's toes, so I will ask first."
+  },
+  {
+    "term": "the hard way",
+    "turkish": "acı tecrübeyle",
+    "category": "idiom",
+    "definition": "By having a bad experience.",
+    "exampleSentence": "I learned the hard way that you should always back up your files."
+  },
+  {
+    "term": "reinvent the wheel",
+    "turkish": "tekerleği yeniden icat etmek",
+    "category": "idiom",
+    "definition": "To waste time creating something that already exists.",
+    "exampleSentence": "Use an existing library; there is no need to reinvent the wheel."
+  },
+  {
+    "term": "the corporate ladder",
+    "turkish": "kariyer basamakları",
+    "category": "idiom",
+    "definition": "The levels of jobs in a company, from low to high.",
+    "exampleSentence": "She climbed the corporate ladder from intern to director in ten years."
+  },
+  {
+    "term": "a team player",
+    "turkish": "takım oyuncusu",
+    "category": "idiom",
+    "definition": "Someone who works well with others.",
+    "exampleSentence": "We are looking for a team player who enjoys helping colleagues."
+  },
+  {
+    "term": "the green light",
+    "turkish": "yeşil ışık, onay",
+    "category": "idiom",
+    "definition": "Permission to start something.",
+    "exampleSentence": "The board gave us the green light to start the new project."
+  },
+  {
+    "term": "on the ball",
+    "turkish": "tetikte, işinin başında",
+    "category": "idiom",
+    "definition": "Quick to understand and react.",
+    "exampleSentence": "Our new assistant is really on the ball and never misses a detail."
+  },
+  {
+    "term": "up to speed",
+    "turkish": "güncel bilgiye sahip",
+    "category": "idiom",
+    "definition": "Having the latest information about something.",
+    "exampleSentence": "Can you bring me up to speed on what happened in the meeting?"
+  },
+  {
+    "term": "in the red",
+    "turkish": "zararda",
+    "category": "idiom",
+    "definition": "Losing money.",
+    "exampleSentence": "The company has been in the red for three years."
+  },
+  {
+    "term": "in the black",
+    "turkish": "kârda",
+    "category": "idiom",
+    "definition": "Making a profit.",
+    "exampleSentence": "After years of losses, the business is finally in the black."
+  },
+  {
+    "term": "a long shot",
+    "turkish": "zayıf bir ihtimal",
+    "category": "idiom",
+    "definition": "Something with little chance of success.",
+    "exampleSentence": "Winning the contract is a long shot, but we will try anyway."
+  },
+  {
+    "term": "bend the rules",
+    "turkish": "kuralları esnetmek",
+    "category": "idiom",
+    "definition": "To allow something that is not normally allowed.",
+    "exampleSentence": "The manager agreed to bend the rules and let us leave early."
+  },
+  {
+    "term": "a go-getter",
+    "turkish": "girişken, hırslı kişi",
+    "category": "idiom",
+    "definition": "An energetic person who works hard to succeed.",
+    "exampleSentence": "Our new sales manager is a go-getter who never gives up."
+  },
+  {
+    "term": "drop the ball",
+    "turkish": "işi yüzüne gözüne bulaştırmak",
+    "category": "idiom",
+    "definition": "To make a mistake by not doing something you should.",
+    "exampleSentence": "We cannot drop the ball on this order; it is our biggest client."
+  },
+  {
+    "term": "keep your eye on the ball",
+    "turkish": "dikkatini hedefte tutmak",
+    "category": "idiom",
+    "definition": "To stay focused on what is important.",
+    "exampleSentence": "There are many distractions, but keep your eye on the ball."
+  },
+  {
+    "term": "the cream of the crop",
+    "turkish": "en iyilerin en iyisi",
+    "category": "idiom",
+    "definition": "The best people or things in a group.",
+    "exampleSentence": "Our interns are the cream of the crop from the top universities."
+  },
+  {
+    "term": "burn bridges",
+    "turkish": "köprüleri atmak",
+    "category": "idiom",
+    "definition": "To damage relationships so you cannot go back.",
+    "exampleSentence": "Even if you hate your job, try not to burn bridges when you leave."
+  },
+  {
+    "term": "a hot potato",
+    "turkish": "hassas, tartışmalı konu",
+    "category": "idiom",
+    "definition": "A difficult subject that people avoid.",
+    "exampleSentence": "Salary cuts are a hot potato that nobody wants to discuss."
+  },
+  {
+    "term": "a no-brainer",
+    "turkish": "düşünmeye gerek yok",
+    "category": "idiom",
+    "definition": "A very easy decision.",
+    "exampleSentence": "Moving to the cheaper provider was a no-brainer for us."
+  },
+  {
+    "term": "make or break",
+    "turkish": "ya hep ya hiç, belirleyici",
+    "category": "idiom",
+    "definition": "Deciding whether something succeeds or fails.",
+    "exampleSentence": "This contract is make or break for our small company."
+  },
+  {
+    "term": "fly under the radar",
+    "turkish": "dikkat çekmemek",
+    "category": "idiom",
+    "definition": "To avoid being noticed.",
+    "exampleSentence": "Small bugs can fly under the radar for months before anyone notices."
+  },
+  {
+    "term": "crunch time",
+    "turkish": "kritik dönem",
+    "category": "idiom",
+    "definition": "A busy period just before a deadline.",
+    "exampleSentence": "It is crunch time, so everyone is working late this week."
+  },
+  {
+    "term": "a wake-up call",
+    "turkish": "uyarı niteliğinde olay",
+    "category": "idiom",
+    "definition": "An event that makes you realize there is a problem.",
+    "exampleSentence": "The data breach was a wake-up call for the whole company."
+  },
+  {
+    "term": "par for the course",
+    "turkish": "olağan, beklenen",
+    "category": "idiom",
+    "definition": "Normal or expected, often in a negative way.",
+    "exampleSentence": "Late payments are par for the course with some clients."
+  },
+  {
+    "term": "touch and go",
+    "turkish": "belirsiz, riskli",
+    "category": "idiom",
+    "definition": "Uncertain; it could end well or badly.",
+    "exampleSentence": "It was touch and go, but we finished the release on time."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "deployment",
+    "turkish": "dağıtım, canlıya alma",
+    "category": "software",
+    "definition": "The process of releasing new software to servers or users.",
+    "exampleSentence": "The team scheduled the deployment for Saturday night to avoid disturbing customers."
+  },
+  {
+    "term": "repository",
+    "turkish": "kod deposu",
+    "category": "software",
+    "definition": "A central place where code and its history are stored.",
+    "exampleSentence": "All of our source files are stored in a private repository on GitHub."
+  },
+  {
+    "term": "release",
+    "turkish": "sürüm",
+    "category": "software",
+    "definition": "A version of software that is made available to users.",
+    "exampleSentence": "The next release will include a dark mode and faster search."
+  },
+  {
+    "term": "branch",
+    "turkish": "dal (kodda)",
+    "category": "software",
+    "definition": "A separate line of development in version control.",
+    "exampleSentence": "Create a new branch before you start working on the login feature."
+  },
+  {
+    "term": "commit",
+    "turkish": "kayıt (commit)",
+    "category": "software",
+    "definition": "A saved set of changes in version control.",
+    "exampleSentence": "Write a clear message for every commit so others understand your changes."
+  },
+  {
+    "term": "merge",
+    "turkish": "birleştirme",
+    "category": "software",
+    "definition": "Combining the changes from one branch into another.",
+    "exampleSentence": "The merge failed because two developers changed the same line."
+  },
+  {
+    "term": "pull request",
+    "turkish": "değişiklik isteği",
+    "category": "software",
+    "definition": "A request to review and merge your code changes.",
+    "exampleSentence": "Please open a pull request when your feature is ready for review."
+  },
+  {
+    "term": "code review",
+    "turkish": "kod incelemesi",
+    "category": "software",
+    "definition": "When other developers check your code before it is merged.",
+    "exampleSentence": "The code review found a security problem before the update went live."
+  },
+  {
+    "term": "unit test",
+    "turkish": "birim testi",
+    "category": "software",
+    "definition": "A small automatic test that checks one part of the code.",
+    "exampleSentence": "Every new function should come with at least one unit test."
+  },
+  {
+    "term": "dependency",
+    "turkish": "bağımlılık",
+    "category": "software",
+    "definition": "A library or service that your code needs in order to work.",
+    "exampleSentence": "An outdated dependency caused the build to fail this morning."
+  },
+  {
+    "term": "configuration",
+    "turkish": "yapılandırma",
+    "category": "software",
+    "definition": "The settings that control how a system works.",
+    "exampleSentence": "A small mistake in the configuration stopped the server from starting."
+  },
+  {
+    "term": "documentation",
+    "turkish": "dokümantasyon",
+    "category": "software",
+    "definition": "Written guides that explain how software works or how to use it.",
+    "exampleSentence": "Good documentation helps new employees understand the system quickly."
+  },
+  {
+    "term": "environment",
+    "turkish": "ortam (test, canlı)",
+    "category": "software",
+    "definition": "A separate setup for running software, such as test or production.",
+    "exampleSentence": "Always test your changes in the staging environment before going live."
+  },
+  {
+    "term": "technical debt",
+    "turkish": "teknik borç",
+    "category": "software",
+    "definition": "Extra future work caused by choosing a quick solution now.",
+    "exampleSentence": "Skipping tests to meet deadlines creates technical debt that slows the team later."
+  },
+  {
+    "term": "backlog",
+    "turkish": "iş listesi",
+    "category": "software",
+    "definition": "A list of tasks and features that are waiting to be done.",
+    "exampleSentence": "The product owner added five new tasks to the backlog today."
+  },
+  {
+    "term": "sprint",
+    "turkish": "sprint (kısa geliştirme dönemi)",
+    "category": "software",
+    "definition": "A short, fixed period in which a team completes planned work.",
+    "exampleSentence": "Our team plans its work in two-week sprint cycles."
+  },
+  {
+    "term": "ticket",
+    "turkish": "destek kaydı, talep",
+    "category": "software",
+    "definition": "A recorded request for help or for a task in a tracking system.",
+    "exampleSentence": "Please create a ticket if your laptop needs to be repaired."
+  },
+  {
+    "term": "help desk",
+    "turkish": "yardım masası",
+    "category": "software",
+    "definition": "The team that answers employees' or customers' technical questions.",
+    "exampleSentence": "Call the help desk if you cannot connect to the company VPN."
+  },
+  {
+    "term": "outage",
+    "turkish": "kesinti",
+    "category": "networking",
+    "definition": "A period when a service or system stops working.",
+    "exampleSentence": "A power outage took the company website offline for two hours."
+  },
+  {
+    "term": "downtime",
+    "turkish": "hizmet dışı kalma süresi",
+    "category": "networking",
+    "definition": "Time when a system is not available.",
+    "exampleSentence": "The update caused ten minutes of downtime during the night."
+  },
+  {
+    "term": "uptime",
+    "turkish": "çalışma süresi",
+    "category": "networking",
+    "definition": "Time when a system is working and available.",
+    "exampleSentence": "Our hosting provider promises 99.9 percent uptime every month."
+  },
+  {
+    "term": "load balancer",
+    "turkish": "yük dengeleyici",
+    "category": "networking",
+    "definition": "A system that shares traffic between several servers.",
+    "exampleSentence": "The load balancer sends each visitor to the least busy server."
+  },
+  {
+    "term": "proxy",
+    "turkish": "vekil sunucu",
+    "category": "networking",
+    "definition": "A server that sits between users and the internet.",
+    "exampleSentence": "All office traffic goes through a proxy that blocks dangerous websites."
+  },
+  {
+    "term": "gateway",
+    "turkish": "ağ geçidi",
+    "category": "networking",
+    "definition": "A device that connects two different networks.",
+    "exampleSentence": "The gateway connects our office network to the internet."
+  },
+  {
+    "term": "bottleneck",
+    "turkish": "darboğaz",
+    "category": "networking",
+    "definition": "The slowest part of a system, which limits its speed.",
+    "exampleSentence": "The old database server is the main bottleneck in our system."
+  },
+  {
+    "term": "incident",
+    "turkish": "olay, arıza kaydı",
+    "category": "security",
+    "definition": "An unexpected event that disrupts a service or its security.",
+    "exampleSentence": "The security team is investigating an incident from last night."
+  },
+  {
+    "term": "breach",
+    "turkish": "ihlal, sızıntı",
+    "category": "security",
+    "definition": "When attackers get into a system and access private data.",
+    "exampleSentence": "The data breach exposed the email addresses of thousands of customers."
+  },
+  {
+    "term": "credentials",
+    "turkish": "kimlik bilgileri",
+    "category": "security",
+    "definition": "The username and password used to log in.",
+    "exampleSentence": "Never share your login credentials with anyone, even with colleagues."
+  },
+  {
+    "term": "ransomware",
+    "turkish": "fidye yazılımı",
+    "category": "security",
+    "definition": "Malware that locks your files and asks for money to unlock them.",
+    "exampleSentence": "Regular backups protect the company if ransomware locks our files."
+  },
+  {
+    "term": "access control",
+    "turkish": "erişim kontrolü",
+    "category": "security",
+    "definition": "Rules that decide who can use which systems or data.",
+    "exampleSentence": "Strict access control means interns cannot see salary data."
+  },
+  {
+    "term": "audit",
+    "turkish": "denetim",
+    "category": "security",
+    "definition": "An official check of systems, records or security.",
+    "exampleSentence": "The external audit checks whether we follow security rules."
+  },
+  {
+    "term": "compliance",
+    "turkish": "uyumluluk",
+    "category": "security",
+    "definition": "Following laws, rules and company policies.",
+    "exampleSentence": "Our compliance team makes sure we follow data protection laws."
+  },
+  {
+    "term": "penetration test",
+    "turkish": "sızma testi",
+    "category": "security",
+    "definition": "A planned attack by experts to find security weaknesses.",
+    "exampleSentence": "The penetration test showed that our admin page was easy to attack."
+  },
+  {
+    "term": "dashboard",
+    "turkish": "gösterge paneli",
+    "category": "data",
+    "definition": "A screen that shows important data and charts in one place.",
+    "exampleSentence": "The sales dashboard shows today's orders and revenue in real time."
+  },
+  {
+    "term": "analytics",
+    "turkish": "analitik",
+    "category": "data",
+    "definition": "The study of data to find useful patterns.",
+    "exampleSentence": "Website analytics show that most visitors use their phones."
+  },
+  {
+    "term": "metrics",
+    "turkish": "metrikler, ölçümler",
+    "category": "data",
+    "definition": "Numbers used to measure performance.",
+    "exampleSentence": "The team reviews its key metrics every Monday morning."
+  },
+  {
+    "term": "scalability",
+    "turkish": "ölçeklenebilirlik",
+    "category": "data",
+    "definition": "The ability of a system to handle more users or data.",
+    "exampleSentence": "Moving to the cloud improved the scalability of our online shop."
+  },
+  {
+    "term": "data migration",
+    "turkish": "veri taşıma",
+    "category": "data",
+    "definition": "Moving data from one system to another.",
+    "exampleSentence": "The data migration to the new system took the whole weekend."
+  },
+  {
+    "term": "workstation",
+    "turkish": "iş istasyonu",
+    "category": "hardware",
+    "definition": "A powerful desk computer used for professional work.",
+    "exampleSentence": "Designers in our office use a workstation with two large monitors."
+  },
+  {
+    "term": "docking station",
+    "turkish": "yerleştirme istasyonu",
+    "category": "hardware",
+    "definition": "A device that connects a laptop to monitors, a keyboard and a network.",
+    "exampleSentence": "Plug your laptop into the docking station to use both screens."
+  }
+]

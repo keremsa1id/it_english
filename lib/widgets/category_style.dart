@@ -14,6 +14,7 @@ class CategoryStyle {
     'networking': CategoryStyle('Networking', Icons.lan_rounded, Color(0xFF42A5F5)),
     'security': CategoryStyle('Security', Icons.shield_rounded, Color(0xFFEF5350)),
     'data': CategoryStyle('Data & Cloud', Icons.cloud_rounded, Color(0xFFAB47BC)),
+    'business': CategoryStyle('Business', Icons.business_center_rounded, Color(0xFF5C9DFF)),
     'verb': CategoryStyle('Verb', Icons.directions_run_rounded, Color(0xFFEF6C00)),
     'noun': CategoryStyle('Noun', Icons.category_rounded, Color(0xFF00897B)),
     'phrase': CategoryStyle('Phrase', Icons.chat_bubble_rounded, Color(0xFFFFB300)),

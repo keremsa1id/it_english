@@ -1,0 +1,322 @@
+[
+  {
+    "term": "KPI",
+    "fullForm": "Key Performance Indicator",
+    "turkish": "temel performans göstergesi",
+    "category": "business",
+    "definition": "A number that shows how well a team or company is doing.",
+    "exampleSentence": "Customer satisfaction is the most important KPI for our support team."
+  },
+  {
+    "term": "ROI",
+    "fullForm": "Return on Investment",
+    "turkish": "yatırım getirisi",
+    "category": "business",
+    "definition": "How much money you gain compared with what you spent.",
+    "exampleSentence": "The new software paid for itself quickly and had a high ROI."
+  },
+  {
+    "term": "ERP",
+    "fullForm": "Enterprise Resource Planning",
+    "turkish": "kurumsal kaynak planlama",
+    "category": "business",
+    "definition": "Software that manages a company's finance, stock and staff in one system.",
+    "exampleSentence": "Our factory uses an ERP system to track orders and stock."
+  },
+  {
+    "term": "CRM",
+    "fullForm": "Customer Relationship Management",
+    "turkish": "müşteri ilişkileri yönetimi",
+    "category": "business",
+    "definition": "Software for managing contact with customers.",
+    "exampleSentence": "The sales team logs every call with a client in the CRM."
+  },
+  {
+    "term": "HR",
+    "fullForm": "Human Resources",
+    "turkish": "insan kaynakları",
+    "category": "business",
+    "definition": "The department that hires and looks after employees.",
+    "exampleSentence": "Please send your holiday request to HR before the end of the month."
+  },
+  {
+    "term": "CEO",
+    "fullForm": "Chief Executive Officer",
+    "turkish": "genel müdür, CEO",
+    "category": "business",
+    "definition": "The highest-ranking manager of a company.",
+    "exampleSentence": "The CEO announced the new company strategy at the annual meeting."
+  },
+  {
+    "term": "CTO",
+    "fullForm": "Chief Technology Officer",
+    "turkish": "teknoloji direktörü",
+    "category": "business",
+    "definition": "The senior manager responsible for a company's technology.",
+    "exampleSentence": "Our CTO decided to move all our servers to the cloud."
+  },
+  {
+    "term": "CIO",
+    "fullForm": "Chief Information Officer",
+    "turkish": "bilgi işlem direktörü",
+    "category": "business",
+    "definition": "The senior manager responsible for information systems.",
+    "exampleSentence": "The CIO approved a bigger budget for cybersecurity this year."
+  },
+  {
+    "term": "CFO",
+    "fullForm": "Chief Financial Officer",
+    "turkish": "finans direktörü",
+    "category": "business",
+    "definition": "The senior manager responsible for a company's money.",
+    "exampleSentence": "The CFO presented the quarterly results to the board."
+  },
+  {
+    "term": "B2B",
+    "fullForm": "Business to Business",
+    "turkish": "işletmeden işletmeye",
+    "category": "business",
+    "definition": "Selling products or services to other companies.",
+    "exampleSentence": "We are a B2B company, so our customers are other businesses."
+  },
+  {
+    "term": "B2C",
+    "fullForm": "Business to Consumer",
+    "turkish": "işletmeden tüketiciye",
+    "category": "business",
+    "definition": "Selling products or services directly to the public.",
+    "exampleSentence": "Online clothing shops are a typical example of B2C companies."
+  },
+  {
+    "term": "ETA",
+    "fullForm": "Estimated Time of Arrival",
+    "turkish": "tahmini varış/bitiş zamanı",
+    "category": "business",
+    "definition": "The expected time when something will arrive or be finished.",
+    "exampleSentence": "What is the ETA for the new laptops we ordered last week?"
+  },
+  {
+    "term": "FAQ",
+    "fullForm": "Frequently Asked Questions",
+    "turkish": "sıkça sorulan sorular",
+    "category": "business",
+    "definition": "A list of common questions and their answers.",
+    "exampleSentence": "Most customers find the answer they need on our FAQ page."
+  },
+  {
+    "term": "FYI",
+    "fullForm": "For Your Information",
+    "turkish": "bilginize",
+    "category": "business",
+    "definition": "Used in messages to share information that needs no reply.",
+    "exampleSentence": "FYI, the office will be closed next Monday for a public holiday."
+  },
+  {
+    "term": "ASAP",
+    "fullForm": "As Soon As Possible",
+    "turkish": "en kısa sürede",
+    "category": "business",
+    "definition": "Used to ask for something to be done very quickly.",
+    "exampleSentence": "The client needs the corrected invoice ASAP, so please send it today."
+  },
+  {
+    "term": "EOD",
+    "fullForm": "End of Day",
+    "turkish": "gün sonu",
+    "category": "business",
+    "definition": "The end of the working day.",
+    "exampleSentence": "Please send me the final version of the slides by EOD."
+  },
+  {
+    "term": "OOO",
+    "fullForm": "Out of Office",
+    "turkish": "ofis dışında",
+    "category": "business",
+    "definition": "Used to say that someone is away from work.",
+    "exampleSentence": "I will be OOO next week, so please contact Sarah instead."
+  },
+  {
+    "term": "NDA",
+    "fullForm": "Non-Disclosure Agreement",
+    "turkish": "gizlilik sözleşmesi",
+    "category": "business",
+    "definition": "A contract that stops people from sharing secret information.",
+    "exampleSentence": "All new employees must sign an NDA on their first day."
+  },
+  {
+    "term": "RFP",
+    "fullForm": "Request for Proposal",
+    "turkish": "teklif talebi",
+    "category": "business",
+    "definition": "A document asking companies to offer a price and plan for a project.",
+    "exampleSentence": "The bank sent an RFP to five software companies last month."
+  },
+  {
+    "term": "POC",
+    "fullForm": "Proof of Concept",
+    "turkish": "kavram kanıtı",
+    "category": "business",
+    "definition": "A small test project that shows an idea can work.",
+    "exampleSentence": "We built a quick POC to show the client how the app would work."
+  },
+  {
+    "term": "SSO",
+    "fullForm": "Single Sign-On",
+    "turkish": "tek oturum açma",
+    "category": "security",
+    "definition": "Logging in once to use many different applications.",
+    "exampleSentence": "With SSO, employees use one password for email, chat and HR tools."
+  },
+  {
+    "term": "MFA",
+    "fullForm": "Multi-Factor Authentication",
+    "turkish": "çok faktörlü kimlik doğrulama",
+    "category": "security",
+    "definition": "Logging in with two or more proofs, such as a password and a code.",
+    "exampleSentence": "The company requires MFA for every account that can access customer data."
+  },
+  {
+    "term": "VoIP",
+    "fullForm": "Voice over Internet Protocol",
+    "turkish": "internet üzerinden sesli arama",
+    "category": "networking",
+    "definition": "Technology for making phone calls over the internet.",
+    "exampleSentence": "Our office replaced its old phones with a cheaper VoIP system."
+  },
+  {
+    "term": "LTS",
+    "fullForm": "Long-Term Support",
+    "turkish": "uzun süreli destek",
+    "category": "software",
+    "definition": "A software version that receives updates and fixes for several years.",
+    "exampleSentence": "Companies usually choose the LTS version because it stays supported longer."
+  },
+  {
+    "term": "GDPR",
+    "fullForm": "General Data Protection Regulation",
+    "turkish": "Genel Veri Koruma Tüzüğü",
+    "category": "security",
+    "definition": "The European Union law that protects people's personal data.",
+    "exampleSentence": "Under GDPR, customers can ask a company to delete their personal data."
+  },
+  {
+    "term": "SOP",
+    "fullForm": "Standard Operating Procedure",
+    "turkish": "standart işletim prosedürü",
+    "category": "business",
+    "definition": "Written step-by-step instructions for doing a routine task.",
+    "exampleSentence": "Follow the SOP when you set up a laptop for a new employee."
+  },
+  {
+    "term": "SME",
+    "fullForm": "Subject Matter Expert",
+    "turkish": "konu uzmanı",
+    "category": "business",
+    "definition": "A person with deep knowledge of a specific topic.",
+    "exampleSentence": "We asked an SME from the finance team to check the new report."
+  },
+  {
+    "term": "RAID",
+    "fullForm": "Redundant Array of Independent Disks",
+    "turkish": "yedekli disk dizisi",
+    "category": "hardware",
+    "definition": "A way of using several disks together for speed or safety.",
+    "exampleSentence": "The server uses RAID, so one broken disk does not lose any data."
+  },
+  {
+    "term": "NAS",
+    "fullForm": "Network-Attached Storage",
+    "turkish": "ağa bağlı depolama",
+    "category": "hardware",
+    "definition": "A storage device that shares files with everyone on a network.",
+    "exampleSentence": "The design team saves large video files on the office NAS."
+  },
+  {
+    "term": "DHCP",
+    "fullForm": "Dynamic Host Configuration Protocol",
+    "turkish": "otomatik IP adresi dağıtım protokolü",
+    "category": "networking",
+    "definition": "A system that gives devices an IP address automatically.",
+    "exampleSentence": "The router uses DHCP to give each new laptop an address."
+  },
+  {
+    "term": "IAM",
+    "fullForm": "Identity and Access Management",
+    "turkish": "kimlik ve erişim yönetimi",
+    "category": "security",
+    "definition": "Tools and rules that control who can access which systems.",
+    "exampleSentence": "Our IAM system removes access automatically when an employee leaves."
+  },
+  {
+    "term": "SOC",
+    "fullForm": "Security Operations Center",
+    "turkish": "güvenlik operasyon merkezi",
+    "category": "security",
+    "definition": "A team that watches a company's systems for attacks day and night.",
+    "exampleSentence": "Analysts in the SOC watch for suspicious activity around the clock."
+  },
+  {
+    "term": "BYOD",
+    "fullForm": "Bring Your Own Device",
+    "turkish": "kendi cihazını getir",
+    "category": "security",
+    "definition": "A policy that lets employees use their own phones or laptops for work.",
+    "exampleSentence": "Our BYOD policy allows staff to read work email on their phones."
+  },
+  {
+    "term": "UAT",
+    "fullForm": "User Acceptance Testing",
+    "turkish": "kullanıcı kabul testi",
+    "category": "software",
+    "definition": "Final testing done by real users before a system goes live.",
+    "exampleSentence": "The new payroll system goes live after UAT is completed next week."
+  },
+  {
+    "term": "OKR",
+    "fullForm": "Objectives and Key Results",
+    "turkish": "hedefler ve temel sonuçlar",
+    "category": "business",
+    "definition": "A method of setting goals and measuring progress.",
+    "exampleSentence": "Each team sets one main OKR for the quarter."
+  },
+  {
+    "term": "Q&A",
+    "fullForm": "Question and Answer",
+    "turkish": "soru-cevap",
+    "category": "business",
+    "definition": "A session where people can ask questions.",
+    "exampleSentence": "The presentation will end with a short Q&A session."
+  },
+  {
+    "term": "TBD",
+    "fullForm": "To Be Determined",
+    "turkish": "daha sonra belirlenecek",
+    "category": "business",
+    "definition": "Used when a detail has not been decided yet.",
+    "exampleSentence": "The date of the training is still TBD, but it will be in May."
+  },
+  {
+    "term": "CC",
+    "fullForm": "Carbon Copy",
+    "turkish": "bilgi (e-posta kopyası)",
+    "category": "business",
+    "definition": "Sending a copy of an email to someone else.",
+    "exampleSentence": "Please CC your manager when you reply to the client."
+  },
+  {
+    "term": "ETL",
+    "fullForm": "Extract, Transform, Load",
+    "turkish": "çıkar, dönüştür, yükle",
+    "category": "data",
+    "definition": "Moving data from sources, changing it and loading it into a database.",
+    "exampleSentence": "A nightly ETL job copies sales data into the reporting database."
+  },
+  {
+    "term": "PaaS",
+    "fullForm": "Platform as a Service",
+    "turkish": "hizmet olarak platform",
+    "category": "data",
+    "definition": "A cloud service that runs your apps without you managing servers.",
+    "exampleSentence": "Developers use a PaaS to run apps without managing servers."
+  }
+]

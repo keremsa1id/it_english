@@ -1,0 +1,282 @@
+[
+  {
+    "term": "professional",
+    "turkish": "profesyonel",
+    "category": "adjective",
+    "definition": "Showing skill and the right behavior for work.",
+    "exampleSentence": "She always sounds professional when she talks to clients."
+  },
+  {
+    "term": "urgent",
+    "turkish": "acil",
+    "category": "adjective",
+    "definition": "Needing attention immediately.",
+    "exampleSentence": "I have an urgent request from the client, so I will call you later."
+  },
+  {
+    "term": "confidential",
+    "turkish": "gizli",
+    "category": "adjective",
+    "definition": "Meant to be kept secret.",
+    "exampleSentence": "Salary information is confidential and must not be shared."
+  },
+  {
+    "term": "mandatory",
+    "turkish": "zorunlu",
+    "category": "adjective",
+    "definition": "Required by a rule.",
+    "exampleSentence": "Security training is mandatory for all new employees."
+  },
+  {
+    "term": "optional",
+    "turkish": "isteğe bağlı",
+    "category": "adjective",
+    "definition": "Not required; you can choose.",
+    "exampleSentence": "The Friday workshop is optional, but most people attend it."
+  },
+  {
+    "term": "productive",
+    "turkish": "verimli, üretken",
+    "category": "adjective",
+    "definition": "Achieving a lot of useful work.",
+    "exampleSentence": "I feel more productive when I work from a quiet room."
+  },
+  {
+    "term": "punctual",
+    "turkish": "dakik",
+    "category": "adjective",
+    "definition": "Arriving or doing something at the agreed time.",
+    "exampleSentence": "Please be punctual because the meeting starts exactly at nine."
+  },
+  {
+    "term": "experienced",
+    "turkish": "deneyimli",
+    "category": "adjective",
+    "definition": "Having a lot of knowledge from doing something for a long time.",
+    "exampleSentence": "We are looking for an experienced developer to lead the project."
+  },
+  {
+    "term": "qualified",
+    "turkish": "nitelikli",
+    "category": "adjective",
+    "definition": "Having the right skills or education for a job.",
+    "exampleSentence": "She is highly qualified for the role of data analyst."
+  },
+  {
+    "term": "competitive",
+    "turkish": "rekabetçi",
+    "category": "adjective",
+    "definition": "As good as or better than others.",
+    "exampleSentence": "The company offers a competitive salary and good benefits."
+  },
+  {
+    "term": "profitable",
+    "turkish": "kârlı",
+    "category": "adjective",
+    "definition": "Making money.",
+    "exampleSentence": "The online store became profitable in its second year."
+  },
+  {
+    "term": "sustainable",
+    "turkish": "sürdürülebilir",
+    "category": "adjective",
+    "definition": "Able to continue for a long time without causing harm.",
+    "exampleSentence": "We want to build a sustainable business that grows slowly but steadily."
+  },
+  {
+    "term": "innovative",
+    "turkish": "yenilikçi",
+    "category": "adjective",
+    "definition": "Using new ideas or methods.",
+    "exampleSentence": "The startup won an award for its innovative payment app."
+  },
+  {
+    "term": "strategic",
+    "turkish": "stratejik",
+    "category": "adjective",
+    "definition": "Related to long-term plans and goals.",
+    "exampleSentence": "Moving to the cloud was a strategic decision for the company."
+  },
+  {
+    "term": "technical",
+    "turkish": "teknik",
+    "category": "adjective",
+    "definition": "Related to practical knowledge, especially of technology.",
+    "exampleSentence": "The job requires strong technical skills and good English."
+  },
+  {
+    "term": "critical",
+    "turkish": "kritik",
+    "category": "adjective",
+    "definition": "Extremely important, or very serious.",
+    "exampleSentence": "The database is a critical part of our system and must never stop."
+  },
+  {
+    "term": "temporary",
+    "turkish": "geçici",
+    "category": "adjective",
+    "definition": "Lasting only for a limited time.",
+    "exampleSentence": "We hired a temporary assistant while Maria is on holiday."
+  },
+  {
+    "term": "permanent",
+    "turkish": "kalıcı, daimi",
+    "category": "adjective",
+    "definition": "Lasting for a long time or forever.",
+    "exampleSentence": "After six months, she was offered a permanent contract."
+  },
+  {
+    "term": "remote",
+    "turkish": "uzaktan",
+    "category": "adjective",
+    "definition": "Working from a place away from the main office.",
+    "exampleSentence": "Our company has many remote workers in different countries."
+  },
+  {
+    "term": "hybrid",
+    "turkish": "hibrit, karma",
+    "category": "adjective",
+    "definition": "Mixing two ways, such as working at home and in the office.",
+    "exampleSentence": "Most of our team now follows a hybrid working model."
+  },
+  {
+    "term": "internal",
+    "turkish": "şirket içi",
+    "category": "adjective",
+    "definition": "Inside a company or organization.",
+    "exampleSentence": "This document is for internal use only and must not leave the company."
+  },
+  {
+    "term": "external",
+    "turkish": "dış, harici",
+    "category": "adjective",
+    "definition": "Outside a company or organization.",
+    "exampleSentence": "We hired an external consultant to review our security."
+  },
+  {
+    "term": "annual",
+    "turkish": "yıllık",
+    "category": "adjective",
+    "definition": "Happening once a year.",
+    "exampleSentence": "The annual company meeting takes place every December."
+  },
+  {
+    "term": "quarterly",
+    "turkish": "üç aylık",
+    "category": "adjective",
+    "definition": "Happening every three months.",
+    "exampleSentence": "The CFO will present the quarterly results next week."
+  },
+  {
+    "term": "detailed",
+    "turkish": "ayrıntılı",
+    "category": "adjective",
+    "definition": "Including many small facts.",
+    "exampleSentence": "Please send me a detailed plan for the next three months."
+  },
+  {
+    "term": "brief",
+    "turkish": "kısa",
+    "category": "adjective",
+    "definition": "Lasting only a short time, or using few words.",
+    "exampleSentence": "Let us have a brief meeting before lunch to check progress."
+  },
+  {
+    "term": "formal",
+    "turkish": "resmi",
+    "category": "adjective",
+    "definition": "Following official rules and polite language.",
+    "exampleSentence": "Use formal language when you write to a new client."
+  },
+  {
+    "term": "informal",
+    "turkish": "gayriresmi, samimi",
+    "category": "adjective",
+    "definition": "Relaxed and friendly, not official.",
+    "exampleSentence": "We have an informal chat with the team every Friday afternoon."
+  },
+  {
+    "term": "relevant",
+    "turkish": "ilgili",
+    "category": "adjective",
+    "definition": "Connected to the subject.",
+    "exampleSentence": "Please include only relevant information in your report."
+  },
+  {
+    "term": "consistent",
+    "turkish": "tutarlı",
+    "category": "adjective",
+    "definition": "Always behaving or happening in the same way.",
+    "exampleSentence": "Our design must stay consistent across the website and the app."
+  },
+  {
+    "term": "compatible",
+    "turkish": "uyumlu",
+    "category": "adjective",
+    "definition": "Able to work together with something else.",
+    "exampleSentence": "This printer is not compatible with the new operating system."
+  },
+  {
+    "term": "outdated",
+    "turkish": "eskimiş, güncel olmayan",
+    "category": "adjective",
+    "definition": "No longer modern or useful.",
+    "exampleSentence": "The company still uses outdated software from ten years ago."
+  },
+  {
+    "term": "robust",
+    "turkish": "sağlam",
+    "category": "adjective",
+    "definition": "Strong and unlikely to fail.",
+    "exampleSentence": "We need a robust backup system that works even during a power cut."
+  },
+  {
+    "term": "stable",
+    "turkish": "kararlı, istikrarlı",
+    "category": "adjective",
+    "definition": "Not likely to change or fail.",
+    "exampleSentence": "The new version is much more stable than the previous one."
+  },
+  {
+    "term": "user-friendly",
+    "turkish": "kullanıcı dostu",
+    "category": "adjective",
+    "definition": "Easy for people to use.",
+    "exampleSentence": "The new interface is user-friendly, so customers need no training."
+  },
+  {
+    "term": "cost-effective",
+    "turkish": "uygun maliyetli",
+    "category": "adjective",
+    "definition": "Giving good results for the money spent.",
+    "exampleSentence": "Cloud storage is a cost-effective solution for small businesses."
+  },
+  {
+    "term": "scalable",
+    "turkish": "ölçeklenebilir",
+    "category": "adjective",
+    "definition": "Able to grow easily to handle more work or users.",
+    "exampleSentence": "The system is scalable enough to support a million users."
+  },
+  {
+    "term": "reasonable",
+    "turkish": "makul",
+    "category": "adjective",
+    "definition": "Fair and sensible.",
+    "exampleSentence": "The client accepted our price because it was reasonable."
+  },
+  {
+    "term": "appropriate",
+    "turkish": "uygun",
+    "category": "adjective",
+    "definition": "Suitable for a particular situation.",
+    "exampleSentence": "Jeans are not appropriate for the meeting with the bank."
+  },
+  {
+    "term": "essential",
+    "turkish": "temel, olmazsa olmaz",
+    "category": "adjective",
+    "definition": "Absolutely necessary.",
+    "exampleSentence": "A stable internet connection is essential for remote work."
+  }
+]
