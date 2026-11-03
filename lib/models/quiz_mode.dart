@@ -10,7 +10,11 @@ enum QuizMode {
   listening('Listen and choose', 'Listen to the word and pick what you hear'),
 
   /// Örnek cümlede boşluk var, şık yok; eksik terim yazılır.
-  typing('Type the answer', 'Type the missing word in the sentence');
+  typing('Type the answer', 'Type the missing word in the sentence'),
+
+  /// Terim gösterilir; kullanıcı söyler, ses tanıma doğru anlaşılıp
+  /// anlaşılmadığını kontrol eder.
+  speaking('Say the word', 'Say the word out loud to check your pronunciation');
 
   const QuizMode(this.title, this.subtitle);
 
@@ -23,6 +27,9 @@ enum QuizMode {
 
   /// Şıklardan seçmek yerine cevabın yazıldığı tür mü.
   bool get isTyped => this == QuizMode.typing;
+
+  /// Şıklardan seçmek yerine cevabın sesli söylendiği tür mü.
+  bool get isSpoken => this == QuizMode.speaking;
 
   /// [quizId] quiz'inin bu türdeki skorunun saklandığı anahtar.
   ///

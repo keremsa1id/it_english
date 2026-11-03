@@ -54,6 +54,7 @@ class QuizModeScreen extends StatelessWidget {
         QuizMode.definition => Icons.menu_book_rounded,
         QuizMode.listening => Icons.headphones_rounded,
         QuizMode.typing => Icons.keyboard_rounded,
+        QuizMode.speaking => Icons.mic_rounded,
       };
 
   @override

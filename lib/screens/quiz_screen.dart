@@ -5,6 +5,7 @@ import '../models/term.dart';
 import '../services/progress_service.dart';
 import '../services/quiz_generator.dart';
 import '../services/term_repository.dart';
+import '../services/speech_service.dart';
 import '../services/tts_service.dart';
 import '../utils/answer_check.dart';
 import '../utils/sentence_parts.dart';
@@ -60,8 +61,18 @@ class _QuizScreenState extends State<QuizScreen> {
   bool _finished = false;
   final Set<Term> _wrongPicks = <Term>{};
 
-  /// Yazma quiz'inde mevcut soruya yanlış cevap verildi mi.
-  bool _typedWrong = false;
+  /// Yazma ve konuşma quiz'inde mevcut soruya yanlış cevap verildi mi.
+  bool _answeredWrong = false;
+
+  /// Konuşma quiz'i: şu an dinleniyor mu.
+  bool _listening = false;
+
+  /// Konuşma quiz'i: son denemede duyulan metin; hiçbir şey anlaşılmadıysa
+  /// boş metin, henüz denenmediyse null.
+  String? _heard;
+
+  /// Konuşma quiz'i: ses tanıma bu cihazda/tarayıcıda kullanılamıyor.
+  bool _speechUnavailable = false;
 
   @override
   void initState() {
@@ -72,6 +83,9 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   void dispose() {
     TtsService.instance.stop();
+    if (widget.mode.isSpoken) {
+      SpeechService.instance.stop();
+    }
     super.dispose();
   }
 
@@ -99,7 +113,9 @@ class _QuizScreenState extends State<QuizScreen> {
     _solved = false;
     _finished = false;
     _wrongPicks.clear();
-    _typedWrong = false;
+    _answeredWrong = false;
+    _listening = false;
+    _heard = null;
     // İlk soru ekrana gelince okunsun.
     WidgetsBinding.instance.addPostFrameCallback((_) => _speakPrompt());
   }
@@ -140,26 +156,64 @@ class _QuizScreenState extends State<QuizScreen> {
     final QuizQuestion question = _questions[_currentIndex];
 
     if (!isCorrectAnswer(input, question.answer.term)) {
-      if (!_typedWrong) {
+      if (!_answeredWrong) {
         ProgressService.instance.recordAnswer(question.answer, correct: false);
       }
-      setState(() => _typedWrong = true);
+      setState(() => _answeredWrong = true);
       return;
     }
 
-    _markSolved(question, firstTry: !_typedWrong);
+    _markSolved(question, firstTry: !_answeredWrong);
   }
 
-  /// Yazma quiz'inde cevabı gösterir; soru yanlış bilinmiş sayılır.
+  /// Konuşma quiz'inde bir kez dinler ve duyulanı kontrol eder.
+  Future<void> _listenForAnswer() async {
+    if (_solved || _listening) {
+      return;
+    }
+    await TtsService.instance.stop();
+    setState(() => _listening = true);
+    final int questionIndex = _currentIndex;
+    final List<String>? heard = await SpeechService.instance.listenOnce();
+    // Bu arada ekran kapandıysa ya da soru değiştiyse sonucu yok say.
+    if (!mounted || questionIndex != _currentIndex) {
+      return;
+    }
+    setState(() {
+      _listening = false;
+      _speechUnavailable = heard == null;
+      _heard = heard == null ? null : (heard.isEmpty ? '' : heard.first);
+    });
+    if (heard == null || heard.isEmpty) {
+      return;
+    }
+
+    final QuizQuestion question = _questions[_currentIndex];
+    if (!isSpokenMatch(heard, question.answer.term)) {
+      if (!_answeredWrong) {
+        ProgressService.instance.recordAnswer(question.answer, correct: false);
+      }
+      setState(() => _answeredWrong = true);
+      return;
+    }
+    _markSolved(question, firstTry: !_answeredWrong);
+  }
+
+  /// Yazma ya da konuşma quiz'inde soruyu geçer; soru yanlış bilinmiş
+  /// sayılır.
   void _revealAnswer() {
     if (_solved) {
       return;
     }
     final QuizQuestion question = _questions[_currentIndex];
-    if (!_typedWrong) {
+    if (!_answeredWrong) {
       ProgressService.instance.recordAnswer(question.answer, correct: false);
     }
-    _typedWrong = true;
+    _answeredWrong = true;
+    if (_listening) {
+      SpeechService.instance.stop();
+      _listening = false;
+    }
     _markSolved(question, firstTry: false);
   }
 
@@ -202,6 +256,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _goToNextQuestion() {
     TtsService.instance.stop();
+    if (_listening) {
+      SpeechService.instance.stop();
+    }
     final String? quizId = widget.quizId;
     if (quizId != null && _currentIndex >= _questions.length - 1) {
       ProgressService.instance.recordQuiz(quizId, _score, _questions.length);
@@ -214,7 +271,9 @@ class _QuizScreenState extends State<QuizScreen> {
       _currentIndex++;
       _solved = false;
       _wrongPicks.clear();
-      _typedWrong = false;
+      _answeredWrong = false;
+      _listening = false;
+      _heard = null;
     });
     _speakPrompt();
   }
@@ -339,15 +398,30 @@ class _QuizScreenState extends State<QuizScreen> {
                       ? null
                       : 'Turkish: ${question.answer.turkish}',
                 ),
+              QuizMode.speaking => _SpeakingCard(
+                  term: question.answer,
+                  onHear: () =>
+                      TtsService.instance.speak(question.answer.term),
+                ),
             },
           ),
           const SizedBox(height: 16),
-          if (widget.mode.isTyped)
+          if (widget.mode.isSpoken)
+            _SpeakingAnswer(
+              solved: _solved,
+              listening: _listening,
+              heard: _heard,
+              wrong: _answeredWrong,
+              unavailable: _speechUnavailable,
+              onListen: _listenForAnswer,
+              onSkip: _revealAnswer,
+            )
+          else if (widget.mode.isTyped)
             _TypingAnswer(
               // Soru değişince yazılan metin sıfırlansın.
               key: ValueKey<int>(_currentIndex),
               solved: _solved,
-              wrong: _typedWrong,
+              wrong: _answeredWrong,
               onSubmit: _onTypedAnswer,
               onReveal: _revealAnswer,
             )
@@ -652,6 +726,175 @@ class _TypingAnswerState extends State<_TypingAnswer> {
                   minimumSize: const Size.fromHeight(52),
                 ),
                 child: const Text('Check'),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 10),
+      ],
+    );
+  }
+}
+
+/// Konuşma sorusunun kartı: söylenecek kelime, açılımı, Türkçesi ve doğru
+/// telaffuzu dinleme butonu.
+class _SpeakingCard extends StatelessWidget {
+  const _SpeakingCard({required this.term, required this.onHear});
+
+  final Term term;
+  final VoidCallback onHear;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+    final CategoryStyle style = CategoryStyle.of(term.category);
+
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        color: style.color.withValues(alpha: 0.06),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: style.color.withValues(alpha: 0.6), width: 2),
+      ),
+      padding: const EdgeInsets.all(20),
+      child: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'SAY THIS WORD',
+                style: theme.textTheme.labelLarge?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                  letterSpacing: 1.5,
+                ),
+              ),
+              const SizedBox(height: 12),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  term.term,
+                  style: theme.textTheme.displaySmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: style.color,
+                  ),
+                ),
+              ),
+              if (term.fullForm.isNotEmpty)
+                Text(
+                  term.fullForm,
+                  textAlign: TextAlign.center,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: style.color,
+                  ),
+                ),
+              if (term.turkish.isNotEmpty) ...[
+                const SizedBox(height: 4),
+                Text(
+                  term.turkish,
+                  textAlign: TextAlign.center,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
+              const SizedBox(height: 16),
+              TextButton.icon(
+                onPressed: onHear,
+                icon: const Icon(Icons.volume_up_rounded),
+                label: const Text('Hear it first'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Konuşma quiz'inin cevap alanı: mikrofon butonu, duyulan metin ve "Skip".
+class _SpeakingAnswer extends StatelessWidget {
+  const _SpeakingAnswer({
+    required this.solved,
+    required this.listening,
+    required this.heard,
+    required this.wrong,
+    required this.unavailable,
+    required this.onListen,
+    required this.onSkip,
+  });
+
+  static const Color _correctColor = Color(0xFF2E7D32);
+  static const Color _wrongColor = Color(0xFFFFA726);
+
+  final bool solved;
+  final bool listening;
+
+  /// Son denemede duyulan metin; boşsa hiçbir şey anlaşılmadı, null ise
+  /// henüz denenmedi.
+  final String? heard;
+  final bool wrong;
+  final bool unavailable;
+  final VoidCallback onListen;
+  final VoidCallback onSkip;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+    final String? heard = this.heard;
+
+    final (String message, Color? color) = switch (heard) {
+      _ when unavailable => (
+          'Speech recognition is not available here. Try Chrome or the '
+              'mobile app, and allow microphone access.',
+          _wrongColor,
+        ),
+      _ when listening => ('Listening... say the word now.', null),
+      _ when solved && heard != null && heard.isNotEmpty => (
+          'We heard: "$heard" — correct!',
+          _correctColor,
+        ),
+      _ when solved => ('Answer shown. Listen and try saying it.', null),
+      null => ('Tap the microphone and say the word.', null),
+      '' => ("Sorry, we didn't catch that. Try again.", _wrongColor),
+      _ => ('We heard: "$heard". Try again or skip.', _wrongColor),
+    };
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          message,
+          textAlign: TextAlign.center,
+          style: theme.textTheme.titleMedium?.copyWith(
+            color: color ?? theme.colorScheme.onSurfaceVariant,
+            fontWeight: wrong || solved ? FontWeight.w600 : null,
+          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          children: [
+            Expanded(
+              child: OutlinedButton(
+                onPressed: solved ? null : onSkip,
+                style: OutlinedButton.styleFrom(
+                  minimumSize: const Size.fromHeight(56),
+                ),
+                child: const Text('Skip'),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              flex: 2,
+              child: FilledButton.icon(
+                onPressed: solved || listening ? null : onListen,
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size.fromHeight(56),
+                ),
+                icon: Icon(
+                  listening ? Icons.graphic_eq_rounded : Icons.mic_rounded,
+                ),
+                label: Text(listening ? 'Listening...' : 'Speak'),
               ),
             ),
           ],

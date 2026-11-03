@@ -19,6 +19,14 @@ void main() {
     expect(QuizMode.typing.needsBlank, isTrue);
     expect(QuizMode.definition.needsBlank, isFalse);
     expect(QuizMode.listening.needsBlank, isFalse);
+    expect(QuizMode.speaking.needsBlank, isFalse);
+  });
+
+  test('yalnızca konuşma türünde cevap sesli verilir', () {
+    expect(
+      QuizMode.values.where((QuizMode m) => m.isSpoken),
+      <QuizMode>[QuizMode.speaking],
+    );
   });
 
   test('yalnızca yazma türünde şık yoktur', () {
