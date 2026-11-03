@@ -97,3 +97,17 @@ class MixedTermRepository extends TermRepository {
     return List<Term>.unmodifiable(terms);
   }
 }
+
+/// [assetPaths] içinden yalnızca [include]'u sağlayan terimleri yükler;
+/// Review kartları destedeki kelimeleri bununla gösterir.
+class FilteredTermRepository extends MixedTermRepository {
+  const FilteredTermRepository(super.assetPaths, {required this.include});
+
+  final bool Function(Term term) include;
+
+  @override
+  Future<List<Term>> loadTerms() async {
+    final List<Term> terms = await super.loadTerms();
+    return List<Term>.unmodifiable(terms.where(include));
+  }
+}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/section.dart';
 import '../widgets/menu_card.dart';
+import '../widgets/progress_footer.dart';
 import '../widgets/section_icon.dart';
 import 'section_screen.dart';
 
@@ -36,6 +37,10 @@ class GroupScreen extends StatelessWidget {
                           builder: (BuildContext context) =>
                               SectionScreen(section: section),
                         ),
+                      ),
+                      footer: ProgressFooter(
+                        sections: <Section>[section],
+                        quizId: section.assetPath,
                       ),
                     ),
                     const SizedBox(height: 16),

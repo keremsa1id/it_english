@@ -25,10 +25,18 @@ class QuizGenerator {
   /// (boşluk konamaz) ama yanlış şık olabilir. Yanlış şıklar önce aynı
   /// kategoriden seçilir, yetmezse diğer kategorilerden tamamlanır.
   /// Terim sayısı [optionCount]'tan azsa şık sayısı terim sayısına düşer.
+  ///
+  /// [askOnly] verilirse yalnızca onu sağlayan terimler sorulur; diğerleri
+  /// yine yanlış şık olarak kullanılır (ör. Review quiz'i).
+  ///
+  /// [requireBlank] false ise örnek cümlesinde terim geçmeyen kayıtlar da
+  /// sorulabilir (ör. tanımdan bulma quiz'i).
   List<QuizQuestion> generate(
     List<Term> terms, {
     int questionCount = 10,
     int optionCount = 4,
+    bool Function(Term term)? askOnly,
+    bool requireBlank = true,
   }) {
     // Aynı terim iki kez gelirse şıklarda tekrar olmasın.
     final Map<String, Term> unique = <String, Term>{};
@@ -41,7 +49,10 @@ class QuizGenerator {
     }
 
     final List<Term> answers = pool
-        .where((Term t) => hasBlank(t))
+        .where(
+          (Term t) =>
+              (!requireBlank || hasBlank(t)) && (askOnly?.call(t) ?? true),
+        )
         .toList()
       ..shuffle(_random);
     final int optionsPerQuestion = min(optionCount, pool.length);

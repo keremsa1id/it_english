@@ -33,6 +33,9 @@ jobs:
       - name: Kodu analiz et
         run: flutter analyze
 
+      - name: Testleri çalıştır
+        run: flutter test
+
       - name: Release APK derle
         run: flutter build apk --release
 

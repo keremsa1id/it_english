@@ -4,6 +4,7 @@ import '../models/term.dart';
 import '../services/term_repository.dart';
 import '../services/tts_service.dart';
 import '../widgets/category_style.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/speak_button.dart';
 import '../widgets/term_pager.dart';
 
@@ -48,7 +49,17 @@ class _WordCardState extends State<_WordCard> {
       color: style.color,
       child: Column(
         children: [
-          CategoryChip(category: term.category),
+          // Kategori ortada, yıldız sağ üstte.
+          Stack(
+            alignment: Alignment.center,
+            children: [
+              CategoryChip(category: term.category),
+              Align(
+                alignment: Alignment.centerRight,
+                child: FavoriteButton(term: term),
+              ),
+            ],
+          ),
           Expanded(
             // Kısa ekranlarda tanım taşmasın, kaydırılabilsin.
             child: Center(

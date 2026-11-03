@@ -2,13 +2,20 @@ import 'package:flutter/material.dart';
 
 import 'models/section.dart';
 import 'screens/group_screen.dart';
-import 'screens/quiz_screen.dart';
+import 'screens/favorites_screen.dart';
+import 'screens/quiz_mode_screen.dart';
+import 'screens/review_screen.dart';
 import 'screens/section_screen.dart';
+import 'services/progress_service.dart';
 import 'services/term_repository.dart';
+import 'widgets/daily_goal_card.dart';
 import 'widgets/menu_card.dart';
+import 'widgets/progress_footer.dart';
 import 'widgets/section_icon.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ProgressService.instance.load();
   runApp(const ItEnglishApp());
 }
 
@@ -46,6 +53,9 @@ class ItEnglishApp extends StatelessWidget {
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  /// Karışık quiz'in skorları bu anahtarla saklanır.
+  static const String mixedQuizId = 'mixed';
+
   void _open(BuildContext context, Widget screen) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (BuildContext context) => screen),
@@ -56,12 +66,15 @@ class HomeScreen extends StatelessWidget {
   void _openMixedQuiz(BuildContext context) {
     _open(
       context,
-      QuizScreen(
-        title: 'Mixed Quiz',
-        questionCount: 25,
-        repository: MixedTermRepository(<String>[
-          for (final Section section in Section.all) section.assetPath,
-        ]),
+      QuizModeScreen(
+        setup: QuizSetup(
+          title: 'Mixed Quiz',
+          quizId: mixedQuizId,
+          questionCount: 25,
+          repository: MixedTermRepository(<String>[
+            for (final Section section in Section.all) section.assetPath,
+          ]),
+        ),
       ),
     );
   }
@@ -104,11 +117,47 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 40),
+                  const DailyGoalCard(),
+                  const SizedBox(height: 16),
                   MenuCard(
                     title: 'Mixed Quiz',
                     subtitle: 'Random questions from every section',
                     icon: Icons.shuffle_rounded,
                     onTap: () => _openMixedQuiz(context),
+                    footer: const ProgressFooter(
+                      sections: Section.all,
+                      quizId: mixedQuizId,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Review',
+                    subtitle: 'Practice the words you got wrong',
+                    icon: Icons.replay_circle_filled_rounded,
+                    onTap: () => _open(context, const ReviewScreen()),
+                    footer: _CountFooter(
+                      (ProgressService progress) => switch (
+                          progress.reviewCount) {
+                        0 => 'No words to review',
+                        1 => '1 word to review',
+                        final int count => '$count words to review',
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Favorites',
+                    subtitle: 'Words you marked with a star',
+                    icon: Icons.star_rounded,
+                    onTap: () => _open(context, const FavoritesScreen()),
+                    footer: _CountFooter(
+                      (ProgressService progress) => switch (
+                          progress.favoriteCount) {
+                        0 => 'No favorites yet',
+                        1 => '1 favorite word',
+                        final int count => '$count favorite words',
+                      },
+                    ),
                   ),
                   const SizedBox(height: 16),
                   for (final SectionGroup group in SectionGroup.all) ...[
@@ -123,12 +172,43 @@ class HomeScreen extends StatelessWidget {
                             ? SectionScreen(section: group.sections.single)
                             : GroupScreen(group: group),
                       ),
+                      footer: ProgressFooter(
+                        sections: group.sections,
+                        quizId: group.sections.length == 1
+                            ? group.sections.single.assetPath
+                            : null,
+                      ),
                     ),
                     const SizedBox(height: 16),
                   ],
                 ],
               ),
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Menü kartının altında, ilerleme değişince güncellenen kısa sayaç yazısı.
+class _CountFooter extends StatelessWidget {
+  const _CountFooter(this.text);
+
+  final String Function(ProgressService progress) text;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return ListenableBuilder(
+      listenable: ProgressService.instance,
+      builder: (BuildContext context, Widget? child) => Padding(
+        padding: const EdgeInsets.only(top: 8),
+        child: Text(
+          text(ProgressService.instance),
+          style: theme.textTheme.bodySmall?.copyWith(
+            color: theme.colorScheme.onPrimaryContainer,
           ),
         ),
       ),
