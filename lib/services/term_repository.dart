@@ -80,3 +80,20 @@ class TermRepository {
     return List<Term>.unmodifiable(terms);
   }
 }
+
+/// Birden çok JSON dosyasındaki terimleri tek listede birleştirir.
+/// Karışık quiz bütün bölümlerin kelimelerini bununla yükler.
+class MixedTermRepository extends TermRepository {
+  const MixedTermRepository(this.assetPaths);
+
+  final List<String> assetPaths;
+
+  @override
+  Future<List<Term>> loadTerms() async {
+    final List<Term> terms = <Term>[];
+    for (final String path in assetPaths) {
+      terms.addAll(await TermRepository(assetPath: path).loadTerms());
+    }
+    return List<Term>.unmodifiable(terms);
+  }
+}

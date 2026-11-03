@@ -1,6 +1,7 @@
 [
   {
     "term": "SSD",
+    "fullForm": "Solid-State Drive",
     "turkish": "SSD disk",
     "category": "hardware",
     "definition": "A fast storage drive that has no moving parts.",
@@ -8,6 +9,7 @@
   },
   {
     "term": "USB",
+    "fullForm": "Universal Serial Bus",
     "turkish": "USB",
     "category": "hardware",
     "definition": "A standard port and cable used to connect devices to a computer.",
@@ -113,6 +115,7 @@
   },
   {
     "term": "VPN",
+    "fullForm": "Virtual Private Network",
     "turkish": "sanal özel ağ",
     "category": "networking",
     "definition": "A private, encrypted connection over the internet.",
@@ -120,6 +123,7 @@
   },
   {
     "term": "LAN",
+    "fullForm": "Local Area Network",
     "turkish": "yerel ağ",
     "category": "networking",
     "definition": "A network that connects computers in one building or small area.",
@@ -127,6 +131,7 @@
   },
   {
     "term": "URL",
+    "fullForm": "Uniform Resource Locator",
     "turkish": "web adresi",
     "category": "networking",
     "definition": "The address of a web page, such as https://example.com.",
@@ -155,6 +160,7 @@
   },
   {
     "term": "HTTPS",
+    "fullForm": "Hypertext Transfer Protocol Secure",
     "turkish": "güvenli HTTP",
     "category": "networking",
     "definition": "The secure version of the protocol used to load web pages.",

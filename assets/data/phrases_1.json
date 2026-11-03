@@ -1,0 +1,282 @@
+[
+  {
+    "term": "by the way",
+    "turkish": "bu arada",
+    "category": "phrase",
+    "definition": "Used to add a new topic or extra information to a conversation.",
+    "exampleSentence": "By the way, did you remember to send the report to Ali?"
+  },
+  {
+    "term": "of course",
+    "turkish": "tabii ki",
+    "category": "phrase",
+    "definition": "Used to say yes or to show that something is clear or expected.",
+    "exampleSentence": "Of course you can borrow my charger if your battery is low."
+  },
+  {
+    "term": "at least",
+    "turkish": "en azından",
+    "category": "phrase",
+    "definition": "Not less than a certain amount.",
+    "exampleSentence": "You should sleep at least seven hours every night to stay healthy."
+  },
+  {
+    "term": "as soon as possible",
+    "turkish": "en kısa sürede",
+    "category": "phrase",
+    "definition": "As quickly as you can.",
+    "exampleSentence": "Please reply to this email as soon as possible because the deadline is tomorrow."
+  },
+  {
+    "term": "in fact",
+    "turkish": "aslında",
+    "category": "phrase",
+    "definition": "Used to say what is really true, often something surprising.",
+    "exampleSentence": "The test looked hard, but in fact it was quite easy for everyone."
+  },
+  {
+    "term": "for example",
+    "turkish": "örneğin",
+    "category": "phrase",
+    "definition": "Used before giving one case that shows what you mean.",
+    "exampleSentence": "Many fruits, for example apples and oranges, are rich in vitamin C."
+  },
+  {
+    "term": "on time",
+    "turkish": "tam zamanında",
+    "category": "phrase",
+    "definition": "At the planned time, not late.",
+    "exampleSentence": "The train left on time, so we arrived at the meeting early."
+  },
+  {
+    "term": "in time",
+    "turkish": "vaktinde, yetişerek",
+    "category": "phrase",
+    "definition": "Early enough to do something or to not miss it.",
+    "exampleSentence": "We got to the cinema just in time to see the beginning of the film."
+  },
+  {
+    "term": "at the moment",
+    "turkish": "şu anda",
+    "category": "phrase",
+    "definition": "Now, at this time.",
+    "exampleSentence": "I am busy at the moment, but I can call you back in an hour."
+  },
+  {
+    "term": "as well",
+    "turkish": "de, da; ayrıca",
+    "category": "phrase",
+    "definition": "Also, in addition.",
+    "exampleSentence": "She speaks English fluently, and she knows a little German as well."
+  },
+  {
+    "term": "right now",
+    "turkish": "hemen şimdi",
+    "category": "phrase",
+    "definition": "At this exact moment, or immediately.",
+    "exampleSentence": "The manager is in a meeting right now, so please wait a few minutes."
+  },
+  {
+    "term": "make sure",
+    "turkish": "emin olmak",
+    "category": "phrase",
+    "definition": "To check that something is true or done.",
+    "exampleSentence": "Always make sure the door is locked before you leave the house."
+  },
+  {
+    "term": "take care",
+    "turkish": "dikkat etmek; kendine iyi bak",
+    "category": "phrase",
+    "definition": "To be careful, or a friendly way to say goodbye.",
+    "exampleSentence": "Take care when you drive on icy roads in the winter."
+  },
+  {
+    "term": "look forward to",
+    "turkish": "dört gözle beklemek",
+    "category": "phrase",
+    "definition": "To feel happy and excited about something that will happen.",
+    "exampleSentence": "I look forward to meeting you at the conference next month."
+  },
+  {
+    "term": "find out",
+    "turkish": "öğrenmek, ortaya çıkarmak",
+    "category": "phrase",
+    "definition": "To discover a fact or piece of information.",
+    "exampleSentence": "We need to find out why the website is loading so slowly."
+  },
+  {
+    "term": "give up",
+    "turkish": "vazgeçmek, pes etmek",
+    "category": "phrase",
+    "definition": "To stop trying to do something.",
+    "exampleSentence": "Learning a language is hard, but you should never give up."
+  },
+  {
+    "term": "set up",
+    "turkish": "kurmak",
+    "category": "phrase",
+    "definition": "To prepare or install something so it is ready to use.",
+    "exampleSentence": "It took us about an hour to set up the new printer in the office."
+  },
+  {
+    "term": "figure out",
+    "turkish": "çözmek, anlamak",
+    "category": "phrase",
+    "definition": "To understand something or find the answer by thinking.",
+    "exampleSentence": "I could not figure out how to change the settings on my new phone."
+  },
+  {
+    "term": "pay attention",
+    "turkish": "dikkat etmek",
+    "category": "phrase",
+    "definition": "To watch, listen or think carefully.",
+    "exampleSentence": "Please pay attention to the instructions before you start the exam."
+  },
+  {
+    "term": "take part in",
+    "turkish": "katılmak",
+    "category": "phrase",
+    "definition": "To join an activity or event with other people.",
+    "exampleSentence": "More than two hundred students will take part in the coding competition."
+  },
+  {
+    "term": "in order to",
+    "turkish": "-mek için",
+    "category": "phrase",
+    "definition": "Used to show the purpose of an action.",
+    "exampleSentence": "She studies every evening in order to pass the final exam."
+  },
+  {
+    "term": "instead of",
+    "turkish": "yerine",
+    "category": "phrase",
+    "definition": "In place of someone or something else.",
+    "exampleSentence": "I usually drink tea instead of coffee in the afternoon."
+  },
+  {
+    "term": "according to",
+    "turkish": "-e göre",
+    "category": "phrase",
+    "definition": "As said or shown by a person or a source.",
+    "exampleSentence": "According to the weather forecast, it will rain all weekend."
+  },
+  {
+    "term": "as long as",
+    "turkish": "-dığı sürece",
+    "category": "phrase",
+    "definition": "Only if a certain condition is true.",
+    "exampleSentence": "You can use my laptop as long as you are careful with it."
+  },
+  {
+    "term": "even though",
+    "turkish": "-e rağmen",
+    "category": "phrase",
+    "definition": "Used to say that something happens although something else is true.",
+    "exampleSentence": "He went to work even though he had a bad cold."
+  },
+  {
+    "term": "on the other hand",
+    "turkish": "öte yandan",
+    "category": "phrase",
+    "definition": "Used to introduce a different or opposite point.",
+    "exampleSentence": "The city is exciting; on the other hand, it is very expensive to live there."
+  },
+  {
+    "term": "all of a sudden",
+    "turkish": "aniden",
+    "category": "phrase",
+    "definition": "Very quickly and without warning.",
+    "exampleSentence": "We were watching a movie when all of a sudden the lights went out."
+  },
+  {
+    "term": "in the end",
+    "turkish": "sonunda",
+    "category": "phrase",
+    "definition": "Finally, after a long time or many events.",
+    "exampleSentence": "We had many problems with the project, but in the end it was a success."
+  },
+  {
+    "term": "first of all",
+    "turkish": "her şeyden önce",
+    "category": "phrase",
+    "definition": "Used to introduce the first and most important point.",
+    "exampleSentence": "First of all, I would like to thank everyone for coming today."
+  },
+  {
+    "term": "at first",
+    "turkish": "ilk başta",
+    "category": "phrase",
+    "definition": "At the beginning, before something changed.",
+    "exampleSentence": "At first the software seemed difficult, but now I use it every day."
+  },
+  {
+    "term": "no problem",
+    "turkish": "sorun değil",
+    "category": "phrase",
+    "definition": "A friendly answer to thanks or to a request.",
+    "exampleSentence": "When I thanked him for his help, he smiled and said no problem."
+  },
+  {
+    "term": "never mind",
+    "turkish": "boş ver",
+    "category": "phrase",
+    "definition": "Used to say that something is not important anymore.",
+    "exampleSentence": "Never mind, I found my keys in my coat pocket after all."
+  },
+  {
+    "term": "how about",
+    "turkish": "... ne dersin?",
+    "category": "phrase",
+    "definition": "Used to make a suggestion.",
+    "exampleSentence": "How about going for a walk in the park after lunch?"
+  },
+  {
+    "term": "excuse me",
+    "turkish": "affedersiniz",
+    "category": "phrase",
+    "definition": "A polite way to get attention or to say sorry.",
+    "exampleSentence": "Excuse me, could you tell me where the nearest bus stop is?"
+  },
+  {
+    "term": "thank you",
+    "turkish": "teşekkür ederim",
+    "category": "phrase",
+    "definition": "Words used to show that you are grateful.",
+    "exampleSentence": "Thank you so much for helping me move all these boxes today."
+  },
+  {
+    "term": "see you later",
+    "turkish": "sonra görüşürüz",
+    "category": "phrase",
+    "definition": "A friendly way to say goodbye.",
+    "exampleSentence": "I have to go to class now, so see you later this evening."
+  },
+  {
+    "term": "have a nice day",
+    "turkish": "iyi günler",
+    "category": "phrase",
+    "definition": "A polite way to say goodbye and wish someone well.",
+    "exampleSentence": "The cashier gave me my receipt and said have a nice day."
+  },
+  {
+    "term": "nice to meet you",
+    "turkish": "tanıştığımıza memnun oldum",
+    "category": "phrase",
+    "definition": "A polite thing to say when you meet someone for the first time.",
+    "exampleSentence": "Hello, I am the new developer on the team, nice to meet you."
+  },
+  {
+    "term": "a lot of",
+    "turkish": "çok sayıda, bir sürü",
+    "category": "phrase",
+    "definition": "A large number or amount of something.",
+    "exampleSentence": "There are a lot of people waiting outside the stadium tonight."
+  },
+  {
+    "term": "as usual",
+    "turkish": "her zamanki gibi",
+    "category": "phrase",
+    "definition": "In the same way as normally happens.",
+    "exampleSentence": "As usual, my brother arrived late to the family dinner."
+  }
+]

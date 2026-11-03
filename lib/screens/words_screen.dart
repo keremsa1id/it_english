@@ -80,6 +80,15 @@ class _WordCardState extends State<_WordCard> {
                         ),
                       ),
                     ),
+                    if (term.fullForm.isNotEmpty)
+                      Text(
+                        term.fullForm,
+                        textAlign: TextAlign.center,
+                        style: theme.textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          color: style.color,
+                        ),
+                      ),
                     if (hasTurkish) ...[
                       const SizedBox(height: 4),
                       AnimatedSwitcher(

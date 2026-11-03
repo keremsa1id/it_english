@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'models/section.dart';
+import 'screens/quiz_screen.dart';
 import 'screens/section_screen.dart';
+import 'services/term_repository.dart';
 import 'widgets/menu_card.dart';
 
 void main() {
@@ -37,20 +39,35 @@ class ItEnglishApp extends StatelessWidget {
   }
 }
 
-/// Bölümleri (IT Terms, Verbs, Nouns) listeleyen ana ekran.
+/// Karışık quiz'i ve bölümleri (IT Terms, Verbs, Nouns...) listeleyen ana
+/// ekran.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   static IconData _iconOf(SectionKind kind) => switch (kind) {
         SectionKind.itTerms => Icons.computer_rounded,
+        SectionKind.advancedIt => Icons.code_rounded,
         SectionKind.verbs => Icons.directions_run_rounded,
         SectionKind.nouns => Icons.category_rounded,
+        SectionKind.phrases => Icons.chat_bubble_rounded,
       };
 
-  void _open(BuildContext context, Section section) {
+  void _open(BuildContext context, Widget screen) {
     Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (BuildContext context) => SectionScreen(section: section),
+      MaterialPageRoute<void>(builder: (BuildContext context) => screen),
+    );
+  }
+
+  /// Bütün bölümlerin kelimelerinden rastgele sorular soran quiz.
+  void _openMixedQuiz(BuildContext context) {
+    _open(
+      context,
+      QuizScreen(
+        title: 'Mixed Quiz',
+        questionCount: 25,
+        repository: MixedTermRepository(<String>[
+          for (final Section section in Section.all) section.assetPath,
+        ]),
       ),
     );
   }
@@ -93,12 +110,20 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 40),
+                  MenuCard(
+                    title: 'Mixed Quiz',
+                    subtitle: 'Random questions from every section',
+                    icon: Icons.shuffle_rounded,
+                    onTap: () => _openMixedQuiz(context),
+                  ),
+                  const SizedBox(height: 16),
                   for (final Section section in Section.all) ...[
                     MenuCard(
                       title: section.title,
                       subtitle: section.subtitle,
                       icon: _iconOf(section.kind),
-                      onTap: () => _open(context, section),
+                      onTap: () =>
+                          _open(context, SectionScreen(section: section)),
                     ),
                     const SizedBox(height: 16),
                   ],

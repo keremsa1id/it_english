@@ -54,6 +54,13 @@ void main() {
             isNotEmpty,
             reason: 'Her kelimenin Türkçe karşılığı olmalı.',
           );
+          if (section.kind == SectionKind.advancedIt) {
+            expect(
+              term.fullForm.trim(),
+              isNotEmpty,
+              reason: 'Kısaltmanın açılımı olmalı.',
+            );
+          }
         });
       }
     });

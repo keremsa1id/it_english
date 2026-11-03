@@ -62,6 +62,14 @@ class _SentenceCard extends StatelessWidget {
               color: style.color,
             ),
           ),
+          if (term.fullForm.isNotEmpty)
+            Text(
+              term.fullForm,
+              textAlign: TextAlign.center,
+              style: theme.textTheme.titleMedium?.copyWith(
+                color: style.color,
+              ),
+            ),
           Expanded(
             // Uzun cümle kart genişliğinde sarılır; yüksekliğe sığmazsa
             // bütün olarak küçültülür.

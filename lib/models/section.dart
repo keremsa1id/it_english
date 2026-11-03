@@ -1,5 +1,5 @@
 /// Bölümün türü; ana ekrandaki simgeyi belirler.
-enum SectionKind { itTerms, verbs, nouns }
+enum SectionKind { itTerms, advancedIt, verbs, nouns, phrases }
 
 /// Uygulamadaki bir çalışma bölümü, ör. "Verbs 1".
 ///
@@ -34,6 +34,12 @@ class Section {
       assetPath: 'assets/data/it_terms_2.json',
     ),
     Section(
+      title: 'Advanced IT',
+      subtitle: 'Tech abbreviations and what they stand for',
+      kind: SectionKind.advancedIt,
+      assetPath: 'assets/data/advanced_it.json',
+    ),
+    Section(
       title: 'Verbs 1',
       subtitle: 'The most common English verbs',
       kind: SectionKind.verbs,
@@ -56,6 +62,18 @@ class Section {
       subtitle: 'The next 40 common nouns',
       kind: SectionKind.nouns,
       assetPath: 'assets/data/nouns_2.json',
+    ),
+    Section(
+      title: 'Phrases 1',
+      subtitle: 'Everyday English expressions',
+      kind: SectionKind.phrases,
+      assetPath: 'assets/data/phrases_1.json',
+    ),
+    Section(
+      title: 'Phrases 2',
+      subtitle: 'Common phrasal verbs and work phrases',
+      kind: SectionKind.phrases,
+      assetPath: 'assets/data/phrases_2.json',
     ),
   ];
 }

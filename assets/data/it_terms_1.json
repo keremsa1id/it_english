@@ -1,6 +1,7 @@
 [
   {
     "term": "CPU",
+    "fullForm": "Central Processing Unit",
     "turkish": "işlemci",
     "category": "hardware",
     "definition": "The main chip in a computer that runs instructions and does calculations.",
@@ -8,6 +9,7 @@
   },
   {
     "term": "RAM",
+    "fullForm": "Random Access Memory",
     "turkish": "RAM bellek",
     "category": "hardware",
     "definition": "Short-term memory that holds the data a computer is using right now.",
@@ -15,6 +17,7 @@
   },
   {
     "term": "GPU",
+    "fullForm": "Graphics Processing Unit",
     "turkish": "grafik işlemcisi",
     "category": "hardware",
     "definition": "A processor built to draw graphics and run many calculations at the same time.",
@@ -106,6 +109,7 @@
   },
   {
     "term": "API",
+    "fullForm": "Application Programming Interface",
     "turkish": "uygulama programlama arayüzü",
     "category": "software",
     "definition": "A set of rules that lets different programs talk to each other.",
@@ -134,6 +138,7 @@
   },
   {
     "term": "IP address",
+    "fullForm": "Internet Protocol address",
     "turkish": "IP adresi",
     "category": "networking",
     "definition": "A unique number that identifies a device on a network.",
@@ -155,6 +160,7 @@
   },
   {
     "term": "DNS",
+    "fullForm": "Domain Name System",
     "turkish": "alan adı sistemi",
     "category": "networking",
     "definition": "A system that turns website names into the IP addresses computers use.",
