@@ -1,0 +1,282 @@
+[
+  {
+    "term": "shut down",
+    "turkish": "kapatmak (bilgisayar)",
+    "category": "phrasal",
+    "definition": "To turn off a computer, or to close a business.",
+    "exampleSentence": "Always save your work before you shut down the computer."
+  },
+  {
+    "term": "boot up",
+    "turkish": "açılmak (bilgisayar)",
+    "category": "phrasal",
+    "definition": "To start a computer and load its system.",
+    "exampleSentence": "My old laptop takes five minutes to boot up in the morning."
+  },
+  {
+    "term": "plug in",
+    "turkish": "prize takmak",
+    "category": "phrasal",
+    "definition": "To connect a device to electricity.",
+    "exampleSentence": "Remember to plug in your phone before you go to sleep."
+  },
+  {
+    "term": "scroll down",
+    "turkish": "aşağı kaydırmak",
+    "category": "phrasal",
+    "definition": "To move down a page on a screen.",
+    "exampleSentence": "Scroll down to the bottom of the page to find the contact form."
+  },
+  {
+    "term": "zoom in",
+    "turkish": "yakınlaştırmak",
+    "category": "phrasal",
+    "definition": "To make an image on a screen look bigger.",
+    "exampleSentence": "You can zoom in on the map to see the street names."
+  },
+  {
+    "term": "zoom out",
+    "turkish": "uzaklaştırmak",
+    "category": "phrasal",
+    "definition": "To make an image on a screen look smaller.",
+    "exampleSentence": "Zoom out a little so we can see the whole city on the map."
+  },
+  {
+    "term": "print out",
+    "turkish": "çıktı almak",
+    "category": "phrasal",
+    "definition": "To make a paper copy of a document.",
+    "exampleSentence": "Please print out the report and bring it to the meeting."
+  },
+  {
+    "term": "sort out",
+    "turkish": "halletmek, düzenlemek",
+    "category": "phrasal",
+    "definition": "To solve a problem or organize something.",
+    "exampleSentence": "The IT team will sort out the problem with your email account."
+  },
+  {
+    "term": "bring up",
+    "turkish": "gündeme getirmek",
+    "category": "phrasal",
+    "definition": "To start talking about a subject.",
+    "exampleSentence": "I will bring up the budget issue at our next meeting."
+  },
+  {
+    "term": "carry out",
+    "turkish": "yürütmek, gerçekleştirmek",
+    "category": "phrasal",
+    "definition": "To do a task, test or plan.",
+    "exampleSentence": "The scientists will carry out more tests next month."
+  },
+  {
+    "term": "take over",
+    "turkish": "devralmak",
+    "category": "phrasal",
+    "definition": "To take control of something.",
+    "exampleSentence": "A larger company plans to take over our small startup."
+  },
+  {
+    "term": "hand in",
+    "turkish": "teslim etmek",
+    "category": "phrasal",
+    "definition": "To give your work to a teacher or boss.",
+    "exampleSentence": "Students must hand in their essays by Friday afternoon."
+  },
+  {
+    "term": "hand out",
+    "turkish": "dağıtmak",
+    "category": "phrasal",
+    "definition": "To give something to each person in a group.",
+    "exampleSentence": "The teacher will hand out the exam papers in five minutes."
+  },
+  {
+    "term": "look into",
+    "turkish": "araştırmak, incelemek",
+    "category": "phrasal",
+    "definition": "To investigate a problem.",
+    "exampleSentence": "The support team promised to look into the payment error."
+  },
+  {
+    "term": "go over",
+    "turkish": "gözden geçirmek",
+    "category": "phrasal",
+    "definition": "To check or review something carefully.",
+    "exampleSentence": "Let us go over the main points of the plan once more."
+  },
+  {
+    "term": "go through",
+    "turkish": "yaşamak; incelemek",
+    "category": "phrasal",
+    "definition": "To experience something hard, or to examine something.",
+    "exampleSentence": "Many new companies go through a difficult first year."
+  },
+  {
+    "term": "fill in",
+    "turkish": "doldurmak",
+    "category": "phrasal",
+    "definition": "To write information in the spaces of a form.",
+    "exampleSentence": "Please fill in your name and phone number on this card."
+  },
+  {
+    "term": "call off",
+    "turkish": "iptal etmek",
+    "category": "phrasal",
+    "definition": "To cancel a planned event.",
+    "exampleSentence": "They had to call off the football match because of the snow."
+  },
+  {
+    "term": "put together",
+    "turkish": "bir araya getirmek, kurmak",
+    "category": "phrasal",
+    "definition": "To build or create something from parts.",
+    "exampleSentence": "It took us two hours to put together the new desk."
+  },
+  {
+    "term": "break into",
+    "turkish": "zorla girmek",
+    "category": "phrasal",
+    "definition": "To enter a place or system illegally.",
+    "exampleSentence": "Hackers tried to break into the company network last night."
+  },
+  {
+    "term": "cut off",
+    "turkish": "kesmek",
+    "category": "phrasal",
+    "definition": "To stop the supply of something.",
+    "exampleSentence": "The storm may cut off electricity to thousands of homes."
+  },
+  {
+    "term": "give away",
+    "turkish": "bedava vermek",
+    "category": "phrasal",
+    "definition": "To give something for free.",
+    "exampleSentence": "The shop will give away free coffee to the first fifty customers."
+  },
+  {
+    "term": "take on",
+    "turkish": "üstlenmek; işe almak",
+    "category": "phrasal",
+    "definition": "To accept work, or to hire someone.",
+    "exampleSentence": "Our team cannot take on any more projects this month."
+  },
+  {
+    "term": "keep up with",
+    "turkish": "ayak uydurmak",
+    "category": "phrasal",
+    "definition": "To move or learn at the same speed as others.",
+    "exampleSentence": "It is hard to keep up with all the changes in technology."
+  },
+  {
+    "term": "get rid of",
+    "turkish": "kurtulmak",
+    "category": "phrasal",
+    "definition": "To remove or throw away something you do not want.",
+    "exampleSentence": "We need to get rid of these old computers in the storage room."
+  },
+  {
+    "term": "follow up",
+    "turkish": "takip etmek",
+    "category": "phrasal",
+    "definition": "To contact someone again about something.",
+    "exampleSentence": "I will follow up with the client by email tomorrow."
+  },
+  {
+    "term": "drop off",
+    "turkish": "bırakmak",
+    "category": "phrasal",
+    "definition": "To take someone or something to a place and leave them there.",
+    "exampleSentence": "I can drop off the documents at your office on my way home."
+  },
+  {
+    "term": "mix up",
+    "turkish": "karıştırmak",
+    "category": "phrasal",
+    "definition": "To confuse one thing or person with another.",
+    "exampleSentence": "People often mix up the words \"affect\" and \"effect\" in English."
+  },
+  {
+    "term": "leave out",
+    "turkish": "dışarıda bırakmak",
+    "category": "phrasal",
+    "definition": "To not include someone or something.",
+    "exampleSentence": "Do not leave out any important details in your report."
+  },
+  {
+    "term": "cross out",
+    "turkish": "üstünü çizmek",
+    "category": "phrasal",
+    "definition": "To draw a line through writing.",
+    "exampleSentence": "If you make a mistake, simply cross out the wrong word."
+  },
+  {
+    "term": "think over",
+    "turkish": "iyice düşünmek",
+    "category": "phrasal",
+    "definition": "To consider something carefully before deciding.",
+    "exampleSentence": "I need a few days to think over your job offer."
+  },
+  {
+    "term": "turn into",
+    "turkish": "-e dönüşmek",
+    "category": "phrasal",
+    "definition": "To change and become something different.",
+    "exampleSentence": "The small side project may turn into a successful business."
+  },
+  {
+    "term": "end up",
+    "turkish": "sonunda kendini bulmak",
+    "category": "phrasal",
+    "definition": "To finally be in a place or situation you did not plan.",
+    "exampleSentence": "If you do not use a map, you might end up in the wrong town."
+  },
+  {
+    "term": "sum up",
+    "turkish": "özetlemek",
+    "category": "phrasal",
+    "definition": "To give a short summary of the main points.",
+    "exampleSentence": "At the end of the meeting, the manager will sum up the decisions."
+  },
+  {
+    "term": "speed up",
+    "turkish": "hızlandırmak",
+    "category": "phrasal",
+    "definition": "To make something happen faster.",
+    "exampleSentence": "Closing unused apps in the background can speed up your phone."
+  },
+  {
+    "term": "set aside",
+    "turkish": "ayırmak",
+    "category": "phrasal",
+    "definition": "To keep time or money for a special purpose.",
+    "exampleSentence": "Try to set aside some money every month for emergencies."
+  },
+  {
+    "term": "put up with",
+    "turkish": "katlanmak",
+    "category": "phrasal",
+    "definition": "To accept something annoying without complaining.",
+    "exampleSentence": "I cannot put up with this slow internet connection any longer."
+  },
+  {
+    "term": "come across",
+    "turkish": "rastlamak, denk gelmek",
+    "category": "phrasal",
+    "definition": "To find something by chance.",
+    "exampleSentence": "You may come across some old files while cleaning the server."
+  },
+  {
+    "term": "pass on",
+    "turkish": "iletmek",
+    "category": "phrasal",
+    "definition": "To give a message or information to someone else.",
+    "exampleSentence": "Could you pass on this message to your manager, please?"
+  },
+  {
+    "term": "move on",
+    "turkish": "yoluna devam etmek",
+    "category": "phrasal",
+    "definition": "To start doing something new, or to go to the next topic.",
+    "exampleSentence": "Let us move on to the next item on the agenda."
+  }
+]

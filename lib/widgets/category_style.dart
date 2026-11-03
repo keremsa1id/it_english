@@ -17,6 +17,12 @@ class CategoryStyle {
     'verb': CategoryStyle('Verb', Icons.directions_run_rounded, Color(0xFFEF6C00)),
     'noun': CategoryStyle('Noun', Icons.category_rounded, Color(0xFF00897B)),
     'phrase': CategoryStyle('Phrase', Icons.chat_bubble_rounded, Color(0xFFFFB300)),
+    'adjective': CategoryStyle('Adjective', Icons.palette_rounded, Color(0xFFEC407A)),
+    'adverb': CategoryStyle('Adverb', Icons.speed_rounded, Color(0xFF9CCC65)),
+    'phrasal': CategoryStyle('Phrasal Verb', Icons.extension_rounded, Color(0xFF26C6DA)),
+    'idiom': CategoryStyle('Idiom', Icons.lightbulb_rounded, Color(0xFF7E57C2)),
+    'linker': CategoryStyle('Linking Word', Icons.link_rounded, Color(0xFF8D6E63)),
+    'preposition': CategoryStyle('Preposition', Icons.place_rounded, Color(0xFFD4E157)),
   };
 
   /// Bilinmeyen kategoriler için gri, genel bir stil.

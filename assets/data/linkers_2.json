@@ -1,0 +1,282 @@
+[
+  {
+    "term": "and",
+    "turkish": "ve",
+    "category": "linker",
+    "definition": "Used to join words or ideas.",
+    "exampleSentence": "My sister and her husband live in a small town."
+  },
+  {
+    "term": "or",
+    "turkish": "veya",
+    "category": "linker",
+    "definition": "Used to show a choice.",
+    "exampleSentence": "Would you like tea or coffee with your breakfast?"
+  },
+  {
+    "term": "then",
+    "turkish": "sonra",
+    "category": "linker",
+    "definition": "After that; next.",
+    "exampleSentence": "First we had lunch, then we visited the old castle."
+  },
+  {
+    "term": "hence",
+    "turkish": "bu yüzden",
+    "category": "linker",
+    "definition": "For this reason.",
+    "exampleSentence": "The bridge is closed, hence the long traffic jam this morning."
+  },
+  {
+    "term": "consequently",
+    "turkish": "sonuç olarak",
+    "category": "linker",
+    "definition": "As a result.",
+    "exampleSentence": "He did not study; consequently, he failed the exam."
+  },
+  {
+    "term": "accordingly",
+    "turkish": "buna göre",
+    "category": "linker",
+    "definition": "In a way that suits the situation.",
+    "exampleSentence": "The rules have changed, so please update your plans accordingly."
+  },
+  {
+    "term": "for this reason",
+    "turkish": "bu sebeple",
+    "category": "linker",
+    "definition": "Because of what was just said.",
+    "exampleSentence": "The road is icy; for this reason, the school will open late."
+  },
+  {
+    "term": "that is why",
+    "turkish": "bu yüzden",
+    "category": "linker",
+    "definition": "Used to give the result of something just said.",
+    "exampleSentence": "I missed the bus, and that is why I was late today."
+  },
+  {
+    "term": "as a matter of fact",
+    "turkish": "aslına bakarsanız",
+    "category": "linker",
+    "definition": "Used to add a fact, often a surprising one.",
+    "exampleSentence": "As a matter of fact, I have already finished the report."
+  },
+  {
+    "term": "indeed",
+    "turkish": "gerçekten de",
+    "category": "linker",
+    "definition": "Used to confirm or add emphasis.",
+    "exampleSentence": "It was indeed the best concert I have ever seen."
+  },
+  {
+    "term": "in particular",
+    "turkish": "özellikle",
+    "category": "linker",
+    "definition": "Especially.",
+    "exampleSentence": "I like all sports, but football in particular."
+  },
+  {
+    "term": "namely",
+    "turkish": "yani, şöyle ki",
+    "category": "linker",
+    "definition": "Used to give exact details.",
+    "exampleSentence": "Two students, namely Ali and Ayşe, won the prize."
+  },
+  {
+    "term": "such as",
+    "turkish": "gibi",
+    "category": "linker",
+    "definition": "For example.",
+    "exampleSentence": "I enjoy outdoor activities such as hiking and cycling."
+  },
+  {
+    "term": "apart from",
+    "turkish": "-den başka, dışında",
+    "category": "linker",
+    "definition": "Except for, or in addition to.",
+    "exampleSentence": "Apart from the price, I really like this apartment."
+  },
+  {
+    "term": "except for",
+    "turkish": "hariç",
+    "category": "linker",
+    "definition": "Not including.",
+    "exampleSentence": "Everyone came to the party except for my cousin Tom."
+  },
+  {
+    "term": "rather than",
+    "turkish": "-den ziyade, yerine",
+    "category": "linker",
+    "definition": "Instead of.",
+    "exampleSentence": "I prefer to walk to work rather than take the bus."
+  },
+  {
+    "term": "on top of that",
+    "turkish": "bunun da ötesinde",
+    "category": "linker",
+    "definition": "In addition, usually to something bad.",
+    "exampleSentence": "The train was late; on top of that, it started to rain."
+  },
+  {
+    "term": "what is more",
+    "turkish": "dahası",
+    "category": "linker",
+    "definition": "Used to add another important point.",
+    "exampleSentence": "The laptop is light; what is more, the battery lasts all day."
+  },
+  {
+    "term": "in the same way",
+    "turkish": "aynı şekilde",
+    "category": "linker",
+    "definition": "Similarly.",
+    "exampleSentence": "Plants need water, and in the same way, people need sleep."
+  },
+  {
+    "term": "by contrast",
+    "turkish": "buna karşılık",
+    "category": "linker",
+    "definition": "Used to show a clear difference.",
+    "exampleSentence": "The old phone was slow; by contrast, the new one is very fast."
+  },
+  {
+    "term": "even so",
+    "turkish": "yine de",
+    "category": "linker",
+    "definition": "Despite that.",
+    "exampleSentence": "The hotel was old; even so, we enjoyed our stay there."
+  },
+  {
+    "term": "all in all",
+    "turkish": "genel olarak, sonuçta",
+    "category": "linker",
+    "definition": "Considering everything.",
+    "exampleSentence": "All in all, it was a successful year for our company."
+  },
+  {
+    "term": "overall",
+    "turkish": "genel olarak",
+    "category": "linker",
+    "definition": "In general; considering everything.",
+    "exampleSentence": "Overall, the customers were happy with our new service."
+  },
+  {
+    "term": "in summary",
+    "turkish": "özetle",
+    "category": "linker",
+    "definition": "Used to give a short version of what was said.",
+    "exampleSentence": "In summary, we need to reduce costs and improve quality."
+  },
+  {
+    "term": "to begin with",
+    "turkish": "başlangıçta, ilk olarak",
+    "category": "linker",
+    "definition": "At the start; first of all.",
+    "exampleSentence": "To begin with, let me introduce myself and my team."
+  },
+  {
+    "term": "firstly",
+    "turkish": "ilk olarak",
+    "category": "linker",
+    "definition": "Used to introduce the first point.",
+    "exampleSentence": "Firstly, I would like to thank our sponsors for their support."
+  },
+  {
+    "term": "secondly",
+    "turkish": "ikinci olarak",
+    "category": "linker",
+    "definition": "Used to introduce the second point.",
+    "exampleSentence": "Secondly, we need to hire two more developers this year."
+  },
+  {
+    "term": "lastly",
+    "turkish": "son olarak",
+    "category": "linker",
+    "definition": "Used to introduce the final point.",
+    "exampleSentence": "Lastly, please remember to sign the attendance sheet."
+  },
+  {
+    "term": "afterwards",
+    "turkish": "sonrasında",
+    "category": "linker",
+    "definition": "Later, after something else happened.",
+    "exampleSentence": "We watched a movie and went for dinner afterwards."
+  },
+  {
+    "term": "at last",
+    "turkish": "en sonunda",
+    "category": "linker",
+    "definition": "Finally, after a long time.",
+    "exampleSentence": "At last, the long winter was over and spring arrived."
+  },
+  {
+    "term": "as soon as",
+    "turkish": "-ir -mez",
+    "category": "linker",
+    "definition": "Immediately after.",
+    "exampleSentence": "I will call you as soon as I land in Madrid."
+  },
+  {
+    "term": "by the time",
+    "turkish": "-dığında (çoktan)",
+    "category": "linker",
+    "definition": "Before or at the time when.",
+    "exampleSentence": "By the time we arrived, the movie had already started."
+  },
+  {
+    "term": "provided that",
+    "turkish": "-mek şartıyla",
+    "category": "linker",
+    "definition": "Only if.",
+    "exampleSentence": "You can borrow my car provided that you return it tonight."
+  },
+  {
+    "term": "as though",
+    "turkish": "-mış gibi",
+    "category": "linker",
+    "definition": "As if.",
+    "exampleSentence": "She looked as though she had not slept for days."
+  },
+  {
+    "term": "now that",
+    "turkish": "-diğine göre artık",
+    "category": "linker",
+    "definition": "Because something has happened.",
+    "exampleSentence": "Now that I have a car, I can visit my parents more often."
+  },
+  {
+    "term": "given that",
+    "turkish": "-i göz önüne alırsak",
+    "category": "linker",
+    "definition": "Considering that.",
+    "exampleSentence": "Given that it is raining, we should take a taxi."
+  },
+  {
+    "term": "in the meantime",
+    "turkish": "bu arada",
+    "category": "linker",
+    "definition": "In the time between two events.",
+    "exampleSentence": "The doctor will see you soon; in the meantime, please fill in this form."
+  },
+  {
+    "term": "so as to",
+    "turkish": "-mek için",
+    "category": "linker",
+    "definition": "In order to.",
+    "exampleSentence": "We left early so as to avoid the traffic."
+  },
+  {
+    "term": "in that case",
+    "turkish": "o durumda",
+    "category": "linker",
+    "definition": "If that is true.",
+    "exampleSentence": "You are tired? In that case, let us stay home tonight."
+  },
+  {
+    "term": "either way",
+    "turkish": "her iki durumda da",
+    "category": "linker",
+    "definition": "Whichever choice happens.",
+    "exampleSentence": "We can take the bus or the train; either way, we will arrive by noon."
+  }
+]

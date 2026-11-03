@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'models/section.dart';
+import 'screens/group_screen.dart';
 import 'screens/quiz_screen.dart';
 import 'screens/section_screen.dart';
 import 'services/term_repository.dart';
 import 'widgets/menu_card.dart';
+import 'widgets/section_icon.dart';
 
 void main() {
   runApp(const ItEnglishApp());
@@ -39,18 +41,10 @@ class ItEnglishApp extends StatelessWidget {
   }
 }
 
-/// Karışık quiz'i ve bölümleri (IT Terms, Verbs, Nouns...) listeleyen ana
+/// Karışık quiz'i ve klasörleri (IT Terms, Verbs, Nouns...) listeleyen ana
 /// ekran.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  static IconData _iconOf(SectionKind kind) => switch (kind) {
-        SectionKind.itTerms => Icons.computer_rounded,
-        SectionKind.advancedIt => Icons.code_rounded,
-        SectionKind.verbs => Icons.directions_run_rounded,
-        SectionKind.nouns => Icons.category_rounded,
-        SectionKind.phrases => Icons.chat_bubble_rounded,
-      };
 
   void _open(BuildContext context, Widget screen) {
     Navigator.of(context).push(
@@ -117,13 +111,18 @@ class HomeScreen extends StatelessWidget {
                     onTap: () => _openMixedQuiz(context),
                   ),
                   const SizedBox(height: 16),
-                  for (final Section section in Section.all) ...[
+                  for (final SectionGroup group in SectionGroup.all) ...[
                     MenuCard(
-                      title: section.title,
-                      subtitle: section.subtitle,
-                      icon: _iconOf(section.kind),
-                      onTap: () =>
-                          _open(context, SectionScreen(section: section)),
+                      title: group.title,
+                      subtitle: group.subtitle,
+                      icon: sectionIcon(group.kind),
+                      // Tek bölümlü klasör doğrudan bölümü açar.
+                      onTap: () => _open(
+                        context,
+                        group.sections.length == 1
+                            ? SectionScreen(section: group.sections.single)
+                            : GroupScreen(group: group),
+                      ),
                     ),
                     const SizedBox(height: 16),
                   ],

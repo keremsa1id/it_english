@@ -1,0 +1,282 @@
+[
+  {
+    "term": "always",
+    "turkish": "her zaman",
+    "category": "adverb",
+    "definition": "Every time, or at all times.",
+    "exampleSentence": "My father always drinks coffee before he reads the news."
+  },
+  {
+    "term": "usually",
+    "turkish": "genellikle",
+    "category": "adverb",
+    "definition": "In most cases; normally.",
+    "exampleSentence": "I usually walk to work when the weather is nice."
+  },
+  {
+    "term": "often",
+    "turkish": "sık sık",
+    "category": "adverb",
+    "definition": "Many times.",
+    "exampleSentence": "We often eat dinner together on Sunday evenings."
+  },
+  {
+    "term": "sometimes",
+    "turkish": "bazen",
+    "category": "adverb",
+    "definition": "On some occasions but not always.",
+    "exampleSentence": "Sometimes the bus is late, so I leave home early."
+  },
+  {
+    "term": "rarely",
+    "turkish": "nadiren",
+    "category": "adverb",
+    "definition": "Not often.",
+    "exampleSentence": "My brother rarely watches television because he prefers books."
+  },
+  {
+    "term": "never",
+    "turkish": "asla, hiç",
+    "category": "adverb",
+    "definition": "Not at any time.",
+    "exampleSentence": "I have never seen snow in my hometown."
+  },
+  {
+    "term": "already",
+    "turkish": "zaten, çoktan",
+    "category": "adverb",
+    "definition": "Before now or before a certain time.",
+    "exampleSentence": "The movie had already started when we arrived at the cinema."
+  },
+  {
+    "term": "still",
+    "turkish": "hâlâ",
+    "category": "adverb",
+    "definition": "Continuing until now.",
+    "exampleSentence": "It is midnight, but my neighbors are still playing loud music."
+  },
+  {
+    "term": "yet",
+    "turkish": "henüz",
+    "category": "adverb",
+    "definition": "Until now (used in questions and negatives).",
+    "exampleSentence": "I have not finished reading the book you gave me yet."
+  },
+  {
+    "term": "just",
+    "turkish": "az önce; sadece",
+    "category": "adverb",
+    "definition": "A very short time ago, or only.",
+    "exampleSentence": "I have just sent you the files by email."
+  },
+  {
+    "term": "soon",
+    "turkish": "yakında",
+    "category": "adverb",
+    "definition": "In a short time from now.",
+    "exampleSentence": "The doctor will see you soon, so please take a seat."
+  },
+  {
+    "term": "today",
+    "turkish": "bugün",
+    "category": "adverb",
+    "definition": "On this day.",
+    "exampleSentence": "I have three meetings and a dentist appointment today."
+  },
+  {
+    "term": "tomorrow",
+    "turkish": "yarın",
+    "category": "adverb",
+    "definition": "On the day after today.",
+    "exampleSentence": "The new software version will be released tomorrow morning."
+  },
+  {
+    "term": "yesterday",
+    "turkish": "dün",
+    "category": "adverb",
+    "definition": "On the day before today.",
+    "exampleSentence": "We had a team dinner at an Italian restaurant yesterday."
+  },
+  {
+    "term": "here",
+    "turkish": "burada, buraya",
+    "category": "adverb",
+    "definition": "In or to this place.",
+    "exampleSentence": "Please leave your coat here and follow me to the office."
+  },
+  {
+    "term": "there",
+    "turkish": "orada, oraya",
+    "category": "adverb",
+    "definition": "In or to that place.",
+    "exampleSentence": "We visited Paris last summer and loved every day we spent there."
+  },
+  {
+    "term": "together",
+    "turkish": "birlikte",
+    "category": "adverb",
+    "definition": "With each other.",
+    "exampleSentence": "The whole team worked together to finish the project on time."
+  },
+  {
+    "term": "again",
+    "turkish": "tekrar",
+    "category": "adverb",
+    "definition": "One more time.",
+    "exampleSentence": "The website crashed, so I had to fill in the form again."
+  },
+  {
+    "term": "almost",
+    "turkish": "neredeyse",
+    "category": "adverb",
+    "definition": "Nearly, but not completely.",
+    "exampleSentence": "It is almost nine o'clock, and the shop is about to close."
+  },
+  {
+    "term": "quite",
+    "turkish": "oldukça",
+    "category": "adverb",
+    "definition": "Fairly, or more than a little.",
+    "exampleSentence": "The exam was quite difficult, but I think I passed."
+  },
+  {
+    "term": "really",
+    "turkish": "gerçekten",
+    "category": "adverb",
+    "definition": "Very, or in fact.",
+    "exampleSentence": "Thank you, this chocolate cake you made is really delicious."
+  },
+  {
+    "term": "very",
+    "turkish": "çok",
+    "category": "adverb",
+    "definition": "To a high degree.",
+    "exampleSentence": "The new office is very close to the train station."
+  },
+  {
+    "term": "too",
+    "turkish": "fazla; de, da",
+    "category": "adverb",
+    "definition": "More than is good, or also.",
+    "exampleSentence": "This jacket is too small for me, so I need a bigger size."
+  },
+  {
+    "term": "also",
+    "turkish": "ayrıca, de/da",
+    "category": "adverb",
+    "definition": "In addition.",
+    "exampleSentence": "She plays the piano and also sings in a local choir."
+  },
+  {
+    "term": "only",
+    "turkish": "sadece",
+    "category": "adverb",
+    "definition": "No more than; no one or nothing else.",
+    "exampleSentence": "There is only one bathroom in our small apartment."
+  },
+  {
+    "term": "maybe",
+    "turkish": "belki",
+    "category": "adverb",
+    "definition": "Possibly; perhaps.",
+    "exampleSentence": "Maybe we can meet for coffee after work on Thursday."
+  },
+  {
+    "term": "probably",
+    "turkish": "muhtemelen",
+    "category": "adverb",
+    "definition": "Very likely.",
+    "exampleSentence": "It will probably rain this afternoon, so take an umbrella."
+  },
+  {
+    "term": "quickly",
+    "turkish": "hızlıca",
+    "category": "adverb",
+    "definition": "At a fast speed.",
+    "exampleSentence": "The fire spread quickly through the dry forest."
+  },
+  {
+    "term": "slowly",
+    "turkish": "yavaşça",
+    "category": "adverb",
+    "definition": "At a low speed.",
+    "exampleSentence": "The old man walked slowly across the busy street."
+  },
+  {
+    "term": "carefully",
+    "turkish": "dikkatlice",
+    "category": "adverb",
+    "definition": "With attention, to avoid mistakes or danger.",
+    "exampleSentence": "Read the contract carefully before you sign it."
+  },
+  {
+    "term": "easily",
+    "turkish": "kolayca",
+    "category": "adverb",
+    "definition": "Without difficulty.",
+    "exampleSentence": "You can easily change the font size in the settings menu."
+  },
+  {
+    "term": "well",
+    "turkish": "iyi",
+    "category": "adverb",
+    "definition": "In a good or skillful way.",
+    "exampleSentence": "She speaks Spanish well because she lived in Madrid for years."
+  },
+  {
+    "term": "finally",
+    "turkish": "sonunda",
+    "category": "adverb",
+    "definition": "After a long time or delay.",
+    "exampleSentence": "After two hours of waiting, our food finally arrived."
+  },
+  {
+    "term": "suddenly",
+    "turkish": "aniden",
+    "category": "adverb",
+    "definition": "Quickly and without warning.",
+    "exampleSentence": "The lights suddenly went out during the storm last night."
+  },
+  {
+    "term": "recently",
+    "turkish": "son zamanlarda",
+    "category": "adverb",
+    "definition": "A short time ago.",
+    "exampleSentence": "I recently started taking guitar lessons on Saturday mornings."
+  },
+  {
+    "term": "ever",
+    "turkish": "hiç, şimdiye dek",
+    "category": "adverb",
+    "definition": "At any time.",
+    "exampleSentence": "Have you ever tried real Japanese food in Tokyo before?"
+  },
+  {
+    "term": "once",
+    "turkish": "bir kez; bir zamanlar",
+    "category": "adverb",
+    "definition": "One time, or at some time in the past.",
+    "exampleSentence": "I go to the gym once a week, usually on Mondays."
+  },
+  {
+    "term": "later",
+    "turkish": "daha sonra",
+    "category": "adverb",
+    "definition": "At a time after now.",
+    "exampleSentence": "I am busy right now, but I can call you later."
+  },
+  {
+    "term": "now",
+    "turkish": "şimdi",
+    "category": "adverb",
+    "definition": "At this time.",
+    "exampleSentence": "Please turn off your phones now because the film is starting."
+  },
+  {
+    "term": "even",
+    "turkish": "bile",
+    "category": "adverb",
+    "definition": "Used to show that something is surprising.",
+    "exampleSentence": "My grandmother even knows how to use video calls on her tablet."
+  }
+]

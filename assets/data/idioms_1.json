@@ -1,0 +1,282 @@
+[
+  {
+    "term": "break the ice",
+    "turkish": "buzları eritmek",
+    "category": "idiom",
+    "definition": "To make people feel more relaxed when they first meet.",
+    "exampleSentence": "The teacher told a funny story to break the ice on the first day."
+  },
+  {
+    "term": "piece of cake",
+    "turkish": "çocuk oyuncağı",
+    "category": "idiom",
+    "definition": "Something very easy to do.",
+    "exampleSentence": "The math test was a piece of cake for her."
+  },
+  {
+    "term": "once in a blue moon",
+    "turkish": "kırk yılda bir",
+    "category": "idiom",
+    "definition": "Very rarely.",
+    "exampleSentence": "My brother calls me only once in a blue moon."
+  },
+  {
+    "term": "under the weather",
+    "turkish": "keyifsiz, hafif hasta",
+    "category": "idiom",
+    "definition": "Feeling a little ill.",
+    "exampleSentence": "I am feeling under the weather, so I will stay home today."
+  },
+  {
+    "term": "hit the books",
+    "turkish": "sıkı ders çalışmak",
+    "category": "idiom",
+    "definition": "To study hard.",
+    "exampleSentence": "I need to hit the books because my exams start next week."
+  },
+  {
+    "term": "call it a day",
+    "turkish": "paydos etmek",
+    "category": "idiom",
+    "definition": "To stop working for the day.",
+    "exampleSentence": "We have done enough work, so let us call it a day."
+  },
+  {
+    "term": "cost an arm and a leg",
+    "turkish": "çok pahalıya mal olmak",
+    "category": "idiom",
+    "definition": "To be very expensive.",
+    "exampleSentence": "That new phone will cost an arm and a leg."
+  },
+  {
+    "term": "a blessing in disguise",
+    "turkish": "kötü görünen ama hayırlı çıkan şey",
+    "category": "idiom",
+    "definition": "Something that seems bad at first but brings good results.",
+    "exampleSentence": "Losing that job was a blessing in disguise because I found a better one."
+  },
+  {
+    "term": "better late than never",
+    "turkish": "geç olsun güç olmasın",
+    "category": "idiom",
+    "definition": "It is better to do something late than not at all.",
+    "exampleSentence": "He finally replied to my email after a month, but better late than never."
+  },
+  {
+    "term": "get out of hand",
+    "turkish": "kontrolden çıkmak",
+    "category": "idiom",
+    "definition": "To become difficult to control.",
+    "exampleSentence": "The party started to get out of hand after midnight."
+  },
+  {
+    "term": "hang in there",
+    "turkish": "dayan, pes etme",
+    "category": "idiom",
+    "definition": "Do not give up in a difficult situation.",
+    "exampleSentence": "I know the project is hard, but hang in there for one more week."
+  },
+  {
+    "term": "kill two birds with one stone",
+    "turkish": "bir taşla iki kuş vurmak",
+    "category": "idiom",
+    "definition": "To do two things with one action.",
+    "exampleSentence": "I can kill two birds with one stone by shopping on my way home."
+  },
+  {
+    "term": "let the cat out of the bag",
+    "turkish": "ağzından kaçırmak",
+    "category": "idiom",
+    "definition": "To tell a secret by mistake.",
+    "exampleSentence": "Please do not let the cat out of the bag about the surprise party."
+  },
+  {
+    "term": "miss the boat",
+    "turkish": "fırsatı kaçırmak",
+    "category": "idiom",
+    "definition": "To lose a chance by being too slow.",
+    "exampleSentence": "If you do not apply today, you might miss the boat completely."
+  },
+  {
+    "term": "no pain no gain",
+    "turkish": "emek olmadan yemek olmaz",
+    "category": "idiom",
+    "definition": "You must work hard to get good results.",
+    "exampleSentence": "Training every morning is tiring, but no pain no gain."
+  },
+  {
+    "term": "on the same page",
+    "turkish": "aynı fikirde, aynı noktada",
+    "category": "idiom",
+    "definition": "Agreeing or understanding a situation in the same way.",
+    "exampleSentence": "Before we start, let us check that we are all on the same page."
+  },
+  {
+    "term": "speak of the devil",
+    "turkish": "iti an çomağı hazırla",
+    "category": "idiom",
+    "definition": "Said when someone you are talking about appears.",
+    "exampleSentence": "Speak of the devil, here comes Mark right now."
+  },
+  {
+    "term": "spill the beans",
+    "turkish": "baklayı ağzından çıkarmak",
+    "category": "idiom",
+    "definition": "To tell a secret.",
+    "exampleSentence": "Come on, spill the beans and tell us who you are dating."
+  },
+  {
+    "term": "the best of both worlds",
+    "turkish": "iki tarafın da avantajı",
+    "category": "idiom",
+    "definition": "A situation with the advantages of two different things.",
+    "exampleSentence": "Working from home two days a week gives me the best of both worlds."
+  },
+  {
+    "term": "time flies",
+    "turkish": "zaman su gibi akıp geçiyor",
+    "category": "idiom",
+    "definition": "Time passes very quickly.",
+    "exampleSentence": "I cannot believe it is December already; time flies when you are busy."
+  },
+  {
+    "term": "up in the air",
+    "turkish": "belirsiz",
+    "category": "idiom",
+    "definition": "Not yet decided.",
+    "exampleSentence": "Our holiday plans are still up in the air because of work."
+  },
+  {
+    "term": "in hot water",
+    "turkish": "başı dertte",
+    "category": "idiom",
+    "definition": "In trouble.",
+    "exampleSentence": "He is in hot water with his boss for missing the deadline."
+  },
+  {
+    "term": "keep an eye on",
+    "turkish": "göz kulak olmak",
+    "category": "idiom",
+    "definition": "To watch someone or something carefully.",
+    "exampleSentence": "Could you keep an eye on my bag while I buy a coffee?"
+  },
+  {
+    "term": "break a leg",
+    "turkish": "bol şans (sahneye çıkana)",
+    "category": "idiom",
+    "definition": "Good luck, said before a performance.",
+    "exampleSentence": "Your concert starts in ten minutes, so break a leg!"
+  },
+  {
+    "term": "cut corners",
+    "turkish": "işi baştan savma yapmak",
+    "category": "idiom",
+    "definition": "To do something cheaply or quickly by skipping important steps.",
+    "exampleSentence": "Good developers do not cut corners when they write security code."
+  },
+  {
+    "term": "get the hang of",
+    "turkish": "işi kapmak, alışmak",
+    "category": "idiom",
+    "definition": "To learn how to do something.",
+    "exampleSentence": "Driving is hard at first, but you will get the hang of it soon."
+  },
+  {
+    "term": "go the extra mile",
+    "turkish": "fazladan çaba göstermek",
+    "category": "idiom",
+    "definition": "To do more than is expected.",
+    "exampleSentence": "Our support team always tries to go the extra mile for customers."
+  },
+  {
+    "term": "hit the nail on the head",
+    "turkish": "tam üstüne basmak",
+    "category": "idiom",
+    "definition": "To describe exactly what is causing a problem.",
+    "exampleSentence": "You hit the nail on the head when you said the plan was too expensive."
+  },
+  {
+    "term": "in the same boat",
+    "turkish": "aynı durumda",
+    "category": "idiom",
+    "definition": "In the same difficult situation as others.",
+    "exampleSentence": "We are all in the same boat, so let us help each other."
+  },
+  {
+    "term": "learn the ropes",
+    "turkish": "işi öğrenmek",
+    "category": "idiom",
+    "definition": "To learn how to do a new job.",
+    "exampleSentence": "It took me about a month to learn the ropes at my new company."
+  },
+  {
+    "term": "on cloud nine",
+    "turkish": "havalara uçmak",
+    "category": "idiom",
+    "definition": "Extremely happy.",
+    "exampleSentence": "She was on cloud nine after she got her first job offer."
+  },
+  {
+    "term": "think outside the box",
+    "turkish": "kalıpların dışında düşünmek",
+    "category": "idiom",
+    "definition": "To think in a creative, new way.",
+    "exampleSentence": "To solve this problem, we need to think outside the box."
+  },
+  {
+    "term": "back to square one",
+    "turkish": "başa dönmek",
+    "category": "idiom",
+    "definition": "Back to the beginning after a failed attempt.",
+    "exampleSentence": "The test failed, so we are back to square one with the design."
+  },
+  {
+    "term": "easier said than done",
+    "turkish": "söylemesi kolay",
+    "category": "idiom",
+    "definition": "Easy to talk about but hard to actually do.",
+    "exampleSentence": "Waking up at five every morning is easier said than done."
+  },
+  {
+    "term": "rain or shine",
+    "turkish": "ne olursa olsun",
+    "category": "idiom",
+    "definition": "Whatever happens, in any weather.",
+    "exampleSentence": "The market opens every Saturday morning, rain or shine."
+  },
+  {
+    "term": "sleep on it",
+    "turkish": "bir gece düşünmek",
+    "category": "idiom",
+    "definition": "To wait until the next day before deciding.",
+    "exampleSentence": "You do not have to decide now; sleep on it and call me tomorrow."
+  },
+  {
+    "term": "the last straw",
+    "turkish": "bardağı taşıran son damla",
+    "category": "idiom",
+    "definition": "The final problem that makes you lose patience.",
+    "exampleSentence": "When the printer broke again, it was the last straw for our office."
+  },
+  {
+    "term": "when pigs fly",
+    "turkish": "balık kavağa çıkınca",
+    "category": "idiom",
+    "definition": "Never; something that will not happen.",
+    "exampleSentence": "He says he will clean his room, but that will happen when pigs fly."
+  },
+  {
+    "term": "out of the blue",
+    "turkish": "birdenbire",
+    "category": "idiom",
+    "definition": "Suddenly and unexpectedly.",
+    "exampleSentence": "An old friend called me out of the blue after ten years."
+  },
+  {
+    "term": "make ends meet",
+    "turkish": "iki yakasını bir araya getirmek",
+    "category": "idiom",
+    "definition": "To have just enough money to pay for what you need.",
+    "exampleSentence": "Many families work two jobs to make ends meet."
+  }
+]

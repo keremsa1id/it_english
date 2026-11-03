@@ -1,0 +1,282 @@
+[
+  {
+    "term": "look for",
+    "turkish": "aramak",
+    "category": "phrasal",
+    "definition": "To try to find something or someone.",
+    "exampleSentence": "I need to look for my keys before we leave."
+  },
+  {
+    "term": "wake up",
+    "turkish": "uyanmak",
+    "category": "phrasal",
+    "definition": "To stop sleeping.",
+    "exampleSentence": "I usually wake up at seven o'clock on weekdays."
+  },
+  {
+    "term": "get up",
+    "turkish": "(yataktan) kalkmak",
+    "category": "phrasal",
+    "definition": "To get out of bed.",
+    "exampleSentence": "On Sundays I like to get up late and have a big breakfast."
+  },
+  {
+    "term": "sit down",
+    "turkish": "oturmak",
+    "category": "phrasal",
+    "definition": "To move into a sitting position.",
+    "exampleSentence": "Please sit down and make yourself comfortable while you wait."
+  },
+  {
+    "term": "stand up",
+    "turkish": "ayağa kalkmak",
+    "category": "phrasal",
+    "definition": "To rise to your feet.",
+    "exampleSentence": "Everyone had to stand up when the judge entered the room."
+  },
+  {
+    "term": "put on",
+    "turkish": "giymek",
+    "category": "phrasal",
+    "definition": "To dress yourself in clothes.",
+    "exampleSentence": "You should put on a warm jacket because it is cold outside."
+  },
+  {
+    "term": "take off",
+    "turkish": "çıkarmak; (uçak) kalkmak",
+    "category": "phrasal",
+    "definition": "To remove clothes, or for a plane to leave the ground.",
+    "exampleSentence": "Please take off your shoes before you enter the house."
+  },
+  {
+    "term": "pick up",
+    "turkish": "almak (birini, bir şeyi)",
+    "category": "phrasal",
+    "definition": "To lift something, or to collect someone.",
+    "exampleSentence": "Can you pick up the kids from school this afternoon?"
+  },
+  {
+    "term": "go out",
+    "turkish": "dışarı çıkmak",
+    "category": "phrasal",
+    "definition": "To leave home for fun or a social activity.",
+    "exampleSentence": "We usually go out for dinner on Friday nights."
+  },
+  {
+    "term": "come back",
+    "turkish": "geri gelmek",
+    "category": "phrasal",
+    "definition": "To return to a place.",
+    "exampleSentence": "Please come back tomorrow when the manager is in the office."
+  },
+  {
+    "term": "go back",
+    "turkish": "geri dönmek",
+    "category": "phrasal",
+    "definition": "To return to a place you were before.",
+    "exampleSentence": "After the holiday, we have to go back to school."
+  },
+  {
+    "term": "turn up",
+    "turkish": "(sesi) açmak; gelmek",
+    "category": "phrasal",
+    "definition": "To make something louder, or to arrive.",
+    "exampleSentence": "Could you turn up the volume? I cannot hear the music."
+  },
+  {
+    "term": "turn down",
+    "turkish": "(sesi) kısmak; reddetmek",
+    "category": "phrasal",
+    "definition": "To make something quieter, or to refuse an offer.",
+    "exampleSentence": "She decided to turn down the job offer from the bank."
+  },
+  {
+    "term": "put off",
+    "turkish": "ertelemek",
+    "category": "phrasal",
+    "definition": "To delay something until later.",
+    "exampleSentence": "Do not put off your homework until the last minute."
+  },
+  {
+    "term": "carry on",
+    "turkish": "devam etmek",
+    "category": "phrasal",
+    "definition": "To continue doing something.",
+    "exampleSentence": "Please carry on with your work while I take this call."
+  },
+  {
+    "term": "calm down",
+    "turkish": "sakinleşmek",
+    "category": "phrasal",
+    "definition": "To become less angry, upset or excited.",
+    "exampleSentence": "Take a deep breath and try to calm down before you answer."
+  },
+  {
+    "term": "hang up",
+    "turkish": "telefonu kapatmak",
+    "category": "phrasal",
+    "definition": "To end a phone call.",
+    "exampleSentence": "Please do not hang up; I will connect you to the sales team."
+  },
+  {
+    "term": "hurry up",
+    "turkish": "acele etmek",
+    "category": "phrasal",
+    "definition": "To do something more quickly.",
+    "exampleSentence": "We need to hurry up or we will miss the train."
+  },
+  {
+    "term": "grow up",
+    "turkish": "büyümek",
+    "category": "phrasal",
+    "definition": "To change from a child into an adult.",
+    "exampleSentence": "I want to be a pilot when I grow up."
+  },
+  {
+    "term": "break down",
+    "turkish": "bozulmak",
+    "category": "phrasal",
+    "definition": "To stop working, usually said of a machine or car.",
+    "exampleSentence": "Old cars often break down on long journeys in the summer."
+  },
+  {
+    "term": "show up",
+    "turkish": "gelmek, ortaya çıkmak",
+    "category": "phrasal",
+    "definition": "To arrive, often late or unexpectedly.",
+    "exampleSentence": "Only five people decided to show up for the early meeting."
+  },
+  {
+    "term": "slow down",
+    "turkish": "yavaşlamak",
+    "category": "phrasal",
+    "definition": "To move or happen more slowly.",
+    "exampleSentence": "Please slow down; you are driving too fast for this road."
+  },
+  {
+    "term": "throw away",
+    "turkish": "atmak",
+    "category": "phrasal",
+    "definition": "To put something in the rubbish.",
+    "exampleSentence": "Do not throw away those boxes because we can use them again."
+  },
+  {
+    "term": "put away",
+    "turkish": "yerine kaldırmak",
+    "category": "phrasal",
+    "definition": "To put something back in its usual place.",
+    "exampleSentence": "Please put away your toys before dinner is ready."
+  },
+  {
+    "term": "clean up",
+    "turkish": "toplamak, temizlemek",
+    "category": "phrasal",
+    "definition": "To make a place clean and tidy.",
+    "exampleSentence": "We stayed after the party to clean up the kitchen."
+  },
+  {
+    "term": "try on",
+    "turkish": "denemek (kıyafet)",
+    "category": "phrasal",
+    "definition": "To put on clothes to see if they fit.",
+    "exampleSentence": "You can try on the jeans in the changing room over there."
+  },
+  {
+    "term": "cheer up",
+    "turkish": "neşelenmek",
+    "category": "phrasal",
+    "definition": "To become happier, or to make someone happier.",
+    "exampleSentence": "Funny movies always help me cheer up when I feel sad."
+  },
+  {
+    "term": "work out",
+    "turkish": "spor yapmak; çözmek",
+    "category": "phrasal",
+    "definition": "To exercise, or to find a solution.",
+    "exampleSentence": "I try to work out at the gym three times a week."
+  },
+  {
+    "term": "get on",
+    "turkish": "binmek",
+    "category": "phrasal",
+    "definition": "To enter a bus, train or plane.",
+    "exampleSentence": "We have to get on the train before it leaves at noon."
+  },
+  {
+    "term": "get off",
+    "turkish": "inmek",
+    "category": "phrasal",
+    "definition": "To leave a bus, train or plane.",
+    "exampleSentence": "You need to get off the bus at the next stop."
+  },
+  {
+    "term": "go on",
+    "turkish": "devam etmek",
+    "category": "phrasal",
+    "definition": "To continue, or to happen.",
+    "exampleSentence": "The show must go on even if the singer is sick."
+  },
+  {
+    "term": "come in",
+    "turkish": "içeri girmek",
+    "category": "phrasal",
+    "definition": "To enter a room or building.",
+    "exampleSentence": "Please come in and close the door behind you."
+  },
+  {
+    "term": "look after",
+    "turkish": "bakmak, ilgilenmek",
+    "category": "phrasal",
+    "definition": "To take care of someone or something.",
+    "exampleSentence": "My aunt will look after our cat while we are on holiday."
+  },
+  {
+    "term": "write down",
+    "turkish": "not almak",
+    "category": "phrasal",
+    "definition": "To write something on paper so you remember it.",
+    "exampleSentence": "Please write down your address so I can send you the invitation."
+  },
+  {
+    "term": "call back",
+    "turkish": "geri aramak",
+    "category": "phrasal",
+    "definition": "To phone someone who called you earlier.",
+    "exampleSentence": "I am driving now, so I will call back in an hour."
+  },
+  {
+    "term": "give back",
+    "turkish": "geri vermek",
+    "category": "phrasal",
+    "definition": "To return something to its owner.",
+    "exampleSentence": "Please give back my charger when you finish using it."
+  },
+  {
+    "term": "run into",
+    "turkish": "rastlamak",
+    "category": "phrasal",
+    "definition": "To meet someone by chance.",
+    "exampleSentence": "I often run into my old classmates at the supermarket."
+  },
+  {
+    "term": "let down",
+    "turkish": "hayal kırıklığına uğratmak",
+    "category": "phrasal",
+    "definition": "To disappoint someone.",
+    "exampleSentence": "I promised to help, and I do not want to let down my team."
+  },
+  {
+    "term": "catch up",
+    "turkish": "yetişmek, açığı kapatmak",
+    "category": "phrasal",
+    "definition": "To reach the same level as others.",
+    "exampleSentence": "I missed two classes, so I need to catch up this weekend."
+  },
+  {
+    "term": "get back",
+    "turkish": "geri dönmek; geri almak",
+    "category": "phrasal",
+    "definition": "To return home, or to receive something again.",
+    "exampleSentence": "What time will you get back from your trip to London?"
+  }
+]
