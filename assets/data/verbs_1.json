@@ -1,240 +1,280 @@
 [
   {
     "term": "be",
+    "turkish": "olmak",
     "category": "verb",
     "definition": "To exist, or to have a certain quality, state or role.",
     "exampleSentence": "Good developers try to be clear when they write comments in code."
   },
   {
     "term": "have",
+    "turkish": "sahip olmak",
     "category": "verb",
     "definition": "To own something, or to hold it as a part of you.",
     "exampleSentence": "Most offices have a fast internet connection for every employee."
   },
   {
     "term": "do",
+    "turkish": "yapmak",
     "category": "verb",
     "definition": "To perform an action or complete a task.",
     "exampleSentence": "Please do your homework before you play video games tonight."
   },
   {
     "term": "say",
+    "turkish": "söylemek",
     "category": "verb",
     "definition": "To speak words to tell someone something.",
     "exampleSentence": "What did the teacher say about the exam next Monday?"
   },
   {
     "term": "get",
+    "turkish": "almak, elde etmek",
     "category": "verb",
     "definition": "To receive, obtain or reach something.",
     "exampleSentence": "You will get an email when your order is ready to ship."
   },
   {
     "term": "make",
+    "turkish": "yapmak, üretmek",
     "category": "verb",
     "definition": "To create, build or produce something.",
     "exampleSentence": "My grandmother likes to make fresh bread every Sunday morning."
   },
   {
     "term": "go",
+    "turkish": "gitmek",
     "category": "verb",
     "definition": "To move or travel from one place to another.",
     "exampleSentence": "We usually go to the beach together when the weather is warm."
   },
   {
     "term": "know",
+    "turkish": "bilmek",
     "category": "verb",
     "definition": "To have information about something in your mind.",
     "exampleSentence": "Do you know the password for the guest Wi-Fi network?"
   },
   {
     "term": "take",
+    "turkish": "almak, götürmek",
     "category": "verb",
     "definition": "To pick something up and carry it, or to accept it.",
     "exampleSentence": "Remember to take your umbrella because it might rain later today."
   },
   {
     "term": "see",
+    "turkish": "görmek",
     "category": "verb",
     "definition": "To notice something with your eyes.",
     "exampleSentence": "From the top of the hill you can see the whole city."
   },
   {
     "term": "come",
+    "turkish": "gelmek",
     "category": "verb",
     "definition": "To move toward the speaker or toward a place.",
     "exampleSentence": "Can you come to my office after the meeting ends?"
   },
   {
     "term": "think",
+    "turkish": "düşünmek",
     "category": "verb",
     "definition": "To use your mind to form ideas or opinions.",
     "exampleSentence": "I think this new phone is much faster than my old one."
   },
   {
     "term": "look",
+    "turkish": "bakmak",
     "category": "verb",
     "definition": "To turn your eyes toward something to see it.",
     "exampleSentence": "Please look at the screen while I explain the next step."
   },
   {
     "term": "want",
+    "turkish": "istemek",
     "category": "verb",
     "definition": "To wish for or desire something.",
     "exampleSentence": "Many students want a laptop that is light and easy to carry."
   },
   {
     "term": "give",
+    "turkish": "vermek",
     "category": "verb",
     "definition": "To hand something to another person.",
     "exampleSentence": "Could you give me your phone number so I can call you?"
   },
   {
     "term": "use",
+    "turkish": "kullanmak",
     "category": "verb",
     "definition": "To do something with a tool or object for a purpose.",
     "exampleSentence": "Most people use a smartphone for messages, photos and maps every day."
   },
   {
     "term": "find",
+    "turkish": "bulmak",
     "category": "verb",
     "definition": "To discover something you were looking for.",
     "exampleSentence": "I could not find my keys anywhere in the house this morning."
   },
   {
     "term": "tell",
+    "turkish": "anlatmak, söylemek",
     "category": "verb",
     "definition": "To give information to someone by speaking or writing.",
     "exampleSentence": "Please tell your manager if you need more time for the project."
   },
   {
     "term": "ask",
+    "turkish": "sormak",
     "category": "verb",
     "definition": "To say or write a question to get an answer.",
     "exampleSentence": "If you are lost, ask someone at the station for directions."
   },
   {
     "term": "work",
+    "turkish": "çalışmak",
     "category": "verb",
     "definition": "To do a job or an activity that takes effort.",
     "exampleSentence": "My brother and his friends work at a small software company downtown."
   },
   {
     "term": "seem",
+    "turkish": "gibi görünmek",
     "category": "verb",
     "definition": "To appear to be something.",
     "exampleSentence": "The new students seem happy with their teachers and classes so far."
   },
   {
     "term": "feel",
+    "turkish": "hissetmek",
     "category": "verb",
     "definition": "To experience an emotion or a physical sensation.",
     "exampleSentence": "After a long walk in the park I always feel more relaxed."
   },
   {
     "term": "try",
+    "turkish": "denemek",
     "category": "verb",
     "definition": "To make an effort to do something.",
     "exampleSentence": "If the app freezes, try closing it and opening it again."
   },
   {
     "term": "leave",
+    "turkish": "ayrılmak, kalkmak",
     "category": "verb",
     "definition": "To go away from a place or a person.",
     "exampleSentence": "The last train will leave the station at eleven o'clock tonight."
   },
   {
     "term": "call",
+    "turkish": "aramak, çağırmak",
     "category": "verb",
     "definition": "To phone someone, or to shout to get attention.",
     "exampleSentence": "I will call you as soon as my plane lands in London."
   },
   {
     "term": "need",
+    "turkish": "ihtiyaç duymak",
     "category": "verb",
     "definition": "To require something because it is necessary.",
     "exampleSentence": "Plants need sunlight, water and good soil to grow well."
   },
   {
     "term": "keep",
+    "turkish": "tutmak, saklamak",
     "category": "verb",
     "definition": "To continue to have or hold something.",
     "exampleSentence": "You should keep your receipt in case you want to return the shoes."
   },
   {
     "term": "let",
+    "turkish": "izin vermek",
     "category": "verb",
     "definition": "To allow someone to do something.",
     "exampleSentence": "My parents let me stay up late on Friday nights."
   },
   {
     "term": "begin",
+    "turkish": "başlamak",
     "category": "verb",
     "definition": "To start doing something.",
     "exampleSentence": "The concert will begin at eight, so please arrive a little early."
   },
   {
     "term": "help",
+    "turkish": "yardım etmek",
     "category": "verb",
     "definition": "To make it easier for someone to do something.",
     "exampleSentence": "Could you help me carry these heavy boxes up the stairs?"
   },
   {
     "term": "show",
+    "turkish": "göstermek",
     "category": "verb",
     "definition": "To let someone see something, or to explain how to do it.",
     "exampleSentence": "Can you show me how to change the language on this phone?"
   },
   {
     "term": "hear",
+    "turkish": "duymak",
     "category": "verb",
     "definition": "To notice sounds with your ears.",
     "exampleSentence": "I could hear music coming from the apartment next door all night."
   },
   {
     "term": "play",
+    "turkish": "oynamak, çalmak",
     "category": "verb",
     "definition": "To take part in a game, or to make music with an instrument.",
     "exampleSentence": "The children play football in the garden after school every afternoon."
   },
   {
     "term": "run",
+    "turkish": "koşmak",
     "category": "verb",
     "definition": "To move quickly on your feet, faster than walking.",
     "exampleSentence": "My sister likes to run five kilometers before breakfast each morning."
   },
   {
     "term": "move",
+    "turkish": "taşınmak, hareket etmek",
     "category": "verb",
     "definition": "To change position, or to go to a different place.",
     "exampleSentence": "Our family plans to move to a bigger apartment next summer."
   },
   {
     "term": "live",
+    "turkish": "yaşamak",
     "category": "verb",
     "definition": "To have your home in a place, or to be alive.",
     "exampleSentence": "My cousins live in a small village near the mountains."
   },
   {
     "term": "believe",
+    "turkish": "inanmak",
     "category": "verb",
     "definition": "To think that something is true.",
     "exampleSentence": "Many people believe that regular exercise improves their mood and sleep."
   },
   {
     "term": "bring",
+    "turkish": "getirmek",
     "category": "verb",
     "definition": "To carry something or someone with you to a place.",
     "exampleSentence": "Please bring a pen and a notebook to the first lesson tomorrow."
   },
   {
     "term": "happen",
+    "turkish": "olmak, meydana gelmek",
     "category": "verb",
     "definition": "To take place, often without being planned.",
     "exampleSentence": "Nobody knows exactly what will happen if the power goes out."
   },
   {
     "term": "write",
+    "turkish": "yazmak",
     "category": "verb",
     "definition": "To put words or letters on paper or on a screen.",
     "exampleSentence": "Every evening she likes to write a few pages in her diary."

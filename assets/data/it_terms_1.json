@@ -1,240 +1,280 @@
 [
   {
     "term": "CPU",
+    "turkish": "işlemci",
     "category": "hardware",
     "definition": "The main chip in a computer that runs instructions and does calculations.",
     "exampleSentence": "The CPU processes millions of instructions every second while you are working."
   },
   {
     "term": "RAM",
+    "turkish": "RAM bellek",
     "category": "hardware",
     "definition": "Short-term memory that holds the data a computer is using right now.",
     "exampleSentence": "Opening too many browser tabs at once can quickly fill up your RAM."
   },
   {
     "term": "GPU",
+    "turkish": "grafik işlemcisi",
     "category": "hardware",
     "definition": "A processor built to draw graphics and run many calculations at the same time.",
     "exampleSentence": "Modern games and machine learning models need a powerful GPU to run smoothly."
   },
   {
     "term": "hard drive",
+    "turkish": "sabit disk",
     "category": "hardware",
     "definition": "A storage device that keeps your files even when the computer is turned off.",
     "exampleSentence": "I saved a copy of all my project files on an external hard drive."
   },
   {
     "term": "motherboard",
+    "turkish": "anakart",
     "category": "hardware",
     "definition": "The main circuit board that connects all the parts of a computer together.",
     "exampleSentence": "Every component inside the computer case is connected directly to the motherboard."
   },
   {
     "term": "monitor",
+    "turkish": "monitör",
     "category": "hardware",
     "definition": "A screen that shows the pictures and text produced by a computer.",
     "exampleSentence": "She bought a larger monitor so she could see more code at once."
   },
   {
     "term": "keyboard",
+    "turkish": "klavye",
     "category": "hardware",
     "definition": "A device with keys that you press to type text and give commands.",
     "exampleSentence": "My keyboard stopped working after I accidentally spilled coffee all over it."
   },
   {
     "term": "server",
+    "turkish": "sunucu",
     "category": "hardware",
     "definition": "A computer that provides data or services to other computers over a network.",
     "exampleSentence": "The website went down last night because the server ran out of memory."
   },
   {
     "term": "algorithm",
+    "turkish": "algoritma",
     "category": "software",
     "definition": "A step-by-step set of instructions for solving a problem or doing a task.",
     "exampleSentence": "This sorting algorithm puts a long list of names in alphabetical order."
   },
   {
     "term": "bug",
+    "turkish": "yazılım hatası",
     "category": "software",
     "definition": "A mistake in a program that makes it behave in the wrong way.",
     "exampleSentence": "The developer spent two hours trying to find the bug in the login page."
   },
   {
     "term": "debugging",
+    "turkish": "hata ayıklama",
     "category": "software",
     "definition": "The process of finding and fixing mistakes in code.",
     "exampleSentence": "Debugging can take a long time when the error message is not clear."
   },
   {
     "term": "compiler",
+    "turkish": "derleyici",
     "category": "software",
     "definition": "A program that translates source code into code the computer can run.",
     "exampleSentence": "The compiler showed an error because I forgot a semicolon on line ten."
   },
   {
     "term": "variable",
+    "turkish": "değişken",
     "category": "software",
     "definition": "A named place in a program where a value is stored and can change.",
     "exampleSentence": "We store the age of the user in a variable so we can use it later."
   },
   {
     "term": "function",
+    "turkish": "fonksiyon",
     "category": "software",
     "definition": "A reusable block of code that performs one specific task.",
     "exampleSentence": "Write a function that takes two numbers and returns the sum of them."
   },
   {
     "term": "framework",
+    "turkish": "yazılım çatısı",
     "category": "software",
     "definition": "A set of ready-made tools and code that helps you build software faster.",
     "exampleSentence": "Our team chose a popular web framework to build the new online store."
   },
   {
     "term": "API",
+    "turkish": "uygulama programlama arayüzü",
     "category": "software",
     "definition": "A set of rules that lets different programs talk to each other.",
     "exampleSentence": "The weather app uses a public API to get the latest forecast data."
   },
   {
     "term": "operating system",
+    "turkish": "işletim sistemi",
     "category": "software",
     "definition": "The main software that manages the hardware and runs all other programs.",
     "exampleSentence": "My old laptop runs the latest version of the operating system without problems."
   },
   {
     "term": "browser",
+    "turkish": "tarayıcı",
     "category": "software",
     "definition": "A program that you use to open and view websites.",
     "exampleSentence": "Open your browser and type the address of the website in the top bar."
   },
   {
     "term": "router",
+    "turkish": "yönlendirici (modem)",
     "category": "networking",
     "definition": "A device that sends data between networks, such as your home network and the internet.",
     "exampleSentence": "If the internet stops working, try restarting the router in the living room."
   },
   {
     "term": "IP address",
+    "turkish": "IP adresi",
     "category": "networking",
     "definition": "A unique number that identifies a device on a network.",
     "exampleSentence": "Every device that connects to the internet gets its own IP address for communication."
   },
   {
     "term": "bandwidth",
+    "turkish": "bant genişliği",
     "category": "networking",
     "definition": "The largest amount of data that a connection can carry in a given time.",
     "exampleSentence": "Streaming videos in high quality uses a lot of bandwidth on our home network."
   },
   {
     "term": "Wi-Fi",
+    "turkish": "kablosuz ağ",
     "category": "networking",
     "definition": "A wireless technology that connects devices to a network without cables.",
     "exampleSentence": "The hotel offers free Wi-Fi to all of its guests in every room."
   },
   {
     "term": "DNS",
+    "turkish": "alan adı sistemi",
     "category": "networking",
     "definition": "A system that turns website names into the IP addresses computers use.",
     "exampleSentence": "When DNS is not working, your browser cannot find websites by their names."
   },
   {
     "term": "protocol",
+    "turkish": "protokol",
     "category": "networking",
     "definition": "A set of rules that controls how data is sent between devices.",
     "exampleSentence": "HTTPS is a secure protocol that protects the data you send to websites."
   },
   {
     "term": "latency",
+    "turkish": "gecikme",
     "category": "networking",
     "definition": "The delay between sending data and that data arriving at its destination.",
     "exampleSentence": "High latency makes online games feel slow and very difficult to play well."
   },
   {
     "term": "packet",
+    "turkish": "paket",
     "category": "networking",
     "definition": "A small piece of data that is sent across a network.",
     "exampleSentence": "Each packet travels on its own and is put back together at the end."
   },
   {
     "term": "password",
+    "turkish": "şifre",
     "category": "security",
     "definition": "A secret word or phrase that proves who you are when you log in.",
     "exampleSentence": "You should never share your password with anyone, not even your close friends."
   },
   {
     "term": "firewall",
+    "turkish": "güvenlik duvarı",
     "category": "security",
     "definition": "A system that blocks unwanted traffic between a network and the outside world.",
     "exampleSentence": "The company firewall blocked the suspicious connection before it could cause any damage."
   },
   {
     "term": "malware",
+    "turkish": "kötü amaçlı yazılım",
     "category": "security",
     "definition": "Harmful software made to damage a computer or steal information from it.",
     "exampleSentence": "Downloading files from unknown websites can infect your computer with dangerous malware."
   },
   {
     "term": "encryption",
+    "turkish": "şifreleme",
     "category": "security",
     "definition": "Turning data into a secret code so that only allowed people can read it.",
     "exampleSentence": "Strong encryption keeps your messages private even if someone manages to intercept them."
   },
   {
     "term": "phishing",
+    "turkish": "oltalama (dolandırıcılık)",
     "category": "security",
     "definition": "A trick where attackers send fake messages to steal personal information.",
     "exampleSentence": "The email looked real, but it was actually a phishing attempt to steal passwords."
   },
   {
     "term": "two-factor authentication",
+    "turkish": "iki adımlı doğrulama",
     "category": "security",
     "definition": "A way of logging in that needs two different proofs of who you are.",
     "exampleSentence": "Turn on two-factor authentication to make your account much harder to break into."
   },
   {
     "term": "backup",
+    "turkish": "yedek",
     "category": "security",
     "definition": "A copy of data that you keep in case the original is lost or damaged.",
     "exampleSentence": "Always make a backup of your important files before you update the system."
   },
   {
     "term": "vulnerability",
+    "turkish": "güvenlik açığı",
     "category": "security",
     "definition": "A weakness in a system that an attacker could use to cause harm.",
     "exampleSentence": "The security team fixed the vulnerability before any attackers were able to use it."
   },
   {
     "term": "cloud",
+    "turkish": "bulut",
     "category": "data",
     "definition": "Servers on the internet that store your data and run software for you.",
     "exampleSentence": "We moved all our company documents to the cloud so everyone can reach them."
   },
   {
     "term": "database",
+    "turkish": "veritabanı",
     "category": "data",
     "definition": "An organized collection of data that is easy to search and update.",
     "exampleSentence": "All customer orders are stored in a database that the team checks every day."
   },
   {
     "term": "spreadsheet",
+    "turkish": "elektronik tablo",
     "category": "data",
     "definition": "A table of rows and columns used to organize and calculate data.",
     "exampleSentence": "She created a spreadsheet to track the monthly budget of the whole project."
   },
   {
     "term": "download",
+    "turkish": "indirme",
     "category": "data",
     "definition": "To copy a file from the internet or a server to your own device.",
     "exampleSentence": "Please download the latest version of the app before the meeting starts tomorrow."
   },
   {
     "term": "upload",
+    "turkish": "yükleme",
     "category": "data",
     "definition": "To send a file from your own device to the internet or a server.",
     "exampleSentence": "It took almost ten minutes to upload the large video to the website."
   },
   {
     "term": "file",
+    "turkish": "dosya",
     "category": "data",
     "definition": "A named piece of saved information, such as a document, picture or program.",
     "exampleSentence": "Remember to give the file a clear name so you can find it later."

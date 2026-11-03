@@ -1,240 +1,280 @@
 [
   {
     "term": "SSD",
+    "turkish": "SSD disk",
     "category": "hardware",
     "definition": "A fast storage drive that has no moving parts.",
     "exampleSentence": "Replacing the old hard drive with an SSD made my laptop much faster."
   },
   {
     "term": "USB",
+    "turkish": "USB",
     "category": "hardware",
     "definition": "A standard port and cable used to connect devices to a computer.",
     "exampleSentence": "You can charge your phone by plugging it into a USB port on the computer."
   },
   {
     "term": "laptop",
+    "turkish": "dizüstü bilgisayar",
     "category": "hardware",
     "definition": "A small portable computer with a built-in screen and keyboard.",
     "exampleSentence": "She takes her laptop to the library so she can study anywhere."
   },
   {
     "term": "mouse",
+    "turkish": "fare",
     "category": "hardware",
     "definition": "A small device you move by hand to control the pointer on a screen.",
     "exampleSentence": "Click the left button on the mouse to select a file on your desktop."
   },
   {
     "term": "printer",
+    "turkish": "yazıcı",
     "category": "hardware",
     "definition": "A machine that puts text and images from a computer onto paper.",
     "exampleSentence": "The office printer ran out of ink right before the important meeting."
   },
   {
     "term": "webcam",
+    "turkish": "web kamerası",
     "category": "hardware",
     "definition": "A small camera used for video calls and live streaming.",
     "exampleSentence": "Turn on your webcam so everyone in the online class can see you."
   },
   {
     "term": "charger",
+    "turkish": "şarj aleti",
     "category": "hardware",
     "definition": "A device that puts electricity back into a battery.",
     "exampleSentence": "I forgot my phone charger at home, so my battery died by noon."
   },
   {
     "term": "touchscreen",
+    "turkish": "dokunmatik ekran",
     "category": "hardware",
     "definition": "A screen you can control by touching it with your fingers.",
     "exampleSentence": "Most tablets have a touchscreen instead of a physical keyboard."
   },
   {
     "term": "app",
+    "turkish": "uygulama",
     "category": "software",
     "definition": "A program made for a specific task, especially on a phone.",
     "exampleSentence": "This weather app sends me a warning when it is going to rain."
   },
   {
     "term": "update",
+    "turkish": "güncelleme",
     "category": "software",
     "definition": "A new version of software that fixes problems or adds features.",
     "exampleSentence": "Install the latest update to get new features and important security fixes."
   },
   {
     "term": "source code",
+    "turkish": "kaynak kodu",
     "category": "software",
     "definition": "The instructions programmers write that make a program work.",
     "exampleSentence": "Developers store their source code online so the whole team can work on it."
   },
   {
     "term": "interface",
+    "turkish": "arayüz",
     "category": "software",
     "definition": "The part of a program that users see and interact with.",
     "exampleSentence": "The new interface is simpler, so beginners can learn the app quickly."
   },
   {
     "term": "plugin",
+    "turkish": "eklenti",
     "category": "software",
     "definition": "A small add-on that gives an existing program a new feature.",
     "exampleSentence": "I installed a plugin that checks my spelling while I write emails."
   },
   {
     "term": "version control",
+    "turkish": "sürüm kontrolü",
     "category": "software",
     "definition": "A system that records every change made to files over time.",
     "exampleSentence": "With version control, you can easily go back to an older copy of your code."
   },
   {
     "term": "loop",
+    "turkish": "döngü",
     "category": "software",
     "definition": "Code that repeats the same steps until a condition is met.",
     "exampleSentence": "The program uses a loop to print every name in the list."
   },
   {
     "term": "syntax",
+    "turkish": "sözdizimi",
     "category": "software",
     "definition": "The rules for how code must be written in a programming language.",
     "exampleSentence": "A missing bracket is a common syntax error for new programmers."
   },
   {
     "term": "VPN",
+    "turkish": "sanal özel ağ",
     "category": "networking",
     "definition": "A private, encrypted connection over the internet.",
     "exampleSentence": "Many employees use a VPN to connect safely to the company network from home."
   },
   {
     "term": "LAN",
+    "turkish": "yerel ağ",
     "category": "networking",
     "definition": "A network that connects computers in one building or small area.",
     "exampleSentence": "All the computers in our school lab share files over the same LAN."
   },
   {
     "term": "URL",
+    "turkish": "web adresi",
     "category": "networking",
     "definition": "The address of a web page, such as https://example.com.",
     "exampleSentence": "Copy the URL from the address bar and send it to your friend."
   },
   {
     "term": "website",
+    "turkish": "web sitesi",
     "category": "networking",
     "definition": "A group of related web pages under one address.",
     "exampleSentence": "You can book train tickets on the railway website in a few minutes."
   },
   {
     "term": "email",
+    "turkish": "e-posta",
     "category": "networking",
     "definition": "A message sent electronically from one computer to another.",
     "exampleSentence": "I will send you an email with the meeting notes this afternoon."
   },
   {
     "term": "Ethernet",
+    "turkish": "kablolu ağ",
     "category": "networking",
     "definition": "A cable-based technology for connecting devices to a network.",
     "exampleSentence": "Gamers often prefer an Ethernet cable because it is more stable than wireless."
   },
   {
     "term": "HTTPS",
+    "turkish": "güvenli HTTP",
     "category": "networking",
     "definition": "The secure version of the protocol used to load web pages.",
     "exampleSentence": "Always check that a shopping site uses HTTPS before you enter card details."
   },
   {
     "term": "hotspot",
+    "turkish": "erişim noktası",
     "category": "networking",
     "definition": "A place or device that shares a wireless internet connection.",
     "exampleSentence": "When the office internet failed, I turned my phone into a hotspot."
   },
   {
     "term": "antivirus",
+    "turkish": "antivirüs",
     "category": "security",
     "definition": "Software that finds and removes harmful programs.",
     "exampleSentence": "Run your antivirus program regularly to scan the computer for threats."
   },
   {
     "term": "hacker",
+    "turkish": "bilgisayar korsanı",
     "category": "security",
     "definition": "A person who uses computer skills to break into systems, often illegally.",
     "exampleSentence": "A hacker stole thousands of passwords from the online store last year."
   },
   {
     "term": "virus",
+    "turkish": "virüs",
     "category": "security",
     "definition": "A harmful program that copies itself and spreads to other computers.",
     "exampleSentence": "Opening a strange attachment can infect your computer with a virus."
   },
   {
     "term": "username",
+    "turkish": "kullanıcı adı",
     "category": "security",
     "definition": "The name you use to sign in to an account.",
     "exampleSentence": "Enter your username and password to sign in to your account."
   },
   {
     "term": "login",
+    "turkish": "oturum açma",
     "category": "security",
     "definition": "The act of entering an account, or the details used to do it.",
     "exampleSentence": "The website asks for a code after every login from a new device."
   },
   {
     "term": "spam",
+    "turkish": "istenmeyen e-posta",
     "category": "security",
     "definition": "Unwanted messages sent to many people, usually advertising.",
     "exampleSentence": "My email filter moves spam into a separate folder automatically."
   },
   {
     "term": "permission",
+    "turkish": "izin, yetki",
     "category": "security",
     "definition": "The right to open, use or change something on a system.",
     "exampleSentence": "You need administrator permission to install software on this computer."
   },
   {
     "term": "patch",
+    "turkish": "yama",
     "category": "security",
     "definition": "A small software change that fixes a bug or a security problem.",
     "exampleSentence": "The company released a patch to fix the security hole quickly."
   },
   {
     "term": "storage",
+    "turkish": "depolama alanı",
     "category": "data",
     "definition": "Space where digital files and data are kept.",
     "exampleSentence": "My phone has 128 gigabytes of storage for photos and videos."
   },
   {
     "term": "cache",
+    "turkish": "önbellek",
     "category": "data",
     "definition": "Temporary data saved so that things load faster next time.",
     "exampleSentence": "Clearing the browser cache can fix pages that do not load correctly."
   },
   {
     "term": "folder",
+    "turkish": "klasör",
     "category": "data",
     "definition": "A place on a computer used to organize and group files.",
     "exampleSentence": "Save all your project files in one folder so they are easy to find."
   },
   {
     "term": "data center",
+    "turkish": "veri merkezi",
     "category": "data",
     "definition": "A building full of servers that store and process data.",
     "exampleSentence": "The data center keeps thousands of servers cool with powerful fans."
   },
   {
     "term": "sync",
+    "turkish": "eşitlemek",
     "category": "data",
     "definition": "To make data the same on two or more devices.",
     "exampleSentence": "My notes app can sync my files between my phone and laptop."
   },
   {
     "term": "artificial intelligence",
+    "turkish": "yapay zekâ",
     "category": "data",
     "definition": "Computer systems that can do tasks that normally need human thinking.",
     "exampleSentence": "Many translation tools now use artificial intelligence to give better results."
   },
   {
     "term": "machine learning",
+    "turkish": "makine öğrenmesi",
     "category": "data",
     "definition": "A way of training computers to learn patterns from data.",
     "exampleSentence": "Streaming services use machine learning to recommend movies you might enjoy."
   },
   {
     "term": "query",
+    "turkish": "sorgu",
     "category": "data",
     "definition": "A request for specific information from a database.",
     "exampleSentence": "This query returns every customer who ordered something last month."

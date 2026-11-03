@@ -5,6 +5,7 @@ class Term {
     required this.category,
     required this.definition,
     required this.exampleSentence,
+    this.turkish = '',
   });
 
   /// Terimin kendisi, ör. "firewall" veya "IP address".
@@ -20,21 +21,27 @@ class Term {
   /// Terimi içeren, en az 8 kelimelik örnek cümle.
   final String exampleSentence;
 
+  /// Terimin Türkçe karşılığı. Verilmemişse boş metindir.
+  final String turkish;
+
   /// JSON verisinden [Term] oluşturur.
   ///
   /// Zorunlu bir alan eksikse veya String değilse [FormatException] fırlatır.
+  /// "turkish" alanı isteğe bağlıdır.
   factory Term.fromJson(Map<String, dynamic> json) {
     return Term(
       term: _readString(json, 'term'),
       category: _readString(json, 'category'),
       definition: _readString(json, 'definition'),
       exampleSentence: _readString(json, 'exampleSentence'),
+      turkish: json.containsKey('turkish') ? _readString(json, 'turkish') : '',
     );
   }
 
   Map<String, dynamic> toJson() {
     return <String, dynamic>{
       'term': term,
+      'turkish': turkish,
       'category': category,
       'definition': definition,
       'exampleSentence': exampleSentence,

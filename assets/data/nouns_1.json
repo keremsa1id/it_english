@@ -1,240 +1,280 @@
 [
   {
     "term": "time",
+    "turkish": "zaman",
     "category": "noun",
     "definition": "What we measure in seconds, minutes, hours and days.",
     "exampleSentence": "I never have enough time to finish all my homework on weekdays."
   },
   {
     "term": "person",
+    "turkish": "kişi",
     "category": "noun",
     "definition": "A human being: a man, a woman or a child.",
     "exampleSentence": "She is the kindest person I have ever met in my life."
   },
   {
     "term": "year",
+    "turkish": "yıl",
     "category": "noun",
     "definition": "A period of twelve months, or 365 days.",
     "exampleSentence": "We visit our grandparents in the village at least once a year."
   },
   {
     "term": "way",
+    "turkish": "yol, yöntem",
     "category": "noun",
     "definition": "A method of doing something, or a road to a place.",
     "exampleSentence": "The fastest way to the airport is by train, not by taxi."
   },
   {
     "term": "day",
+    "turkish": "gün",
     "category": "noun",
     "definition": "A period of twenty-four hours.",
     "exampleSentence": "My favorite day of the week is Saturday because I can sleep late."
   },
   {
     "term": "thing",
+    "turkish": "şey",
     "category": "noun",
     "definition": "An object, idea or action that you do not name exactly.",
     "exampleSentence": "The first thing I do every morning is drink a glass of water."
   },
   {
     "term": "man",
+    "turkish": "adam",
     "category": "noun",
     "definition": "An adult male person.",
     "exampleSentence": "An old man was feeding the birds on a bench in the park."
   },
   {
     "term": "world",
+    "turkish": "dünya",
     "category": "noun",
     "definition": "The Earth and all the people and places on it.",
     "exampleSentence": "Mount Everest is the highest mountain in the world above sea level."
   },
   {
     "term": "life",
+    "turkish": "hayat",
     "category": "noun",
     "definition": "The time from birth until death, or the state of being alive.",
     "exampleSentence": "Moving to a new country completely changed my life and my habits."
   },
   {
     "term": "hand",
+    "turkish": "el",
     "category": "noun",
     "definition": "The part of your body at the end of your arm.",
     "exampleSentence": "Please raise your hand if you have a question during the lesson."
   },
   {
     "term": "part",
+    "turkish": "bölüm, parça",
     "category": "noun",
     "definition": "A piece or section of something larger.",
     "exampleSentence": "The best part of the movie was the surprising ending."
   },
   {
     "term": "child",
+    "turkish": "çocuk",
     "category": "noun",
     "definition": "A young person who is not yet an adult.",
     "exampleSentence": "Every child in the class received a small gift at the end of term."
   },
   {
     "term": "eye",
+    "turkish": "göz",
     "category": "noun",
     "definition": "The part of the face that you use to see.",
     "exampleSentence": "The doctor shone a small light into my left eye during the checkup."
   },
   {
     "term": "woman",
+    "turkish": "kadın",
     "category": "noun",
     "definition": "An adult female person.",
     "exampleSentence": "The woman at the front desk helped us find our hotel room."
   },
   {
     "term": "place",
+    "turkish": "yer",
     "category": "noun",
     "definition": "A particular area, position or location.",
     "exampleSentence": "This quiet cafe is my favorite place to read and study."
   },
   {
     "term": "week",
+    "turkish": "hafta",
     "category": "noun",
     "definition": "A period of seven days.",
     "exampleSentence": "Our English class meets twice a week, on Tuesdays and Thursdays."
   },
   {
     "term": "case",
+    "turkish": "durum",
     "category": "noun",
     "definition": "A particular situation, or a box that holds something.",
     "exampleSentence": "Keep a spare battery in your bag in case your phone dies."
   },
   {
     "term": "point",
+    "turkish": "ana fikir, nokta",
     "category": "noun",
     "definition": "An idea or opinion, or the sharp end of something.",
     "exampleSentence": "The main point of her speech was that education should be free."
   },
   {
     "term": "government",
+    "turkish": "hükümet",
     "category": "noun",
     "definition": "The group of people who officially control a country.",
     "exampleSentence": "The government announced new rules for electric cars this month."
   },
   {
     "term": "company",
+    "turkish": "şirket",
     "category": "noun",
     "definition": "A business that sells goods or services.",
     "exampleSentence": "My uncle started his own company after working at a bank for years."
   },
   {
     "term": "number",
+    "turkish": "numara, sayı",
     "category": "noun",
     "definition": "A word or symbol, such as 1, 2 or 3, that shows an amount.",
     "exampleSentence": "Please write your phone number at the bottom of the form."
   },
   {
     "term": "group",
+    "turkish": "grup",
     "category": "noun",
     "definition": "Several people or things that are together.",
     "exampleSentence": "A small group of tourists was taking photos outside the cathedral."
   },
   {
     "term": "problem",
+    "turkish": "sorun",
     "category": "noun",
     "definition": "A difficult situation that needs to be solved.",
     "exampleSentence": "The mechanic found the problem with my car in just ten minutes."
   },
   {
     "term": "fact",
+    "turkish": "gerçek",
     "category": "noun",
     "definition": "Something that is known to be true.",
     "exampleSentence": "It is a fact that the Earth travels around the Sun."
   },
   {
     "term": "money",
+    "turkish": "para",
     "category": "noun",
     "definition": "Coins and paper notes used to buy things.",
     "exampleSentence": "She is saving money every month to buy a new bicycle."
   },
   {
     "term": "house",
+    "turkish": "ev",
     "category": "noun",
     "definition": "A building where a family or a group of people lives.",
     "exampleSentence": "Their house has a big garden with apple trees at the back."
   },
   {
     "term": "water",
+    "turkish": "su",
     "category": "noun",
     "definition": "The clear liquid in rivers, seas and rain that people drink.",
     "exampleSentence": "Remember to drink plenty of water when the weather is very hot."
   },
   {
     "term": "room",
+    "turkish": "oda",
     "category": "noun",
     "definition": "A space inside a building with walls, a floor and a ceiling.",
     "exampleSentence": "The meeting will take place in the large room on the second floor."
   },
   {
     "term": "mother",
+    "turkish": "anne",
     "category": "noun",
     "definition": "A female parent.",
     "exampleSentence": "My mother taught me how to cook simple meals when I was ten."
   },
   {
     "term": "area",
+    "turkish": "bölge, alan",
     "category": "noun",
     "definition": "A part of a city, a country or a surface.",
     "exampleSentence": "This area of the city is famous for its restaurants and nightlife."
   },
   {
     "term": "night",
+    "turkish": "gece",
     "category": "noun",
     "definition": "The time when it is dark, between evening and morning.",
     "exampleSentence": "The stars look especially bright on a clear, cold night in winter."
   },
   {
     "term": "friend",
+    "turkish": "arkadaş",
     "category": "noun",
     "definition": "A person you know well and like spending time with.",
     "exampleSentence": "My best friend and I have known each other since primary school."
   },
   {
     "term": "family",
+    "turkish": "aile",
     "category": "noun",
     "definition": "A group of people related to each other, like parents and children.",
     "exampleSentence": "Our whole family gets together for a big dinner every holiday."
   },
   {
     "term": "question",
+    "turkish": "soru",
     "category": "noun",
     "definition": "A sentence or phrase used to ask for information.",
     "exampleSentence": "If you have a question about the homework, send me a message."
   },
   {
     "term": "school",
+    "turkish": "okul",
     "category": "noun",
     "definition": "A place where children go to learn.",
     "exampleSentence": "My little brother walks to school with his friends every morning."
   },
   {
     "term": "city",
+    "turkish": "şehir",
     "category": "noun",
     "definition": "A large town where many people live and work.",
     "exampleSentence": "Istanbul is a busy city with beautiful views of the Bosphorus."
   },
   {
     "term": "name",
+    "turkish": "isim, ad",
     "category": "noun",
     "definition": "The word that a person, place or thing is called.",
     "exampleSentence": "Could you spell your last name for me, please?"
   },
   {
     "term": "idea",
+    "turkish": "fikir",
     "category": "noun",
     "definition": "A thought or a plan about what to do.",
     "exampleSentence": "Going to the lake for a picnic was a wonderful idea."
   },
   {
     "term": "car",
+    "turkish": "araba",
     "category": "noun",
     "definition": "A road vehicle with four wheels and an engine.",
     "exampleSentence": "We rented a small car to drive along the coast during our trip."
   },
   {
     "term": "book",
+    "turkish": "kitap",
     "category": "noun",
     "definition": "A set of printed pages fastened together inside a cover.",
     "exampleSentence": "This book about ancient history was much more exciting than I expected."
