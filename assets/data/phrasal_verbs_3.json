@@ -1,0 +1,282 @@
+[
+  {
+    "term": "kick off",
+    "turkish": "başlatmak",
+    "category": "phrasal",
+    "definition": "To start a meeting, project or event.",
+    "exampleSentence": "Let us kick off the meeting with a quick update from each team."
+  },
+  {
+    "term": "wrap up",
+    "turkish": "toparlamak, bitirmek",
+    "category": "phrasal",
+    "definition": "To finish something.",
+    "exampleSentence": "We have five minutes left, so let us wrap up the discussion."
+  },
+  {
+    "term": "roll out",
+    "turkish": "kullanıma sunmak",
+    "category": "phrasal",
+    "definition": "To introduce a new product or system, often step by step.",
+    "exampleSentence": "The company will roll out the new app to all users in April."
+  },
+  {
+    "term": "hand over",
+    "turkish": "devretmek",
+    "category": "phrasal",
+    "definition": "To give responsibility or work to someone else.",
+    "exampleSentence": "Before your holiday, please hand over your tasks to a colleague."
+  },
+  {
+    "term": "draw up",
+    "turkish": "(belge) hazırlamak",
+    "category": "phrasal",
+    "definition": "To prepare a written document.",
+    "exampleSentence": "Our lawyer will draw up the contract this week."
+  },
+  {
+    "term": "lay off",
+    "turkish": "işten çıkarmak",
+    "category": "phrasal",
+    "definition": "To end people's jobs because there is not enough work or money.",
+    "exampleSentence": "The factory had to lay off fifty workers last year."
+  },
+  {
+    "term": "step down",
+    "turkish": "görevden ayrılmak",
+    "category": "phrasal",
+    "definition": "To leave an important position.",
+    "exampleSentence": "The CEO decided to step down after ten years in the job."
+  },
+  {
+    "term": "sign off",
+    "turkish": "son onayı vermek",
+    "category": "phrasal",
+    "definition": "To give final approval.",
+    "exampleSentence": "The director must sign off on the budget before we can start."
+  },
+  {
+    "term": "sign in",
+    "turkish": "giriş yapmak, kayıt olmak (girişte)",
+    "category": "phrasal",
+    "definition": "To write or enter your details to use a system or building.",
+    "exampleSentence": "Visitors must sign in at the reception desk."
+  },
+  {
+    "term": "run through",
+    "turkish": "üzerinden geçmek",
+    "category": "phrasal",
+    "definition": "To quickly practice or explain something.",
+    "exampleSentence": "Let us run through the presentation once more before the client arrives."
+  },
+  {
+    "term": "follow through",
+    "turkish": "sonuna kadar götürmek",
+    "category": "phrasal",
+    "definition": "To complete something you started or promised.",
+    "exampleSentence": "Making plans is easy; the hard part is to follow through."
+  },
+  {
+    "term": "drill down",
+    "turkish": "ayrıntıya inmek",
+    "category": "phrasal",
+    "definition": "To look at data in more detail.",
+    "exampleSentence": "The dashboard lets managers drill down into sales by region."
+  },
+  {
+    "term": "scale up",
+    "turkish": "büyütmek",
+    "category": "phrasal",
+    "definition": "To increase the size or amount of something.",
+    "exampleSentence": "We need to scale up our servers before the big sale."
+  },
+  {
+    "term": "cut back",
+    "turkish": "kısmak, azaltmak",
+    "category": "phrasal",
+    "definition": "To reduce spending or an amount.",
+    "exampleSentence": "The company had to cut back on travel to save money."
+  },
+  {
+    "term": "bring in",
+    "turkish": "getirmek, kazandırmak",
+    "category": "phrasal",
+    "definition": "To introduce something new, or to earn money.",
+    "exampleSentence": "The new product will bring in a lot of new customers."
+  },
+  {
+    "term": "take down",
+    "turkish": "yayından kaldırmak",
+    "category": "phrasal",
+    "definition": "To remove something, such as a website or a post.",
+    "exampleSentence": "We had to take down the website for a few hours to fix it."
+  },
+  {
+    "term": "put forward",
+    "turkish": "öne sürmek",
+    "category": "phrasal",
+    "definition": "To suggest an idea or plan for discussion.",
+    "exampleSentence": "Anyone can put forward an idea at our monthly meeting."
+  },
+  {
+    "term": "set out",
+    "turkish": "ortaya koymak, açıklamak",
+    "category": "phrasal",
+    "definition": "To explain something clearly, often in writing.",
+    "exampleSentence": "This document will set out the rules for working from home."
+  },
+  {
+    "term": "opt out",
+    "turkish": "katılmamayı seçmek",
+    "category": "phrasal",
+    "definition": "To choose not to take part in something.",
+    "exampleSentence": "Customers can opt out of marketing emails at any time."
+  },
+  {
+    "term": "reach out",
+    "turkish": "iletişime geçmek",
+    "category": "phrasal",
+    "definition": "To contact someone, often to offer or ask for help.",
+    "exampleSentence": "Feel free to reach out if you have any questions."
+  },
+  {
+    "term": "loop in",
+    "turkish": "(bilgiye) dahil etmek",
+    "category": "phrasal",
+    "definition": "To include someone in a discussion or email.",
+    "exampleSentence": "Please loop in the legal team before we sign anything."
+  },
+  {
+    "term": "circle back",
+    "turkish": "konuya sonra dönmek",
+    "category": "phrasal",
+    "definition": "To return to a topic later.",
+    "exampleSentence": "We are out of time, so let us circle back to this tomorrow."
+  },
+  {
+    "term": "iron out",
+    "turkish": "pürüzleri gidermek",
+    "category": "phrasal",
+    "definition": "To solve small problems.",
+    "exampleSentence": "We still need to iron out a few details in the contract."
+  },
+  {
+    "term": "phase out",
+    "turkish": "aşamalı olarak kaldırmak",
+    "category": "phrasal",
+    "definition": "To slowly stop using something.",
+    "exampleSentence": "The company plans to phase out paper invoices by next year."
+  },
+  {
+    "term": "fall behind",
+    "turkish": "geride kalmak",
+    "category": "phrasal",
+    "definition": "To fail to do something as fast as planned.",
+    "exampleSentence": "If we lose another developer, we will fall behind schedule."
+  },
+  {
+    "term": "fall through",
+    "turkish": "suya düşmek",
+    "category": "phrasal",
+    "definition": "To fail to happen.",
+    "exampleSentence": "The deal might fall through if we cannot lower the price."
+  },
+  {
+    "term": "turn around",
+    "turkish": "toparlamak, düzlüğe çıkarmak",
+    "category": "phrasal",
+    "definition": "To make a failing business successful.",
+    "exampleSentence": "The new CEO managed to turn around the struggling company."
+  },
+  {
+    "term": "cover for",
+    "turkish": "yerine bakmak",
+    "category": "phrasal",
+    "definition": "To do someone's work while they are away.",
+    "exampleSentence": "Can you cover for me while I am at the doctor?"
+  },
+  {
+    "term": "stand in",
+    "turkish": "vekâlet etmek",
+    "category": "phrasal",
+    "definition": "To take someone's place for a short time.",
+    "exampleSentence": "Maria will stand in for the manager at today's meeting."
+  },
+  {
+    "term": "report to",
+    "turkish": "-e bağlı çalışmak",
+    "category": "phrasal",
+    "definition": "To have someone as your manager.",
+    "exampleSentence": "In this role, you will report to the head of IT."
+  },
+  {
+    "term": "log off",
+    "turkish": "oturumu kapatmak",
+    "category": "phrasal",
+    "definition": "To stop using a computer system.",
+    "exampleSentence": "Always log off before you leave your desk at night."
+  },
+  {
+    "term": "hold up",
+    "turkish": "geciktirmek",
+    "category": "phrasal",
+    "definition": "To delay something.",
+    "exampleSentence": "Problems with the supplier may hold up the delivery."
+  },
+  {
+    "term": "check in",
+    "turkish": "durum bildirmek, sormak",
+    "category": "phrasal",
+    "definition": "To contact someone briefly to report or ask about progress.",
+    "exampleSentence": "I will check in with you on Friday to see how it is going."
+  },
+  {
+    "term": "look over",
+    "turkish": "göz gezdirmek",
+    "category": "phrasal",
+    "definition": "To read or check something quickly.",
+    "exampleSentence": "Could you look over my email before I send it to the client?"
+  },
+  {
+    "term": "work on",
+    "turkish": "üzerinde çalışmak",
+    "category": "phrasal",
+    "definition": "To spend time doing or improving something.",
+    "exampleSentence": "I am going to work on the new design all afternoon."
+  },
+  {
+    "term": "take up",
+    "turkish": "(zaman, yer) almak",
+    "category": "phrasal",
+    "definition": "To use an amount of time or space.",
+    "exampleSentence": "Meetings take up too much of my working day."
+  },
+  {
+    "term": "count on",
+    "turkish": "-e güvenmek",
+    "category": "phrasal",
+    "definition": "To trust someone to do something.",
+    "exampleSentence": "You can count on me to finish the report on time."
+  },
+  {
+    "term": "put in",
+    "turkish": "(emek, saat) harcamak",
+    "category": "phrasal",
+    "definition": "To spend time or effort on something.",
+    "exampleSentence": "She is willing to put in extra hours when the team needs help."
+  },
+  {
+    "term": "free up",
+    "turkish": "(zaman, yer) açmak",
+    "category": "phrasal",
+    "definition": "To make time, money or space available.",
+    "exampleSentence": "Automating reports will free up time for more important work."
+  },
+  {
+    "term": "get through",
+    "turkish": "bitirmek, üstesinden gelmek",
+    "category": "phrasal",
+    "definition": "To finish or survive something difficult.",
+    "exampleSentence": "We have a lot of emails to get through before lunch."
+  }
+]

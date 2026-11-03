@@ -1,0 +1,282 @@
+[
+  {
+    "term": "on behalf of",
+    "turkish": "adına",
+    "category": "phrase",
+    "definition": "As a representative of someone.",
+    "exampleSentence": "I am writing on behalf of my manager, who is away this week."
+  },
+  {
+    "term": "as per",
+    "turkish": "uyarınca, -e göre",
+    "category": "phrase",
+    "definition": "According to.",
+    "exampleSentence": "As per our agreement, the first payment is due in March."
+  },
+  {
+    "term": "in terms of",
+    "turkish": "bakımından",
+    "category": "phrase",
+    "definition": "When talking about a specific part or aspect.",
+    "exampleSentence": "In terms of price, the second offer is much better."
+  },
+  {
+    "term": "with regard to",
+    "turkish": "ile ilgili olarak",
+    "category": "phrase",
+    "definition": "About; concerning.",
+    "exampleSentence": "I am writing with regard to your recent job application."
+  },
+  {
+    "term": "in accordance with",
+    "turkish": "-e uygun olarak",
+    "category": "phrase",
+    "definition": "Following a rule or agreement.",
+    "exampleSentence": "All data is stored in accordance with European privacy laws."
+  },
+  {
+    "term": "at your earliest convenience",
+    "turkish": "en kısa zamanda (resmi)",
+    "category": "phrase",
+    "definition": "As soon as you can (polite and formal).",
+    "exampleSentence": "Please call me back at your earliest convenience."
+  },
+  {
+    "term": "please find attached",
+    "turkish": "ekte bulabilirsiniz",
+    "category": "phrase",
+    "definition": "A formal phrase used in emails when sending a file.",
+    "exampleSentence": "Please find attached the invoice for last month's work."
+  },
+  {
+    "term": "let me know",
+    "turkish": "bana haber ver",
+    "category": "phrase",
+    "definition": "Tell me.",
+    "exampleSentence": "Please let me know if you have any questions about the report."
+  },
+  {
+    "term": "get back to you",
+    "turkish": "size dönüş yapmak",
+    "category": "phrase",
+    "definition": "To reply to someone later.",
+    "exampleSentence": "I will check the details and get back to you tomorrow."
+  },
+  {
+    "term": "keep me posted",
+    "turkish": "beni haberdar et",
+    "category": "phrase",
+    "definition": "Keep giving me news about something.",
+    "exampleSentence": "Please keep me posted on the progress of the project."
+  },
+  {
+    "term": "sorry for the inconvenience",
+    "turkish": "verdiğimiz rahatsızlık için özür dileriz",
+    "category": "phrase",
+    "definition": "A polite apology when something causes problems.",
+    "exampleSentence": "The website is down for maintenance; we are sorry for the inconvenience."
+  },
+  {
+    "term": "thank you for your patience",
+    "turkish": "sabrınız için teşekkür ederiz",
+    "category": "phrase",
+    "definition": "A polite thanks when someone has waited.",
+    "exampleSentence": "Thank you for your patience while we fix the problem."
+  },
+  {
+    "term": "work from home",
+    "turkish": "evden çalışmak",
+    "category": "phrase",
+    "definition": "To do your job at home instead of the office.",
+    "exampleSentence": "Most of our developers work from home on Fridays."
+  },
+  {
+    "term": "out of office",
+    "turkish": "ofis dışında",
+    "category": "phrase",
+    "definition": "Away from work.",
+    "exampleSentence": "I will be out of office until Monday with limited email access."
+  },
+  {
+    "term": "to be honest",
+    "turkish": "açıkçası",
+    "category": "phrase",
+    "definition": "Used before saying what you really think.",
+    "exampleSentence": "To be honest, I think the deadline is not realistic."
+  },
+  {
+    "term": "just to clarify",
+    "turkish": "netleştirmek için soruyorum",
+    "category": "phrase",
+    "definition": "Used to check that you understand correctly.",
+    "exampleSentence": "Just to clarify, do you need the report today or tomorrow?"
+  },
+  {
+    "term": "as discussed",
+    "turkish": "konuştuğumuz gibi",
+    "category": "phrase",
+    "definition": "Used to refer to something talked about earlier.",
+    "exampleSentence": "As discussed in the meeting, I am sending you the updated plan."
+  },
+  {
+    "term": "as mentioned",
+    "turkish": "belirtildiği gibi",
+    "category": "phrase",
+    "definition": "Used to refer to something said earlier.",
+    "exampleSentence": "As mentioned in my last email, the office is closed on Friday."
+  },
+  {
+    "term": "for your reference",
+    "turkish": "bilginiz için",
+    "category": "phrase",
+    "definition": "Given so you can look at it if needed.",
+    "exampleSentence": "I have added last year's report for your reference."
+  },
+  {
+    "term": "in the loop",
+    "turkish": "haberdar, bilgi sahibi",
+    "category": "phrase",
+    "definition": "Informed about what is happening.",
+    "exampleSentence": "Please copy me on the emails so I stay in the loop."
+  },
+  {
+    "term": "on track",
+    "turkish": "yolunda, planlandığı gibi",
+    "category": "phrase",
+    "definition": "Progressing as planned.",
+    "exampleSentence": "The project is on track to finish by the end of June."
+  },
+  {
+    "term": "behind schedule",
+    "turkish": "programın gerisinde",
+    "category": "phrase",
+    "definition": "Later than planned.",
+    "exampleSentence": "The construction of the new office is two months behind schedule."
+  },
+  {
+    "term": "ahead of schedule",
+    "turkish": "programın önünde",
+    "category": "phrase",
+    "definition": "Earlier than planned.",
+    "exampleSentence": "We finished the first phase a week ahead of schedule."
+  },
+  {
+    "term": "on hold",
+    "turkish": "beklemede",
+    "category": "phrase",
+    "definition": "Delayed or stopped for a time.",
+    "exampleSentence": "The project is on hold until the client approves the budget."
+  },
+  {
+    "term": "under control",
+    "turkish": "kontrol altında",
+    "category": "phrase",
+    "definition": "Being managed well; no longer a problem.",
+    "exampleSentence": "The server problem is now under control, and users can log in again."
+  },
+  {
+    "term": "in progress",
+    "turkish": "devam ediyor",
+    "category": "phrase",
+    "definition": "Being done now and not yet finished.",
+    "exampleSentence": "The update is in progress, so please do not turn off your computer."
+  },
+  {
+    "term": "in person",
+    "turkish": "yüz yüze",
+    "category": "phrase",
+    "definition": "Physically present, not online.",
+    "exampleSentence": "I prefer to meet new clients in person rather than online."
+  },
+  {
+    "term": "on short notice",
+    "turkish": "kısa süre önce haber vererek",
+    "category": "phrase",
+    "definition": "With little warning or time to prepare.",
+    "exampleSentence": "Sorry for calling the meeting on short notice this morning."
+  },
+  {
+    "term": "at the latest",
+    "turkish": "en geç",
+    "category": "phrase",
+    "definition": "Not later than the time mentioned.",
+    "exampleSentence": "Please send the final slides by Friday at the latest."
+  },
+  {
+    "term": "by the end of the day",
+    "turkish": "gün sonuna kadar",
+    "category": "phrase",
+    "definition": "Before the working day finishes.",
+    "exampleSentence": "I need your answer by the end of the day, please."
+  },
+  {
+    "term": "meet the deadline",
+    "turkish": "teslim tarihine yetişmek",
+    "category": "phrase",
+    "definition": "To finish something by the agreed time.",
+    "exampleSentence": "We worked late every night to meet the deadline."
+  },
+  {
+    "term": "make progress",
+    "turkish": "ilerleme kaydetmek",
+    "category": "phrase",
+    "definition": "To move forward and improve.",
+    "exampleSentence": "The team is starting to make progress on the new feature."
+  },
+  {
+    "term": "take responsibility",
+    "turkish": "sorumluluk almak",
+    "category": "phrase",
+    "definition": "To accept that something is your duty or your fault.",
+    "exampleSentence": "A good leader is willing to take responsibility for mistakes."
+  },
+  {
+    "term": "take notes",
+    "turkish": "not almak",
+    "category": "phrase",
+    "definition": "To write down information during a meeting or class.",
+    "exampleSentence": "Could you take notes during the meeting and share them later?"
+  },
+  {
+    "term": "set a goal",
+    "turkish": "hedef belirlemek",
+    "category": "phrase",
+    "definition": "To decide what you want to achieve.",
+    "exampleSentence": "At the start of each year, we set a goal for every team member."
+  },
+  {
+    "term": "reach an agreement",
+    "turkish": "anlaşmaya varmak",
+    "category": "phrase",
+    "definition": "To agree after a discussion.",
+    "exampleSentence": "After two weeks of talks, both companies were able to reach an agreement."
+  },
+  {
+    "term": "give feedback",
+    "turkish": "geri bildirim vermek",
+    "category": "phrase",
+    "definition": "To tell someone how well they did and how to improve.",
+    "exampleSentence": "Managers should give feedback regularly, not only once a year."
+  },
+  {
+    "term": "raise an issue",
+    "turkish": "bir konuyu gündeme getirmek",
+    "category": "phrase",
+    "definition": "To mention a problem so people can discuss it.",
+    "exampleSentence": "I would like to raise an issue about our testing process."
+  },
+  {
+    "term": "share your screen",
+    "turkish": "ekranını paylaşmak",
+    "category": "phrase",
+    "definition": "To let others see your screen in an online meeting.",
+    "exampleSentence": "Could you share your screen so we can all see the chart?"
+  },
+  {
+    "term": "sign a contract",
+    "turkish": "sözleşme imzalamak",
+    "category": "phrase",
+    "definition": "To officially agree to a contract by signing it.",
+    "exampleSentence": "The new client will sign a contract with us next week."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "meeting",
+    "turkish": "toplantı",
+    "category": "noun",
+    "definition": "An organized event where people discuss something.",
+    "exampleSentence": "The weekly meeting starts at nine o'clock in room four."
+  },
+  {
+    "term": "deadline",
+    "turkish": "son teslim tarihi",
+    "category": "noun",
+    "definition": "The latest time by which something must be finished.",
+    "exampleSentence": "The deadline for the project report is next Friday."
+  },
+  {
+    "term": "project",
+    "turkish": "proje",
+    "category": "noun",
+    "definition": "A planned piece of work with a specific goal.",
+    "exampleSentence": "Our team is working on a project for a large bank."
+  },
+  {
+    "term": "client",
+    "turkish": "müşteri (kurumsal)",
+    "category": "noun",
+    "definition": "A person or company that pays for professional services.",
+    "exampleSentence": "The client asked for a few changes to the website design."
+  },
+  {
+    "term": "customer",
+    "turkish": "müşteri",
+    "category": "noun",
+    "definition": "A person who buys products or services.",
+    "exampleSentence": "Every customer receives a confirmation email after placing an order."
+  },
+  {
+    "term": "manager",
+    "turkish": "yönetici",
+    "category": "noun",
+    "definition": "A person who is in charge of a team or department.",
+    "exampleSentence": "My manager gives me feedback after every big project."
+  },
+  {
+    "term": "colleague",
+    "turkish": "iş arkadaşı",
+    "category": "noun",
+    "definition": "A person you work with.",
+    "exampleSentence": "A colleague from the design team helped me with the slides."
+  },
+  {
+    "term": "employee",
+    "turkish": "çalışan",
+    "category": "noun",
+    "definition": "A person who works for a company.",
+    "exampleSentence": "Every new employee receives a laptop on the first day."
+  },
+  {
+    "term": "salary",
+    "turkish": "maaş",
+    "category": "noun",
+    "definition": "The fixed money you earn from your job, usually every month.",
+    "exampleSentence": "She asked for a higher salary after her first year."
+  },
+  {
+    "term": "contract",
+    "turkish": "sözleşme",
+    "category": "noun",
+    "definition": "A legal agreement between people or companies.",
+    "exampleSentence": "Please read the contract carefully before you sign it."
+  },
+  {
+    "term": "budget",
+    "turkish": "bütçe",
+    "category": "noun",
+    "definition": "The amount of money available for something.",
+    "exampleSentence": "The marketing team has a small budget for advertising this year."
+  },
+  {
+    "term": "invoice",
+    "turkish": "fatura",
+    "category": "noun",
+    "definition": "A document that asks a customer to pay for goods or services.",
+    "exampleSentence": "We send the invoice to the client at the end of every month."
+  },
+  {
+    "term": "agenda",
+    "turkish": "gündem",
+    "category": "noun",
+    "definition": "A list of topics to discuss in a meeting.",
+    "exampleSentence": "Please send me the agenda before the meeting starts."
+  },
+  {
+    "term": "report",
+    "turkish": "rapor",
+    "category": "noun",
+    "definition": "A document that gives information about a subject.",
+    "exampleSentence": "The manager asked for a short report on last month's sales."
+  },
+  {
+    "term": "presentation",
+    "turkish": "sunum",
+    "category": "noun",
+    "definition": "A talk that shows and explains information to an audience.",
+    "exampleSentence": "Her presentation about the new product impressed the whole board."
+  },
+  {
+    "term": "proposal",
+    "turkish": "teklif, öneri",
+    "category": "noun",
+    "definition": "A formal plan or suggestion for others to consider.",
+    "exampleSentence": "We sent our proposal to the client and are waiting for an answer."
+  },
+  {
+    "term": "feedback",
+    "turkish": "geri bildirim",
+    "category": "noun",
+    "definition": "Comments about how well someone did something.",
+    "exampleSentence": "Our users give us useful feedback through a short survey."
+  },
+  {
+    "term": "goal",
+    "turkish": "hedef",
+    "category": "noun",
+    "definition": "Something you are trying to achieve.",
+    "exampleSentence": "Our main goal this year is to double the number of customers."
+  },
+  {
+    "term": "task",
+    "turkish": "görev",
+    "category": "noun",
+    "definition": "A piece of work that needs to be done.",
+    "exampleSentence": "My first task every morning is checking my emails."
+  },
+  {
+    "term": "department",
+    "turkish": "departman",
+    "category": "noun",
+    "definition": "A part of a company that does a specific kind of work.",
+    "exampleSentence": "She moved from the sales department to marketing last year."
+  },
+  {
+    "term": "interview",
+    "turkish": "mülakat",
+    "category": "noun",
+    "definition": "A meeting where someone is asked questions for a job.",
+    "exampleSentence": "I have a job interview with a software company tomorrow."
+  },
+  {
+    "term": "candidate",
+    "turkish": "aday",
+    "category": "noun",
+    "definition": "A person who applies for a job or position.",
+    "exampleSentence": "The best candidate for the job has ten years of experience."
+  },
+  {
+    "term": "position",
+    "turkish": "pozisyon",
+    "category": "noun",
+    "definition": "A job in a company.",
+    "exampleSentence": "The company has an open position for a junior developer."
+  },
+  {
+    "term": "promotion",
+    "turkish": "terfi",
+    "category": "noun",
+    "definition": "A move to a higher job with more responsibility.",
+    "exampleSentence": "After three years of hard work, he finally got a promotion."
+  },
+  {
+    "term": "revenue",
+    "turkish": "gelir, ciro",
+    "category": "noun",
+    "definition": "The total money a company receives from sales.",
+    "exampleSentence": "The company's revenue grew by twenty percent last year."
+  },
+  {
+    "term": "profit",
+    "turkish": "kâr",
+    "category": "noun",
+    "definition": "Money a company earns after paying all its costs.",
+    "exampleSentence": "The small shop made a profit for the first time this year."
+  },
+  {
+    "term": "cost",
+    "turkish": "maliyet",
+    "category": "noun",
+    "definition": "The amount of money needed to buy or do something.",
+    "exampleSentence": "The total cost of the project was higher than we expected."
+  },
+  {
+    "term": "strategy",
+    "turkish": "strateji",
+    "category": "noun",
+    "definition": "A plan for achieving a long-term goal.",
+    "exampleSentence": "The new marketing strategy focuses on social media."
+  },
+  {
+    "term": "solution",
+    "turkish": "çözüm",
+    "category": "noun",
+    "definition": "An answer to a problem.",
+    "exampleSentence": "We need a quick solution before the client notices the error."
+  },
+  {
+    "term": "requirement",
+    "turkish": "gereksinim",
+    "category": "noun",
+    "definition": "Something that is needed or must be done.",
+    "exampleSentence": "Good English is a requirement for this international role."
+  },
+  {
+    "term": "stakeholder",
+    "turkish": "paydaş",
+    "category": "noun",
+    "definition": "A person or group affected by a project or business.",
+    "exampleSentence": "Every stakeholder must approve the plan before we start."
+  },
+  {
+    "term": "vendor",
+    "turkish": "tedarikçi, satıcı firma",
+    "category": "noun",
+    "definition": "A company that sells products or services to another company.",
+    "exampleSentence": "We chose a new vendor for our cloud services."
+  },
+  {
+    "term": "headquarters",
+    "turkish": "genel merkez",
+    "category": "noun",
+    "definition": "The main office of a company.",
+    "exampleSentence": "The company headquarters is located in the center of London."
+  },
+  {
+    "term": "overtime",
+    "turkish": "fazla mesai",
+    "category": "noun",
+    "definition": "Extra hours worked after normal working time.",
+    "exampleSentence": "The team worked overtime to finish the release before the holiday."
+  },
+  {
+    "term": "conference",
+    "turkish": "konferans",
+    "category": "noun",
+    "definition": "A large formal meeting where people discuss a subject.",
+    "exampleSentence": "Our CTO will speak at a technology conference in Berlin."
+  },
+  {
+    "term": "workshop",
+    "turkish": "atölye çalışması",
+    "category": "noun",
+    "definition": "A meeting where a group learns or works on something together.",
+    "exampleSentence": "We joined a two-day workshop on agile project management."
+  },
+  {
+    "term": "opportunity",
+    "turkish": "fırsat",
+    "category": "noun",
+    "definition": "A chance to do something good.",
+    "exampleSentence": "This job is a great opportunity to work with new technology."
+  },
+  {
+    "term": "skill",
+    "turkish": "beceri",
+    "category": "noun",
+    "definition": "An ability to do something well.",
+    "exampleSentence": "Communication is an important skill for every software engineer."
+  },
+  {
+    "term": "responsibility",
+    "turkish": "sorumluluk",
+    "category": "noun",
+    "definition": "A duty to take care of something.",
+    "exampleSentence": "Keeping the servers secure is the main responsibility of our team."
+  },
+  {
+    "term": "policy",
+    "turkish": "politika, kural",
+    "category": "noun",
+    "definition": "An official rule or plan of a company.",
+    "exampleSentence": "Our company policy allows employees to work from home twice a week."
+  }
+]

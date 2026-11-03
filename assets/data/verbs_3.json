@@ -1,0 +1,282 @@
+[
+  {
+    "term": "manage",
+    "turkish": "yönetmek",
+    "category": "verb",
+    "definition": "To be in charge of people, work or money.",
+    "exampleSentence": "She will manage a team of eight developers from next month."
+  },
+  {
+    "term": "schedule",
+    "turkish": "planlamak, takvime koymak",
+    "category": "verb",
+    "definition": "To arrange a time for something to happen.",
+    "exampleSentence": "Let us schedule the next meeting for Thursday at ten o'clock."
+  },
+  {
+    "term": "approve",
+    "turkish": "onaylamak",
+    "category": "verb",
+    "definition": "To officially agree to something.",
+    "exampleSentence": "The manager has to approve all expenses over five hundred euros."
+  },
+  {
+    "term": "submit",
+    "turkish": "sunmak, teslim etmek",
+    "category": "verb",
+    "definition": "To officially give a document or request.",
+    "exampleSentence": "Please submit your weekly timesheet before five o'clock on Friday."
+  },
+  {
+    "term": "review",
+    "turkish": "incelemek, gözden geçirmek",
+    "category": "verb",
+    "definition": "To check something carefully, often to improve it.",
+    "exampleSentence": "Could you review my report before I send it to the client?"
+  },
+  {
+    "term": "implement",
+    "turkish": "uygulamak, hayata geçirmek",
+    "category": "verb",
+    "definition": "To put a plan, system or idea into action.",
+    "exampleSentence": "The IT team will implement the new password policy next month."
+  },
+  {
+    "term": "negotiate",
+    "turkish": "müzakere etmek",
+    "category": "verb",
+    "definition": "To discuss something in order to reach an agreement.",
+    "exampleSentence": "We need to negotiate a better price with our main supplier."
+  },
+  {
+    "term": "coordinate",
+    "turkish": "koordine etmek",
+    "category": "verb",
+    "definition": "To organize people or activities so they work well together.",
+    "exampleSentence": "Anna will coordinate the move to the new office."
+  },
+  {
+    "term": "delegate",
+    "turkish": "görev dağıtmak",
+    "category": "verb",
+    "definition": "To give part of your work to someone else.",
+    "exampleSentence": "Good managers delegate tasks instead of doing everything themselves."
+  },
+  {
+    "term": "prioritize",
+    "turkish": "önceliklendirmek",
+    "category": "verb",
+    "definition": "To decide which tasks are the most important.",
+    "exampleSentence": "When everything is urgent, you need to prioritize your tasks carefully."
+  },
+  {
+    "term": "upgrade",
+    "turkish": "yükseltmek",
+    "category": "verb",
+    "definition": "To improve something by replacing it with a newer version.",
+    "exampleSentence": "We plan to upgrade all office computers to the latest system."
+  },
+  {
+    "term": "attend",
+    "turkish": "katılmak",
+    "category": "verb",
+    "definition": "To be present at a meeting or event.",
+    "exampleSentence": "All team leaders must attend the training session on Monday."
+  },
+  {
+    "term": "organize",
+    "turkish": "düzenlemek",
+    "category": "verb",
+    "definition": "To plan and arrange something.",
+    "exampleSentence": "Our HR department will organize a team dinner next Friday."
+  },
+  {
+    "term": "analyze",
+    "turkish": "analiz etmek",
+    "category": "verb",
+    "definition": "To study something in detail to understand it.",
+    "exampleSentence": "The data team will analyze last year's sales figures."
+  },
+  {
+    "term": "improve",
+    "turkish": "iyileştirmek",
+    "category": "verb",
+    "definition": "To make something better.",
+    "exampleSentence": "We changed the checkout page to improve the customer experience."
+  },
+  {
+    "term": "develop",
+    "turkish": "geliştirmek",
+    "category": "verb",
+    "definition": "To create or build something over time.",
+    "exampleSentence": "Our company plans to develop a mobile version of the app."
+  },
+  {
+    "term": "maintain",
+    "turkish": "bakımını yapmak, sürdürmek",
+    "category": "verb",
+    "definition": "To keep something in good condition or working.",
+    "exampleSentence": "It takes a small team to maintain our old billing system."
+  },
+  {
+    "term": "deliver",
+    "turkish": "teslim etmek",
+    "category": "verb",
+    "definition": "To bring or hand over a product, service or result.",
+    "exampleSentence": "We promised to deliver the first version to the client in June."
+  },
+  {
+    "term": "achieve",
+    "turkish": "başarmak",
+    "category": "verb",
+    "definition": "To succeed in reaching a goal.",
+    "exampleSentence": "The sales team worked hard to achieve its yearly target."
+  },
+  {
+    "term": "require",
+    "turkish": "gerektirmek",
+    "category": "verb",
+    "definition": "To need something, often officially.",
+    "exampleSentence": "All visitors require a badge to enter the server room."
+  },
+  {
+    "term": "assign",
+    "turkish": "atamak",
+    "category": "verb",
+    "definition": "To give someone a task or job.",
+    "exampleSentence": "The project manager will assign each bug to a developer."
+  },
+  {
+    "term": "confirm",
+    "turkish": "teyit etmek",
+    "category": "verb",
+    "definition": "To say that something is true or definitely happening.",
+    "exampleSentence": "Please confirm your attendance by replying to this email."
+  },
+  {
+    "term": "cancel",
+    "turkish": "iptal etmek",
+    "category": "verb",
+    "definition": "To decide that a planned event will not happen.",
+    "exampleSentence": "We had to cancel the client visit because of the storm."
+  },
+  {
+    "term": "estimate",
+    "turkish": "tahmin etmek",
+    "category": "verb",
+    "definition": "To guess an amount, cost or time based on information.",
+    "exampleSentence": "Can you estimate how long the new feature will take?"
+  },
+  {
+    "term": "evaluate",
+    "turkish": "değerlendirmek",
+    "category": "verb",
+    "definition": "To judge how good or useful something is.",
+    "exampleSentence": "We will evaluate three different tools before we buy one."
+  },
+  {
+    "term": "hire",
+    "turkish": "işe almak",
+    "category": "verb",
+    "definition": "To give someone a job.",
+    "exampleSentence": "The company plans to hire twenty new engineers this year."
+  },
+  {
+    "term": "train",
+    "turkish": "eğitmek",
+    "category": "verb",
+    "definition": "To teach someone the skills for a job.",
+    "exampleSentence": "Senior staff will train the new employees during their first week."
+  },
+  {
+    "term": "launch",
+    "turkish": "piyasaya sürmek, başlatmak",
+    "category": "verb",
+    "definition": "To start a new product, service or project.",
+    "exampleSentence": "The company will launch its new app at the conference in May."
+  },
+  {
+    "term": "invest",
+    "turkish": "yatırım yapmak",
+    "category": "verb",
+    "definition": "To put money or time into something to get a benefit later.",
+    "exampleSentence": "Many companies invest heavily in cybersecurity training for their staff."
+  },
+  {
+    "term": "reduce",
+    "turkish": "azaltmak",
+    "category": "verb",
+    "definition": "To make something smaller or less.",
+    "exampleSentence": "Moving to the cloud helped us reduce our hardware costs."
+  },
+  {
+    "term": "solve",
+    "turkish": "çözmek",
+    "category": "verb",
+    "definition": "To find the answer to a problem.",
+    "exampleSentence": "The support team needed three hours to solve the printer problem."
+  },
+  {
+    "term": "discuss",
+    "turkish": "görüşmek, tartışmak",
+    "category": "verb",
+    "definition": "To talk about something with other people.",
+    "exampleSentence": "We will discuss the new budget at tomorrow's team meeting."
+  },
+  {
+    "term": "present",
+    "turkish": "sunmak",
+    "category": "verb",
+    "definition": "To show and explain something to an audience.",
+    "exampleSentence": "I will present the project results to the board on Friday."
+  },
+  {
+    "term": "propose",
+    "turkish": "önermek",
+    "category": "verb",
+    "definition": "To suggest a plan or idea formally.",
+    "exampleSentence": "I would like to propose a new process for handling support tickets."
+  },
+  {
+    "term": "collaborate",
+    "turkish": "iş birliği yapmak",
+    "category": "verb",
+    "definition": "To work together with others.",
+    "exampleSentence": "Designers and developers collaborate closely on every new feature."
+  },
+  {
+    "term": "track",
+    "turkish": "takip etmek",
+    "category": "verb",
+    "definition": "To follow the progress of something over time.",
+    "exampleSentence": "Our app lets managers track the progress of every task."
+  },
+  {
+    "term": "install",
+    "turkish": "kurmak, yüklemek",
+    "category": "verb",
+    "definition": "To put new software or equipment in place so it can be used.",
+    "exampleSentence": "You need admin rights to install new programs on your work laptop."
+  },
+  {
+    "term": "resolve",
+    "turkish": "çözmek, halletmek",
+    "category": "verb",
+    "definition": "To find a solution to a problem or disagreement.",
+    "exampleSentence": "The help desk aims to resolve most tickets within one day."
+  },
+  {
+    "term": "contact",
+    "turkish": "iletişime geçmek",
+    "category": "verb",
+    "definition": "To call, email or message someone.",
+    "exampleSentence": "Please contact the IT department if you forget your password."
+  },
+  {
+    "term": "troubleshoot",
+    "turkish": "sorun gidermek",
+    "category": "verb",
+    "definition": "To find and fix problems in a system.",
+    "exampleSentence": "Restarting the router is the first step when you troubleshoot network problems."
+  }
+]

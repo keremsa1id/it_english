@@ -1,0 +1,282 @@
+[
+  {
+    "term": "approximately",
+    "turkish": "yaklaşık olarak",
+    "category": "adverb",
+    "definition": "Close to an exact number, but not exactly.",
+    "exampleSentence": "The data migration will take approximately three hours tonight."
+  },
+  {
+    "term": "efficiently",
+    "turkish": "verimli şekilde",
+    "category": "adverb",
+    "definition": "In a way that saves time and effort.",
+    "exampleSentence": "The new tool helps us handle customer requests more efficiently."
+  },
+  {
+    "term": "effectively",
+    "turkish": "etkili şekilde",
+    "category": "adverb",
+    "definition": "In a way that produces the result you want.",
+    "exampleSentence": "A good manager communicates effectively with every team member."
+  },
+  {
+    "term": "promptly",
+    "turkish": "derhal, gecikmeden",
+    "category": "adverb",
+    "definition": "Quickly and without delay.",
+    "exampleSentence": "Please reply promptly to emails from important clients."
+  },
+  {
+    "term": "briefly",
+    "turkish": "kısaca",
+    "category": "adverb",
+    "definition": "For a short time, or in a few words.",
+    "exampleSentence": "Could you briefly explain the main problem to the team?"
+  },
+  {
+    "term": "formally",
+    "turkish": "resmi olarak",
+    "category": "adverb",
+    "definition": "In an official way.",
+    "exampleSentence": "The new manager was formally introduced at the staff meeting."
+  },
+  {
+    "term": "officially",
+    "turkish": "resmen",
+    "category": "adverb",
+    "definition": "In an official way, by people in authority.",
+    "exampleSentence": "The new office will officially open on the first of May."
+  },
+  {
+    "term": "internally",
+    "turkish": "şirket içinde",
+    "category": "adverb",
+    "definition": "Inside the company.",
+    "exampleSentence": "We tested the app internally before releasing it to customers."
+  },
+  {
+    "term": "externally",
+    "turkish": "şirket dışında",
+    "category": "adverb",
+    "definition": "Outside the company.",
+    "exampleSentence": "The final report will be shared externally with our partners."
+  },
+  {
+    "term": "remotely",
+    "turkish": "uzaktan",
+    "category": "adverb",
+    "definition": "From a distance, not in the office.",
+    "exampleSentence": "Many developers in our company work remotely three days a week."
+  },
+  {
+    "term": "manually",
+    "turkish": "elle",
+    "category": "adverb",
+    "definition": "By hand, not automatically.",
+    "exampleSentence": "Before the new system, we entered every invoice manually."
+  },
+  {
+    "term": "temporarily",
+    "turkish": "geçici olarak",
+    "category": "adverb",
+    "definition": "For a limited time only.",
+    "exampleSentence": "The website is temporarily unavailable because of maintenance."
+  },
+  {
+    "term": "permanently",
+    "turkish": "kalıcı olarak",
+    "category": "adverb",
+    "definition": "Forever, or for a very long time.",
+    "exampleSentence": "Deleted files are permanently removed after thirty days."
+  },
+  {
+    "term": "annually",
+    "turkish": "yıllık olarak",
+    "category": "adverb",
+    "definition": "Once a year.",
+    "exampleSentence": "Employee performance is reviewed annually by each team manager."
+  },
+  {
+    "term": "monthly",
+    "turkish": "aylık olarak",
+    "category": "adverb",
+    "definition": "Once a month.",
+    "exampleSentence": "Salaries are paid monthly on the last working day."
+  },
+  {
+    "term": "weekly",
+    "turkish": "haftalık olarak",
+    "category": "adverb",
+    "definition": "Once a week.",
+    "exampleSentence": "The team meets weekly to discuss progress and problems."
+  },
+  {
+    "term": "daily",
+    "turkish": "günlük olarak",
+    "category": "adverb",
+    "definition": "Every day.",
+    "exampleSentence": "We back up the main database daily at midnight."
+  },
+  {
+    "term": "significantly",
+    "turkish": "önemli ölçüde",
+    "category": "adverb",
+    "definition": "By a large amount.",
+    "exampleSentence": "The new server significantly reduced loading times for our users."
+  },
+  {
+    "term": "gradually",
+    "turkish": "yavaş yavaş",
+    "category": "adverb",
+    "definition": "Slowly, over a period of time.",
+    "exampleSentence": "The company gradually moved all its services to the cloud."
+  },
+  {
+    "term": "constantly",
+    "turkish": "sürekli",
+    "category": "adverb",
+    "definition": "All the time.",
+    "exampleSentence": "Technology changes constantly, so developers must keep learning."
+  },
+  {
+    "term": "frequently",
+    "turkish": "sık sık",
+    "category": "adverb",
+    "definition": "Often.",
+    "exampleSentence": "Users frequently forget their passwords on Monday mornings."
+  },
+  {
+    "term": "occasionally",
+    "turkish": "ara sıra",
+    "category": "adverb",
+    "definition": "Sometimes, but not often.",
+    "exampleSentence": "I occasionally work late when there is an urgent release."
+  },
+  {
+    "term": "typically",
+    "turkish": "genellikle",
+    "category": "adverb",
+    "definition": "Usually; in most cases.",
+    "exampleSentence": "A new laptop typically arrives within three working days."
+  },
+  {
+    "term": "primarily",
+    "turkish": "esas olarak",
+    "category": "adverb",
+    "definition": "Mainly.",
+    "exampleSentence": "Our software is used primarily by banks and insurance companies."
+  },
+  {
+    "term": "mainly",
+    "turkish": "çoğunlukla, başlıca",
+    "category": "adverb",
+    "definition": "Mostly; more than anything else.",
+    "exampleSentence": "The office is mainly used by the sales team."
+  },
+  {
+    "term": "mostly",
+    "turkish": "çoğunlukla",
+    "category": "adverb",
+    "definition": "Almost all, or most of the time.",
+    "exampleSentence": "Our customers are mostly small and medium-sized companies."
+  },
+  {
+    "term": "entirely",
+    "turkish": "tamamen",
+    "category": "adverb",
+    "definition": "Completely.",
+    "exampleSentence": "The new system is entirely different from the old one."
+  },
+  {
+    "term": "slightly",
+    "turkish": "biraz",
+    "category": "adverb",
+    "definition": "A little.",
+    "exampleSentence": "The new version is slightly faster than the previous one."
+  },
+  {
+    "term": "increasingly",
+    "turkish": "giderek artan şekilde",
+    "category": "adverb",
+    "definition": "More and more.",
+    "exampleSentence": "Companies around the world are increasingly worried about cyber attacks."
+  },
+  {
+    "term": "successfully",
+    "turkish": "başarıyla",
+    "category": "adverb",
+    "definition": "In a way that achieves the result you wanted.",
+    "exampleSentence": "The team successfully completed the migration over the weekend."
+  },
+  {
+    "term": "separately",
+    "turkish": "ayrı ayrı",
+    "category": "adverb",
+    "definition": "Not together.",
+    "exampleSentence": "Please send the invoice and the contract separately."
+  },
+  {
+    "term": "respectively",
+    "turkish": "sırasıyla",
+    "category": "adverb",
+    "definition": "In the same order as mentioned.",
+    "exampleSentence": "Ali and Sara work in sales and marketing, respectively."
+  },
+  {
+    "term": "ideally",
+    "turkish": "ideal olarak",
+    "category": "adverb",
+    "definition": "In the best possible situation.",
+    "exampleSentence": "Ideally, we should finish testing before the end of the week."
+  },
+  {
+    "term": "preferably",
+    "turkish": "tercihen",
+    "category": "adverb",
+    "definition": "If possible; as a better choice.",
+    "exampleSentence": "Please send your reply by Thursday, preferably before noon."
+  },
+  {
+    "term": "initially",
+    "turkish": "başlangıçta",
+    "category": "adverb",
+    "definition": "At the beginning.",
+    "exampleSentence": "The project was initially planned for three months, not six."
+  },
+  {
+    "term": "subsequently",
+    "turkish": "ardından",
+    "category": "adverb",
+    "definition": "After something else happened.",
+    "exampleSentence": "The bug was reported on Monday and subsequently fixed on Tuesday."
+  },
+  {
+    "term": "shortly",
+    "turkish": "kısa süre içinde",
+    "category": "adverb",
+    "definition": "Soon.",
+    "exampleSentence": "The meeting will start shortly, so please take your seats."
+  },
+  {
+    "term": "urgently",
+    "turkish": "acilen",
+    "category": "adverb",
+    "definition": "In a way that needs immediate action.",
+    "exampleSentence": "We urgently need a developer who can fix the payment system."
+  },
+  {
+    "term": "beforehand",
+    "turkish": "önceden",
+    "category": "adverb",
+    "definition": "Before something happens.",
+    "exampleSentence": "Please read the documents beforehand so the meeting is shorter."
+  },
+  {
+    "term": "upfront",
+    "turkish": "peşin, baştan",
+    "category": "adverb",
+    "definition": "Paid or done in advance.",
+    "exampleSentence": "The supplier asked us to pay half of the price upfront."
+  }
+]
