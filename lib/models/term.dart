@@ -13,7 +13,8 @@ class Term {
   final String term;
 
   /// Kategori anahtarı: hardware, software, networking, security, data,
-  /// verb, noun veya phrase.
+  /// verb, noun, adjective, adverb, phrase, phrasal, idiom, linker veya
+  /// preposition.
   final String category;
 
   /// Terimin İngilizce açıklaması.

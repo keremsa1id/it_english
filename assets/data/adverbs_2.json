@@ -1,0 +1,282 @@
+[
+  {
+    "term": "actually",
+    "turkish": "aslında",
+    "category": "adverb",
+    "definition": "In fact; really.",
+    "exampleSentence": "I thought the test would be hard, but it was actually easy."
+  },
+  {
+    "term": "especially",
+    "turkish": "özellikle",
+    "category": "adverb",
+    "definition": "More than usual; in particular.",
+    "exampleSentence": "I love all kinds of fruit, especially strawberries and cherries."
+  },
+  {
+    "term": "exactly",
+    "turkish": "tam olarak",
+    "category": "adverb",
+    "definition": "Completely correct; precisely.",
+    "exampleSentence": "The train arrived at exactly ten o'clock this morning."
+  },
+  {
+    "term": "nearly",
+    "turkish": "neredeyse",
+    "category": "adverb",
+    "definition": "Almost.",
+    "exampleSentence": "We nearly missed our flight because of the heavy traffic."
+  },
+  {
+    "term": "hardly",
+    "turkish": "neredeyse hiç",
+    "category": "adverb",
+    "definition": "Almost not.",
+    "exampleSentence": "I could hardly hear the speaker because the room was so noisy."
+  },
+  {
+    "term": "simply",
+    "turkish": "sadece; basitçe",
+    "category": "adverb",
+    "definition": "Just, or in an easy way.",
+    "exampleSentence": "To start the program, simply click the green button."
+  },
+  {
+    "term": "clearly",
+    "turkish": "açıkça",
+    "category": "adverb",
+    "definition": "In a way that is easy to see, hear or understand.",
+    "exampleSentence": "Please speak clearly so everyone in the room can hear you."
+  },
+  {
+    "term": "completely",
+    "turkish": "tamamen",
+    "category": "adverb",
+    "definition": "Totally; in every way.",
+    "exampleSentence": "I completely forgot about the meeting this morning."
+  },
+  {
+    "term": "absolutely",
+    "turkish": "kesinlikle",
+    "category": "adverb",
+    "definition": "Totally, or used to strongly agree.",
+    "exampleSentence": "The view from the top of the tower was absolutely amazing."
+  },
+  {
+    "term": "certainly",
+    "turkish": "kesinlikle, elbette",
+    "category": "adverb",
+    "definition": "Without any doubt.",
+    "exampleSentence": "She will certainly win the competition if she keeps practicing."
+  },
+  {
+    "term": "definitely",
+    "turkish": "kesinlikle",
+    "category": "adverb",
+    "definition": "Without any doubt.",
+    "exampleSentence": "I will definitely visit you when I come to Istanbul next year."
+  },
+  {
+    "term": "obviously",
+    "turkish": "belli ki",
+    "category": "adverb",
+    "definition": "In a way that is easy to see or understand.",
+    "exampleSentence": "He was obviously tired after working for twelve hours."
+  },
+  {
+    "term": "unfortunately",
+    "turkish": "maalesef",
+    "category": "adverb",
+    "definition": "Used to say that something is sad or disappointing.",
+    "exampleSentence": "Unfortunately, the concert was cancelled because of the storm."
+  },
+  {
+    "term": "luckily",
+    "turkish": "neyse ki",
+    "category": "adverb",
+    "definition": "Used to say that something good happened by chance.",
+    "exampleSentence": "Luckily, I found my wallet on the floor of the taxi."
+  },
+  {
+    "term": "hopefully",
+    "turkish": "umarım",
+    "category": "adverb",
+    "definition": "Used to say what you hope will happen.",
+    "exampleSentence": "Hopefully, the new version of the app will fix this bug."
+  },
+  {
+    "term": "basically",
+    "turkish": "temelde",
+    "category": "adverb",
+    "definition": "In the most important ways; simply put.",
+    "exampleSentence": "The job is basically answering customer emails and phone calls."
+  },
+  {
+    "term": "generally",
+    "turkish": "genellikle",
+    "category": "adverb",
+    "definition": "In most cases; usually.",
+    "exampleSentence": "The weather here is generally warm and sunny in May."
+  },
+  {
+    "term": "normally",
+    "turkish": "normalde",
+    "category": "adverb",
+    "definition": "Usually; in the normal way.",
+    "exampleSentence": "I normally go to bed at eleven, but tonight I am working late."
+  },
+  {
+    "term": "immediately",
+    "turkish": "hemen",
+    "category": "adverb",
+    "definition": "At once; without waiting.",
+    "exampleSentence": "Please call the doctor immediately if the pain gets worse."
+  },
+  {
+    "term": "eventually",
+    "turkish": "sonunda, eninde sonunda",
+    "category": "adverb",
+    "definition": "In the end, after a long time.",
+    "exampleSentence": "After many failed attempts, he eventually passed his driving test."
+  },
+  {
+    "term": "currently",
+    "turkish": "şu anda",
+    "category": "adverb",
+    "definition": "At the present time.",
+    "exampleSentence": "Our team is currently working on a new mobile app."
+  },
+  {
+    "term": "previously",
+    "turkish": "daha önce",
+    "category": "adverb",
+    "definition": "Before now or before a certain time.",
+    "exampleSentence": "She previously worked as a designer at a large agency."
+  },
+  {
+    "term": "automatically",
+    "turkish": "otomatik olarak",
+    "category": "adverb",
+    "definition": "By itself, without a person controlling it.",
+    "exampleSentence": "The phone updates its apps automatically every night."
+  },
+  {
+    "term": "regularly",
+    "turkish": "düzenli olarak",
+    "category": "adverb",
+    "definition": "Often and at the same times.",
+    "exampleSentence": "You should exercise regularly to stay healthy and fit."
+  },
+  {
+    "term": "properly",
+    "turkish": "düzgünce, doğru şekilde",
+    "category": "adverb",
+    "definition": "Correctly; in the right way.",
+    "exampleSentence": "The printer does not work properly after the last update."
+  },
+  {
+    "term": "directly",
+    "turkish": "doğrudan",
+    "category": "adverb",
+    "definition": "Without stopping or using anyone in between.",
+    "exampleSentence": "You can contact the manager directly by phone or email."
+  },
+  {
+    "term": "quietly",
+    "turkish": "sessizce",
+    "category": "adverb",
+    "definition": "Making little noise.",
+    "exampleSentence": "The students worked quietly while the teacher graded their tests."
+  },
+  {
+    "term": "loudly",
+    "turkish": "yüksek sesle",
+    "category": "adverb",
+    "definition": "Making a lot of noise.",
+    "exampleSentence": "The baby cried loudly when the plane started to land."
+  },
+  {
+    "term": "abroad",
+    "turkish": "yurt dışında",
+    "category": "adverb",
+    "definition": "In or to a foreign country.",
+    "exampleSentence": "Many students want to study abroad for at least one year."
+  },
+  {
+    "term": "online",
+    "turkish": "çevrim içi",
+    "category": "adverb",
+    "definition": "Using or connected to the internet.",
+    "exampleSentence": "I prefer to pay my bills online instead of going to the bank."
+  },
+  {
+    "term": "everywhere",
+    "turkish": "her yerde",
+    "category": "adverb",
+    "definition": "In or to every place.",
+    "exampleSentence": "I looked everywhere for my glasses, but I could not find them."
+  },
+  {
+    "term": "anywhere",
+    "turkish": "herhangi bir yerde",
+    "category": "adverb",
+    "definition": "In or to any place.",
+    "exampleSentence": "You can sit anywhere you like in the waiting room."
+  },
+  {
+    "term": "somewhere",
+    "turkish": "bir yerde",
+    "category": "adverb",
+    "definition": "In or to a place that is not known.",
+    "exampleSentence": "I left my umbrella somewhere in the shopping mall."
+  },
+  {
+    "term": "nowhere",
+    "turkish": "hiçbir yerde",
+    "category": "adverb",
+    "definition": "Not in or to any place.",
+    "exampleSentence": "The cat was nowhere to be found when we got home."
+  },
+  {
+    "term": "instead",
+    "turkish": "onun yerine",
+    "category": "adverb",
+    "definition": "In place of something else.",
+    "exampleSentence": "We did not have rice, so we cooked pasta instead."
+  },
+  {
+    "term": "perhaps",
+    "turkish": "belki",
+    "category": "adverb",
+    "definition": "Maybe; possibly.",
+    "exampleSentence": "Perhaps we should leave earlier to avoid the traffic."
+  },
+  {
+    "term": "rather",
+    "turkish": "oldukça",
+    "category": "adverb",
+    "definition": "Quite, or to some degree.",
+    "exampleSentence": "The hotel room was rather small, but it was very clean."
+  },
+  {
+    "term": "fairly",
+    "turkish": "oldukça",
+    "category": "adverb",
+    "definition": "More than a little, but not very.",
+    "exampleSentence": "The exam was fairly easy for most of the students."
+  },
+  {
+    "term": "extremely",
+    "turkish": "son derece",
+    "category": "adverb",
+    "definition": "Very; to a very high degree.",
+    "exampleSentence": "The road over the mountains is extremely dangerous in winter."
+  },
+  {
+    "term": "seriously",
+    "turkish": "ciddi şekilde",
+    "category": "adverb",
+    "definition": "In a serious way.",
+    "exampleSentence": "She was seriously injured in the accident, but she is recovering now."
+  }
+]

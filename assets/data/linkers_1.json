@@ -1,0 +1,282 @@
+[
+  {
+    "term": "but",
+    "turkish": "ama",
+    "category": "linker",
+    "definition": "Used to introduce something that is different.",
+    "exampleSentence": "I wanted to go to the concert, but the tickets were sold out."
+  },
+  {
+    "term": "because",
+    "turkish": "çünkü",
+    "category": "linker",
+    "definition": "Used to give a reason.",
+    "exampleSentence": "We stayed inside because it was raining heavily all day."
+  },
+  {
+    "term": "so",
+    "turkish": "bu yüzden",
+    "category": "linker",
+    "definition": "Used to show a result.",
+    "exampleSentence": "The shop was closed, so we went to another one nearby."
+  },
+  {
+    "term": "although",
+    "turkish": "-e rağmen, gerçi",
+    "category": "linker",
+    "definition": "Used to say that something is true despite something else.",
+    "exampleSentence": "Although it was cold, the children played outside all afternoon."
+  },
+  {
+    "term": "however",
+    "turkish": "ancak, fakat",
+    "category": "linker",
+    "definition": "Used to add a statement that is different from the one before.",
+    "exampleSentence": "The hotel was expensive; however, the service was excellent."
+  },
+  {
+    "term": "therefore",
+    "turkish": "bu nedenle",
+    "category": "linker",
+    "definition": "For that reason; as a result.",
+    "exampleSentence": "The road is closed; therefore, we must take a different route."
+  },
+  {
+    "term": "since",
+    "turkish": "-den beri; çünkü",
+    "category": "linker",
+    "definition": "From a time in the past until now, or because.",
+    "exampleSentence": "I have lived in this city since I was a child."
+  },
+  {
+    "term": "unless",
+    "turkish": "-medikçe",
+    "category": "linker",
+    "definition": "Except if.",
+    "exampleSentence": "You will not pass the exam unless you study harder."
+  },
+  {
+    "term": "while",
+    "turkish": "-iken",
+    "category": "linker",
+    "definition": "During the time that something else happens.",
+    "exampleSentence": "Someone called me while I was cooking dinner last night."
+  },
+  {
+    "term": "until",
+    "turkish": "-e kadar",
+    "category": "linker",
+    "definition": "Up to a certain time.",
+    "exampleSentence": "The library stays open until nine o'clock on weekdays."
+  },
+  {
+    "term": "whereas",
+    "turkish": "oysa, halbuki",
+    "category": "linker",
+    "definition": "Used to compare two different facts.",
+    "exampleSentence": "My brother loves the city, whereas I prefer the countryside."
+  },
+  {
+    "term": "besides",
+    "turkish": "ayrıca, üstelik",
+    "category": "linker",
+    "definition": "In addition to; also.",
+    "exampleSentence": "Besides English, she speaks French and a little Arabic."
+  },
+  {
+    "term": "otherwise",
+    "turkish": "aksi takdirde",
+    "category": "linker",
+    "definition": "If not; or else.",
+    "exampleSentence": "Save your work often; otherwise, you might lose everything."
+  },
+  {
+    "term": "meanwhile",
+    "turkish": "bu arada, o sırada",
+    "category": "linker",
+    "definition": "At the same time as something else.",
+    "exampleSentence": "I will cook dinner; meanwhile, you can set the table."
+  },
+  {
+    "term": "moreover",
+    "turkish": "üstelik",
+    "category": "linker",
+    "definition": "Used to add more information.",
+    "exampleSentence": "The apartment is cheap; moreover, it is close to my office."
+  },
+  {
+    "term": "furthermore",
+    "turkish": "bunun yanında",
+    "category": "linker",
+    "definition": "In addition; also.",
+    "exampleSentence": "The software is free; furthermore, it works on every device."
+  },
+  {
+    "term": "despite",
+    "turkish": "-e rağmen",
+    "category": "linker",
+    "definition": "Without being stopped by something.",
+    "exampleSentence": "Despite the rain, thousands of fans came to the concert."
+  },
+  {
+    "term": "because of",
+    "turkish": "yüzünden",
+    "category": "linker",
+    "definition": "As a result of something.",
+    "exampleSentence": "The flight was delayed because of the snowstorm in Chicago."
+  },
+  {
+    "term": "due to",
+    "turkish": "-den dolayı",
+    "category": "linker",
+    "definition": "Caused by.",
+    "exampleSentence": "The meeting was cancelled due to the manager's illness."
+  },
+  {
+    "term": "so that",
+    "turkish": "-sın diye",
+    "category": "linker",
+    "definition": "In order to make something possible.",
+    "exampleSentence": "Speak louder so that everyone in the room can hear you."
+  },
+  {
+    "term": "as if",
+    "turkish": "-mış gibi",
+    "category": "linker",
+    "definition": "In a way that suggests something is true.",
+    "exampleSentence": "He talks as if he knows everything about computers."
+  },
+  {
+    "term": "even if",
+    "turkish": "-se bile",
+    "category": "linker",
+    "definition": "Whether or not something happens.",
+    "exampleSentence": "I will go running tomorrow even if it rains."
+  },
+  {
+    "term": "in case",
+    "turkish": "ihtimaline karşı",
+    "category": "linker",
+    "definition": "Because something might happen.",
+    "exampleSentence": "Take an umbrella with you in case it rains later."
+  },
+  {
+    "term": "whether",
+    "turkish": "-ip -mediğini",
+    "category": "linker",
+    "definition": "Used to talk about two possible choices.",
+    "exampleSentence": "I do not know whether he will come to the party."
+  },
+  {
+    "term": "for instance",
+    "turkish": "örneğin",
+    "category": "linker",
+    "definition": "For example.",
+    "exampleSentence": "Some fruits, for instance bananas, are rich in potassium."
+  },
+  {
+    "term": "in other words",
+    "turkish": "başka bir deyişle",
+    "category": "linker",
+    "definition": "Used to say something again in a simpler way.",
+    "exampleSentence": "The project failed; in other words, we lost all our money."
+  },
+  {
+    "term": "as well as",
+    "turkish": "-in yanı sıra",
+    "category": "linker",
+    "definition": "And also.",
+    "exampleSentence": "She speaks German as well as French and Spanish."
+  },
+  {
+    "term": "not only",
+    "turkish": "sadece ... değil",
+    "category": "linker",
+    "definition": "Used with \"but also\" to add a second, stronger point.",
+    "exampleSentence": "This app is not only fast but also very easy to use."
+  },
+  {
+    "term": "in contrast",
+    "turkish": "buna karşın",
+    "category": "linker",
+    "definition": "Used to show a clear difference.",
+    "exampleSentence": "Summers here are very hot; in contrast, the winters are mild."
+  },
+  {
+    "term": "in spite of",
+    "turkish": "-e rağmen",
+    "category": "linker",
+    "definition": "Despite.",
+    "exampleSentence": "In spite of the traffic, we arrived at the airport on time."
+  },
+  {
+    "term": "after all",
+    "turkish": "sonuçta",
+    "category": "linker",
+    "definition": "Used to give a reason that should be remembered.",
+    "exampleSentence": "Do not be too hard on him; after all, he is only a beginner."
+  },
+  {
+    "term": "above all",
+    "turkish": "her şeyden önce",
+    "category": "linker",
+    "definition": "Most importantly.",
+    "exampleSentence": "A good teacher must be patient and, above all, kind to students."
+  },
+  {
+    "term": "in short",
+    "turkish": "kısacası",
+    "category": "linker",
+    "definition": "In a few words.",
+    "exampleSentence": "The food was cold and the staff were rude; in short, it was a terrible evening."
+  },
+  {
+    "term": "in conclusion",
+    "turkish": "sonuç olarak",
+    "category": "linker",
+    "definition": "Used to start the final part of a speech or essay.",
+    "exampleSentence": "In conclusion, regular exercise improves both health and mood."
+  },
+  {
+    "term": "to sum up",
+    "turkish": "özetle",
+    "category": "linker",
+    "definition": "Used before giving a summary.",
+    "exampleSentence": "To sum up, we need more time, more money and more people."
+  },
+  {
+    "term": "similarly",
+    "turkish": "benzer şekilde",
+    "category": "linker",
+    "definition": "In a similar way.",
+    "exampleSentence": "Cats sleep a lot during the day; similarly, owls rest until night."
+  },
+  {
+    "term": "likewise",
+    "turkish": "aynı şekilde",
+    "category": "linker",
+    "definition": "In the same way.",
+    "exampleSentence": "My father was a doctor, and likewise my brother chose medicine."
+  },
+  {
+    "term": "nevertheless",
+    "turkish": "yine de",
+    "category": "linker",
+    "definition": "Despite what was just said.",
+    "exampleSentence": "The task was very difficult; nevertheless, we finished it on time."
+  },
+  {
+    "term": "on the contrary",
+    "turkish": "aksine",
+    "category": "linker",
+    "definition": "Used to say that the opposite is true.",
+    "exampleSentence": "The movie was not boring; on the contrary, it was very exciting."
+  },
+  {
+    "term": "thus",
+    "turkish": "böylece",
+    "category": "linker",
+    "definition": "As a result; in this way.",
+    "exampleSentence": "The new design uses less power and thus saves money."
+  }
+]

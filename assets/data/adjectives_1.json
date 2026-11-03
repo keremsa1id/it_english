@@ -1,0 +1,282 @@
+[
+  {
+    "term": "big",
+    "turkish": "büyük",
+    "category": "adjective",
+    "definition": "Large in size or amount.",
+    "exampleSentence": "They moved into a big house with a garden last year."
+  },
+  {
+    "term": "small",
+    "turkish": "küçük",
+    "category": "adjective",
+    "definition": "Little in size or amount.",
+    "exampleSentence": "My grandmother lives in a small village near the sea."
+  },
+  {
+    "term": "good",
+    "turkish": "iyi",
+    "category": "adjective",
+    "definition": "Of high quality, or pleasant.",
+    "exampleSentence": "This restaurant serves really good food at fair prices."
+  },
+  {
+    "term": "bad",
+    "turkish": "kötü",
+    "category": "adjective",
+    "definition": "Of low quality, or not pleasant.",
+    "exampleSentence": "The bad weather delayed our flight by three hours."
+  },
+  {
+    "term": "new",
+    "turkish": "yeni",
+    "category": "adjective",
+    "definition": "Recently made, bought or started.",
+    "exampleSentence": "I bought a new phone because my old one broke."
+  },
+  {
+    "term": "old",
+    "turkish": "eski, yaşlı",
+    "category": "adjective",
+    "definition": "Having lived or existed for a long time.",
+    "exampleSentence": "My grandfather still drives his old car every weekend."
+  },
+  {
+    "term": "important",
+    "turkish": "önemli",
+    "category": "adjective",
+    "definition": "Having great value or effect.",
+    "exampleSentence": "It is important to drink enough water during the day."
+  },
+  {
+    "term": "different",
+    "turkish": "farklı",
+    "category": "adjective",
+    "definition": "Not the same as something else.",
+    "exampleSentence": "My sister and I have very different hobbies and interests."
+  },
+  {
+    "term": "easy",
+    "turkish": "kolay",
+    "category": "adjective",
+    "definition": "Not difficult to do or understand.",
+    "exampleSentence": "The first level of the game is very easy to finish."
+  },
+  {
+    "term": "difficult",
+    "turkish": "zor",
+    "category": "adjective",
+    "definition": "Not easy; needing effort or skill.",
+    "exampleSentence": "Learning to play the violin can be difficult for adults."
+  },
+  {
+    "term": "happy",
+    "turkish": "mutlu",
+    "category": "adjective",
+    "definition": "Feeling or showing pleasure.",
+    "exampleSentence": "The children were happy when the holidays finally started."
+  },
+  {
+    "term": "sad",
+    "turkish": "üzgün",
+    "category": "adjective",
+    "definition": "Unhappy, or making you feel unhappy.",
+    "exampleSentence": "She felt sad when her best friend moved to another city."
+  },
+  {
+    "term": "beautiful",
+    "turkish": "güzel",
+    "category": "adjective",
+    "definition": "Very pleasant to look at or listen to.",
+    "exampleSentence": "We watched a beautiful sunset from the top of the hill."
+  },
+  {
+    "term": "expensive",
+    "turkish": "pahalı",
+    "category": "adjective",
+    "definition": "Costing a lot of money.",
+    "exampleSentence": "Eating at hotels can be very expensive for families."
+  },
+  {
+    "term": "cheap",
+    "turkish": "ucuz",
+    "category": "adjective",
+    "definition": "Costing little money.",
+    "exampleSentence": "We found a cheap flight to Rome for our summer trip."
+  },
+  {
+    "term": "fast",
+    "turkish": "hızlı",
+    "category": "adjective",
+    "definition": "Moving or happening quickly.",
+    "exampleSentence": "This new laptop is fast enough for video editing."
+  },
+  {
+    "term": "slow",
+    "turkish": "yavaş",
+    "category": "adjective",
+    "definition": "Not moving or happening quickly.",
+    "exampleSentence": "The internet is very slow in this old building."
+  },
+  {
+    "term": "hot",
+    "turkish": "sıcak",
+    "category": "adjective",
+    "definition": "Having a high temperature.",
+    "exampleSentence": "Be careful because the soup is still very hot."
+  },
+  {
+    "term": "cold",
+    "turkish": "soğuk",
+    "category": "adjective",
+    "definition": "Having a low temperature.",
+    "exampleSentence": "It was a cold morning, so I wore my thick coat."
+  },
+  {
+    "term": "long",
+    "turkish": "uzun",
+    "category": "adjective",
+    "definition": "Having great length, or lasting a lot of time.",
+    "exampleSentence": "We waited in a long queue to enter the museum."
+  },
+  {
+    "term": "short",
+    "turkish": "kısa",
+    "category": "adjective",
+    "definition": "Having little length, or lasting little time.",
+    "exampleSentence": "The teacher gave us a short break between the two lessons."
+  },
+  {
+    "term": "young",
+    "turkish": "genç",
+    "category": "adjective",
+    "definition": "Not old; in the early part of life.",
+    "exampleSentence": "My parents met when they were young students at university."
+  },
+  {
+    "term": "early",
+    "turkish": "erken",
+    "category": "adjective",
+    "definition": "Happening before the usual or planned time.",
+    "exampleSentence": "We took an early train to avoid the morning traffic."
+  },
+  {
+    "term": "late",
+    "turkish": "geç",
+    "category": "adjective",
+    "definition": "Happening after the usual or planned time.",
+    "exampleSentence": "I had a late lunch because the meeting lasted for hours."
+  },
+  {
+    "term": "strong",
+    "turkish": "güçlü",
+    "category": "adjective",
+    "definition": "Having a lot of physical power or force.",
+    "exampleSentence": "You need strong arms to carry these heavy boxes."
+  },
+  {
+    "term": "weak",
+    "turkish": "zayıf, güçsüz",
+    "category": "adjective",
+    "definition": "Not strong; having little power.",
+    "exampleSentence": "The phone signal is weak inside this concrete building."
+  },
+  {
+    "term": "busy",
+    "turkish": "meşgul, yoğun",
+    "category": "adjective",
+    "definition": "Having a lot to do, or full of activity.",
+    "exampleSentence": "My manager is too busy to answer emails this week."
+  },
+  {
+    "term": "free",
+    "turkish": "ücretsiz; boş",
+    "category": "adjective",
+    "definition": "Costing nothing, or not busy.",
+    "exampleSentence": "The museum is free for students on the first Sunday of every month."
+  },
+  {
+    "term": "full",
+    "turkish": "dolu",
+    "category": "adjective",
+    "definition": "Holding as much as possible.",
+    "exampleSentence": "The bus was full, so we had to wait for the next one."
+  },
+  {
+    "term": "empty",
+    "turkish": "boş",
+    "category": "adjective",
+    "definition": "Containing nothing or nobody.",
+    "exampleSentence": "The office is usually empty on Friday afternoons."
+  },
+  {
+    "term": "safe",
+    "turkish": "güvenli",
+    "category": "adjective",
+    "definition": "Not in danger, or not likely to cause harm.",
+    "exampleSentence": "Keep your passwords in a safe place that only you can access."
+  },
+  {
+    "term": "dangerous",
+    "turkish": "tehlikeli",
+    "category": "adjective",
+    "definition": "Likely to cause harm or injury.",
+    "exampleSentence": "Swimming in the river is dangerous after heavy rain."
+  },
+  {
+    "term": "clean",
+    "turkish": "temiz",
+    "category": "adjective",
+    "definition": "Not dirty.",
+    "exampleSentence": "Please keep your desk clean and tidy at the end of the day."
+  },
+  {
+    "term": "dirty",
+    "turkish": "kirli",
+    "category": "adjective",
+    "definition": "Covered with dust, mud or marks.",
+    "exampleSentence": "Put your dirty clothes in the washing machine tonight."
+  },
+  {
+    "term": "quiet",
+    "turkish": "sessiz",
+    "category": "adjective",
+    "definition": "Making little or no noise.",
+    "exampleSentence": "The library is a quiet place to study for exams."
+  },
+  {
+    "term": "loud",
+    "turkish": "yüksek sesli",
+    "category": "adjective",
+    "definition": "Making a lot of noise.",
+    "exampleSentence": "The music at the party was too loud for the neighbors."
+  },
+  {
+    "term": "rich",
+    "turkish": "zengin",
+    "category": "adjective",
+    "definition": "Having a lot of money.",
+    "exampleSentence": "The rich businessman donated money to build a new hospital."
+  },
+  {
+    "term": "poor",
+    "turkish": "fakir",
+    "category": "adjective",
+    "definition": "Having very little money.",
+    "exampleSentence": "The charity helps poor families buy food and clothes."
+  },
+  {
+    "term": "simple",
+    "turkish": "basit",
+    "category": "adjective",
+    "definition": "Easy to understand or do; not complicated.",
+    "exampleSentence": "The instructions are simple, so anyone can install the app."
+  },
+  {
+    "term": "possible",
+    "turkish": "mümkün",
+    "category": "adjective",
+    "definition": "Able to happen or be done.",
+    "exampleSentence": "Is it possible to change my seat on this flight?"
+  }
+]

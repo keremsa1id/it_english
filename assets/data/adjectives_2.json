@@ -1,0 +1,282 @@
+[
+  {
+    "term": "reliable",
+    "turkish": "güvenilir",
+    "category": "adjective",
+    "definition": "Able to be trusted to work well or do the right thing.",
+    "exampleSentence": "We need a reliable internet connection for video meetings."
+  },
+  {
+    "term": "available",
+    "turkish": "mevcut, müsait",
+    "category": "adjective",
+    "definition": "Ready to use, buy or talk to.",
+    "exampleSentence": "The new model will be available in stores next month."
+  },
+  {
+    "term": "secure",
+    "turkish": "güvenli, korumalı",
+    "category": "adjective",
+    "definition": "Protected against attacks or danger.",
+    "exampleSentence": "Make sure the payment page is secure before you enter your card."
+  },
+  {
+    "term": "efficient",
+    "turkish": "verimli",
+    "category": "adjective",
+    "definition": "Working well without wasting time or energy.",
+    "exampleSentence": "The new heating system is more efficient and cheaper to run."
+  },
+  {
+    "term": "accurate",
+    "turkish": "doğru, kesin",
+    "category": "adjective",
+    "definition": "Correct in every detail.",
+    "exampleSentence": "The weather app gives accurate forecasts for our area."
+  },
+  {
+    "term": "flexible",
+    "turkish": "esnek",
+    "category": "adjective",
+    "definition": "Able to change easily.",
+    "exampleSentence": "My company offers flexible working hours for parents."
+  },
+  {
+    "term": "powerful",
+    "turkish": "güçlü",
+    "category": "adjective",
+    "definition": "Having a lot of power or strength.",
+    "exampleSentence": "This powerful computer can render 3D videos very quickly."
+  },
+  {
+    "term": "useful",
+    "turkish": "faydalı",
+    "category": "adjective",
+    "definition": "Helping you do or get what you need.",
+    "exampleSentence": "This dictionary app is very useful for learning new words."
+  },
+  {
+    "term": "helpful",
+    "turkish": "yardımsever, yardımcı",
+    "category": "adjective",
+    "definition": "Willing to help, or making things easier.",
+    "exampleSentence": "The hotel staff were friendly and helpful during our stay."
+  },
+  {
+    "term": "popular",
+    "turkish": "popüler",
+    "category": "adjective",
+    "definition": "Liked by many people.",
+    "exampleSentence": "Football is the most popular sport in my country."
+  },
+  {
+    "term": "modern",
+    "turkish": "modern",
+    "category": "adjective",
+    "definition": "New and using the latest ideas or technology.",
+    "exampleSentence": "The city has a modern airport with fast trains to the center."
+  },
+  {
+    "term": "complex",
+    "turkish": "karmaşık",
+    "category": "adjective",
+    "definition": "Having many connected parts; hard to understand.",
+    "exampleSentence": "Building a banking system is a complex project for any team."
+  },
+  {
+    "term": "careful",
+    "turkish": "dikkatli",
+    "category": "adjective",
+    "definition": "Paying attention to avoid danger or mistakes.",
+    "exampleSentence": "Be careful when you cross this busy road at night."
+  },
+  {
+    "term": "ready",
+    "turkish": "hazır",
+    "category": "adjective",
+    "definition": "Prepared for something.",
+    "exampleSentence": "Dinner will be ready in about fifteen minutes."
+  },
+  {
+    "term": "correct",
+    "turkish": "doğru",
+    "category": "adjective",
+    "definition": "Right; without mistakes.",
+    "exampleSentence": "Please check that your email address is correct before you continue."
+  },
+  {
+    "term": "wrong",
+    "turkish": "yanlış",
+    "category": "adjective",
+    "definition": "Not right or not correct.",
+    "exampleSentence": "I took the wrong bus and arrived late to class."
+  },
+  {
+    "term": "similar",
+    "turkish": "benzer",
+    "category": "adjective",
+    "definition": "Almost the same but not exactly.",
+    "exampleSentence": "The two phones look similar, but one has a better camera."
+  },
+  {
+    "term": "necessary",
+    "turkish": "gerekli",
+    "category": "adjective",
+    "definition": "Needed in order to do something.",
+    "exampleSentence": "A passport is necessary when you travel to another country."
+  },
+  {
+    "term": "common",
+    "turkish": "yaygın",
+    "category": "adjective",
+    "definition": "Happening often or found in many places.",
+    "exampleSentence": "Back pain is a common problem for people who sit all day."
+  },
+  {
+    "term": "recent",
+    "turkish": "son, yakın zamanlı",
+    "category": "adjective",
+    "definition": "Happening a short time ago.",
+    "exampleSentence": "The recent update fixed several problems with the app."
+  },
+  {
+    "term": "main",
+    "turkish": "ana, temel",
+    "category": "adjective",
+    "definition": "Most important or largest.",
+    "exampleSentence": "The main entrance is on the left side of the building."
+  },
+  {
+    "term": "basic",
+    "turkish": "temel",
+    "category": "adjective",
+    "definition": "Simple and needed as a starting point.",
+    "exampleSentence": "You only need basic computer skills for this job."
+  },
+  {
+    "term": "public",
+    "turkish": "halka açık, kamu",
+    "category": "adjective",
+    "definition": "Open to or used by everyone.",
+    "exampleSentence": "Do not use public Wi-Fi to check your bank account."
+  },
+  {
+    "term": "private",
+    "turkish": "özel",
+    "category": "adjective",
+    "definition": "Only for one person or group.",
+    "exampleSentence": "Please keep your personal information private when using social media."
+  },
+  {
+    "term": "digital",
+    "turkish": "dijital",
+    "category": "adjective",
+    "definition": "Using computer technology, or stored as numbers.",
+    "exampleSentence": "Most people now keep digital copies of their photos."
+  },
+  {
+    "term": "responsible",
+    "turkish": "sorumlu",
+    "category": "adjective",
+    "definition": "Having the duty to take care of something.",
+    "exampleSentence": "Parents are responsible for the safety of their young children."
+  },
+  {
+    "term": "successful",
+    "turkish": "başarılı",
+    "category": "adjective",
+    "definition": "Achieving the result you wanted.",
+    "exampleSentence": "Their online shop became successful in less than a year."
+  },
+  {
+    "term": "comfortable",
+    "turkish": "rahat",
+    "category": "adjective",
+    "definition": "Making you feel relaxed and free from pain.",
+    "exampleSentence": "These shoes are comfortable enough to wear all day."
+  },
+  {
+    "term": "interesting",
+    "turkish": "ilginç",
+    "category": "adjective",
+    "definition": "Making you want to know more.",
+    "exampleSentence": "The documentary about space we watched last night was really interesting."
+  },
+  {
+    "term": "boring",
+    "turkish": "sıkıcı",
+    "category": "adjective",
+    "definition": "Not interesting.",
+    "exampleSentence": "The lecture was so boring that half the students fell asleep."
+  },
+  {
+    "term": "tired",
+    "turkish": "yorgun",
+    "category": "adjective",
+    "definition": "Needing rest or sleep.",
+    "exampleSentence": "After the long flight, we were too tired to go out."
+  },
+  {
+    "term": "angry",
+    "turkish": "kızgın",
+    "category": "adjective",
+    "definition": "Feeling strong displeasure.",
+    "exampleSentence": "The customer was angry because his order arrived broken."
+  },
+  {
+    "term": "friendly",
+    "turkish": "arkadaş canlısı",
+    "category": "adjective",
+    "definition": "Kind and pleasant to other people.",
+    "exampleSentence": "Our new neighbors are very friendly and always say hello."
+  },
+  {
+    "term": "honest",
+    "turkish": "dürüst",
+    "category": "adjective",
+    "definition": "Telling the truth and not cheating.",
+    "exampleSentence": "Please give me your honest opinion about my presentation."
+  },
+  {
+    "term": "curious",
+    "turkish": "meraklı",
+    "category": "adjective",
+    "definition": "Wanting to know or learn about something.",
+    "exampleSentence": "Young children are curious about everything around them."
+  },
+  {
+    "term": "nervous",
+    "turkish": "gergin",
+    "category": "adjective",
+    "definition": "Worried or a little afraid.",
+    "exampleSentence": "I always feel nervous before an important job interview."
+  },
+  {
+    "term": "proud",
+    "turkish": "gururlu",
+    "category": "adjective",
+    "definition": "Pleased about something you or others did.",
+    "exampleSentence": "Her parents were very proud when she graduated from university."
+  },
+  {
+    "term": "serious",
+    "turkish": "ciddi",
+    "category": "adjective",
+    "definition": "Important and worrying, or not joking.",
+    "exampleSentence": "Climate change is a serious problem for the whole world."
+  },
+  {
+    "term": "strange",
+    "turkish": "garip",
+    "category": "adjective",
+    "definition": "Unusual or surprising.",
+    "exampleSentence": "I heard a strange noise coming from the car engine."
+  },
+  {
+    "term": "famous",
+    "turkish": "ünlü",
+    "category": "adjective",
+    "definition": "Known by many people.",
+    "exampleSentence": "The Eiffel Tower is one of the most famous buildings in Europe."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "in",
+    "turkish": "içinde, -de",
+    "category": "preposition",
+    "definition": "Inside a place, or during a period of time.",
+    "exampleSentence": "My keys are in the top drawer of my desk."
+  },
+  {
+    "term": "on",
+    "turkish": "üstünde",
+    "category": "preposition",
+    "definition": "Touching the top of something.",
+    "exampleSentence": "Please put the books on the table near the window."
+  },
+  {
+    "term": "at",
+    "turkish": "-de (belirli yer veya saat)",
+    "category": "preposition",
+    "definition": "Used for an exact place or time.",
+    "exampleSentence": "The meeting starts at nine, so please do not be late."
+  },
+  {
+    "term": "by",
+    "turkish": "yanında; tarafından; -e kadar",
+    "category": "preposition",
+    "definition": "Near, done by someone, or not later than.",
+    "exampleSentence": "Please send me the final report by Friday afternoon."
+  },
+  {
+    "term": "for",
+    "turkish": "için",
+    "category": "preposition",
+    "definition": "Used to show purpose or who receives something.",
+    "exampleSentence": "I bought these beautiful flowers for my mother's birthday party."
+  },
+  {
+    "term": "with",
+    "turkish": "ile",
+    "category": "preposition",
+    "definition": "Together with someone or something.",
+    "exampleSentence": "I went to the cinema with my best friend last night."
+  },
+  {
+    "term": "from",
+    "turkish": "-den",
+    "category": "preposition",
+    "definition": "Showing where something starts or comes from.",
+    "exampleSentence": "This coffee comes from a small farm in Colombia."
+  },
+  {
+    "term": "to",
+    "turkish": "-e",
+    "category": "preposition",
+    "definition": "Showing direction or a destination.",
+    "exampleSentence": "We drove to the airport early this morning."
+  },
+  {
+    "term": "of",
+    "turkish": "-in",
+    "category": "preposition",
+    "definition": "Showing belonging, or a part of something.",
+    "exampleSentence": "The roof of the old house needs repairs."
+  },
+  {
+    "term": "about",
+    "turkish": "hakkında",
+    "category": "preposition",
+    "definition": "On the subject of.",
+    "exampleSentence": "We watched a documentary about the history of the internet."
+  },
+  {
+    "term": "under",
+    "turkish": "altında",
+    "category": "preposition",
+    "definition": "Below something.",
+    "exampleSentence": "The cat is sleeping under the kitchen table again."
+  },
+  {
+    "term": "over",
+    "turkish": "üstünde, üzerinden",
+    "category": "preposition",
+    "definition": "Above, or across from one side to the other.",
+    "exampleSentence": "A small plane flew over our house this morning."
+  },
+  {
+    "term": "above",
+    "turkish": "yukarısında",
+    "category": "preposition",
+    "definition": "Higher than something.",
+    "exampleSentence": "There is a beautiful painting above the fireplace in the living room."
+  },
+  {
+    "term": "below",
+    "turkish": "aşağısında",
+    "category": "preposition",
+    "definition": "Lower than something.",
+    "exampleSentence": "Please write your name below the line at the bottom."
+  },
+  {
+    "term": "between",
+    "turkish": "arasında (iki şey)",
+    "category": "preposition",
+    "definition": "In the space that separates two things.",
+    "exampleSentence": "The bank is between the post office and the bakery."
+  },
+  {
+    "term": "among",
+    "turkish": "arasında (çok şey)",
+    "category": "preposition",
+    "definition": "Surrounded by, or part of, a group.",
+    "exampleSentence": "She was the youngest among all the students in her class."
+  },
+  {
+    "term": "behind",
+    "turkish": "arkasında",
+    "category": "preposition",
+    "definition": "At the back of something.",
+    "exampleSentence": "You can find the car park behind the big shopping center."
+  },
+  {
+    "term": "in front of",
+    "turkish": "önünde",
+    "category": "preposition",
+    "definition": "Facing or before something.",
+    "exampleSentence": "There is a bus stop right in front of my building."
+  },
+  {
+    "term": "next to",
+    "turkish": "yanında",
+    "category": "preposition",
+    "definition": "Very close to; beside.",
+    "exampleSentence": "Can I sit next to you during the presentation?"
+  },
+  {
+    "term": "near",
+    "turkish": "yakınında",
+    "category": "preposition",
+    "definition": "Not far from.",
+    "exampleSentence": "We live near a beautiful park with a small lake."
+  },
+  {
+    "term": "inside",
+    "turkish": "içinde, içeride",
+    "category": "preposition",
+    "definition": "In the inner part of something.",
+    "exampleSentence": "Please wait inside the building until the rain stops."
+  },
+  {
+    "term": "outside",
+    "turkish": "dışında, dışarıda",
+    "category": "preposition",
+    "definition": "Not inside a building or place.",
+    "exampleSentence": "The children are playing outside the school in the sun."
+  },
+  {
+    "term": "through",
+    "turkish": "içinden, -den geçerek",
+    "category": "preposition",
+    "definition": "From one side to the other side of something.",
+    "exampleSentence": "The train goes through a long tunnel under the mountains."
+  },
+  {
+    "term": "across",
+    "turkish": "karşısına, bir uçtan öbürüne",
+    "category": "preposition",
+    "definition": "From one side to the other of a flat area.",
+    "exampleSentence": "We walked across the bridge to the old part of town."
+  },
+  {
+    "term": "along",
+    "turkish": "boyunca",
+    "category": "preposition",
+    "definition": "Following the length of something.",
+    "exampleSentence": "We took a long walk along the beach at sunset."
+  },
+  {
+    "term": "around",
+    "turkish": "etrafında",
+    "category": "preposition",
+    "definition": "On every side of something, or in a circle.",
+    "exampleSentence": "The children sat around the fire and sang songs."
+  },
+  {
+    "term": "into",
+    "turkish": "içine",
+    "category": "preposition",
+    "definition": "Moving to the inside of something.",
+    "exampleSentence": "She poured the hot coffee into a large mug."
+  },
+  {
+    "term": "onto",
+    "turkish": "üstüne",
+    "category": "preposition",
+    "definition": "Moving to a position on top of something.",
+    "exampleSentence": "The cat jumped onto the kitchen counter again."
+  },
+  {
+    "term": "during",
+    "turkish": "sırasında",
+    "category": "preposition",
+    "definition": "Within a period of time.",
+    "exampleSentence": "Please turn off your phone during the movie."
+  },
+  {
+    "term": "before",
+    "turkish": "önce",
+    "category": "preposition",
+    "definition": "Earlier than.",
+    "exampleSentence": "Always wash your hands with soap before every meal you eat."
+  },
+  {
+    "term": "after",
+    "turkish": "sonra",
+    "category": "preposition",
+    "definition": "Later than.",
+    "exampleSentence": "We went for a walk after dinner last night."
+  },
+  {
+    "term": "without",
+    "turkish": "-sız, olmadan",
+    "category": "preposition",
+    "definition": "Not having or using something.",
+    "exampleSentence": "I cannot start my day without a cup of coffee."
+  },
+  {
+    "term": "against",
+    "turkish": "-e karşı",
+    "category": "preposition",
+    "definition": "Opposing someone, or touching something for support.",
+    "exampleSentence": "Our team played against the champions last weekend."
+  },
+  {
+    "term": "towards",
+    "turkish": "-e doğru",
+    "category": "preposition",
+    "definition": "In the direction of.",
+    "exampleSentence": "The dog ran towards me when I opened the gate."
+  },
+  {
+    "term": "past",
+    "turkish": "geçerek; -i geçe",
+    "category": "preposition",
+    "definition": "Going beyond a place, or later than a time.",
+    "exampleSentence": "It is already half past seven, and dinner is not ready."
+  },
+  {
+    "term": "beside",
+    "turkish": "yanında",
+    "category": "preposition",
+    "definition": "Next to.",
+    "exampleSentence": "She sat beside her grandmother at the wedding dinner."
+  },
+  {
+    "term": "like",
+    "turkish": "gibi",
+    "category": "preposition",
+    "definition": "Similar to.",
+    "exampleSentence": "Everyone says my little brother looks just like our father."
+  },
+  {
+    "term": "except",
+    "turkish": "hariç",
+    "category": "preposition",
+    "definition": "Not including.",
+    "exampleSentence": "The shop is open every day except Sunday."
+  },
+  {
+    "term": "within",
+    "turkish": "içinde (süre, sınır)",
+    "category": "preposition",
+    "definition": "Inside a period of time or a limit.",
+    "exampleSentence": "You will receive the package within three working days."
+  },
+  {
+    "term": "beyond",
+    "turkish": "ötesinde",
+    "category": "preposition",
+    "definition": "On the far side of something, or more than.",
+    "exampleSentence": "There is a small village just beyond those hills."
+  }
+]
