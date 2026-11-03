@@ -24,7 +24,7 @@ class TermRepositoryException implements Exception {
 class TermRepository {
   const TermRepository({this.assetPath = defaultAssetPath});
 
-  static const String defaultAssetPath = 'assets/data/terms.json';
+  static const String defaultAssetPath = 'assets/data/it_terms_1.json';
 
   final String assetPath;
 

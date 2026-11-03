@@ -1,0 +1,242 @@
+[
+  {
+    "term": "provide",
+    "category": "verb",
+    "definition": "To give something that someone needs.",
+    "exampleSentence": "The hotel will provide free breakfast for all guests during their stay."
+  },
+  {
+    "term": "sit",
+    "category": "verb",
+    "definition": "To rest your body on a chair or a seat.",
+    "exampleSentence": "Please sit near the front so you can see the board clearly."
+  },
+  {
+    "term": "stand",
+    "category": "verb",
+    "definition": "To be on your feet in an upright position.",
+    "exampleSentence": "We had to stand in line for an hour to buy the tickets."
+  },
+  {
+    "term": "lose",
+    "category": "verb",
+    "definition": "To be unable to find something, or to fail to win.",
+    "exampleSentence": "Be careful not to lose your passport while you are traveling abroad."
+  },
+  {
+    "term": "pay",
+    "category": "verb",
+    "definition": "To give money for something you buy or a service you get.",
+    "exampleSentence": "You can pay for your coffee with cash or a credit card."
+  },
+  {
+    "term": "meet",
+    "category": "verb",
+    "definition": "To come together with someone, by plan or by chance.",
+    "exampleSentence": "We usually meet our friends at the cafe on Saturday afternoons."
+  },
+  {
+    "term": "include",
+    "category": "verb",
+    "definition": "To have something as one part of a whole.",
+    "exampleSentence": "The price of the trip will include flights, meals and a hotel room."
+  },
+  {
+    "term": "continue",
+    "category": "verb",
+    "definition": "To keep doing something without stopping.",
+    "exampleSentence": "After a short break, the speaker will continue her talk about climate change."
+  },
+  {
+    "term": "set",
+    "category": "verb",
+    "definition": "To put something in a place, or to choose a time or value.",
+    "exampleSentence": "Remember to set your alarm for six o'clock before you go to bed."
+  },
+  {
+    "term": "learn",
+    "category": "verb",
+    "definition": "To get new knowledge or a new skill.",
+    "exampleSentence": "Children often learn new languages faster than adults do."
+  },
+  {
+    "term": "change",
+    "category": "verb",
+    "definition": "To make something different, or to become different.",
+    "exampleSentence": "You should change your password every few months to stay safe."
+  },
+  {
+    "term": "lead",
+    "category": "verb",
+    "definition": "To guide a group, or to show the way.",
+    "exampleSentence": "Our most experienced engineer will lead the new team this year."
+  },
+  {
+    "term": "understand",
+    "category": "verb",
+    "definition": "To know the meaning of something.",
+    "exampleSentence": "I did not understand the instructions, so I asked the teacher again."
+  },
+  {
+    "term": "watch",
+    "category": "verb",
+    "definition": "To look at something for a period of time.",
+    "exampleSentence": "On rainy evenings we like to watch old movies together at home."
+  },
+  {
+    "term": "follow",
+    "category": "verb",
+    "definition": "To go behind someone, or to do what instructions say.",
+    "exampleSentence": "Please follow the signs to find the main entrance of the hospital."
+  },
+  {
+    "term": "stop",
+    "category": "verb",
+    "definition": "To end an action, or to no longer move.",
+    "exampleSentence": "The bus will stop in front of the museum in ten minutes."
+  },
+  {
+    "term": "create",
+    "category": "verb",
+    "definition": "To make something new that did not exist before.",
+    "exampleSentence": "Designers use special software to create logos and posters for companies."
+  },
+  {
+    "term": "speak",
+    "category": "verb",
+    "definition": "To say words out loud, or to use a language.",
+    "exampleSentence": "My grandfather can speak three languages fluently, including Spanish and French."
+  },
+  {
+    "term": "read",
+    "category": "verb",
+    "definition": "To look at written words and understand them.",
+    "exampleSentence": "Before bed, I usually read a chapter of a good novel."
+  },
+  {
+    "term": "spend",
+    "category": "verb",
+    "definition": "To use money or time on something.",
+    "exampleSentence": "Teenagers often spend several hours a day on their phones."
+  },
+  {
+    "term": "grow",
+    "category": "verb",
+    "definition": "To become bigger, or to help plants develop.",
+    "exampleSentence": "My neighbors grow tomatoes and peppers in their small back garden."
+  },
+  {
+    "term": "open",
+    "category": "verb",
+    "definition": "To move something so that it is no longer closed.",
+    "exampleSentence": "Could you open the window? It is very hot in this room."
+  },
+  {
+    "term": "walk",
+    "category": "verb",
+    "definition": "To move on your feet at a normal speed.",
+    "exampleSentence": "Every morning I walk my dog around the park before work."
+  },
+  {
+    "term": "win",
+    "category": "verb",
+    "definition": "To be the best or the first in a game or competition.",
+    "exampleSentence": "Our school team hopes to win the national championship this spring."
+  },
+  {
+    "term": "offer",
+    "category": "verb",
+    "definition": "To ask if someone would like something, or to make it available.",
+    "exampleSentence": "Many shops offer special discounts to students with a valid ID card."
+  },
+  {
+    "term": "remember",
+    "category": "verb",
+    "definition": "To keep something in your mind, or to bring it back to mind.",
+    "exampleSentence": "I can never remember where I parked my car at the mall."
+  },
+  {
+    "term": "love",
+    "category": "verb",
+    "definition": "To like someone or something very much.",
+    "exampleSentence": "My kids love building sandcastles when we visit the seaside in July."
+  },
+  {
+    "term": "consider",
+    "category": "verb",
+    "definition": "To think carefully about something before deciding.",
+    "exampleSentence": "You should consider the cost carefully before you buy a new laptop."
+  },
+  {
+    "term": "appear",
+    "category": "verb",
+    "definition": "To start to be seen, or to seem.",
+    "exampleSentence": "A small window will appear on the screen when the download finishes."
+  },
+  {
+    "term": "buy",
+    "category": "verb",
+    "definition": "To get something by paying money for it.",
+    "exampleSentence": "We need to buy milk, eggs and bread on the way home."
+  },
+  {
+    "term": "wait",
+    "category": "verb",
+    "definition": "To stay somewhere until something happens or someone arrives.",
+    "exampleSentence": "Please wait here while the doctor finishes with the previous patient."
+  },
+  {
+    "term": "serve",
+    "category": "verb",
+    "definition": "To give food or drinks to people, or to work for someone.",
+    "exampleSentence": "The restaurant on the corner will serve dinner until eleven at night."
+  },
+  {
+    "term": "send",
+    "category": "verb",
+    "definition": "To make something go to another person or place.",
+    "exampleSentence": "Can you send me the photos from the party by email?"
+  },
+  {
+    "term": "expect",
+    "category": "verb",
+    "definition": "To think that something will probably happen.",
+    "exampleSentence": "We expect the package to arrive sometime early next week."
+  },
+  {
+    "term": "build",
+    "category": "verb",
+    "definition": "To make something by putting parts together.",
+    "exampleSentence": "The city plans to build a new bridge across the river next year."
+  },
+  {
+    "term": "stay",
+    "category": "verb",
+    "definition": "To remain in the same place for some time.",
+    "exampleSentence": "During the holiday we will stay with our relatives in the countryside."
+  },
+  {
+    "term": "fall",
+    "category": "verb",
+    "definition": "To drop down toward the ground.",
+    "exampleSentence": "Leaves begin to fall from the trees when autumn arrives."
+  },
+  {
+    "term": "cut",
+    "category": "verb",
+    "definition": "To divide something into pieces with a knife or scissors.",
+    "exampleSentence": "Ask an adult to cut the paper if the scissors are too sharp."
+  },
+  {
+    "term": "reach",
+    "category": "verb",
+    "definition": "To arrive at a place, or to stretch your arm to touch something.",
+    "exampleSentence": "We should reach the hotel before dark if the traffic is light."
+  },
+  {
+    "term": "decide",
+    "category": "verb",
+    "definition": "To make a choice after thinking about it.",
+    "exampleSentence": "It took me a week to decide which university I wanted to attend."
+  }
+]

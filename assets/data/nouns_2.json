@@ -1,0 +1,242 @@
+[
+  {
+    "term": "student",
+    "category": "noun",
+    "definition": "A person who is studying at a school or university.",
+    "exampleSentence": "Every student must bring an ID card to the final exam."
+  },
+  {
+    "term": "word",
+    "category": "noun",
+    "definition": "A single unit of language that has a meaning.",
+    "exampleSentence": "Look up any new word in the dictionary while you read."
+  },
+  {
+    "term": "story",
+    "category": "noun",
+    "definition": "A description of events, real or imagined.",
+    "exampleSentence": "Before sleeping, the children asked their father for a funny story."
+  },
+  {
+    "term": "job",
+    "category": "noun",
+    "definition": "The work a person does regularly to earn money.",
+    "exampleSentence": "After graduating, my sister got a job at an engineering firm."
+  },
+  {
+    "term": "business",
+    "category": "noun",
+    "definition": "The activity of buying and selling, or a company that does it.",
+    "exampleSentence": "Her small online business sells handmade jewelry to customers worldwide."
+  },
+  {
+    "term": "side",
+    "category": "noun",
+    "definition": "The left or right part of something, or one of its surfaces.",
+    "exampleSentence": "In the United Kingdom, people drive on the left side of the road."
+  },
+  {
+    "term": "kind",
+    "category": "noun",
+    "definition": "A type or group of similar things.",
+    "exampleSentence": "What kind of music do you usually listen to while studying?"
+  },
+  {
+    "term": "head",
+    "category": "noun",
+    "definition": "The top part of the body that holds the brain, eyes and mouth.",
+    "exampleSentence": "Wear a helmet to protect your head when you ride a bike."
+  },
+  {
+    "term": "service",
+    "category": "noun",
+    "definition": "Work done for customers, for example in a shop or restaurant.",
+    "exampleSentence": "The food was delicious, but the service at the restaurant was slow."
+  },
+  {
+    "term": "country",
+    "category": "noun",
+    "definition": "An area of land with its own government and borders.",
+    "exampleSentence": "Canada is the second largest country in the world by area."
+  },
+  {
+    "term": "home",
+    "category": "noun",
+    "definition": "The place where you live.",
+    "exampleSentence": "After a long trip, it always feels good to come back home."
+  },
+  {
+    "term": "minute",
+    "category": "noun",
+    "definition": "A period of sixty seconds.",
+    "exampleSentence": "The bus is late, but it should arrive in about a minute."
+  },
+  {
+    "term": "office",
+    "category": "noun",
+    "definition": "A room or building where people work at desks.",
+    "exampleSentence": "Our office is on the fifth floor of a tall glass building."
+  },
+  {
+    "term": "door",
+    "category": "noun",
+    "definition": "A moving panel used to enter or leave a room or building.",
+    "exampleSentence": "Please close the door quietly because the baby is sleeping."
+  },
+  {
+    "term": "health",
+    "category": "noun",
+    "definition": "The condition of your body and mind.",
+    "exampleSentence": "Eating vegetables and sleeping well are good for your health."
+  },
+  {
+    "term": "art",
+    "category": "noun",
+    "definition": "Paintings, drawings and other creative works.",
+    "exampleSentence": "The museum has a large collection of modern art from Europe."
+  },
+  {
+    "term": "war",
+    "category": "noun",
+    "definition": "Fighting between countries or large groups of people.",
+    "exampleSentence": "My grandfather told us many stories about life after the war."
+  },
+  {
+    "term": "history",
+    "category": "noun",
+    "definition": "The study of past events.",
+    "exampleSentence": "Our history lessons about ancient Rome were always really interesting."
+  },
+  {
+    "term": "party",
+    "category": "noun",
+    "definition": "A social event where people meet to eat, drink and have fun.",
+    "exampleSentence": "We are planning a surprise birthday party for our coach on Friday."
+  },
+  {
+    "term": "result",
+    "category": "noun",
+    "definition": "Something that happens because of something else.",
+    "exampleSentence": "The result of the election will be announced late tonight."
+  },
+  {
+    "term": "morning",
+    "category": "noun",
+    "definition": "The early part of the day, from sunrise until noon.",
+    "exampleSentence": "I like to drink a cup of tea on the balcony every morning."
+  },
+  {
+    "term": "reason",
+    "category": "noun",
+    "definition": "The cause or explanation for something.",
+    "exampleSentence": "The main reason for the delay was heavy snow at the airport."
+  },
+  {
+    "term": "research",
+    "category": "noun",
+    "definition": "Careful study to discover new facts.",
+    "exampleSentence": "Scientists are doing research on new treatments for heart disease."
+  },
+  {
+    "term": "girl",
+    "category": "noun",
+    "definition": "A female child or young woman.",
+    "exampleSentence": "The girl in the red coat won first prize in the drawing contest."
+  },
+  {
+    "term": "boy",
+    "category": "noun",
+    "definition": "A male child or young man.",
+    "exampleSentence": "A young boy was flying a colorful kite on the windy beach."
+  },
+  {
+    "term": "moment",
+    "category": "noun",
+    "definition": "A very short period of time.",
+    "exampleSentence": "Please wait a moment while I check your reservation in the system."
+  },
+  {
+    "term": "air",
+    "category": "noun",
+    "definition": "The mix of gases around the Earth that we breathe.",
+    "exampleSentence": "The air in the mountains feels much cleaner than in the city."
+  },
+  {
+    "term": "teacher",
+    "category": "noun",
+    "definition": "A person whose job is to help others learn.",
+    "exampleSentence": "Our music teacher plays the piano and the guitar very well."
+  },
+  {
+    "term": "force",
+    "category": "noun",
+    "definition": "Physical strength or power, or a group such as the police or army.",
+    "exampleSentence": "The force of the wind was strong enough to knock down trees."
+  },
+  {
+    "term": "education",
+    "category": "noun",
+    "definition": "The process of teaching and learning, especially at school.",
+    "exampleSentence": "A good education can open many doors for young people."
+  },
+  {
+    "term": "food",
+    "category": "noun",
+    "definition": "Things that people and animals eat.",
+    "exampleSentence": "This market sells fresh food from local farms every weekend."
+  },
+  {
+    "term": "music",
+    "category": "noun",
+    "definition": "Sounds arranged in a pleasant way, often with singing or instruments.",
+    "exampleSentence": "I always listen to calm music when I need to concentrate."
+  },
+  {
+    "term": "phone",
+    "category": "noun",
+    "definition": "A device used to talk to people who are far away.",
+    "exampleSentence": "My phone battery died, so I could not call anyone for hours."
+  },
+  {
+    "term": "table",
+    "category": "noun",
+    "definition": "A piece of furniture with a flat top and legs.",
+    "exampleSentence": "Please put the plates and glasses on the kitchen table before dinner."
+  },
+  {
+    "term": "team",
+    "category": "noun",
+    "definition": "A group of people who work or play together.",
+    "exampleSentence": "Our basketball team practices three evenings a week in the gym."
+  },
+  {
+    "term": "price",
+    "category": "noun",
+    "definition": "The amount of money you must pay for something.",
+    "exampleSentence": "The price of fresh fruit usually goes up in the winter months."
+  },
+  {
+    "term": "power",
+    "category": "noun",
+    "definition": "Energy such as electricity, or the ability to control things.",
+    "exampleSentence": "The storm cut the power to our whole neighborhood last night."
+  },
+  {
+    "term": "letter",
+    "category": "noun",
+    "definition": "A written message sent by post, or a symbol such as A or B.",
+    "exampleSentence": "She wrote a long letter to her pen pal in Japan."
+  },
+  {
+    "term": "street",
+    "category": "noun",
+    "definition": "A public road in a town or city, often with houses.",
+    "exampleSentence": "There is a new bakery at the end of our street."
+  },
+  {
+    "term": "game",
+    "category": "noun",
+    "definition": "An activity with rules that people play for fun.",
+    "exampleSentence": "Chess is a game that teaches patience and careful planning."
+  }
+]

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/term.dart';
+import '../services/term_repository.dart';
 import '../services/tts_service.dart';
 import '../widgets/category_style.dart';
 import '../widgets/speak_button.dart';
@@ -8,12 +9,15 @@ import '../widgets/term_pager.dart';
 
 /// Terimleri İngilizce tanımlarıyla gösteren ekran (İngilizceden İngilizceye).
 class WordsScreen extends StatelessWidget {
-  const WordsScreen({super.key});
+  const WordsScreen({super.key, this.repository = const TermRepository()});
+
+  final TermRepository repository;
 
   @override
   Widget build(BuildContext context) {
     return TermPager(
       title: 'Words',
+      repository: repository,
       cardBuilder: (BuildContext context, Term term) => _WordCard(term: term),
     );
   }

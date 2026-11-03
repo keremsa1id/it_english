@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/term.dart';
+import '../services/term_repository.dart';
 import '../services/tts_service.dart';
 import '../utils/sentence_parts.dart';
 import '../widgets/category_style.dart';
@@ -10,12 +11,15 @@ import '../widgets/term_pager.dart';
 /// Terimleri en az 8 kelimelik örnek cümleler içinde gösteren ekran.
 /// Cümledeki terim kategori renginde ve kalın yazılır.
 class SentencesScreen extends StatelessWidget {
-  const SentencesScreen({super.key});
+  const SentencesScreen({super.key, this.repository = const TermRepository()});
+
+  final TermRepository repository;
 
   @override
   Widget build(BuildContext context) {
     return TermPager(
       title: 'Sentences',
+      repository: repository,
       cardBuilder: (BuildContext context, Term term) =>
           _SentenceCard(term: term),
     );

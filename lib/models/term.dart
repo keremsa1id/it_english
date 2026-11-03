@@ -10,7 +10,8 @@ class Term {
   /// Terimin kendisi, ör. "firewall" veya "IP address".
   final String term;
 
-  /// Kategori anahtarı: hardware, software, networking, security, data.
+  /// Kategori anahtarı: hardware, software, networking, security, data,
+  /// verb veya noun.
   final String category;
 
   /// Terimin İngilizce açıklaması.

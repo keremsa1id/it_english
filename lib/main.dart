@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'screens/quiz_screen.dart';
-import 'screens/sentences_screen.dart';
-import 'screens/words_screen.dart';
+import 'models/section.dart';
+import 'screens/section_screen.dart';
+import 'widgets/menu_card.dart';
 
 void main() {
   runApp(const ItEnglishApp());
@@ -25,13 +25,21 @@ class ItEnglishApp extends StatelessWidget {
   }
 }
 
-/// Üç bölüme (Words, Sentences, Quiz) giden ana ekran.
+/// Bölümleri (IT Terms, Verbs, Nouns) listeleyen ana ekran.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
-  void _open(BuildContext context, Widget screen) {
+  static IconData _iconOf(SectionKind kind) => switch (kind) {
+        SectionKind.itTerms => Icons.computer_rounded,
+        SectionKind.verbs => Icons.directions_run_rounded,
+        SectionKind.nouns => Icons.category_rounded,
+      };
+
+  void _open(BuildContext context, Section section) {
     Navigator.of(context).push(
-      MaterialPageRoute<void>(builder: (BuildContext context) => screen),
+      MaterialPageRoute<void>(
+        builder: (BuildContext context) => SectionScreen(section: section),
+      ),
     );
   }
 
@@ -66,99 +74,25 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Learn the words people use in technology.',
+                    'Learn IT terms and the most common English words.',
                     textAlign: TextAlign.center,
                     style: theme.textTheme.titleMedium?.copyWith(
                       color: theme.colorScheme.onSurfaceVariant,
                     ),
                   ),
                   const SizedBox(height: 40),
-                  _MenuCard(
-                    title: 'Words',
-                    subtitle: 'IT terms with simple English definitions',
-                    icon: Icons.menu_book_rounded,
-                    onTap: () => _open(context, const WordsScreen()),
-                  ),
-                  const SizedBox(height: 16),
-                  _MenuCard(
-                    title: 'Sentences',
-                    subtitle: 'See each term used in a real sentence',
-                    icon: Icons.notes_rounded,
-                    onTap: () => _open(context, const SentencesScreen()),
-                  ),
-                  const SizedBox(height: 16),
-                  _MenuCard(
-                    title: 'Quiz',
-                    subtitle: 'Fill in the blank with the right word',
-                    icon: Icons.quiz_rounded,
-                    onTap: () => _open(context, const QuizScreen()),
-                  ),
+                  for (final Section section in Section.all) ...[
+                    MenuCard(
+                      title: section.title,
+                      subtitle: section.subtitle,
+                      icon: _iconOf(section.kind),
+                      onTap: () => _open(context, section),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
                 ],
               ),
             ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _MenuCard extends StatelessWidget {
-  const _MenuCard({
-    required this.title,
-    required this.subtitle,
-    required this.icon,
-    required this.onTap,
-  });
-
-  final String title;
-  final String subtitle;
-  final IconData icon;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final ThemeData theme = Theme.of(context);
-
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      elevation: 0,
-      color: theme.colorScheme.primaryContainer,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: InkWell(
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Row(
-            children: [
-              Icon(icon, size: 40, color: theme.colorScheme.primary),
-              const SizedBox(width: 20),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      title,
-                      style: theme.textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        color: theme.colorScheme.onPrimaryContainer,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      subtitle,
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.colorScheme.onPrimaryContainer,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Icon(
-                Icons.chevron_right_rounded,
-                color: theme.colorScheme.onPrimaryContainer,
-              ),
-            ],
           ),
         ),
       ),
