@@ -5,16 +5,20 @@ import '../services/progress_service.dart';
 
 /// Kelimeyi favorilere ekleyen ya da çıkaran yıldız butonu.
 class FavoriteButton extends StatelessWidget {
-  const FavoriteButton({super.key, required this.term});
+  const FavoriteButton({super.key, required this.term, this.progress});
 
   static const Color _starColor = Color(0xFFFFC107);
 
   final Term term;
 
+  /// Favorilerin saklandığı servis; verilmezse `ProgressService.instance`.
+  /// Testler ayrı bir örnek verebilsin diye.
+  final ProgressService? progress;
+
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final ProgressService progress = ProgressService.instance;
+    final ProgressService progress = this.progress ?? ProgressService.instance;
 
     return ListenableBuilder(
       listenable: progress,

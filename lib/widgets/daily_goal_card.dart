@@ -15,34 +15,38 @@ class DailyGoalCard extends StatelessWidget {
     showModalBottomSheet<void>(
       context: context,
       showDragHandle: true,
+      // Kısa ekranlarda (ör. telefon yatayken) içerik sığmazsa kaydırılsın.
+      isScrollControlled: true,
       builder: (BuildContext context) => SafeArea(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              'Daily goal',
-              style: Theme.of(context).textTheme.titleLarge,
-            ),
-            const SizedBox(height: 4),
-            Text(
-              'How many quiz questions do you want to finish each day?',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            const SizedBox(height: 8),
-            for (final int goal in ProgressService.dailyGoalOptions)
-              ListTile(
-                title: Text('$goal questions a day'),
-                trailing: goal == progress.dailyGoal
-                    ? const Icon(Icons.check_rounded)
-                    : null,
-                onTap: () {
-                  progress.setDailyGoal(goal);
-                  Navigator.of(context).pop();
-                },
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Daily goal',
+                style: Theme.of(context).textTheme.titleLarge,
               ),
-            const SizedBox(height: 8),
-          ],
+              const SizedBox(height: 4),
+              Text(
+                'How many quiz questions do you want to finish each day?',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
+              const SizedBox(height: 8),
+              for (final int goal in ProgressService.dailyGoalOptions)
+                ListTile(
+                  title: Text('$goal questions a day'),
+                  trailing: goal == progress.dailyGoal
+                      ? const Icon(Icons.check_rounded)
+                      : null,
+                  onTap: () {
+                    progress.setDailyGoal(goal);
+                    Navigator.of(context).pop();
+                  },
+                ),
+              const SizedBox(height: 8),
+            ],
+          ),
         ),
       ),
     );

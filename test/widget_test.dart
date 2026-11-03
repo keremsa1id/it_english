@@ -116,22 +116,23 @@ void main() {
 
   testWidgets('Kelime kartındaki yıldız kelimeyi favorilere ekler',
       (WidgetTester tester) async {
-    final ProgressService progress = ProgressService.instance;
-    await tester.runAsync(progress.load);
+    // Ayrı örnek: diğer testleri etkilemez. Yükleme de testin içinde
+    // (aynı sahte zamanda) yapılır ki yıldıza basınca kayıt hemen bitsin.
+    final ProgressService progress = ProgressService.forTest();
+    await progress.load();
     await tester.pumpWidget(
-      const MaterialApp(
-        home: Scaffold(body: FavoriteButton(term: _sampleTerm)),
+      MaterialApp(
+        home: Scaffold(
+          body: FavoriteButton(term: _sampleTerm, progress: progress),
+        ),
       ),
     );
 
     await tester.tap(find.byIcon(Icons.star_outline_rounded));
-    await tester.pump();
+    await tester.pumpAndSettle();
 
     expect(progress.isFavorite(_sampleTerm), isTrue);
     expect(find.byIcon(Icons.star_rounded), findsOneWidget);
-
-    // Diğer testleri etkilemesin.
-    await tester.runAsync(() => progress.toggleFavorite(_sampleTerm));
   });
 
   testWidgets('Mixed Quiz kartı tür seçme ekranını açar',
