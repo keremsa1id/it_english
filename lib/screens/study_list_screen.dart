@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-import '../models/section.dart';
 import '../models/term.dart';
+import '../services/pack_service.dart';
 import '../services/progress_service.dart';
 import '../services/term_repository.dart';
 import '../widgets/menu_card.dart';
 import 'quiz_mode_screen.dart';
 import 'words_screen.dart';
 
-/// Bütün bölümlerden seçilmiş kelimelerin (Review destesi, favoriler...)
+/// Bütün bölümlerden ve açılmış haftalık paketlerden seçilmiş kelimelerin
+/// (Review destesi, favoriler...)
 /// çalışma ekranı: Words kartları ve quiz.
 ///
 /// Hangi kelimelerin listede olduğunu [include] belirler; her açılışta
@@ -35,10 +36,6 @@ class StudyListScreen extends StatelessWidget {
 
   final String wordsSubtitle;
   final String quizSubtitle;
-
-  static List<String> get _allAssets => <String>[
-        for (final Section section in Section.all) section.assetPath,
-      ];
 
   void _open(BuildContext context, Widget screen) {
     Navigator.of(context).push(
@@ -82,7 +79,7 @@ class StudyListScreen extends StatelessWidget {
                       context,
                       WordsScreen(
                         repository: FilteredTermRepository(
-                          _allAssets,
+                          const AllTermsRepository(),
                           include: include,
                         ),
                       ),
@@ -100,7 +97,7 @@ class StudyListScreen extends StatelessWidget {
                           title: '$title Quiz',
                           questionCount: 20,
                           // Yanlış şıklar bütün kelimelerden seçilsin.
-                          repository: MixedTermRepository(_allAssets),
+                          repository: const AllTermsRepository(),
                           askOnly: include,
                           emptyMessage: emptyMessage,
                         ),

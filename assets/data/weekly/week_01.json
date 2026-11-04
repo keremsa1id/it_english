@@ -1,0 +1,282 @@
+[
+  {
+    "term": "milestone",
+    "turkish": "kilometre taşı, önemli aşama",
+    "category": "noun",
+    "definition": "An important point or stage in a project.",
+    "exampleSentence": "Finishing the first version of the app was a big milestone for the team."
+  },
+  {
+    "term": "deliverable",
+    "turkish": "teslim edilecek çıktı",
+    "category": "noun",
+    "definition": "A product or result that must be handed over in a project.",
+    "exampleSentence": "The main deliverable for this month is a working payment page."
+  },
+  {
+    "term": "timeline",
+    "turkish": "zaman çizelgesi",
+    "category": "noun",
+    "definition": "A plan that shows when each part of a project will happen.",
+    "exampleSentence": "The client asked for a realistic timeline before signing the contract."
+  },
+  {
+    "term": "roadmap",
+    "turkish": "yol haritası",
+    "category": "noun",
+    "definition": "A long-term plan that shows future goals and steps.",
+    "exampleSentence": "Our product roadmap includes a mobile app and a new dashboard next year."
+  },
+  {
+    "term": "workload",
+    "turkish": "iş yükü",
+    "category": "noun",
+    "definition": "The amount of work a person or team has to do.",
+    "exampleSentence": "My workload is very heavy this week because two colleagues are sick."
+  },
+  {
+    "term": "onboarding",
+    "turkish": "işe alışma süreci",
+    "category": "noun",
+    "definition": "The process of helping new employees start their job.",
+    "exampleSentence": "Good onboarding helps new employees feel welcome and productive quickly."
+  },
+  {
+    "term": "user story",
+    "turkish": "kullanıcı hikâyesi",
+    "category": "software",
+    "definition": "A short description of a feature from the user's point of view.",
+    "exampleSentence": "Each user story describes what the customer wants and why."
+  },
+  {
+    "term": "retrospective",
+    "turkish": "geriye dönük değerlendirme toplantısı",
+    "category": "software",
+    "definition": "A meeting where a team discusses what went well and what to improve.",
+    "exampleSentence": "At the sprint retrospective, the team agreed to write more tests."
+  },
+  {
+    "term": "stand-up meeting",
+    "turkish": "kısa günlük ekip toplantısı",
+    "category": "noun",
+    "definition": "A short daily meeting where each person shares progress and problems.",
+    "exampleSentence": "Our stand-up meeting starts at nine thirty every morning."
+  },
+  {
+    "term": "prototype",
+    "turkish": "prototip, ilk örnek",
+    "category": "noun",
+    "definition": "An early model of a product used for testing ideas.",
+    "exampleSentence": "The designers built a simple prototype to test the idea with users."
+  },
+  {
+    "term": "wireframe",
+    "turkish": "ekran iskelet taslağı",
+    "category": "software",
+    "definition": "A simple drawing that shows the layout of a screen.",
+    "exampleSentence": "The designer shared a wireframe of the new home page with the team."
+  },
+  {
+    "term": "mockup",
+    "turkish": "görsel taslak",
+    "category": "software",
+    "definition": "A realistic picture of how a screen or product will look.",
+    "exampleSentence": "The client approved the mockup, so the developers can start coding."
+  },
+  {
+    "term": "escalation",
+    "turkish": "üst kademeye aktarma",
+    "category": "noun",
+    "definition": "Passing a problem to a more senior person or team.",
+    "exampleSentence": "The customer asked for an escalation because the problem was not fixed."
+  },
+  {
+    "term": "workaround",
+    "turkish": "geçici çözüm",
+    "category": "software",
+    "definition": "A temporary way to avoid a problem until it is fixed.",
+    "exampleSentence": "Until the bug is fixed, the workaround is to restart the app."
+  },
+  {
+    "term": "root cause",
+    "turkish": "kök neden",
+    "category": "noun",
+    "definition": "The main reason why a problem happened.",
+    "exampleSentence": "The team spent two days finding the root cause of the outage."
+  },
+  {
+    "term": "hotfix",
+    "turkish": "acil düzeltme",
+    "category": "software",
+    "definition": "A quick update that fixes a serious problem in live software.",
+    "exampleSentence": "We released a hotfix the same evening to stop the payment errors."
+  },
+  {
+    "term": "rollback",
+    "turkish": "geri alma",
+    "category": "software",
+    "definition": "Returning a system to an earlier working version.",
+    "exampleSentence": "After the failed update, the team performed a rollback to the previous version."
+  },
+  {
+    "term": "changelog",
+    "turkish": "değişiklik günlüğü",
+    "category": "software",
+    "definition": "A list of changes made in each version of software.",
+    "exampleSentence": "Read the changelog to see which bugs were fixed in this version."
+  },
+  {
+    "term": "scope",
+    "turkish": "kapsam",
+    "category": "noun",
+    "definition": "The limits of what a project will and will not include.",
+    "exampleSentence": "Adding a chat feature is outside the agreed project scope."
+  },
+  {
+    "term": "status update",
+    "turkish": "durum güncellemesi",
+    "category": "noun",
+    "definition": "A short report about the current progress of work.",
+    "exampleSentence": "Please send a short status update to the client every Friday."
+  },
+  {
+    "term": "action item",
+    "turkish": "yapılacak iş maddesi",
+    "category": "noun",
+    "definition": "A task that someone must do after a meeting.",
+    "exampleSentence": "Each action item from the meeting has an owner and a deadline."
+  },
+  {
+    "term": "capacity",
+    "turkish": "kapasite",
+    "category": "noun",
+    "definition": "The amount of work a person, team or system can handle.",
+    "exampleSentence": "The team has no capacity for new projects until next month."
+  },
+  {
+    "term": "allocate",
+    "turkish": "tahsis etmek, ayırmak",
+    "category": "verb",
+    "definition": "To give money, time or people for a particular purpose.",
+    "exampleSentence": "The company will allocate more budget to cybersecurity next year."
+  },
+  {
+    "term": "finalize",
+    "turkish": "son haline getirmek",
+    "category": "verb",
+    "definition": "To complete the last details of something.",
+    "exampleSentence": "We need to finalize the contract before the end of the week."
+  },
+  {
+    "term": "streamline",
+    "turkish": "sadeleştirmek",
+    "category": "verb",
+    "definition": "To make a process simpler and more efficient.",
+    "exampleSentence": "The new software will streamline the way we handle invoices."
+  },
+  {
+    "term": "escalate",
+    "turkish": "üst kademeye taşımak",
+    "category": "verb",
+    "definition": "To pass a problem to someone with more authority.",
+    "exampleSentence": "If the issue is not solved today, please escalate it to the manager."
+  },
+  {
+    "term": "align",
+    "turkish": "uyumlu hale getirmek",
+    "category": "verb",
+    "definition": "To make plans or ideas agree with each other.",
+    "exampleSentence": "We must align our goals with the company strategy."
+  },
+  {
+    "term": "brainstorm",
+    "turkish": "beyin fırtınası yapmak",
+    "category": "verb",
+    "definition": "To share many ideas quickly in a group.",
+    "exampleSentence": "Let us brainstorm some names for the new product."
+  },
+  {
+    "term": "outsource",
+    "turkish": "dış kaynağa vermek",
+    "category": "verb",
+    "definition": "To pay another company to do part of your work.",
+    "exampleSentence": "Many companies outsource their customer support to other countries."
+  },
+  {
+    "term": "automate",
+    "turkish": "otomatikleştirmek",
+    "category": "verb",
+    "definition": "To make a process work by itself, without people.",
+    "exampleSentence": "We want to automate the testing process to save time."
+  },
+  {
+    "term": "benchmark",
+    "turkish": "kıyaslama ölçütü",
+    "category": "noun",
+    "definition": "A standard used to compare the performance of things.",
+    "exampleSentence": "The new server is twice as fast as our old benchmark."
+  },
+  {
+    "term": "cross-functional",
+    "turkish": "farklı departmanlardan oluşan",
+    "category": "adjective",
+    "definition": "Including people from different departments or skills.",
+    "exampleSentence": "A cross-functional team of designers, developers and testers built the app."
+  },
+  {
+    "term": "agile",
+    "turkish": "çevik (yöntem)",
+    "category": "adjective",
+    "definition": "Working in short cycles and changing plans easily.",
+    "exampleSentence": "Our company uses agile methods to deliver software in small steps."
+  },
+  {
+    "term": "time-sensitive",
+    "turkish": "zamana duyarlı, acil",
+    "category": "adjective",
+    "definition": "Needing attention quickly because it will soon be too late.",
+    "exampleSentence": "This request is time-sensitive, so please answer before noon."
+  },
+  {
+    "term": "high-priority",
+    "turkish": "yüksek öncelikli",
+    "category": "adjective",
+    "definition": "Very important and needing to be done first.",
+    "exampleSentence": "Security bugs are always high-priority tasks for our team."
+  },
+  {
+    "term": "back-to-back",
+    "turkish": "arka arkaya",
+    "category": "adjective",
+    "definition": "Happening one immediately after another.",
+    "exampleSentence": "I have back-to-back meetings all afternoon, so I cannot call you."
+  },
+  {
+    "term": "move the goalposts",
+    "turkish": "kuralları sonradan değiştirmek",
+    "category": "idiom",
+    "definition": "To change the rules or goals after work has started.",
+    "exampleSentence": "It is unfair to move the goalposts when the project is almost finished."
+  },
+  {
+    "term": "ramp up",
+    "turkish": "hızlandırmak, artırmak",
+    "category": "phrasal",
+    "definition": "To increase the speed or amount of something.",
+    "exampleSentence": "We need to ramp up production before the holiday season."
+  },
+  {
+    "term": "scope creep",
+    "turkish": "kapsam kayması",
+    "category": "noun",
+    "definition": "When a project slowly grows beyond its original plan.",
+    "exampleSentence": "Scope creep is the main reason our projects finish late."
+  },
+  {
+    "term": "go live",
+    "turkish": "canlıya geçmek",
+    "category": "phrase",
+    "definition": "To start being used by real users.",
+    "exampleSentence": "The new website will go live on Monday morning."
+  }
+]

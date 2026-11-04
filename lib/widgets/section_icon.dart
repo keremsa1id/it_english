@@ -15,4 +15,5 @@ IconData sectionIcon(SectionKind kind) => switch (kind) {
       SectionKind.idioms => Icons.lightbulb_rounded,
       SectionKind.linkers => Icons.link_rounded,
       SectionKind.prepositions => Icons.place_rounded,
+      SectionKind.weekly => Icons.calendar_month_rounded,
     };

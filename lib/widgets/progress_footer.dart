@@ -7,12 +7,20 @@ import '../services/term_repository.dart';
 
 /// Menü kartlarının altındaki ilerleme çubuğu: "28 / 40 learned".
 ///
-/// [quizId] verilirse o quiz'in en iyi skoru da yazılır. İlerleme değişince
-/// kendiliğinden güncellenir.
+/// Kelimeler [sections] bölümlerinin dosyalarından ve [repositories]
+/// depolarından (ör. haftalık paketler) toplanır. [quizId] verilirse o
+/// quiz'in en iyi skoru da yazılır. İlerleme değişince kendiliğinden
+/// güncellenir.
 class ProgressFooter extends StatefulWidget {
-  const ProgressFooter({super.key, required this.sections, this.quizId});
+  const ProgressFooter({
+    super.key,
+    this.sections = const <Section>[],
+    this.repositories = const <TermRepository>[],
+    this.quizId,
+  });
 
   final List<Section> sections;
+  final List<TermRepository> repositories;
   final String? quizId;
 
   @override
@@ -26,6 +34,8 @@ class _ProgressFooterState extends State<ProgressFooter> {
     final List<List<Term>> lists = await Future.wait(<Future<List<Term>>>[
       for (final Section section in widget.sections)
         TermRepository(assetPath: section.assetPath).loadTerms(),
+      for (final TermRepository repository in widget.repositories)
+        repository.loadTerms(),
     ]);
     return <Term>[for (final List<Term> list in lists) ...list];
   }

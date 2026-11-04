@@ -6,6 +6,8 @@ import 'screens/favorites_screen.dart';
 import 'screens/quiz_mode_screen.dart';
 import 'screens/review_screen.dart';
 import 'screens/section_screen.dart';
+import 'screens/weekly_screen.dart';
+import 'services/pack_service.dart';
 import 'services/progress_service.dart';
 import 'services/term_repository.dart';
 import 'widgets/daily_goal_card.dart';
@@ -62,18 +64,17 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  /// Bütün bölümlerin kelimelerinden rastgele sorular soran quiz.
+  /// Bütün bölümlerin ve açılmış haftalık paketlerin kelimelerinden rastgele
+  /// sorular soran quiz.
   void _openMixedQuiz(BuildContext context) {
     _open(
       context,
-      QuizModeScreen(
+      const QuizModeScreen(
         setup: QuizSetup(
           title: 'Mixed Quiz',
           quizId: mixedQuizId,
           questionCount: 25,
-          repository: MixedTermRepository(<String>[
-            for (final Section section in Section.all) section.assetPath,
-          ]),
+          repository: AllTermsRepository(),
         ),
       ),
     );
@@ -125,9 +126,17 @@ class HomeScreen extends StatelessWidget {
                     icon: Icons.shuffle_rounded,
                     onTap: () => _openMixedQuiz(context),
                     footer: const ProgressFooter(
-                      sections: Section.all,
+                      repositories: <TermRepository>[AllTermsRepository()],
                       quizId: mixedQuizId,
                     ),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Weekly Words',
+                    subtitle: '40 new work and IT words every Monday',
+                    icon: Icons.calendar_month_rounded,
+                    onTap: () => _open(context, const WeeklyScreen()),
+                    footer: const WeeklyFooter(),
                   ),
                   const SizedBox(height: 16),
                   MenuCard(

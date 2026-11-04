@@ -1,0 +1,16 @@
+[
+  {
+    "id": "week_01",
+    "title": "Week 1",
+    "subtitle": "Projects and teamwork",
+    "file": "week_01.json",
+    "releaseDate": "2026-11-02"
+  },
+  {
+    "id": "week_02",
+    "title": "Week 2",
+    "subtitle": "Emails and office life",
+    "file": "week_02.json",
+    "releaseDate": "2026-11-09"
+  }
+]

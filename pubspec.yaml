@@ -22,3 +22,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/
+    # Alt klasörler ayrıca yazılmalı; Flutter klasörleri iç içe taramaz.
+    - assets/data/weekly/
