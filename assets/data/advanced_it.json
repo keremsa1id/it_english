@@ -10,7 +10,7 @@
   {
     "term": "HTTP",
     "fullForm": "Hypertext Transfer Protocol",
-    "turkish": "web sayfası aktarım protokolü",
+    "turkish": "köprü metni aktarım protokolü",
     "category": "networking",
     "definition": "The basic set of rules browsers and servers use to send web pages.",
     "exampleSentence": "When you open a website, your browser sends an HTTP request to the server."
@@ -18,7 +18,7 @@
   {
     "term": "HTML",
     "fullForm": "HyperText Markup Language",
-    "turkish": "web sayfası işaretleme dili",
+    "turkish": "köprü metni işaretleme dili",
     "category": "software",
     "definition": "The language used to build the structure of web pages.",
     "exampleSentence": "Every web page you visit is built with HTML at its core."
@@ -26,7 +26,7 @@
   {
     "term": "CSS",
     "fullForm": "Cascading Style Sheets",
-    "turkish": "web stil dili",
+    "turkish": "basamaklı stil sayfaları",
     "category": "software",
     "definition": "The language used to set colors, fonts and layout on web pages.",
     "exampleSentence": "The designer changed the CSS to make all the buttons red."

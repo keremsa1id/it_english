@@ -64,7 +64,7 @@
   },
   {
     "term": "cut your losses",
-    "turkish": "zararı kesip çekilmek",
+    "turkish": "zararın neresinden dönülse kârdır",
     "category": "idiom",
     "definition": "To stop doing something that is failing before you lose more.",
     "exampleSentence": "It is sometimes smarter to cut your losses than to keep trying."
@@ -120,7 +120,7 @@
   },
   {
     "term": "reinvent the wheel",
-    "turkish": "tekerleği yeniden icat etmek",
+    "turkish": "Amerika'yı yeniden keşfetmek",
     "category": "idiom",
     "definition": "To waste time creating something that already exists.",
     "exampleSentence": "Use an existing library; there is no need to reinvent the wheel."
@@ -197,7 +197,7 @@
   },
   {
     "term": "drop the ball",
-    "turkish": "işi yüzüne gözüne bulaştırmak",
+    "turkish": "bir işi aksatmak, ihmal etmek",
     "category": "idiom",
     "definition": "To make a mistake by not doing something you should.",
     "exampleSentence": "We cannot drop the ball on this order; it is our biggest client."
@@ -274,7 +274,7 @@
   },
   {
     "term": "touch and go",
-    "turkish": "belirsiz, riskli",
+    "turkish": "kıl payı, son ana kadar belirsiz",
     "category": "idiom",
     "definition": "Uncertain; it could end well or badly.",
     "exampleSentence": "It was touch and go, but we finished the release on time."

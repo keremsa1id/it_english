@@ -10,7 +10,7 @@
   {
     "term": "USB",
     "fullForm": "Universal Serial Bus",
-    "turkish": "USB",
+    "turkish": "USB bağlantı noktası",
     "category": "hardware",
     "definition": "A standard port and cable used to connect devices to a computer.",
     "exampleSentence": "You can charge your phone by plugging it into a USB port on the computer."
@@ -161,7 +161,7 @@
   {
     "term": "HTTPS",
     "fullForm": "Hypertext Transfer Protocol Secure",
-    "turkish": "güvenli HTTP",
+    "turkish": "güvenli web bağlantısı protokolü",
     "category": "networking",
     "definition": "The secure version of the protocol used to load web pages.",
     "exampleSentence": "Always check that a shopping site uses HTTPS before you enter card details."
@@ -259,7 +259,7 @@
   },
   {
     "term": "sync",
-    "turkish": "eşitlemek",
+    "turkish": "eşitlemek, senkronize etmek",
     "category": "data",
     "definition": "To make data the same on two or more devices.",
     "exampleSentence": "My notes app can sync my files between my phone and laptop."

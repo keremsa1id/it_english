@@ -29,7 +29,7 @@
   },
   {
     "term": "whereby",
-    "turkish": "ki bununla",
+    "turkish": "ki bu sayede, vasıtasıyla",
     "category": "linker",
     "definition": "By which; through which.",
     "exampleSentence": "We introduced a system whereby employees can book desks online."
@@ -260,7 +260,7 @@
   },
   {
     "term": "last but not least",
-    "turkish": "son olarak ama önemli",
+    "turkish": "son ama bir o kadar önemli",
     "category": "linker",
     "definition": "Used to introduce the final item, which is also important.",
     "exampleSentence": "Last but not least, I would like to thank our sponsors."
