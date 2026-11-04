@@ -16,6 +16,7 @@ import 'package:it_english/widgets/favorite_button.dart';
 import 'package:it_english/screens/review_screen.dart';
 import 'package:it_english/screens/section_screen.dart';
 import 'package:it_english/screens/sentences_screen.dart';
+import 'package:it_english/screens/weekly_screen.dart';
 import 'package:it_english/screens/words_screen.dart';
 
 const Term _sampleTerm = Term(
@@ -100,6 +101,19 @@ void main() {
     for (final int goal in ProgressService.dailyGoalOptions) {
       expect(find.text('$goal questions a day'), findsOneWidget);
     }
+  });
+
+  testWidgets('Weekly Words kartı haftalık paketler ekranını açar',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const ItEnglishApp());
+
+    await tester.scrollUntilVisible(find.text('Weekly Words'), 100);
+    await tester.tap(find.text('Weekly Words'));
+    // Yükleme göstergesi sürekli döndüğü için pumpAndSettle kullanılmıyor.
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
+
+    expect(find.byType(WeeklyScreen), findsOneWidget);
   });
 
   testWidgets('Favorites kartı Favorites ekranını açar',

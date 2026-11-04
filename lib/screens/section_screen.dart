@@ -10,9 +10,13 @@ import 'words_screen.dart';
 
 /// Seçilen bölümün üç çalışma şeklini (Words, Sentences, Quiz) gösterir.
 class SectionScreen extends StatelessWidget {
-  const SectionScreen({super.key, required this.section});
+  const SectionScreen({super.key, required this.section, this.repository});
 
   final Section section;
+
+  /// Kelimelerin yükleneceği depo; verilmezse bölümün dosyası okunur
+  /// (haftalık paketler kendi deposunu verir).
+  final TermRepository? repository;
 
   void _open(BuildContext context, Widget screen) {
     Navigator.of(context).push(
@@ -23,7 +27,7 @@ class SectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TermRepository repository =
-        TermRepository(assetPath: section.assetPath);
+        this.repository ?? TermRepository(assetPath: section.assetPath);
 
     return Scaffold(
       appBar: AppBar(title: Text(section.title), centerTitle: true),
@@ -68,7 +72,7 @@ class SectionScreen extends StatelessWidget {
                       ),
                     ),
                     footer: ProgressFooter(
-                      sections: <Section>[section],
+                      repositories: <TermRepository>[repository],
                       quizId: section.assetPath,
                     ),
                   ),

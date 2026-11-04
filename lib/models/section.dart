@@ -11,6 +11,9 @@ enum SectionKind {
   idioms,
   linkers,
   prepositions,
+
+  /// Haftalık paketler (bkz. WeeklyPack).
+  weekly,
 }
 
 /// Uygulamadaki bir çalışma bölümü, ör. "Verbs 1".

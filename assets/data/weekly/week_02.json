@@ -1,0 +1,282 @@
+[
+  {
+    "term": "attachment",
+    "turkish": "e-posta eki",
+    "category": "noun",
+    "definition": "A file sent together with an email.",
+    "exampleSentence": "I forgot to add the attachment, so I sent the email again."
+  },
+  {
+    "term": "reminder",
+    "turkish": "hatırlatma",
+    "category": "noun",
+    "definition": "A message that helps someone remember something.",
+    "exampleSentence": "I set a reminder in my calendar for the dentist appointment."
+  },
+  {
+    "term": "invitation",
+    "turkish": "davet",
+    "category": "noun",
+    "definition": "A request for someone to come to an event or meeting.",
+    "exampleSentence": "Everyone in the team received an invitation to the annual party."
+  },
+  {
+    "term": "minutes",
+    "turkish": "toplantı tutanağı",
+    "category": "noun",
+    "definition": "A written record of what was said in a meeting.",
+    "exampleSentence": "Sarah will write the minutes and share them after the meeting."
+  },
+  {
+    "term": "memo",
+    "turkish": "iç yazışma, not",
+    "category": "noun",
+    "definition": "A short written message sent inside a company.",
+    "exampleSentence": "The manager sent a memo about the new parking rules."
+  },
+  {
+    "term": "announcement",
+    "turkish": "duyuru",
+    "category": "noun",
+    "definition": "An official statement that gives information to people.",
+    "exampleSentence": "The CEO made an important announcement at the staff meeting."
+  },
+  {
+    "term": "inquiry",
+    "turkish": "bilgi talebi",
+    "category": "noun",
+    "definition": "A question asking for information.",
+    "exampleSentence": "We received an inquiry from a customer about our prices."
+  },
+  {
+    "term": "complaint",
+    "turkish": "şikâyet",
+    "category": "noun",
+    "definition": "A statement that something is wrong or not good enough.",
+    "exampleSentence": "The hotel manager answered the complaint within one hour."
+  },
+  {
+    "term": "quotation",
+    "turkish": "fiyat teklifi",
+    "category": "noun",
+    "definition": "A document that tells a customer how much a job will cost.",
+    "exampleSentence": "Please send us a quotation for fifty new laptops."
+  },
+  {
+    "term": "purchase order",
+    "turkish": "satın alma siparişi",
+    "category": "business",
+    "definition": "An official document a company sends to buy something.",
+    "exampleSentence": "Finance must approve the purchase order before we buy the servers."
+  },
+  {
+    "term": "receipt",
+    "turkish": "fiş, makbuz",
+    "category": "noun",
+    "definition": "A paper or email that shows you paid for something.",
+    "exampleSentence": "Keep the receipt so the company can pay you back."
+  },
+  {
+    "term": "expense",
+    "turkish": "gider, masraf",
+    "category": "noun",
+    "definition": "Money spent on something, often for work.",
+    "exampleSentence": "Taxi fares are a common travel expense for our sales team."
+  },
+  {
+    "term": "reimbursement",
+    "turkish": "masrafın geri ödenmesi",
+    "category": "noun",
+    "definition": "Money paid back to you for costs you had for work.",
+    "exampleSentence": "Submit your receipts to finance to get a reimbursement."
+  },
+  {
+    "term": "payroll",
+    "turkish": "maaş bordrosu",
+    "category": "noun",
+    "definition": "The system for paying employees and the list of their salaries.",
+    "exampleSentence": "The payroll team makes sure everyone is paid on time."
+  },
+  {
+    "term": "appraisal",
+    "turkish": "performans değerlendirmesi",
+    "category": "noun",
+    "definition": "A meeting where a manager reviews an employee's work.",
+    "exampleSentence": "My yearly appraisal with my manager is scheduled for next Tuesday."
+  },
+  {
+    "term": "resignation",
+    "turkish": "istifa",
+    "category": "noun",
+    "definition": "The act of officially leaving your job.",
+    "exampleSentence": "She handed in her resignation after five years at the company."
+  },
+  {
+    "term": "internship",
+    "turkish": "staj",
+    "category": "noun",
+    "definition": "A short period of work to gain experience, often for students.",
+    "exampleSentence": "He did a summer internship at a software company in Istanbul."
+  },
+  {
+    "term": "freelancer",
+    "turkish": "serbest çalışan",
+    "category": "noun",
+    "definition": "A person who works for different companies without a permanent contract.",
+    "exampleSentence": "We hired a freelancer to design our new logo."
+  },
+  {
+    "term": "shareholder",
+    "turkish": "hissedar",
+    "category": "noun",
+    "definition": "A person who owns part of a company.",
+    "exampleSentence": "Every shareholder received a report about the company's profits."
+  },
+  {
+    "term": "competitor",
+    "turkish": "rakip",
+    "category": "noun",
+    "definition": "A company that sells similar products to the same customers.",
+    "exampleSentence": "Our main competitor lowered its prices last month."
+  },
+  {
+    "term": "forecast",
+    "turkish": "tahmin, öngörü",
+    "category": "noun",
+    "definition": "A statement about what will probably happen in the future.",
+    "exampleSentence": "The sales forecast for next year looks very positive."
+  },
+  {
+    "term": "merger",
+    "turkish": "şirket birleşmesi",
+    "category": "noun",
+    "definition": "When two companies join to become one.",
+    "exampleSentence": "After the merger, the two companies moved into one building."
+  },
+  {
+    "term": "acknowledge",
+    "turkish": "alındığını teyit etmek",
+    "category": "verb",
+    "definition": "To say that you have received something or that something is true.",
+    "exampleSentence": "Please acknowledge this email so I know you received it."
+  },
+  {
+    "term": "postpone",
+    "turkish": "ertelemek",
+    "category": "verb",
+    "definition": "To move an event to a later time.",
+    "exampleSentence": "We have to postpone the meeting because the manager is sick."
+  },
+  {
+    "term": "reschedule",
+    "turkish": "yeniden planlamak",
+    "category": "verb",
+    "definition": "To change the time of a planned event.",
+    "exampleSentence": "Can we reschedule our call for Thursday afternoon?"
+  },
+  {
+    "term": "forward",
+    "turkish": "iletmek (e-posta)",
+    "category": "verb",
+    "definition": "To send an email you received to someone else.",
+    "exampleSentence": "Please forward this email to the finance team."
+  },
+  {
+    "term": "clarify",
+    "turkish": "açıklığa kavuşturmak",
+    "category": "verb",
+    "definition": "To make something easier to understand.",
+    "exampleSentence": "Could you clarify what you mean by a small change?"
+  },
+  {
+    "term": "recommend",
+    "turkish": "tavsiye etmek",
+    "category": "verb",
+    "definition": "To suggest that something is good or suitable.",
+    "exampleSentence": "I recommend this course to anyone who wants to learn Python."
+  },
+  {
+    "term": "inform",
+    "turkish": "bilgilendirmek",
+    "category": "verb",
+    "definition": "To give someone information officially.",
+    "exampleSentence": "We will inform all customers about the price change by email."
+  },
+  {
+    "term": "reimburse",
+    "turkish": "masrafı geri ödemek",
+    "category": "verb",
+    "definition": "To pay someone back for money they spent.",
+    "exampleSentence": "The company will reimburse your travel costs within two weeks."
+  },
+  {
+    "term": "accept",
+    "turkish": "kabul etmek",
+    "category": "verb",
+    "definition": "To say yes to an offer or invitation.",
+    "exampleSentence": "I am happy to accept your offer to join the team."
+  },
+  {
+    "term": "decline",
+    "turkish": "kibarca reddetmek",
+    "category": "verb",
+    "definition": "To politely say no to an offer or invitation.",
+    "exampleSentence": "She decided to decline the job offer because the salary was too low."
+  },
+  {
+    "term": "polite",
+    "turkish": "kibar",
+    "category": "adjective",
+    "definition": "Speaking or behaving in a respectful way.",
+    "exampleSentence": "Always be polite when you answer a customer's complaint."
+  },
+  {
+    "term": "concise",
+    "turkish": "kısa ve öz",
+    "category": "adjective",
+    "definition": "Giving information clearly in few words.",
+    "exampleSentence": "Keep your emails concise because managers are very busy."
+  },
+  {
+    "term": "overdue",
+    "turkish": "gecikmiş, vadesi geçmiş",
+    "category": "adjective",
+    "definition": "Not done or paid by the expected time.",
+    "exampleSentence": "The client has three overdue invoices from last summer."
+  },
+  {
+    "term": "pending",
+    "turkish": "beklemede",
+    "category": "adjective",
+    "definition": "Waiting to be decided or completed.",
+    "exampleSentence": "Your holiday request is still pending approval from your manager."
+  },
+  {
+    "term": "reply all",
+    "turkish": "herkese yanıtla",
+    "category": "phrase",
+    "definition": "To answer an email so that everyone who received it gets your reply.",
+    "exampleSentence": "Do not reply all unless everyone really needs your answer."
+  },
+  {
+    "term": "Dear Sir or Madam",
+    "turkish": "Sayın Yetkili",
+    "category": "phrase",
+    "definition": "A formal way to begin a letter or email when you do not know the name.",
+    "exampleSentence": "Start the letter with Dear Sir or Madam if you do not know the name."
+  },
+  {
+    "term": "Kind regards",
+    "turkish": "Saygılarımla",
+    "category": "phrase",
+    "definition": "A polite way to end a formal email.",
+    "exampleSentence": "Most business emails end with Kind regards and your name."
+  },
+  {
+    "term": "I hope this email finds you well",
+    "turkish": "Umarım iyisinizdir",
+    "category": "phrase",
+    "definition": "A polite phrase used to start a formal email.",
+    "exampleSentence": "Many formal emails begin with the line I hope this email finds you well."
+  }
+]
