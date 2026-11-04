@@ -1,0 +1,284 @@
+[
+  {
+    "term": "MCP",
+    "fullForm": "Model Context Protocol",
+    "turkish": "MCP (model bağlam protokolü)",
+    "category": "ai",
+    "definition": "An open standard that lets AI assistants connect to tools and data sources.",
+    "exampleSentence": "With MCP support, the assistant can read our tickets and documentation directly."
+  },
+  {
+    "term": "MCP server",
+    "turkish": "MCP sunucusu",
+    "category": "ai",
+    "definition": "A small program that gives an AI assistant access to one tool or data source through MCP.",
+    "exampleSentence": "We wrote an MCP server so the assistant can query our internal database."
+  },
+  {
+    "term": "AI agent",
+    "turkish": "yapay zekâ ajanı",
+    "category": "ai",
+    "definition": "An AI system that plans steps and uses tools to complete a task by itself.",
+    "exampleSentence": "The AI agent opened the files, fixed the bug and ran the tests."
+  },
+  {
+    "term": "autonomous",
+    "turkish": "otonom, kendi kendine çalışan",
+    "category": "ai",
+    "definition": "Able to work and make decisions without a person controlling every step.",
+    "exampleSentence": "The new coding assistant can work in autonomous mode for several hours."
+  },
+  {
+    "term": "agent skill",
+    "turkish": "ajan becerisi (skill)",
+    "category": "ai",
+    "definition": "A packaged set of instructions and files that teaches an AI agent a specific task.",
+    "exampleSentence": "We added an agent skill that explains how to deploy our app."
+  },
+  {
+    "term": "deep search",
+    "turkish": "derin arama",
+    "category": "ai",
+    "definition": "An AI search that reads many sources and writes a detailed report.",
+    "exampleSentence": "I used deep search to compare five cloud providers before the meeting."
+  },
+  {
+    "term": "prompt",
+    "turkish": "istem, komut metni (prompt)",
+    "category": "ai",
+    "definition": "The text you give an AI model to tell it what to do.",
+    "exampleSentence": "A clear prompt usually gives you a much better answer from the model."
+  },
+  {
+    "term": "prompt engineering",
+    "turkish": "istem mühendisliği",
+    "category": "ai",
+    "definition": "The skill of writing instructions that get good results from AI models.",
+    "exampleSentence": "Good prompt engineering can save hours of manual editing."
+  },
+  {
+    "term": "context window",
+    "turkish": "bağlam penceresi",
+    "category": "ai",
+    "definition": "The amount of text an AI model can read and remember at one time.",
+    "exampleSentence": "The whole codebase did not fit into the model's context window."
+  },
+  {
+    "term": "token",
+    "turkish": "token (metin birimi)",
+    "category": "ai",
+    "definition": "A small piece of text, such as part of a word, that an AI model processes.",
+    "exampleSentence": "Each token costs a small amount of money when you use the API."
+  },
+  {
+    "term": "hallucination",
+    "turkish": "halüsinasyon (uydurma bilgi)",
+    "category": "ai",
+    "definition": "When an AI model confidently gives false or invented information.",
+    "exampleSentence": "Always check the sources, because a hallucination can look very convincing."
+  },
+  {
+    "term": "fine-tuning",
+    "turkish": "ince ayar (modeli ek eğitme)",
+    "category": "ai",
+    "definition": "Training an existing AI model further on your own data.",
+    "exampleSentence": "Fine-tuning the model on our support emails improved its answers."
+  },
+  {
+    "term": "embedding",
+    "turkish": "gömme (anlam vektörü)",
+    "category": "ai",
+    "definition": "A list of numbers that represents the meaning of a text for an AI system.",
+    "exampleSentence": "Each document is converted into an embedding before it is stored."
+  },
+  {
+    "term": "vector database",
+    "turkish": "vektör veritabanı",
+    "category": "ai",
+    "definition": "A database that finds information by meaning instead of exact words.",
+    "exampleSentence": "We store product descriptions in a vector database for smarter search."
+  },
+  {
+    "term": "RAG",
+    "fullForm": "Retrieval-Augmented Generation",
+    "turkish": "erişimle güçlendirilmiş üretim",
+    "category": "ai",
+    "definition": "A method where an AI model first searches your documents, then answers using them.",
+    "exampleSentence": "Our chatbot uses RAG to answer questions from the company handbook."
+  },
+  {
+    "term": "inference",
+    "turkish": "çıkarım (modeli çalıştırma)",
+    "category": "ai",
+    "definition": "Running a trained AI model to get an answer.",
+    "exampleSentence": "Inference on a large model needs powerful and expensive GPUs."
+  },
+  {
+    "term": "guardrails",
+    "turkish": "güvenlik sınırları",
+    "category": "ai",
+    "definition": "Rules that stop an AI system from giving harmful or unwanted answers.",
+    "exampleSentence": "We added guardrails so the bot never shares customer data."
+  },
+  {
+    "term": "tool calling",
+    "turkish": "araç çağırma",
+    "category": "ai",
+    "definition": "When an AI model asks to run a function or tool to complete a task.",
+    "exampleSentence": "With tool calling, the model can check the weather instead of guessing."
+  },
+  {
+    "term": "worktree",
+    "turkish": "çalışma ağacı (worktree)",
+    "category": "software",
+    "definition": "An extra working folder linked to the same Git repository, used for another branch.",
+    "exampleSentence": "I created a second worktree so I could fix a bug without leaving my feature branch."
+  },
+  {
+    "term": "stash",
+    "turkish": "değişiklikleri geçici saklama (stash)",
+    "category": "software",
+    "definition": "Temporarily saving unfinished changes in Git so you can switch tasks.",
+    "exampleSentence": "Use git stash to save your changes before you pull the latest code."
+  },
+  {
+    "term": "terminal",
+    "turkish": "terminal (komut penceresi)",
+    "category": "software",
+    "definition": "A window where you type text commands to control a computer.",
+    "exampleSentence": "Open a terminal and type the command to start the server."
+  },
+  {
+    "term": "shell",
+    "turkish": "kabuk (komut yorumlayıcısı)",
+    "category": "software",
+    "definition": "The program that reads and runs the commands you type.",
+    "exampleSentence": "Bash is the default shell on many Linux servers."
+  },
+  {
+    "term": "integration",
+    "turkish": "entegrasyon",
+    "category": "software",
+    "definition": "Connecting different systems so they can work together.",
+    "exampleSentence": "The integration with Slack sends a message whenever a build fails."
+  },
+  {
+    "term": "architecture",
+    "turkish": "mimari",
+    "category": "software",
+    "definition": "The overall structure of a software system and how its parts work together.",
+    "exampleSentence": "The team chose a simple architecture so new developers can understand it quickly."
+  },
+  {
+    "term": "microservices",
+    "turkish": "mikroservisler",
+    "category": "software",
+    "definition": "An approach where an application is built from many small, independent services.",
+    "exampleSentence": "Moving to microservices let each team deploy its part separately."
+  },
+  {
+    "term": "monorepo",
+    "turkish": "tek depo (monorepo)",
+    "category": "software",
+    "definition": "One repository that holds the code of many projects.",
+    "exampleSentence": "All our apps and libraries live in a single monorepo."
+  },
+  {
+    "term": "container",
+    "turkish": "konteyner",
+    "category": "software",
+    "definition": "A package that holds an application and everything it needs to run anywhere.",
+    "exampleSentence": "The app runs inside a container, so it works the same on every server."
+  },
+  {
+    "term": "orchestration",
+    "turkish": "orkestrasyon",
+    "category": "software",
+    "definition": "Automatically managing and coordinating many containers or services.",
+    "exampleSentence": "Kubernetes handles the orchestration of hundreds of containers in production."
+  },
+  {
+    "term": "pipeline",
+    "turkish": "işlem hattı (pipeline)",
+    "category": "software",
+    "definition": "A series of automatic steps that build, test and deploy code.",
+    "exampleSentence": "The pipeline runs the tests and deploys the app after every merge."
+  },
+  {
+    "term": "webhook",
+    "turkish": "webhook (otomatik olay bildirimi)",
+    "category": "software",
+    "definition": "A message one system automatically sends to another when something happens.",
+    "exampleSentence": "GitHub sends a webhook to our server every time someone pushes code."
+  },
+  {
+    "term": "environment variable",
+    "turkish": "ortam değişkeni",
+    "category": "software",
+    "definition": "A named value set outside the code, such as a password or server address.",
+    "exampleSentence": "Store the database password in an environment variable, not in the code."
+  },
+  {
+    "term": "linter",
+    "turkish": "kod denetleyici (linter)",
+    "category": "software",
+    "definition": "A tool that checks code for errors and style problems.",
+    "exampleSentence": "The linter warned me about an unused variable in my code."
+  },
+  {
+    "term": "refactoring",
+    "turkish": "kodu yeniden düzenleme",
+    "category": "software",
+    "definition": "Improving the structure of code without changing what it does.",
+    "exampleSentence": "After the refactoring, the code was shorter and easier to test."
+  },
+  {
+    "term": "rebase",
+    "turkish": "dalı güncel koda taşıma (rebase)",
+    "category": "software",
+    "definition": "Moving your branch's changes on top of the latest version of another branch.",
+    "exampleSentence": "Please rebase your branch on main before you open the pull request."
+  },
+  {
+    "term": "cherry-pick",
+    "turkish": "tek bir commit'i aktarma",
+    "category": "software",
+    "definition": "Copying one specific commit from one branch to another.",
+    "exampleSentence": "We decided to cherry-pick the security fix into the old release."
+  },
+  {
+    "term": "Nexus",
+    "turkish": "Nexus (yazılım paket deposu)",
+    "category": "software",
+    "definition": "A popular repository manager that stores libraries and build files for a company.",
+    "exampleSentence": "Our builds download all libraries from the company Nexus server."
+  },
+  {
+    "term": "artifact",
+    "turkish": "derleme çıktısı (artifact)",
+    "category": "software",
+    "definition": "A file produced by a build, such as an app package or a library.",
+    "exampleSentence": "The pipeline uploads the final artifact so testers can download it."
+  },
+  {
+    "term": "observability",
+    "turkish": "gözlemlenebilirlik",
+    "category": "data",
+    "definition": "The ability to understand what a system is doing from its logs, metrics and traces.",
+    "exampleSentence": "Good observability helps us find the cause of slow requests quickly."
+  },
+  {
+    "term": "SSH key",
+    "turkish": "SSH anahtarı",
+    "category": "security",
+    "definition": "A pair of secret files used to log in to servers securely without a password.",
+    "exampleSentence": "Add your SSH key to GitHub so you can push code without a password."
+  },
+  {
+    "term": "API key",
+    "turkish": "API anahtarı",
+    "category": "security",
+    "definition": "A secret code that identifies an app when it uses an API.",
+    "exampleSentence": "Never put your API key in public code on GitHub."
+  }
+]

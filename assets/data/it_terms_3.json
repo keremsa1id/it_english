@@ -99,7 +99,7 @@
   },
   {
     "term": "backlog",
-    "turkish": "iş listesi",
+    "turkish": "bekleyen işler listesi",
     "category": "software",
     "definition": "A list of tasks and features that are waiting to be done.",
     "exampleSentence": "The product owner added five new tasks to the backlog today."

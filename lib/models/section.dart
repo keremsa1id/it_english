@@ -55,6 +55,12 @@ class Section {
     kind: SectionKind.itTerms,
     assetPath: 'assets/data/it_terms_3.json',
   );
+  static const Section itTerms4 = Section(
+    title: 'IT Terms 4',
+    subtitle: 'AI agents, MCP and modern developer tools',
+    kind: SectionKind.itTerms,
+    assetPath: 'assets/data/it_terms_4.json',
+  );
   static const Section advancedIt1 = Section(
     title: 'Advanced IT 1',
     subtitle: 'Tech abbreviations and what they stand for',
@@ -235,6 +241,7 @@ class Section {
     itTerms1,
     itTerms2,
     itTerms3,
+    itTerms4,
     advancedIt1,
     advancedIt2,
     verbs1,
@@ -289,7 +296,12 @@ class SectionGroup {
       title: 'IT Terms',
       subtitle: 'Everyday words people use in technology',
       kind: SectionKind.itTerms,
-      sections: <Section>[Section.itTerms1, Section.itTerms2, Section.itTerms3],
+      sections: <Section>[
+        Section.itTerms1,
+        Section.itTerms2,
+        Section.itTerms3,
+        Section.itTerms4,
+      ],
     ),
     SectionGroup(
       title: 'Advanced IT',

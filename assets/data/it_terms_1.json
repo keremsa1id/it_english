@@ -182,7 +182,7 @@
   },
   {
     "term": "packet",
-    "turkish": "paket",
+    "turkish": "veri paketi",
     "category": "networking",
     "definition": "A small piece of data that is sent across a network.",
     "exampleSentence": "Each packet travels on its own and is put back together at the end."
