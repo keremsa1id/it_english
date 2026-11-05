@@ -13,10 +13,14 @@ import 'package:it_english/screens/quiz_screen.dart';
 import 'package:it_english/services/progress_service.dart';
 import 'package:it_english/services/term_repository.dart';
 import 'package:it_english/widgets/favorite_button.dart';
+import 'package:it_english/widgets/locked_card.dart';
 import 'package:it_english/screens/review_screen.dart';
 import 'package:it_english/screens/section_screen.dart';
+import 'package:it_english/screens/search_screen.dart';
 import 'package:it_english/screens/sentences_screen.dart';
+import 'package:it_english/screens/statistics_screen.dart';
 import 'package:it_english/screens/weekly_screen.dart';
+import 'package:it_english/screens/word_groups_screen.dart';
 import 'package:it_english/screens/words_screen.dart';
 
 const Term _sampleTerm = Term(
@@ -29,9 +33,55 @@ const Term _sampleTerm = Term(
 void main() {
   setUp(() => SharedPreferences.setMockInitialValues(<String, Object>{}));
 
-  testWidgets('Ana ekran bütün klasörleri gösterir', (WidgetTester tester) async {
+  testWidgets('Ana ekranda altı kart var, klasörler orada değil',
+      (WidgetTester tester) async {
     await tester.pumpWidget(const ItEnglishApp());
 
+    for (final String title in <String>[
+      'Daily Goal',
+      'Word Groups',
+      'Mixed Quiz',
+      'Weekly Words',
+      'Review',
+      'Favorites',
+    ]) {
+      await tester.scrollUntilVisible(find.text(title), 100);
+      expect(find.text(title), findsOneWidget);
+    }
+    expect(find.text('Verbs'), findsNothing);
+  });
+
+  testWidgets('Sağ üstteki simge istatistik ekranını açar',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const ItEnglishApp());
+
+    await tester.tap(find.byTooltip('Statistics'));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(StatisticsScreen), findsOneWidget);
+    expect(find.text('LAST 7 DAYS'), findsOneWidget);
+  });
+
+  testWidgets('Sağ üstteki simge arama ekranını açar',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const ItEnglishApp());
+
+    await tester.tap(find.byTooltip('Search'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
+
+    expect(find.byType(SearchScreen), findsOneWidget);
+  });
+
+  testWidgets('Word Groups kartı bütün klasörleri gösterir',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const ItEnglishApp());
+
+    await tester.scrollUntilVisible(find.text('Word Groups'), 100);
+    await tester.tap(find.text('Word Groups'));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(WordGroupsScreen), findsOneWidget);
     for (final SectionGroup group in SectionGroup.all) {
       await tester.scrollUntilVisible(find.text(group.title), 100);
       expect(find.text(group.title), findsOneWidget);
@@ -47,7 +97,7 @@ void main() {
 
   testWidgets('Klasör içindeki bölümleri, bölüm de kendi ekranını açar',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const ItEnglishApp());
+    await tester.pumpWidget(const MaterialApp(home: WordGroupsScreen()));
 
     await tester.scrollUntilVisible(find.text('Verbs'), 100);
     await tester.tap(find.text('Verbs'));
@@ -68,7 +118,7 @@ void main() {
 
   testWidgets('Advanced IT klasörü iki bölümünü gösterir',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const ItEnglishApp());
+    await tester.pumpWidget(const MaterialApp(home: WordGroupsScreen()));
 
     await tester.scrollUntilVisible(find.text('Advanced IT'), 100);
     await tester.tap(find.text('Advanced IT'));
@@ -77,6 +127,25 @@ void main() {
     expect(find.byType(GroupScreen), findsOneWidget);
     expect(find.text('Advanced IT 1'), findsOneWidget);
     expect(find.text('Advanced IT 2'), findsOneWidget);
+  });
+
+  testWidgets('Kilitli bölüm açılmaz, nasıl açılacağını söyler',
+      (WidgetTester tester) async {
+    // Hiç quiz bitirilmedi: Adverbs 2 ve 3 kilitli.
+    final SectionGroup adverbs = SectionGroup.all
+        .firstWhere((SectionGroup group) => group.title == 'Adverbs');
+    await tester.pumpWidget(MaterialApp(home: GroupScreen(group: adverbs)));
+
+    expect(find.byType(LockedCard), findsNWidgets(2));
+
+    await tester.tap(find.text('Adverbs 2'));
+    await tester.pump();
+
+    expect(find.byType(SectionScreen), findsNothing);
+    expect(
+      find.text('Finish any quiz in Adverbs 1 to unlock this section.'),
+      findsOneWidget,
+    );
   });
 
   testWidgets('Review kartı Review ekranını açar', (WidgetTester tester) async {

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "can you hear me",
+    "turkish": "beni duyabiliyor musunuz",
+    "category": "meeting",
+    "definition": "Asked at the start of an online call to check the audio.",
+    "exampleSentence": "The first thing people say on a video call is \"Can you hear me?\""
+  },
+  {
+    "term": "you're on mute",
+    "turkish": "sesiniz kapalı",
+    "category": "meeting",
+    "definition": "Tells someone that their microphone is turned off.",
+    "exampleSentence": "Sorry, you're on mute, so we could not hear your question."
+  },
+  {
+    "term": "let me share my screen",
+    "turkish": "ekranımı paylaşayım",
+    "category": "meeting",
+    "definition": "Said before showing your screen to others in a meeting.",
+    "exampleSentence": "Let me share my screen so you can see the new design."
+  },
+  {
+    "term": "could you repeat that",
+    "turkish": "tekrar eder misiniz",
+    "category": "meeting",
+    "definition": "Politely asks someone to say something again.",
+    "exampleSentence": "Sorry, the connection was bad, could you repeat that last part?"
+  },
+  {
+    "term": "I'll take that offline",
+    "turkish": "bunu toplantı dışında konuşalım",
+    "category": "meeting",
+    "definition": "Means you will discuss a topic later with fewer people.",
+    "exampleSentence": "That is a detailed question, so I'll take that offline with Ali."
+  },
+  {
+    "term": "can you see my screen",
+    "turkish": "ekranımı görebiliyor musunuz",
+    "category": "meeting",
+    "definition": "Asked to check that others see what you are sharing.",
+    "exampleSentence": "Before the demo, she asked, \"Can you see my screen?\""
+  },
+  {
+    "term": "you're breaking up",
+    "turkish": "sesiniz kesiliyor",
+    "category": "meeting",
+    "definition": "Tells someone their audio or video is cutting in and out.",
+    "exampleSentence": "Sorry, you're breaking up, maybe your internet is slow."
+  },
+  {
+    "term": "sorry I'm late",
+    "turkish": "geç kaldığım için özür dilerim",
+    "category": "meeting",
+    "definition": "A polite apology when you join a meeting late.",
+    "exampleSentence": "Sorry I'm late, my previous meeting ran over."
+  },
+  {
+    "term": "let's get started",
+    "turkish": "başlayalım",
+    "category": "meeting",
+    "definition": "Said to begin a meeting.",
+    "exampleSentence": "Everyone is here, so let's get started with the first topic."
+  },
+  {
+    "term": "quick question",
+    "turkish": "kısa bir sorum var",
+    "category": "meeting",
+    "definition": "Introduces a short question.",
+    "exampleSentence": "I have a quick question about the budget before we finish."
+  },
+  {
+    "term": "any questions",
+    "turkish": "soru var mı",
+    "category": "meeting",
+    "definition": "Asks the audience if they have questions.",
+    "exampleSentence": "At the end of the presentation, she asked if there were any questions."
+  },
+  {
+    "term": "I have a hard stop",
+    "turkish": "kesin çıkmam gereken bir saat var",
+    "category": "meeting",
+    "definition": "Means you must leave the meeting at an exact time.",
+    "exampleSentence": "Just so you know, I have a hard stop at eleven o'clock."
+  },
+  {
+    "term": "I'll follow up by email",
+    "turkish": "e-postayla dönüş yapacağım",
+    "category": "meeting",
+    "definition": "Means you will send more details by email after the meeting.",
+    "exampleSentence": "I do not have the numbers now, but I'll follow up by email."
+  },
+  {
+    "term": "does that make sense",
+    "turkish": "anlaşıldı mı, mantıklı geliyor mu",
+    "category": "meeting",
+    "definition": "Checks that others understand what you said.",
+    "exampleSentence": "I explained the new process and asked, \"Does that make sense?\""
+  },
+  {
+    "term": "to add to that",
+    "turkish": "buna ek olarak",
+    "category": "meeting",
+    "definition": "Used to add a point to what someone just said.",
+    "exampleSentence": "To add to that, the new tool is also much cheaper."
+  },
+  {
+    "term": "can we go back to",
+    "turkish": "-e geri dönebilir miyiz",
+    "category": "meeting",
+    "definition": "Asks to return to an earlier topic or slide.",
+    "exampleSentence": "Sorry, can we go back to the previous slide for a moment?"
+  },
+  {
+    "term": "I didn't catch that",
+    "turkish": "anlayamadım, kaçırdım",
+    "category": "meeting",
+    "definition": "Says you did not hear or understand something.",
+    "exampleSentence": "Sorry, I didn't catch that, could you say it again?"
+  },
+  {
+    "term": "could you speak up",
+    "turkish": "biraz daha yüksek sesle konuşur musunuz",
+    "category": "meeting",
+    "definition": "Politely asks someone to speak louder.",
+    "exampleSentence": "The sound is very quiet, could you speak up a little?"
+  },
+  {
+    "term": "sorry to interrupt",
+    "turkish": "böldüğüm için özür dilerim",
+    "category": "meeting",
+    "definition": "A polite way to start speaking while someone else is talking.",
+    "exampleSentence": "Sorry to interrupt, but we only have five minutes left."
+  },
+  {
+    "term": "go ahead",
+    "turkish": "buyurun, devam edin",
+    "category": "meeting",
+    "definition": "Gives someone permission to speak or continue.",
+    "exampleSentence": "We both started talking at once, so I said, \"Go ahead.\""
+  },
+  {
+    "term": "I see your point",
+    "turkish": "ne demek istediğinizi anlıyorum",
+    "category": "meeting",
+    "definition": "Shows you understand someone's opinion, even if you do not fully agree.",
+    "exampleSentence": "I see your point, but the budget is still a problem."
+  },
+  {
+    "term": "I'm not sure I agree",
+    "turkish": "pek katıldığımı söyleyemem",
+    "category": "meeting",
+    "definition": "A polite way to disagree.",
+    "exampleSentence": "I'm not sure I agree, because the users never asked for this feature."
+  },
+  {
+    "term": "let's park that",
+    "turkish": "bunu şimdilik bir kenara koyalım",
+    "category": "meeting",
+    "definition": "Means to stop discussing a topic for now and return to it later.",
+    "exampleSentence": "That is a big topic, so let's park that until next week."
+  },
+  {
+    "term": "we're running out of time",
+    "turkish": "vaktimiz azalıyor",
+    "category": "meeting",
+    "definition": "Says the meeting will end soon.",
+    "exampleSentence": "We're running out of time, so let us focus on the main decision."
+  },
+  {
+    "term": "let's schedule a follow-up",
+    "turkish": "bir takip toplantısı planlayalım",
+    "category": "meeting",
+    "definition": "Suggests another meeting to continue a topic.",
+    "exampleSentence": "We could not finish, so let's schedule a follow-up for Thursday."
+  },
+  {
+    "term": "who's taking notes",
+    "turkish": "not kim tutuyor",
+    "category": "meeting",
+    "definition": "Asks who will write down the meeting notes.",
+    "exampleSentence": "Before we begin the meeting, who's taking notes today?"
+  },
+  {
+    "term": "can everyone see this",
+    "turkish": "herkes görebiliyor mu",
+    "category": "meeting",
+    "definition": "Checks that all participants can see what is shared.",
+    "exampleSentence": "She shared the chart and asked, \"Can everyone see this?\""
+  },
+  {
+    "term": "I'll send the recording",
+    "turkish": "kaydı göndereceğim",
+    "category": "meeting",
+    "definition": "Promises to share the video of the meeting.",
+    "exampleSentence": "If you missed anything, I'll send the recording after the call."
+  },
+  {
+    "term": "next steps",
+    "turkish": "sonraki adımlar",
+    "category": "meeting",
+    "definition": "The actions planned after a meeting.",
+    "exampleSentence": "Before we finish, let us agree on the next steps."
+  },
+  {
+    "term": "dial in",
+    "turkish": "telefonla bağlanmak",
+    "category": "meeting",
+    "definition": "To join a meeting by phone.",
+    "exampleSentence": "You can dial in from your phone if your internet is slow."
+  },
+  {
+    "term": "join the meeting",
+    "turkish": "toplantıya katılmak",
+    "category": "meeting",
+    "definition": "To enter an online or in-person meeting.",
+    "exampleSentence": "Click the link in the invitation to join the meeting."
+  },
+  {
+    "term": "mute yourself",
+    "turkish": "mikrofonunu kapat",
+    "category": "meeting",
+    "definition": "To turn off your own microphone.",
+    "exampleSentence": "Please mute yourself when you are not speaking."
+  },
+  {
+    "term": "turn on your camera",
+    "turkish": "kameranı aç",
+    "category": "meeting",
+    "definition": "To start your video so others can see you.",
+    "exampleSentence": "Could you turn on your camera for the team photo?"
+  },
+  {
+    "term": "raise your hand",
+    "turkish": "el kaldırmak (söz istemek)",
+    "category": "meeting",
+    "definition": "To use the hand button to ask to speak in an online meeting.",
+    "exampleSentence": "If you have a question, please raise your hand in the app."
+  },
+  {
+    "term": "that's a good point",
+    "turkish": "bu iyi bir nokta",
+    "category": "meeting",
+    "definition": "Agrees that someone's comment is useful or true.",
+    "exampleSentence": "That's a good point, I had not thought about mobile users."
+  },
+  {
+    "term": "let me check",
+    "turkish": "bir kontrol edeyim",
+    "category": "meeting",
+    "definition": "Says you will find the answer before replying.",
+    "exampleSentence": "I am not sure about the price, so let me check with finance."
+  },
+  {
+    "term": "for the record",
+    "turkish": "kayıtlara geçsin, belirtmek isterim",
+    "category": "meeting",
+    "definition": "Used to state something clearly so it is remembered.",
+    "exampleSentence": "For the record, I warned the team about this risk last month."
+  },
+  {
+    "term": "just to recap",
+    "turkish": "kısaca özetlemek gerekirse",
+    "category": "meeting",
+    "definition": "Introduces a short summary of what was discussed.",
+    "exampleSentence": "Just to recap, Ali will fix the bug and Sara will test it."
+  },
+  {
+    "term": "over to you",
+    "turkish": "söz sizde",
+    "category": "meeting",
+    "definition": "Gives the next speaker their turn.",
+    "exampleSentence": "That is all from me, so over to you, Maria."
+  },
+  {
+    "term": "thanks everyone",
+    "turkish": "herkese teşekkürler",
+    "category": "meeting",
+    "definition": "A friendly way to end a meeting.",
+    "exampleSentence": "Thanks everyone, see you all at the same time next week."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "permission denied",
+    "turkish": "erişim izni reddedildi",
+    "category": "error",
+    "definition": "The system does not allow you to read, change or run a file.",
+    "exampleSentence": "I got a permission denied error because the file belongs to another user."
+  },
+  {
+    "term": "connection timed out",
+    "turkish": "bağlantı zaman aşımına uğradı",
+    "category": "error",
+    "definition": "The other computer did not answer in time.",
+    "exampleSentence": "The deployment failed with connection timed out after thirty seconds."
+  },
+  {
+    "term": "deprecated",
+    "turkish": "kullanımdan kalkıyor, önerilmiyor",
+    "category": "error",
+    "definition": "Still working but old, and will be removed in a future version.",
+    "exampleSentence": "The compiler warns that this function is deprecated and will be removed soon."
+  },
+  {
+    "term": "null pointer exception",
+    "turkish": "boş referans hatası",
+    "category": "error",
+    "definition": "An error when code tries to use an object that does not exist.",
+    "exampleSentence": "The app crashed with a null pointer exception when the user list was empty."
+  },
+  {
+    "term": "file not found",
+    "turkish": "dosya bulunamadı",
+    "category": "error",
+    "definition": "The system cannot find the file at the given path.",
+    "exampleSentence": "Check the path, because the script stopped with file not found."
+  },
+  {
+    "term": "out of memory",
+    "turkish": "bellek yetersiz",
+    "category": "error",
+    "definition": "The program needs more memory than the computer can give.",
+    "exampleSentence": "The image processing job crashed with an out of memory error."
+  },
+  {
+    "term": "syntax error",
+    "turkish": "sözdizimi hatası",
+    "category": "error",
+    "definition": "A mistake in the way code is written.",
+    "exampleSentence": "A missing bracket caused a syntax error on line twelve."
+  },
+  {
+    "term": "access denied",
+    "turkish": "erişim reddedildi",
+    "category": "error",
+    "definition": "You do not have permission to open a resource.",
+    "exampleSentence": "The website showed access denied because my account had no admin rights."
+  },
+  {
+    "term": "connection refused",
+    "turkish": "bağlantı reddedildi",
+    "category": "error",
+    "definition": "The other computer rejected the connection, often because the service is not running.",
+    "exampleSentence": "We got connection refused because the database server was not running."
+  },
+  {
+    "term": "unauthorized",
+    "turkish": "yetkisiz (giriş yapılmamış)",
+    "category": "error",
+    "definition": "The request needs a valid login or token.",
+    "exampleSentence": "The API returned unauthorized because my token had expired."
+  },
+  {
+    "term": "forbidden",
+    "turkish": "yasak (erişim yetkin yok)",
+    "category": "error",
+    "definition": "You are logged in but not allowed to access this resource.",
+    "exampleSentence": "The server answered forbidden even though my password was correct."
+  },
+  {
+    "term": "internal server error",
+    "turkish": "sunucu iç hatası",
+    "category": "error",
+    "definition": "Something went wrong on the server while handling the request.",
+    "exampleSentence": "The checkout page showed an internal server error after the update."
+  },
+  {
+    "term": "bad request",
+    "turkish": "hatalı istek",
+    "category": "error",
+    "definition": "The server could not understand the request because it was wrong.",
+    "exampleSentence": "The API returned bad request because a required field was missing."
+  },
+  {
+    "term": "service unavailable",
+    "turkish": "hizmet kullanılamıyor",
+    "category": "error",
+    "definition": "The server is overloaded or down for maintenance.",
+    "exampleSentence": "Users saw service unavailable during the planned maintenance window."
+  },
+  {
+    "term": "stack trace",
+    "turkish": "yığın izi (hata dökümü)",
+    "category": "error",
+    "definition": "A list of the function calls that led to an error.",
+    "exampleSentence": "Paste the full stack trace into the ticket so we can find the bug."
+  },
+  {
+    "term": "exception",
+    "turkish": "istisna (çalışma zamanı hatası)",
+    "category": "error",
+    "definition": "An error that happens while a program is running.",
+    "exampleSentence": "The code catches the exception and shows a friendly message to the user."
+  },
+  {
+    "term": "segmentation fault",
+    "turkish": "bellek erişim hatası",
+    "category": "error",
+    "definition": "A crash when a program tries to use memory it is not allowed to use.",
+    "exampleSentence": "The old C program stopped with a segmentation fault on the new server."
+  },
+  {
+    "term": "merge conflict",
+    "turkish": "birleştirme çakışması",
+    "category": "error",
+    "definition": "When Git cannot combine two changes to the same lines automatically.",
+    "exampleSentence": "I had to fix a merge conflict before my pull request could be merged."
+  },
+  {
+    "term": "build failed",
+    "turkish": "derleme başarısız",
+    "category": "error",
+    "definition": "The code could not be compiled or packaged.",
+    "exampleSentence": "The pipeline shows build failed because one test is broken."
+  },
+  {
+    "term": "command not found",
+    "turkish": "komut bulunamadı",
+    "category": "error",
+    "definition": "The terminal does not know the command you typed.",
+    "exampleSentence": "The terminal printed command not found because the tool was not installed."
+  },
+  {
+    "term": "no space left on device",
+    "turkish": "diskte yer kalmadı",
+    "category": "error",
+    "definition": "The disk is full, so no more data can be written.",
+    "exampleSentence": "The logs filled the disk, and the server reported no space left on device."
+  },
+  {
+    "term": "invalid credentials",
+    "turkish": "geçersiz kimlik bilgileri",
+    "category": "error",
+    "definition": "The username or password is wrong.",
+    "exampleSentence": "The login page said invalid credentials, so I reset my password."
+  },
+  {
+    "term": "session expired",
+    "turkish": "oturum süresi doldu",
+    "category": "error",
+    "definition": "You were logged out because you were inactive for too long.",
+    "exampleSentence": "After lunch, the website said session expired and asked me to log in."
+  },
+  {
+    "term": "certificate expired",
+    "turkish": "sertifikanın süresi doldu",
+    "category": "error",
+    "definition": "A security certificate is no longer valid, so the connection is not trusted.",
+    "exampleSentence": "The website was blocked because its certificate expired on Sunday."
+  },
+  {
+    "term": "too many requests",
+    "turkish": "çok fazla istek",
+    "category": "error",
+    "definition": "You sent requests too quickly and must wait.",
+    "exampleSentence": "The API returned too many requests, so our script waited one minute."
+  },
+  {
+    "term": "module not found",
+    "turkish": "modül bulunamadı",
+    "category": "error",
+    "definition": "The code tries to load a library that is not installed.",
+    "exampleSentence": "Run the install command again if you see module not found."
+  },
+  {
+    "term": "index out of range",
+    "turkish": "dizin aralık dışında",
+    "category": "error",
+    "definition": "The code tried to read an item past the end of a list.",
+    "exampleSentence": "The loop caused an index out of range error on the last item."
+  },
+  {
+    "term": "undefined",
+    "turkish": "tanımsız",
+    "category": "error",
+    "definition": "A variable or value that has not been set.",
+    "exampleSentence": "The page showed undefined instead of the user's name."
+  },
+  {
+    "term": "type mismatch",
+    "turkish": "tür uyuşmazlığı",
+    "category": "error",
+    "definition": "A value has a different data type than the code expects.",
+    "exampleSentence": "Passing text instead of a number caused a type mismatch."
+  },
+  {
+    "term": "infinite loop",
+    "turkish": "sonsuz döngü",
+    "category": "error",
+    "definition": "A loop that never stops running.",
+    "exampleSentence": "A missing condition created an infinite loop that froze the app."
+  },
+  {
+    "term": "memory leak",
+    "turkish": "bellek sızıntısı",
+    "category": "error",
+    "definition": "When a program keeps using more memory and never frees it.",
+    "exampleSentence": "A memory leak made the server slower and slower every day."
+  },
+  {
+    "term": "deadlock",
+    "turkish": "kilitlenme (karşılıklı bekleme)",
+    "category": "error",
+    "definition": "When two processes wait for each other forever and nothing continues.",
+    "exampleSentence": "Two database transactions waited for each other and caused a deadlock."
+  },
+  {
+    "term": "race condition",
+    "turkish": "yarış durumu",
+    "category": "error",
+    "definition": "A bug that happens when the timing of two tasks changes the result.",
+    "exampleSentence": "The bug only appears sometimes because of a race condition between two threads."
+  },
+  {
+    "term": "port already in use",
+    "turkish": "port zaten kullanımda",
+    "category": "error",
+    "definition": "Another program is already using the network port you chose.",
+    "exampleSentence": "I saw port already in use, so I stopped the old server first."
+  },
+  {
+    "term": "host unreachable",
+    "turkish": "sunucuya ulaşılamıyor",
+    "category": "error",
+    "definition": "The network cannot reach the target computer.",
+    "exampleSentence": "The ping command showed host unreachable when the VPN was off."
+  },
+  {
+    "term": "read-only file system",
+    "turkish": "salt okunur dosya sistemi",
+    "category": "error",
+    "definition": "The disk can be read but not changed.",
+    "exampleSentence": "The update failed with read-only file system on the old SD card."
+  },
+  {
+    "term": "unexpected token",
+    "turkish": "beklenmeyen simge",
+    "category": "error",
+    "definition": "The code contains a symbol where the computer did not expect it.",
+    "exampleSentence": "A missing comma caused an unexpected token error in the JSON file."
+  },
+  {
+    "term": "warning",
+    "turkish": "uyarı",
+    "category": "error",
+    "definition": "A message about a possible problem that does not stop the program.",
+    "exampleSentence": "The compiler showed a warning about an unused variable."
+  },
+  {
+    "term": "fatal error",
+    "turkish": "ölümcül hata (programı durduran)",
+    "category": "error",
+    "definition": "A serious error that stops the program completely.",
+    "exampleSentence": "The installer stopped with a fatal error and closed itself."
+  },
+  {
+    "term": "retry",
+    "turkish": "yeniden denemek",
+    "category": "error",
+    "definition": "To try an action again after it failed.",
+    "exampleSentence": "The app will retry the download three times before it gives up."
+  }
+]

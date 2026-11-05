@@ -39,7 +39,13 @@ class TermRepository {
     } catch (error) {
       throw TermRepositoryException('Could not open the word list.', error);
     }
+    return parseTerms(raw);
+  }
 
+  /// Bir kelime dosyasının içeriğini çözer (uygulamadaki ya da internetten
+  /// inen). Boşsa boş liste döner; biçim hatalıysa
+  /// [TermRepositoryException] fırlatır.
+  static List<Term> parseTerms(String raw) {
     if (raw.trim().isEmpty) {
       return const <Term>[];
     }

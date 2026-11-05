@@ -38,11 +38,17 @@ class WeeklyPack {
     }
 
     final DateTime date = DateTime.parse(read('releaseDate'));
+    final String file = read('file');
+    // Liste internetten de gelebildiği için yalnızca düz dosya adına izin
+    // verilir ("../" gibi yollar reddedilir).
+    if (!RegExp(r'^[A-Za-z0-9_-]+\.json$').hasMatch(file)) {
+      throw FormatException('Geçersiz paket dosya adı: "$file".', json);
+    }
     return WeeklyPack(
       id: read('id'),
       title: read('title'),
       subtitle: read('subtitle'),
-      file: read('file'),
+      file: file,
       releaseDate: DateTime(date.year, date.month, date.day),
     );
   }
