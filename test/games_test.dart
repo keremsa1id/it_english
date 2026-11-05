@@ -89,7 +89,7 @@ void main() {
       );
       await tester.pump();
 
-      expect(find.text('oldukça'), findsAtMostNWidgets(1));
+      expect(find.text('oldukça').evaluate().length, lessThanOrEqualTo(1));
     });
 
     testWidgets('ikiden az kelime varsa oyun başlamaz',
