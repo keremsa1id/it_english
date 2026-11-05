@@ -56,7 +56,11 @@ void main() {
     await tester.pumpWidget(const ItEnglishApp());
 
     await tester.tap(find.byTooltip('Statistics'));
-    await tester.pumpAndSettle();
+    // Ses seçimi cihazdaki sesleri yüklerken gösterge döndüğü için
+    // (testte seslendirme motoru yok) pumpAndSettle kullanılmıyor. Ses
+    // listesinin yeniden denemeleri (4 × 300 ms) bitsin diye 2 sn beklenir.
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 2));
 
     expect(find.byType(StatisticsScreen), findsOneWidget);
     expect(find.text('LAST 7 DAYS'), findsOneWidget);
