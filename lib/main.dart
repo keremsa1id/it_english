@@ -1,24 +1,52 @@
 import 'package:flutter/material.dart';
 
 import 'models/section.dart';
-import 'screens/group_screen.dart';
 import 'screens/favorites_screen.dart';
 import 'screens/quiz_mode_screen.dart';
 import 'screens/review_screen.dart';
-import 'screens/section_screen.dart';
+import 'screens/search_screen.dart';
+import 'screens/statistics_screen.dart';
 import 'screens/weekly_screen.dart';
+import 'screens/word_groups_screen.dart';
+import 'services/achievement_service.dart';
 import 'services/pack_service.dart';
 import 'services/progress_service.dart';
+import 'services/reminder_service.dart';
 import 'services/term_repository.dart';
 import 'widgets/daily_goal_card.dart';
 import 'widgets/menu_card.dart';
 import 'widgets/progress_footer.dart';
-import 'widgets/section_icon.dart';
+
+/// Hangi ekranda olunursa olsun mesaj (ör. rozet kutlaması) gösterebilmek
+/// için uygulamanın ortak mesaj alanı.
+final GlobalKey<ScaffoldMessengerState> appMessengerKey =
+    GlobalKey<ScaffoldMessengerState>();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ProgressService.instance.load();
+  // Yeni haftalık paketler GitHub'dan indirilsin.
+  PackService.remoteEnabled = true;
+  AchievementService.instance.onEarned = _celebrateAchievement;
   runApp(const ItEnglishApp());
+  // Rozetler ve hatırlatmalar arka planda hazırlanır; açılışı geciktirmesin.
+  AchievementService.instance.start();
+  ReminderService.instance.start();
+}
+
+void _celebrateAchievement(Achievement achievement) {
+  appMessengerKey.currentState?.showSnackBar(
+    SnackBar(
+      behavior: SnackBarBehavior.floating,
+      content: Row(
+        children: [
+          Icon(achievement.icon, color: const Color(0xFFFFB300)),
+          const SizedBox(width: 12),
+          Expanded(child: Text('New badge: ${achievement.title}!')),
+        ],
+      ),
+    ),
+  );
 }
 
 class ItEnglishApp extends StatelessWidget {
@@ -27,6 +55,7 @@ class ItEnglishApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      scaffoldMessengerKey: appMessengerKey,
       debugShowCheckedModeBanner: false,
       title: 'IT English',
       // Siyah zemin, kırmızı vurgular.
@@ -50,8 +79,8 @@ class ItEnglishApp extends StatelessWidget {
   }
 }
 
-/// Karışık quiz'i ve klasörleri (IT Terms, Verbs, Nouns...) listeleyen ana
-/// ekran.
+/// Ana ekran: altı kart (Daily Goal, Word Groups, Mixed Quiz, Weekly Words,
+/// Review, Favorites). Kelime klasörleri Word Groups'un içindedir.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -95,6 +124,26 @@ class HomeScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  // Sağ üstteki kısayollar; ana ekranda altı kart kalsın diye
+                  // kart yerine simge.
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      IconButton(
+                        tooltip: 'Search',
+                        iconSize: 28,
+                        onPressed: () => _open(context, const SearchScreen()),
+                        icon: const Icon(Icons.search_rounded),
+                      ),
+                      IconButton(
+                        tooltip: 'Statistics',
+                        iconSize: 28,
+                        onPressed: () =>
+                            _open(context, const StatisticsScreen()),
+                        icon: const Icon(Icons.bar_chart_rounded),
+                      ),
+                    ],
+                  ),
                   Icon(
                     Icons.terminal_rounded,
                     size: 72,
@@ -121,6 +170,14 @@ class HomeScreen extends StatelessWidget {
                   const DailyGoalCard(),
                   const SizedBox(height: 16),
                   MenuCard(
+                    title: 'Word Groups',
+                    subtitle: 'IT terms, verbs, nouns, phrases and more',
+                    icon: Icons.folder_rounded,
+                    onTap: () => _open(context, const WordGroupsScreen()),
+                    footer: const ProgressFooter(sections: Section.all),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
                     title: 'Mixed Quiz',
                     subtitle: 'Random questions from every section',
                     icon: Icons.shuffle_rounded,
@@ -141,12 +198,12 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   MenuCard(
                     title: 'Review',
-                    subtitle: 'Practice the words you got wrong',
+                    subtitle: 'Wrong answers and words due for repetition',
                     icon: Icons.replay_circle_filled_rounded,
                     onTap: () => _open(context, const ReviewScreen()),
                     footer: _CountFooter(
                       (ProgressService progress) => switch (
-                          progress.reviewCount) {
+                          progress.reviewTotal) {
                         0 => 'No words to review',
                         1 => '1 word to review',
                         final int count => '$count words to review',
@@ -168,28 +225,6 @@ class HomeScreen extends StatelessWidget {
                       },
                     ),
                   ),
-                  const SizedBox(height: 16),
-                  for (final SectionGroup group in SectionGroup.all) ...[
-                    MenuCard(
-                      title: group.title,
-                      subtitle: group.subtitle,
-                      icon: sectionIcon(group.kind),
-                      // Tek bölümlü klasör doğrudan bölümü açar.
-                      onTap: () => _open(
-                        context,
-                        group.sections.length == 1
-                            ? SectionScreen(section: group.sections.single)
-                            : GroupScreen(group: group),
-                      ),
-                      footer: ProgressFooter(
-                        sections: group.sections,
-                        quizId: group.sections.length == 1
-                            ? group.sections.single.assetPath
-                            : null,
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                  ],
                 ],
               ),
             ),

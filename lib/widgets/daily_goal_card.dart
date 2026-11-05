@@ -1,7 +1,78 @@
 import 'package:flutter/material.dart';
 
+import '../screens/todays_words_screen.dart';
 import '../services/progress_service.dart';
+import '../services/reminder_service.dart';
 import 'menu_card.dart';
+
+/// Günlük hatırlatma ayarları: açık/kapalı ve saat. Açarken bildirim izni
+/// istenir; izin verilmezse hatırlatma kapalı kalır.
+class _ReminderSettings extends StatelessWidget {
+  const _ReminderSettings();
+
+  static String _format(int minutes) =>
+      '${(minutes ~/ 60).toString().padLeft(2, '0')}:'
+      '${(minutes % 60).toString().padLeft(2, '0')}';
+
+  Future<void> _toggle(BuildContext context, bool enabled) async {
+    final ProgressService progress = ProgressService.instance;
+    if (enabled && !await ReminderService.instance.requestPermission()) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Notifications are blocked. Allow them in your phone settings.',
+            ),
+          ),
+        );
+      }
+      return;
+    }
+    await progress.setReminder(enabled: enabled);
+  }
+
+  Future<void> _pickTime(BuildContext context) async {
+    final ProgressService progress = ProgressService.instance;
+    final int minutes = progress.reminderMinutes;
+    final TimeOfDay? picked = await showTimePicker(
+      context: context,
+      initialTime: TimeOfDay(hour: minutes ~/ 60, minute: minutes % 60),
+    );
+    if (picked != null) {
+      await progress.setReminder(minutes: picked.hour * 60 + picked.minute);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final ProgressService progress = ProgressService.instance;
+
+    return ListenableBuilder(
+      listenable: progress,
+      builder: (BuildContext context, Widget? child) => Column(
+        children: [
+          SwitchListTile(
+            secondary: const Icon(Icons.notifications_active_rounded),
+            title: const Text('Daily reminder'),
+            subtitle: const Text("Skipped on days you've reached your goal"),
+            value: progress.reminderEnabled,
+            onChanged: (bool value) => _toggle(context, value),
+          ),
+          ListTile(
+            leading: const Icon(Icons.schedule_rounded),
+            title: const Text('Reminder time'),
+            enabled: progress.reminderEnabled,
+            trailing: Text(
+              _format(progress.reminderMinutes),
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
+            onTap: () => _pickTime(context),
+          ),
+        ],
+      ),
+    );
+  }
+}
 
 /// Ana ekrandaki günlük hedef kartı: bugünkü ilerleme ve seri. Dokununca
 /// hedef seçme penceresi açılır.
@@ -44,6 +115,11 @@ class DailyGoalCard extends StatelessWidget {
                     Navigator.of(context).pop();
                   },
                 ),
+              // Bildirimler yalnızca Android'de; web'de ayar gösterilmez.
+              if (ReminderService.isSupported) ...[
+                const Divider(),
+                const _ReminderSettings(),
+              ],
               const SizedBox(height: 8),
             ],
           ),
@@ -105,6 +181,18 @@ class DailyGoalCard extends StatelessWidget {
                     style: theme.textTheme.bodySmall?.copyWith(color: color),
                   ),
                 ],
+              ),
+              const SizedBox(height: 10),
+              // Hedefi tutturmanın kolay yolu: günün 10 kelimesi.
+              FilledButton.tonalIcon(
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (BuildContext context) =>
+                        const TodaysWordsScreen(),
+                  ),
+                ),
+                icon: const Icon(Icons.today_rounded),
+                label: const Text("Today's words"),
               ),
             ],
           );

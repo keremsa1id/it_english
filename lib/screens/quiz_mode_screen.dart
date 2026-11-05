@@ -4,7 +4,9 @@ import '../models/quiz_mode.dart';
 import '../models/term.dart';
 import '../services/term_repository.dart';
 import '../widgets/menu_card.dart';
+import 'matching_screen.dart';
 import 'quiz_screen.dart';
+import 'sentence_builder_screen.dart';
 
 /// Bir quiz'in hangi kelimelerle, kaç soruyla oynanacağı. Tür seçme
 /// ekranı her tür için [QuizScreen]'i bununla oluşturur.
@@ -57,8 +59,16 @@ class QuizModeScreen extends StatelessWidget {
         QuizMode.speaking => Icons.mic_rounded,
       };
 
+  void _open(BuildContext context, Widget screen) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(builder: (BuildContext context) => screen),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
     return Scaffold(
       appBar: AppBar(title: Text(setup.title), centerTitle: true),
       body: SafeArea(
@@ -76,15 +86,47 @@ class QuizModeScreen extends StatelessWidget {
                       title: mode.title,
                       subtitle: mode.subtitle,
                       icon: _iconOf(mode),
-                      onTap: () => Navigator.of(context).push(
-                        MaterialPageRoute<void>(
-                          builder: (BuildContext context) =>
-                              setup.buildQuiz(mode),
-                        ),
-                      ),
+                      onTap: () => _open(context, setup.buildQuiz(mode)),
                     ),
                     const SizedBox(height: 16),
                   ],
+                  const SizedBox(height: 8),
+                  Text(
+                    'GAMES',
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                      letterSpacing: 1.5,
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  MenuCard(
+                    title: 'Match the Words',
+                    subtitle: 'Pair each English word with its Turkish meaning',
+                    icon: Icons.grid_view_rounded,
+                    onTap: () => _open(
+                      context,
+                      MatchingScreen(
+                        repository: setup.repository,
+                        include: setup.askOnly,
+                        emptyMessage: setup.emptyMessage,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Build the Sentence',
+                    subtitle: 'Put the words of a sentence in the right order',
+                    icon: Icons.view_week_rounded,
+                    onTap: () => _open(
+                      context,
+                      SentenceBuilderScreen(
+                        repository: setup.repository,
+                        include: setup.askOnly,
+                        emptyMessage: setup.emptyMessage,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
                 ],
               ),
             ),

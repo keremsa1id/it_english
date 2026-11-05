@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/weekly_pack.dart';
 import '../services/pack_service.dart';
 import '../services/term_repository.dart';
+import '../widgets/locked_card.dart';
 import '../widgets/menu_card.dart';
 import '../widgets/message_view.dart';
 import '../widgets/progress_footer.dart';
@@ -139,46 +140,15 @@ class _LockedPackCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ThemeData theme = Theme.of(context);
-    final Color color = theme.colorScheme.onSurfaceVariant;
     final String when = switch (daysLeft) {
       0 => 'today',
       1 => 'tomorrow',
       _ => 'in $daysLeft days',
     };
 
-    return Card(
-      elevation: 0,
-      color: theme.colorScheme.surfaceContainerHighest,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Row(
-          children: [
-            Icon(Icons.lock_rounded, size: 40, color: color),
-            const SizedBox(width: 20),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    pack.title,
-                    style: theme.textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      color: color,
-                    ),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    'Unlocks ${formatShortDate(pack.releaseDate)} ($when)',
-                    style: theme.textTheme.bodyMedium?.copyWith(color: color),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
+    return LockedCard(
+      title: pack.title,
+      message: 'Unlocks ${formatShortDate(pack.releaseDate)} ($when)',
     );
   }
 }

@@ -14,6 +14,13 @@ jobs:
       - name: Kodu indir
         uses: actions/checkout@v4
 
+      # Android derlemesi (aşağıdaki APK adımı) için.
+      - name: Java 17 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
       - name: Flutter kur
         uses: subosito/flutter-action@v2
         with:
@@ -28,3 +35,9 @@ jobs:
 
       - name: Testleri çalıştır
         run: flutter test
+
+      # Android ayarları (izinler, paket gereksinimleri) bozuksa main'e
+      # gelmeden görülsün. Hızlı olsun diye debug derlenir; yayınlanacak
+      # APK main'de Build APK workflow'unda derlenir.
+      - name: Android derlemesini dene
+        run: flutter build apk --debug

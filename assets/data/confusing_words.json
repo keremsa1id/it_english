@@ -1,0 +1,282 @@
+[
+  {
+    "term": "affect",
+    "turkish": "etkilemek (fiil) ≠ effect: etki",
+    "category": "confusable",
+    "definition": "To change or influence something (a verb).",
+    "exampleSentence": "The new rules will affect every employee in the company."
+  },
+  {
+    "term": "effect",
+    "turkish": "etki, sonuç (isim) ≠ affect: etkilemek",
+    "category": "confusable",
+    "definition": "The result of a change (a noun).",
+    "exampleSentence": "The new design had a positive effect on sales."
+  },
+  {
+    "term": "loose",
+    "turkish": "gevşek, bol ≠ lose: kaybetmek",
+    "category": "confusable",
+    "definition": "Not tight or not firmly fixed.",
+    "exampleSentence": "One of the screws on my laptop is loose."
+  },
+  {
+    "term": "than",
+    "turkish": "-den, -dan (karşılaştırma) ≠ then: sonra",
+    "category": "confusable",
+    "definition": "Used in comparisons.",
+    "exampleSentence": "The new server is much faster than the old one."
+  },
+  {
+    "term": "its",
+    "turkish": "onun (sahiplik) ≠ it's: it is",
+    "category": "confusable",
+    "definition": "Belonging to it.",
+    "exampleSentence": "The company changed its logo and website last year."
+  },
+  {
+    "term": "it's",
+    "turkish": "it is / it has kısaltması ≠ its: onun",
+    "category": "confusable",
+    "definition": "Short for \"it is\" or \"it has\".",
+    "exampleSentence": "It's important to back up your files every day."
+  },
+  {
+    "term": "advice",
+    "turkish": "tavsiye (isim) ≠ advise: tavsiye etmek",
+    "category": "confusable",
+    "definition": "An opinion about what someone should do (a noun).",
+    "exampleSentence": "My mentor gave me good advice about my career."
+  },
+  {
+    "term": "advise",
+    "turkish": "tavsiye etmek (fiil) ≠ advice: tavsiye",
+    "category": "confusable",
+    "definition": "To tell someone what you think they should do (a verb).",
+    "exampleSentence": "The doctor will advise you to rest for a few days."
+  },
+  {
+    "term": "principal",
+    "turkish": "ana, başlıca; okul müdürü ≠ principle: ilke",
+    "category": "confusable",
+    "definition": "Most important, or the head of a school.",
+    "exampleSentence": "The principal reason for the delay was a lack of staff."
+  },
+  {
+    "term": "principle",
+    "turkish": "ilke, prensip ≠ principal: ana, müdür",
+    "category": "confusable",
+    "definition": "A basic rule or belief.",
+    "exampleSentence": "Our team follows the principle of keeping code simple."
+  },
+  {
+    "term": "stationary",
+    "turkish": "hareketsiz, sabit ≠ stationery: kırtasiye",
+    "category": "confusable",
+    "definition": "Not moving.",
+    "exampleSentence": "The car was stationary when the bus hit it."
+  },
+  {
+    "term": "stationery",
+    "turkish": "kırtasiye ≠ stationary: sabit",
+    "category": "confusable",
+    "definition": "Paper, pens and other office supplies.",
+    "exampleSentence": "The office manager orders new stationery every month."
+  },
+  {
+    "term": "complement",
+    "turkish": "tamamlamak ≠ compliment: iltifat",
+    "category": "confusable",
+    "definition": "To go well with something and make it better.",
+    "exampleSentence": "The new tool will complement our existing software."
+  },
+  {
+    "term": "compliment",
+    "turkish": "iltifat, övgü ≠ complement: tamamlamak",
+    "category": "confusable",
+    "definition": "Something nice you say to praise someone.",
+    "exampleSentence": "The client paid us a compliment on the clean design."
+  },
+  {
+    "term": "ensure",
+    "turkish": "sağlamak, garantilemek ≠ insure: sigortalamak",
+    "category": "confusable",
+    "definition": "To make certain that something happens.",
+    "exampleSentence": "Please ensure that all tests pass before you merge."
+  },
+  {
+    "term": "insure",
+    "turkish": "sigortalamak ≠ ensure: sağlamak",
+    "category": "confusable",
+    "definition": "To buy insurance against loss or damage.",
+    "exampleSentence": "We need to insure the new laptops against theft."
+  },
+  {
+    "term": "lend",
+    "turkish": "ödünç vermek ≠ borrow: ödünç almak",
+    "category": "confusable",
+    "definition": "To give something to someone for a short time.",
+    "exampleSentence": "Could you lend me your charger until tomorrow?"
+  },
+  {
+    "term": "borrow",
+    "turkish": "ödünç almak ≠ lend: ödünç vermek",
+    "category": "confusable",
+    "definition": "To take something from someone for a short time.",
+    "exampleSentence": "Can I borrow your pen for a moment, please?"
+  },
+  {
+    "term": "rise",
+    "turkish": "yükselmek (nesnesiz) ≠ raise: yükseltmek",
+    "category": "confusable",
+    "definition": "To go up by itself (no object).",
+    "exampleSentence": "Prices usually rise at the start of the year."
+  },
+  {
+    "term": "raise",
+    "turkish": "yükseltmek, artırmak (nesneli) ≠ rise: yükselmek",
+    "category": "confusable",
+    "definition": "To lift or increase something (needs an object).",
+    "exampleSentence": "The company will raise salaries by five percent."
+  },
+  {
+    "term": "lie",
+    "turkish": "uzanmak; yalan söylemek ≠ lay: koymak",
+    "category": "confusable",
+    "definition": "To be in a flat position, or to say something untrue.",
+    "exampleSentence": "I need to lie down because I have a headache."
+  },
+  {
+    "term": "economic",
+    "turkish": "ekonomiyle ilgili ≠ economical: tasarruflu",
+    "category": "confusable",
+    "definition": "Related to the economy.",
+    "exampleSentence": "The country is facing serious economic problems this year."
+  },
+  {
+    "term": "economical",
+    "turkish": "tasarruflu, hesaplı ≠ economic: ekonomiyle ilgili",
+    "category": "confusable",
+    "definition": "Using little money or energy.",
+    "exampleSentence": "Small electric cars are more economical than large ones."
+  },
+  {
+    "term": "fewer",
+    "turkish": "daha az (sayılabilen) ≠ less: sayılamayan",
+    "category": "confusable",
+    "definition": "A smaller number of countable things.",
+    "exampleSentence": "We had fewer bugs this month than last month."
+  },
+  {
+    "term": "less",
+    "turkish": "daha az (sayılamayan) ≠ fewer: sayılabilen",
+    "category": "confusable",
+    "definition": "A smaller amount of something you cannot count.",
+    "exampleSentence": "The new process uses less paper and saves money."
+  },
+  {
+    "term": "imply",
+    "turkish": "ima etmek ≠ infer: sonuç çıkarmak",
+    "category": "confusable",
+    "definition": "To suggest something without saying it directly.",
+    "exampleSentence": "Are you trying to imply that I made the mistake?"
+  },
+  {
+    "term": "infer",
+    "turkish": "sonuç çıkarmak ≠ imply: ima etmek",
+    "category": "confusable",
+    "definition": "To reach an opinion from the facts you have.",
+    "exampleSentence": "From his silence, I infer that he does not agree."
+  },
+  {
+    "term": "discreet",
+    "turkish": "ağzı sıkı, ketum ≠ discrete: ayrık",
+    "category": "confusable",
+    "definition": "Careful not to tell secrets.",
+    "exampleSentence": "Please be discreet about the salary changes until Monday."
+  },
+  {
+    "term": "discrete",
+    "turkish": "ayrık, ayrı ayrı ≠ discreet: ketum",
+    "category": "confusable",
+    "definition": "Separate and different from each other.",
+    "exampleSentence": "The project is divided into five discrete stages."
+  },
+  {
+    "term": "further",
+    "turkish": "daha fazla, ek ≠ farther: daha uzak",
+    "category": "confusable",
+    "definition": "More or additional.",
+    "exampleSentence": "Please contact me if you need further information."
+  },
+  {
+    "term": "farther",
+    "turkish": "daha uzak (mesafe) ≠ further: daha fazla",
+    "category": "confusable",
+    "definition": "At a greater physical distance.",
+    "exampleSentence": "The new office is farther from my home than the old one."
+  },
+  {
+    "term": "whose",
+    "turkish": "kimin ≠ who's: who is",
+    "category": "confusable",
+    "definition": "Used to ask or say who owns something.",
+    "exampleSentence": "Whose laptop is this on the meeting room table?"
+  },
+  {
+    "term": "who's",
+    "turkish": "who is / who has kısaltması ≠ whose: kimin",
+    "category": "confusable",
+    "definition": "Short for \"who is\" or \"who has\".",
+    "exampleSentence": "Who's going to present the project results tomorrow morning?"
+  },
+  {
+    "term": "their",
+    "turkish": "onların ≠ they're: they are",
+    "category": "confusable",
+    "definition": "Belonging to them.",
+    "exampleSentence": "The developers showed their new app to the client."
+  },
+  {
+    "term": "they're",
+    "turkish": "they are kısaltması ≠ their: onların",
+    "category": "confusable",
+    "definition": "Short for \"they are\".",
+    "exampleSentence": "They're working late to finish the release tonight."
+  },
+  {
+    "term": "you're",
+    "turkish": "you are kısaltması ≠ your: senin",
+    "category": "confusable",
+    "definition": "Short for \"you are\".",
+    "exampleSentence": "You're welcome to join our team lunch on Friday."
+  },
+  {
+    "term": "breath",
+    "turkish": "nefes (isim) ≠ breathe: nefes almak",
+    "category": "confusable",
+    "definition": "The air that goes in and out of your lungs (a noun).",
+    "exampleSentence": "Take a deep breath before you start your presentation."
+  },
+  {
+    "term": "breathe",
+    "turkish": "nefes almak (fiil) ≠ breath: nefes",
+    "category": "confusable",
+    "definition": "To take air into your lungs (a verb).",
+    "exampleSentence": "Remember to breathe slowly when you feel nervous."
+  },
+  {
+    "term": "desert",
+    "turkish": "çöl ≠ dessert: tatlı",
+    "category": "confusable",
+    "definition": "A large, dry area with very little rain.",
+    "exampleSentence": "The Sahara is the largest hot desert in the world."
+  },
+  {
+    "term": "dessert",
+    "turkish": "tatlı (yemek sonu) ≠ desert: çöl",
+    "category": "confusable",
+    "definition": "Sweet food eaten at the end of a meal.",
+    "exampleSentence": "We had chocolate cake for dessert after dinner."
+  }
+]

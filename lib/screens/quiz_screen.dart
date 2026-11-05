@@ -11,6 +11,7 @@ import '../utils/answer_check.dart';
 import '../utils/sentence_parts.dart';
 import '../widgets/category_style.dart';
 import '../widgets/message_view.dart';
+import '../widgets/study_timer.dart';
 
 /// Quiz ekranı; soru biçimi [mode]'a göre değişir (bkz. [QuizMode]).
 ///
@@ -50,7 +51,7 @@ class QuizScreen extends StatefulWidget {
   State<QuizScreen> createState() => _QuizScreenState();
 }
 
-class _QuizScreenState extends State<QuizScreen> {
+class _QuizScreenState extends State<QuizScreen> with StudyTimer<QuizScreen> {
   final QuizGenerator _generator = QuizGenerator();
   late Future<List<Term>> _termsFuture;
 
@@ -140,7 +141,10 @@ class _QuizScreenState extends State<QuizScreen> {
 
     if (!identical(option, question.answer)) {
       // Yanlış bilinen kelime öğrenilmiş sayılmaz, Review destesine girer.
-      ProgressService.instance.recordAnswer(question.answer, correct: false);
+      // Aynı soruda ikinci yanlış şık tekrar sayılmaz.
+      if (_wrongPicks.isEmpty) {
+        ProgressService.instance.recordAnswer(question.answer, correct: false);
+      }
       setState(() => _wrongPicks.add(option));
       return;
     }

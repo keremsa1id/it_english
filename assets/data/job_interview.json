@@ -1,0 +1,282 @@
+[
+  {
+    "term": "tell me about yourself",
+    "turkish": "kendinizden bahseder misiniz",
+    "category": "interview",
+    "definition": "A common first interview question about your background.",
+    "exampleSentence": "Most interviews start with the question \"Tell me about yourself.\""
+  },
+  {
+    "term": "strengths and weaknesses",
+    "turkish": "güçlü ve zayıf yönler",
+    "category": "interview",
+    "definition": "Your best qualities and the areas you need to improve.",
+    "exampleSentence": "Prepare honest examples of your strengths and weaknesses before the interview."
+  },
+  {
+    "term": "notice period",
+    "turkish": "ihbar süresi",
+    "category": "interview",
+    "definition": "The time you must keep working after you resign.",
+    "exampleSentence": "My notice period is one month, so I can start in March."
+  },
+  {
+    "term": "salary expectations",
+    "turkish": "maaş beklentisi",
+    "category": "interview",
+    "definition": "The amount of money you hope to earn in a new job.",
+    "exampleSentence": "The recruiter asked about my salary expectations in the first call."
+  },
+  {
+    "term": "why do you want to work here",
+    "turkish": "neden burada çalışmak istiyorsunuz",
+    "category": "interview",
+    "definition": "A question about your reasons for choosing the company.",
+    "exampleSentence": "Research the company so you can answer \"Why do you want to work here?\""
+  },
+  {
+    "term": "where do you see yourself in five years",
+    "turkish": "beş yıl sonra kendinizi nerede görüyorsunuz",
+    "category": "interview",
+    "definition": "A question about your long-term career plans.",
+    "exampleSentence": "A common interview question is \"Where do you see yourself in five years?\""
+  },
+  {
+    "term": "walk me through your resume",
+    "turkish": "özgeçmişinizi anlatır mısınız",
+    "category": "interview",
+    "definition": "Asks you to explain your past jobs in order.",
+    "exampleSentence": "The manager said, \"Walk me through your resume, starting with your first job.\""
+  },
+  {
+    "term": "cover letter",
+    "turkish": "ön yazı",
+    "category": "interview",
+    "definition": "A letter sent with your CV that explains why you want the job.",
+    "exampleSentence": "Write a short cover letter for each job you apply for."
+  },
+  {
+    "term": "hiring manager",
+    "turkish": "işe alımı yapacak yönetici",
+    "category": "interview",
+    "definition": "The manager who decides whether to hire you.",
+    "exampleSentence": "The second interview was with the hiring manager and two engineers."
+  },
+  {
+    "term": "recruiter",
+    "turkish": "işe alım uzmanı",
+    "category": "interview",
+    "definition": "A person who finds candidates for jobs.",
+    "exampleSentence": "A recruiter contacted me on LinkedIn about a backend role."
+  },
+  {
+    "term": "job offer",
+    "turkish": "iş teklifi",
+    "category": "interview",
+    "definition": "An official offer of a position from a company.",
+    "exampleSentence": "She received a job offer from a bank in Istanbul."
+  },
+  {
+    "term": "counteroffer",
+    "turkish": "karşı teklif",
+    "category": "interview",
+    "definition": "A better offer made in response to another offer.",
+    "exampleSentence": "When I resigned, my company made a counteroffer with a higher salary."
+  },
+  {
+    "term": "probation period",
+    "turkish": "deneme süresi",
+    "category": "interview",
+    "definition": "The first months of a job when the company checks your work.",
+    "exampleSentence": "The probation period at our company lasts three months."
+  },
+  {
+    "term": "start date",
+    "turkish": "işe başlama tarihi",
+    "category": "interview",
+    "definition": "The day you begin a new job.",
+    "exampleSentence": "We agreed on a start date at the beginning of next month."
+  },
+  {
+    "term": "full-time",
+    "turkish": "tam zamanlı",
+    "category": "interview",
+    "definition": "Working the normal number of hours each week.",
+    "exampleSentence": "This is a full-time position with flexible working hours."
+  },
+  {
+    "term": "part-time",
+    "turkish": "yarı zamanlı",
+    "category": "interview",
+    "definition": "Working fewer hours than a normal working week.",
+    "exampleSentence": "Many students look for part-time jobs during university."
+  },
+  {
+    "term": "relocation",
+    "turkish": "taşınma, yer değiştirme",
+    "category": "interview",
+    "definition": "Moving to another city or country for a job.",
+    "exampleSentence": "The company offers help with relocation to Berlin."
+  },
+  {
+    "term": "benefits package",
+    "turkish": "yan haklar paketi",
+    "category": "interview",
+    "definition": "Extra things you get with a job, such as insurance and bonuses.",
+    "exampleSentence": "The benefits package includes private health insurance and a gym membership."
+  },
+  {
+    "term": "career goals",
+    "turkish": "kariyer hedefleri",
+    "category": "interview",
+    "definition": "What you want to achieve in your working life.",
+    "exampleSentence": "My career goals include leading a small development team."
+  },
+  {
+    "term": "soft skills",
+    "turkish": "sosyal beceriler",
+    "category": "interview",
+    "definition": "Personal skills such as communication and teamwork.",
+    "exampleSentence": "Employers value soft skills as much as technical knowledge."
+  },
+  {
+    "term": "hard skills",
+    "turkish": "teknik beceriler",
+    "category": "interview",
+    "definition": "Skills you can measure, such as coding or languages.",
+    "exampleSentence": "Python and SQL are the hard skills listed in the job description."
+  },
+  {
+    "term": "technical interview",
+    "turkish": "teknik mülakat",
+    "category": "interview",
+    "definition": "An interview that tests your technical knowledge.",
+    "exampleSentence": "I practiced coding problems every day before the technical interview."
+  },
+  {
+    "term": "coding challenge",
+    "turkish": "kodlama sınavı",
+    "category": "interview",
+    "definition": "A programming task given during the hiring process.",
+    "exampleSentence": "The first step is an online coding challenge that takes one hour."
+  },
+  {
+    "term": "take-home assignment",
+    "turkish": "evde yapılacak görev",
+    "category": "interview",
+    "definition": "A task you complete at home and send to the company.",
+    "exampleSentence": "The take-home assignment was to build a small web app."
+  },
+  {
+    "term": "whiteboard interview",
+    "turkish": "tahtada çözümlü mülakat",
+    "category": "interview",
+    "definition": "An interview where you solve problems on a whiteboard.",
+    "exampleSentence": "In my whiteboard interview, I had to draw the database design."
+  },
+  {
+    "term": "system design interview",
+    "turkish": "sistem tasarımı mülakatı",
+    "category": "interview",
+    "definition": "An interview where you design a large software system.",
+    "exampleSentence": "In the system design interview, they asked me to design a chat app."
+  },
+  {
+    "term": "behavioral question",
+    "turkish": "davranışsal soru",
+    "category": "interview",
+    "definition": "A question about how you acted in a real situation.",
+    "exampleSentence": "A typical behavioral question is about a conflict with a colleague."
+  },
+  {
+    "term": "STAR method",
+    "turkish": "STAR yöntemi",
+    "category": "interview",
+    "definition": "A way to answer interview questions: Situation, Task, Action, Result.",
+    "exampleSentence": "Use the STAR method to give clear answers with real examples."
+  },
+  {
+    "term": "portfolio",
+    "turkish": "portfolyo",
+    "category": "interview",
+    "definition": "A collection of your best work to show employers.",
+    "exampleSentence": "Share a link to your portfolio with your best projects."
+  },
+  {
+    "term": "background check",
+    "turkish": "geçmiş araştırması",
+    "category": "interview",
+    "definition": "A check of your past jobs, education or records before hiring.",
+    "exampleSentence": "The company runs a background check before sending the contract."
+  },
+  {
+    "term": "shortlist",
+    "turkish": "kısa liste",
+    "category": "interview",
+    "definition": "A small list of the best candidates chosen for the next step.",
+    "exampleSentence": "I was happy to hear that I was on the shortlist for the role."
+  },
+  {
+    "term": "onsite interview",
+    "turkish": "şirkette yüz yüze mülakat",
+    "category": "interview",
+    "definition": "An interview at the company's office.",
+    "exampleSentence": "After two online calls, they invited me to an onsite interview."
+  },
+  {
+    "term": "follow-up email",
+    "turkish": "takip e-postası",
+    "category": "interview",
+    "definition": "An email sent after an interview to thank the interviewers.",
+    "exampleSentence": "Send a short follow-up email within one day of the interview."
+  },
+  {
+    "term": "thank you for your time",
+    "turkish": "zaman ayırdığınız için teşekkürler",
+    "category": "interview",
+    "definition": "A polite thanks at the end of an interview.",
+    "exampleSentence": "At the end, I said, \"Thank you for your time and the interesting chat.\""
+  },
+  {
+    "term": "do you have any questions for us",
+    "turkish": "bize sormak istediğiniz bir şey var mı",
+    "category": "interview",
+    "definition": "Asked at the end of an interview so you can ask questions.",
+    "exampleSentence": "Always prepare an answer for \"Do you have any questions for us?\""
+  },
+  {
+    "term": "I'm a quick learner",
+    "turkish": "hızlı öğrenirim",
+    "category": "interview",
+    "definition": "Says that you learn new things fast.",
+    "exampleSentence": "I told them that I'm a quick learner and enjoy new tools."
+  },
+  {
+    "term": "I work well under pressure",
+    "turkish": "baskı altında iyi çalışırım",
+    "category": "interview",
+    "definition": "Says that you stay calm and productive when work is stressful.",
+    "exampleSentence": "Give an example when you say I work well under pressure."
+  },
+  {
+    "term": "my biggest achievement",
+    "turkish": "en büyük başarım",
+    "category": "interview",
+    "definition": "Introduces the success you are most proud of.",
+    "exampleSentence": "My biggest achievement was reducing the app's loading time by half."
+  },
+  {
+    "term": "reason for leaving",
+    "turkish": "ayrılma nedeni",
+    "category": "interview",
+    "definition": "Why you want to leave or left your last job.",
+    "exampleSentence": "Keep your reason for leaving positive and short."
+  },
+  {
+    "term": "previous employer",
+    "turkish": "önceki işveren",
+    "category": "interview",
+    "definition": "The company you worked for before.",
+    "exampleSentence": "Never criticize your previous employer during a job interview."
+  }
+]

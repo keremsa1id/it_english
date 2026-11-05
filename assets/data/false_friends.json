@@ -1,0 +1,282 @@
+[
+  {
+    "term": "actual",
+    "turkish": "gerçek, asıl (aktüel DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Real; existing in fact.",
+    "exampleSentence": "The actual cost of the project was twice the first estimate."
+  },
+  {
+    "term": "sympathetic",
+    "turkish": "anlayışlı (sempatik DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Showing that you understand someone's problems.",
+    "exampleSentence": "My manager was very sympathetic when my father was ill."
+  },
+  {
+    "term": "sensible",
+    "turkish": "mantıklı, makul (hassas DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Showing good judgment.",
+    "exampleSentence": "Saving part of your salary every month is a sensible idea."
+  },
+  {
+    "term": "control",
+    "turkish": "yönetmek, hâkim olmak (kontrol etmek DEĞİL: \"check\")",
+    "category": "falsefriend",
+    "definition": "To have power over something or make it work the way you want.",
+    "exampleSentence": "The new app lets you control the office lights from your phone."
+  },
+  {
+    "term": "apartment",
+    "turkish": "daire (apartman DEĞİL: \"building\")",
+    "category": "falsefriend",
+    "definition": "A set of rooms for living in, inside a larger building.",
+    "exampleSentence": "They live in a small apartment on the fifth floor of the building."
+  },
+  {
+    "term": "eventual",
+    "turkish": "nihai, en sonunda olan (olası DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Happening at the end of a process.",
+    "exampleSentence": "The eventual winner of the contract was a small local company."
+  },
+  {
+    "term": "critic",
+    "turkish": "eleştirmen (kritik DEĞİL: \"critical\")",
+    "category": "falsefriend",
+    "definition": "A person who judges art, books or ideas.",
+    "exampleSentence": "The film critic wrote a very positive review of the movie."
+  },
+  {
+    "term": "pension",
+    "turkish": "emekli maaşı (pansiyon DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Money paid regularly to someone who has retired.",
+    "exampleSentence": "My grandfather lives on a small pension from the government."
+  },
+  {
+    "term": "billion",
+    "turkish": "milyar (trilyon DEĞİL)",
+    "category": "falsefriend",
+    "definition": "The number 1,000,000,000.",
+    "exampleSentence": "The company is now worth more than one billion dollars."
+  },
+  {
+    "term": "magazine",
+    "turkish": "dergi (magazin haberleri DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A printed or online publication with articles and photos.",
+    "exampleSentence": "I read a technology magazine on the train every morning."
+  },
+  {
+    "term": "basket",
+    "turkish": "sepet (basketbol DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A container used for carrying things.",
+    "exampleSentence": "She put the apples in a basket and carried it home."
+  },
+  {
+    "term": "fabric",
+    "turkish": "kumaş (fabrika DEĞİL: \"factory\")",
+    "category": "falsefriend",
+    "definition": "Cloth used for making clothes.",
+    "exampleSentence": "This shirt is made of a soft cotton fabric."
+  },
+  {
+    "term": "jest",
+    "turkish": "şaka (jest DEĞİL: \"gesture\")",
+    "category": "falsefriend",
+    "definition": "Something said to be funny; a joke.",
+    "exampleSentence": "He said it in jest, but some people took it seriously."
+  },
+  {
+    "term": "Roman",
+    "turkish": "Romalı, Roma'ya ait (roman DEĞİL: \"novel\")",
+    "category": "falsefriend",
+    "definition": "Related to ancient Rome.",
+    "exampleSentence": "We visited a Roman theater that is two thousand years old."
+  },
+  {
+    "term": "prospectus",
+    "turkish": "tanıtım broşürü (ilaç prospektüsü DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A document that describes a school, company or investment.",
+    "exampleSentence": "The university sent me a prospectus with all its courses."
+  },
+  {
+    "term": "frank",
+    "turkish": "açık sözlü (frank para birimi DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Honest and direct.",
+    "exampleSentence": "To be frank, I do not think this plan will work."
+  },
+  {
+    "term": "argument",
+    "turkish": "tartışma, münakaşa (argüman DEĞİL)",
+    "category": "falsefriend",
+    "definition": "An angry discussion between people who disagree.",
+    "exampleSentence": "The two managers had an argument about the budget."
+  },
+  {
+    "term": "chef",
+    "turkish": "aşçı, şef aşçı (patron DEĞİL: \"boss\")",
+    "category": "falsefriend",
+    "definition": "A professional cook.",
+    "exampleSentence": "The chef at this restaurant trained in Italy for five years."
+  },
+  {
+    "term": "pasta",
+    "turkish": "makarna (pasta DEĞİL: \"cake\")",
+    "category": "falsefriend",
+    "definition": "Italian food made from flour and water, such as spaghetti.",
+    "exampleSentence": "We had pasta with tomato sauce for dinner last night."
+  },
+  {
+    "term": "toast",
+    "turkish": "kızarmış ekmek (tost DEĞİL: \"toasted sandwich\")",
+    "category": "falsefriend",
+    "definition": "Bread that has been made brown and crisp by heat.",
+    "exampleSentence": "I usually eat toast with butter and jam for breakfast."
+  },
+  {
+    "term": "kiosk",
+    "turkish": "büfe, bilgi standı (köşk DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A small stand that sells newspapers or gives information.",
+    "exampleSentence": "You can buy a train ticket at the kiosk near the entrance."
+  },
+  {
+    "term": "costume",
+    "turkish": "kostüm, kılık (takım elbise DEĞİL: \"suit\")",
+    "category": "falsefriend",
+    "definition": "Special clothes worn to look like someone else, for a play or party.",
+    "exampleSentence": "He wore a pirate costume to the office party."
+  },
+  {
+    "term": "personal",
+    "turkish": "kişisel (personel DEĞİL: \"staff\")",
+    "category": "falsefriend",
+    "definition": "Belonging to or concerning one person.",
+    "exampleSentence": "Do not use your work laptop for personal emails."
+  },
+  {
+    "term": "local",
+    "turkish": "yerel (lokal, kulüp DEĞİL)",
+    "category": "falsefriend",
+    "definition": "Belonging to a particular area.",
+    "exampleSentence": "We always buy vegetables from the local market."
+  },
+  {
+    "term": "plaza",
+    "turkish": "meydan (iş merkezi DEĞİL: \"office tower\")",
+    "category": "falsefriend",
+    "definition": "An open public square in a town.",
+    "exampleSentence": "Musicians play in the plaza every Sunday afternoon."
+  },
+  {
+    "term": "college",
+    "turkish": "yüksekokul, üniversite (kolej, lise DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A place for education after high school.",
+    "exampleSentence": "After high school, my brother went to college to study engineering."
+  },
+  {
+    "term": "fair",
+    "turkish": "adil (fuar DEĞİL: \"trade fair\")",
+    "category": "falsefriend",
+    "definition": "Treating people equally and reasonably.",
+    "exampleSentence": "Everyone agreed that the new bonus system is fair."
+  },
+  {
+    "term": "moral",
+    "turkish": "ahlaki (moral, keyif DEĞİL: \"morale\")",
+    "category": "falsefriend",
+    "definition": "Related to what is right and wrong.",
+    "exampleSentence": "Using customer data without permission is a moral problem."
+  },
+  {
+    "term": "confection",
+    "turkish": "şekerleme, tatlı (konfeksiyon DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A sweet food such as candy or chocolate.",
+    "exampleSentence": "The shop sells chocolate and every kind of sweet confection."
+  },
+  {
+    "term": "resume",
+    "turkish": "özgeçmiş; devam etmek (rezüme, özet DEĞİL)",
+    "category": "falsefriend",
+    "definition": "A document listing your work and education, or to start again.",
+    "exampleSentence": "Please send your resume to our HR department by Friday."
+  },
+  {
+    "term": "premium",
+    "turkish": "sigorta primi; üstün kalite (satış primi DEĞİL: \"bonus\")",
+    "category": "falsefriend",
+    "definition": "Money paid for insurance, or higher quality.",
+    "exampleSentence": "The premium version of the app has no advertisements."
+  },
+  {
+    "term": "realize",
+    "turkish": "fark etmek (gerçekleştirmek DEĞİL)",
+    "category": "falsefriend",
+    "definition": "To suddenly understand or notice something.",
+    "exampleSentence": "I did not realize the meeting had already started."
+  },
+  {
+    "term": "salon",
+    "turkish": "güzellik salonu, kuaför (salon, oturma odası DEĞİL: \"living room\")",
+    "category": "falsefriend",
+    "definition": "A shop where you get your hair cut or beauty treatments.",
+    "exampleSentence": "She has an appointment at the hair salon on Saturday."
+  },
+  {
+    "term": "mayo",
+    "turkish": "mayonez (mayo DEĞİL: \"swimsuit\")",
+    "category": "falsefriend",
+    "definition": "Short for mayonnaise, a cold white sauce.",
+    "exampleSentence": "Would you like mayo or ketchup with your fries?"
+  },
+  {
+    "term": "casket",
+    "turkish": "tabut (kasket DEĞİL: \"flat cap\")",
+    "category": "falsefriend",
+    "definition": "A box in which a dead person is buried.",
+    "exampleSentence": "The casket was carried slowly out of the church."
+  },
+  {
+    "term": "bot",
+    "turkish": "yazılım robotu (bot ayakkabı DEĞİL: \"boot\")",
+    "category": "falsefriend",
+    "definition": "A program that does automatic tasks, often in chat apps.",
+    "exampleSentence": "A bot posts the test results in our team channel."
+  },
+  {
+    "term": "parole",
+    "turkish": "şartlı tahliye (parola DEĞİL: \"password\")",
+    "category": "falsefriend",
+    "definition": "Early release from prison with conditions.",
+    "exampleSentence": "The prisoner was released on parole after five years."
+  },
+  {
+    "term": "sofa",
+    "turkish": "kanepe (sofa, hol DEĞİL: \"hall\")",
+    "category": "falsefriend",
+    "definition": "A long, soft seat for two or more people.",
+    "exampleSentence": "We bought a new sofa for the living room."
+  },
+  {
+    "term": "final",
+    "turkish": "son, en son (yalnızca final sınavı DEĞİL: \"final exam\")",
+    "category": "falsefriend",
+    "definition": "Last; coming at the end.",
+    "exampleSentence": "This is the final version of the report, so please do not change it."
+  },
+  {
+    "term": "marmalade",
+    "turkish": "portakal reçeli (her reçel DEĞİL: \"jam\")",
+    "category": "falsefriend",
+    "definition": "Jam made from oranges or other citrus fruit.",
+    "exampleSentence": "British people often eat toast with orange marmalade."
+  }
+]

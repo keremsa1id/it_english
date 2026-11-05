@@ -15,5 +15,11 @@ IconData sectionIcon(SectionKind kind) => switch (kind) {
       SectionKind.idioms => Icons.lightbulb_rounded,
       SectionKind.linkers => Icons.link_rounded,
       SectionKind.prepositions => Icons.place_rounded,
+      SectionKind.chat => Icons.forum_rounded,
+      SectionKind.meetings => Icons.video_call_rounded,
+      SectionKind.interview => Icons.work_rounded,
+      SectionKind.errors => Icons.error_outline_rounded,
+      SectionKind.falseFriends => Icons.warning_amber_rounded,
+      SectionKind.confusables => Icons.compare_arrows_rounded,
       SectionKind.weekly => Icons.calendar_month_rounded,
     };

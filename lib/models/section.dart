@@ -11,6 +11,12 @@ enum SectionKind {
   idioms,
   linkers,
   prepositions,
+  chat,
+  meetings,
+  interview,
+  errors,
+  falseFriends,
+  confusables,
 
   /// Haftalık paketler (bkz. WeeklyPack).
   weekly,
@@ -236,6 +242,43 @@ class Section {
     assetPath: 'assets/data/prepositions_3.json',
   );
 
+  static const Section chat = Section(
+    title: 'Chat & Code Review',
+    subtitle: 'Slack and PR shorthand: LGTM, WIP, PTAL, nit',
+    kind: SectionKind.chat,
+    assetPath: 'assets/data/chat_review.json',
+  );
+  static const Section errors = Section(
+    title: 'Error Messages',
+    subtitle: 'What your terminal and browser are telling you',
+    kind: SectionKind.errors,
+    assetPath: 'assets/data/error_messages.json',
+  );
+  static const Section meetings = Section(
+    title: 'Meeting English',
+    subtitle: "Online meeting phrases: you're on mute, hard stop",
+    kind: SectionKind.meetings,
+    assetPath: 'assets/data/meeting_english.json',
+  );
+  static const Section interview = Section(
+    title: 'Job Interview',
+    subtitle: 'Questions and phrases for job interviews',
+    kind: SectionKind.interview,
+    assetPath: 'assets/data/job_interview.json',
+  );
+  static const Section falseFriends = Section(
+    title: 'False Friends',
+    subtitle: 'English words Turkish speakers often misunderstand',
+    kind: SectionKind.falseFriends,
+    assetPath: 'assets/data/false_friends.json',
+  );
+  static const Section confusables = Section(
+    title: 'Confusing Words',
+    subtitle: "affect or effect? its or it's?",
+    kind: SectionKind.confusables,
+    assetPath: 'assets/data/confusing_words.json',
+  );
+
   /// Bütün bölümler. Karışık quiz ve veri testleri bunu kullanır.
   static const List<Section> all = <Section>[
     itTerms1,
@@ -271,6 +314,12 @@ class Section {
     prepositions1,
     prepositions2,
     prepositions3,
+    chat,
+    errors,
+    meetings,
+    interview,
+    falseFriends,
+    confusables,
   ];
 }
 
@@ -308,6 +357,30 @@ class SectionGroup {
       subtitle: 'Tech and business abbreviations',
       kind: SectionKind.advancedIt,
       sections: <Section>[Section.advancedIt1, Section.advancedIt2],
+    ),
+    SectionGroup(
+      title: 'Chat & Code Review',
+      subtitle: 'Slack and PR shorthand: LGTM, WIP, PTAL, nit',
+      kind: SectionKind.chat,
+      sections: <Section>[Section.chat],
+    ),
+    SectionGroup(
+      title: 'Error Messages',
+      subtitle: 'What your terminal and browser are telling you',
+      kind: SectionKind.errors,
+      sections: <Section>[Section.errors],
+    ),
+    SectionGroup(
+      title: 'Meeting English',
+      subtitle: 'Online meeting phrases',
+      kind: SectionKind.meetings,
+      sections: <Section>[Section.meetings],
+    ),
+    SectionGroup(
+      title: 'Job Interview',
+      subtitle: 'Questions and phrases for job interviews',
+      kind: SectionKind.interview,
+      sections: <Section>[Section.interview],
     ),
     SectionGroup(
       title: 'Verbs',
@@ -374,6 +447,18 @@ class SectionGroup {
         Section.prepositions2,
         Section.prepositions3,
       ],
+    ),
+    SectionGroup(
+      title: 'False Friends',
+      subtitle: 'English words Turkish speakers often misunderstand',
+      kind: SectionKind.falseFriends,
+      sections: <Section>[Section.falseFriends],
+    ),
+    SectionGroup(
+      title: 'Confusing Words',
+      subtitle: "affect or effect? its or it's?",
+      kind: SectionKind.confusables,
+      sections: <Section>[Section.confusables],
     ),
   ];
 }

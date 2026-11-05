@@ -1,0 +1,315 @@
+[
+  {
+    "term": "LGTM",
+    "fullForm": "Looks Good To Me",
+    "turkish": "bana uygun görünüyor (onay)",
+    "category": "chat",
+    "definition": "Used in code reviews to approve a change.",
+    "exampleSentence": "The senior developer replied LGTM, so I merged the pull request."
+  },
+  {
+    "term": "WIP",
+    "fullForm": "Work In Progress",
+    "turkish": "üzerinde çalışılıyor, henüz bitmedi",
+    "category": "chat",
+    "definition": "Marks something that is not finished yet.",
+    "exampleSentence": "I marked the pull request as WIP because the tests are still missing."
+  },
+  {
+    "term": "PTAL",
+    "fullForm": "Please Take Another Look",
+    "turkish": "lütfen tekrar bakar mısın",
+    "category": "chat",
+    "definition": "Asks a reviewer to check a change again after updates.",
+    "exampleSentence": "I fixed your comments, so PTAL when you have a minute."
+  },
+  {
+    "term": "TL;DR",
+    "fullForm": "Too Long; Didn't Read",
+    "turkish": "özetle, kısacası",
+    "category": "chat",
+    "definition": "Introduces a very short summary of a long text.",
+    "exampleSentence": "TL;DR: the release is delayed until Friday because of a bug."
+  },
+  {
+    "term": "IMO",
+    "fullForm": "In My Opinion",
+    "turkish": "bence",
+    "category": "chat",
+    "definition": "Used before giving your personal opinion.",
+    "exampleSentence": "IMO we should fix the old bugs before adding new features."
+  },
+  {
+    "term": "IMHO",
+    "fullForm": "In My Humble Opinion",
+    "turkish": "naçizane fikrimce",
+    "category": "chat",
+    "definition": "A polite way to give your opinion.",
+    "exampleSentence": "IMHO the second design is easier for new users."
+  },
+  {
+    "term": "AFAIK",
+    "fullForm": "As Far As I Know",
+    "turkish": "bildiğim kadarıyla",
+    "category": "chat",
+    "definition": "Used when you think something is true but are not completely sure.",
+    "exampleSentence": "AFAIK the server will be updated tonight, but please check with Ali."
+  },
+  {
+    "term": "nit",
+    "turkish": "küçük düzeltme önerisi (nit)",
+    "category": "chat",
+    "definition": "A very small, unimportant comment in a code review, often about style.",
+    "exampleSentence": "My only comment is a nit about the variable name."
+  },
+  {
+    "term": "blocker",
+    "turkish": "engelleyici sorun",
+    "category": "chat",
+    "definition": "A problem that stops work from continuing or a release from going out.",
+    "exampleSentence": "The login bug is a blocker, so we cannot release today."
+  },
+  {
+    "term": "FWIW",
+    "fullForm": "For What It's Worth",
+    "turkish": "ne kadar işe yarar bilmem ama",
+    "category": "chat",
+    "definition": "Used to offer information that may or may not be useful.",
+    "exampleSentence": "FWIW, the same error happened to me last week after an update."
+  },
+  {
+    "term": "IIRC",
+    "fullForm": "If I Remember Correctly",
+    "turkish": "yanlış hatırlamıyorsam",
+    "category": "chat",
+    "definition": "Used when you are not completely sure about a memory.",
+    "exampleSentence": "IIRC, we fixed this bug in the last sprint."
+  },
+  {
+    "term": "BTW",
+    "fullForm": "By The Way",
+    "turkish": "bu arada",
+    "category": "chat",
+    "definition": "Used to add extra information in a message.",
+    "exampleSentence": "BTW, the client moved the meeting to Thursday."
+  },
+  {
+    "term": "TBH",
+    "fullForm": "To Be Honest",
+    "turkish": "açıkçası",
+    "category": "chat",
+    "definition": "Used before saying what you really think.",
+    "exampleSentence": "TBH, I think the deadline is too short for this feature."
+  },
+  {
+    "term": "AFK",
+    "fullForm": "Away From Keyboard",
+    "turkish": "bilgisayar başında değilim",
+    "category": "chat",
+    "definition": "Says that you are away from your computer for a short time.",
+    "exampleSentence": "I will be AFK for twenty minutes while I get lunch."
+  },
+  {
+    "term": "BRB",
+    "fullForm": "Be Right Back",
+    "turkish": "hemen dönüyorum",
+    "category": "chat",
+    "definition": "Says that you will return in a moment.",
+    "exampleSentence": "Sorry, my doorbell is ringing, BRB in two minutes."
+  },
+  {
+    "term": "DM",
+    "fullForm": "Direct Message",
+    "turkish": "özel mesaj",
+    "category": "chat",
+    "definition": "A private message sent to one person in a chat app.",
+    "exampleSentence": "Send me a DM with the server password instead of posting it in the channel."
+  },
+  {
+    "term": "PR",
+    "fullForm": "Pull Request",
+    "turkish": "değişiklik isteği (PR)",
+    "category": "chat",
+    "definition": "Short for pull request, a request to review and merge code.",
+    "exampleSentence": "I opened a PR with the bug fix this morning."
+  },
+  {
+    "term": "RFC",
+    "fullForm": "Request For Comments",
+    "turkish": "görüş isteme belgesi",
+    "category": "chat",
+    "definition": "A document that proposes an idea and asks the team for feedback.",
+    "exampleSentence": "Ali wrote an RFC about moving our database to the cloud."
+  },
+  {
+    "term": "ACK",
+    "fullForm": "Acknowledged",
+    "turkish": "anlaşıldı, alındı",
+    "category": "chat",
+    "definition": "A short reply that means you have seen and understood a message.",
+    "exampleSentence": "When the manager asked us to update the docs, everyone replied ACK."
+  },
+  {
+    "term": "WFH",
+    "fullForm": "Working From Home",
+    "turkish": "evden çalışıyorum",
+    "category": "chat",
+    "definition": "Says that someone is working from home today.",
+    "exampleSentence": "I am WFH today because the plumber is coming."
+  },
+  {
+    "term": "PTO",
+    "fullForm": "Paid Time Off",
+    "turkish": "ücretli izin",
+    "category": "chat",
+    "definition": "Holiday or days off that you are paid for.",
+    "exampleSentence": "I have five days of PTO left for this year."
+  },
+  {
+    "term": "EOW",
+    "fullForm": "End Of Week",
+    "turkish": "hafta sonuna kadar",
+    "category": "chat",
+    "definition": "The end of the working week, usually Friday.",
+    "exampleSentence": "Please send the final report to the client by EOW."
+  },
+  {
+    "term": "COB",
+    "fullForm": "Close Of Business",
+    "turkish": "mesai bitimi",
+    "category": "chat",
+    "definition": "The end of the working day.",
+    "exampleSentence": "The client needs our answer by COB today."
+  },
+  {
+    "term": "TIA",
+    "fullForm": "Thanks In Advance",
+    "turkish": "şimdiden teşekkürler",
+    "category": "chat",
+    "definition": "Thanks someone before they help you.",
+    "exampleSentence": "Could someone review my code before lunch? TIA!"
+  },
+  {
+    "term": "NVM",
+    "fullForm": "Never Mind",
+    "turkish": "boş ver",
+    "category": "chat",
+    "definition": "Says that something is no longer important.",
+    "exampleSentence": "NVM, I found the file in the shared folder."
+  },
+  {
+    "term": "IDK",
+    "fullForm": "I Don't Know",
+    "turkish": "bilmiyorum",
+    "category": "chat",
+    "definition": "A short way to say you do not know something.",
+    "exampleSentence": "IDK why the build failed, but I am looking into it."
+  },
+  {
+    "term": "LMK",
+    "fullForm": "Let Me Know",
+    "turkish": "haber ver",
+    "category": "chat",
+    "definition": "Asks someone to tell you something.",
+    "exampleSentence": "LMK if you need help with the deployment tonight."
+  },
+  {
+    "term": "ICYMI",
+    "fullForm": "In Case You Missed It",
+    "turkish": "gözünden kaçtıysa",
+    "category": "chat",
+    "definition": "Used when sharing something people may not have seen.",
+    "exampleSentence": "ICYMI, the new security policy starts on Monday."
+  },
+  {
+    "term": "YMMV",
+    "fullForm": "Your Mileage May Vary",
+    "turkish": "sende farklı olabilir",
+    "category": "chat",
+    "definition": "Says that results may be different for other people.",
+    "exampleSentence": "This setting made my laptop faster, but YMMV."
+  },
+  {
+    "term": "SGTM",
+    "fullForm": "Sounds Good To Me",
+    "turkish": "bana uyar",
+    "category": "chat",
+    "definition": "A short way to agree with a plan.",
+    "exampleSentence": "Ali suggested Friday for the release, and I replied SGTM."
+  },
+  {
+    "term": "N/A",
+    "fullForm": "Not Applicable",
+    "turkish": "geçerli değil, yok",
+    "category": "chat",
+    "definition": "Used when a question or field does not apply.",
+    "exampleSentence": "Write N/A in the form if you do not have a middle name."
+  },
+  {
+    "term": "TBA",
+    "fullForm": "To Be Announced",
+    "turkish": "daha sonra duyurulacak",
+    "category": "chat",
+    "definition": "Used when information will be shared later.",
+    "exampleSentence": "The location of the team dinner is still TBA."
+  },
+  {
+    "term": "RCA",
+    "fullForm": "Root Cause Analysis",
+    "turkish": "kök neden analizi",
+    "category": "chat",
+    "definition": "A report that explains why a problem happened and how to prevent it.",
+    "exampleSentence": "After the outage, the team wrote an RCA for the management."
+  },
+  {
+    "term": "MR",
+    "fullForm": "Merge Request",
+    "turkish": "birleştirme isteği",
+    "category": "chat",
+    "definition": "GitLab's name for a pull request.",
+    "exampleSentence": "In GitLab, you open an MR instead of a pull request."
+  },
+  {
+    "term": "QQ",
+    "fullForm": "Quick Question",
+    "turkish": "kısa bir soru",
+    "category": "chat",
+    "definition": "Used to start a short question in chat.",
+    "exampleSentence": "QQ: does anyone know the password for the test server?"
+  },
+  {
+    "term": "+1",
+    "turkish": "katılıyorum (+1)",
+    "category": "chat",
+    "definition": "Shows that you agree with a message or idea.",
+    "exampleSentence": "Three colleagues replied +1 to the idea of a team lunch."
+  },
+  {
+    "term": "ship it",
+    "turkish": "yayınla gitsin",
+    "category": "chat",
+    "definition": "Says that a change is ready to be released.",
+    "exampleSentence": "The tests passed, so the team lead wrote ship it in the chat."
+  },
+  {
+    "term": "bikeshedding",
+    "turkish": "önemsiz detaylarda takılıp kalmak",
+    "category": "chat",
+    "definition": "Spending too much time on small, unimportant details.",
+    "exampleSentence": "We spent an hour bikeshedding about the button color."
+  },
+  {
+    "term": "rubber duck debugging",
+    "turkish": "lastik ördek yöntemi (anlatarak hata bulma)",
+    "category": "chat",
+    "definition": "Finding a bug by explaining your code line by line, even to an object.",
+    "exampleSentence": "Rubber duck debugging helped me find the bug in five minutes."
+  },
+  {
+    "term": "yak shaving",
+    "turkish": "asıl işten önce yapılan zincirleme küçük işler",
+    "category": "chat",
+    "definition": "Doing many small tasks that you need before you can start the real task.",
+    "exampleSentence": "Updating the tools before fixing the bug turned into a day of yak shaving."
+  }
+]
