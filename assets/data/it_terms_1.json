@@ -224,7 +224,7 @@
   },
   {
     "term": "two-factor authentication",
-    "turkish": "iki adımlı doğrulama",
+    "turkish": "iki faktörlü kimlik doğrulama",
     "category": "security",
     "definition": "A way of logging in that needs two different proofs of who you are.",
     "exampleSentence": "Turn on two-factor authentication to make your account much harder to break into."

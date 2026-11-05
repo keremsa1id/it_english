@@ -1,8 +1,39 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:it_english/services/tts_service.dart';
+import 'package:it_english/widgets/voice_section.dart';
 
 void main() {
+  testWidgets(
+      'okuma şekli varsayılan olarak "basınca"dır, seçim kaydedilir',
+      (WidgetTester tester) async {
+    SharedPreferences.setMockInitialValues(<String, Object>{});
+    await tester.pumpWidget(
+      const MaterialApp(home: Scaffold(body: ReadingModeSelector())),
+    );
+    await tester.pump();
+
+    expect(await TtsService.instance.autoSpeak(), isFalse);
+    expect(find.textContaining('only when you tap'), findsOneWidget);
+
+    await tester.tap(find.text('Automatic'));
+    await tester.pump();
+
+    expect(await TtsService.instance.autoSpeak(), isTrue);
+    expect(
+      (await SharedPreferences.getInstance()).getBool('ttsAutoSpeak'),
+      isTrue,
+    );
+    expect(find.textContaining('read aloud when a card appears'), findsOneWidget);
+
+    // Diğer testleri etkilemesin diye varsayılana döndür.
+    await tester.tap(find.text('On tap'));
+    await tester.pump();
+    expect(await TtsService.instance.autoSpeak(), isFalse);
+  });
+
   group('voiceScore', () {
     test('İngilizce olmayan sesler elenir', () {
       expect(voiceScore((name: 'Microsoft Tolga', locale: 'tr-TR')), isNull);

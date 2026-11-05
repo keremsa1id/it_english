@@ -2,7 +2,7 @@
   {
     "term": "LGTM",
     "fullForm": "Looks Good To Me",
-    "turkish": "bana uygun görünüyor (onay)",
+    "turkish": "bence uygun, onaylıyorum",
     "category": "chat",
     "definition": "Used in code reviews to approve a change.",
     "exampleSentence": "The senior developer replied LGTM, so I merged the pull request."
@@ -18,7 +18,7 @@
   {
     "term": "PTAL",
     "fullForm": "Please Take Another Look",
-    "turkish": "lütfen tekrar bakar mısın",
+    "turkish": "tekrar bakar mısın",
     "category": "chat",
     "definition": "Asks a reviewer to check a change again after updates.",
     "exampleSentence": "I fixed your comments, so PTAL when you have a minute."
@@ -168,7 +168,7 @@
   {
     "term": "EOW",
     "fullForm": "End Of Week",
-    "turkish": "hafta sonuna kadar",
+    "turkish": "hafta bitmeden (cumaya kadar)",
     "category": "chat",
     "definition": "The end of the working week, usually Friday.",
     "exampleSentence": "Please send the final report to the client by EOW."

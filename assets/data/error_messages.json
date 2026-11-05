@@ -22,7 +22,7 @@
   },
   {
     "term": "null pointer exception",
-    "turkish": "boş referans hatası",
+    "turkish": "boş işaretçi (null) hatası",
     "category": "error",
     "definition": "An error when code tries to use an object that does not exist.",
     "exampleSentence": "The app crashed with a null pointer exception when the user list was empty."
@@ -267,7 +267,7 @@
   },
   {
     "term": "fatal error",
-    "turkish": "ölümcül hata (programı durduran)",
+    "turkish": "kritik hata (programı durduran)",
     "category": "error",
     "definition": "A serious error that stops the program completely.",
     "exampleSentence": "The installer stopped with a fatal error and closed itself."

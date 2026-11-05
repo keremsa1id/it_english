@@ -50,7 +50,7 @@
   },
   {
     "term": "unless",
-    "turkish": "-medikçe",
+    "turkish": "-mezse, -medikçe",
     "category": "linker",
     "definition": "Except if.",
     "exampleSentence": "You will not pass the exam unless you study harder."
@@ -190,7 +190,7 @@
   },
   {
     "term": "not only",
-    "turkish": "sadece ... değil",
+    "turkish": "sadece ... değil (aynı zamanda)",
     "category": "linker",
     "definition": "Used with \"but also\" to add a second, stronger point.",
     "exampleSentence": "This app is not only fast but also very easy to use."

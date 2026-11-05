@@ -155,7 +155,7 @@
   },
   {
     "term": "ahead of schedule",
-    "turkish": "programın önünde",
+    "turkish": "planlanandan erken",
     "category": "phrase",
     "definition": "Earlier than planned.",
     "exampleSentence": "We finished the first phase a week ahead of schedule."
@@ -190,7 +190,7 @@
   },
   {
     "term": "on short notice",
-    "turkish": "kısa süre önce haber vererek",
+    "turkish": "son dakika, kısa süre kala",
     "category": "phrase",
     "definition": "With little warning or time to prepare.",
     "exampleSentence": "Sorry for calling the meeting on short notice this morning."

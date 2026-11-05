@@ -20,6 +20,7 @@ class WordsScreen extends StatelessWidget {
       title: 'Words',
       repository: repository,
       cardBuilder: (BuildContext context, Term term) => _WordCard(term: term),
+      speechText: (Term term) => term.term,
     );
   }
 }

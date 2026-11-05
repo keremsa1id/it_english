@@ -141,7 +141,7 @@
   },
   {
     "term": "uptime",
-    "turkish": "çalışma süresi",
+    "turkish": "kesintisiz çalışma süresi",
     "category": "networking",
     "definition": "Time when a system is working and available.",
     "exampleSentence": "Our hosting provider promises 99.9 percent uptime every month."
@@ -274,7 +274,7 @@
   },
   {
     "term": "docking station",
-    "turkish": "yerleştirme istasyonu",
+    "turkish": "bağlantı istasyonu (dock)",
     "category": "hardware",
     "definition": "A device that connects a laptop to monitors, a keyboard and a network.",
     "exampleSentence": "Plug your laptop into the docking station to use both screens."

@@ -18,11 +18,16 @@ class TermPager extends StatefulWidget {
     required this.title,
     required this.cardBuilder,
     this.repository = const TermRepository(),
+    this.speechText,
   });
 
   final String title;
   final Widget Function(BuildContext context, Term term) cardBuilder;
   final TermRepository repository;
+
+  /// Otomatik okuma açıksa kart ekrana gelince okunacak metin (ör. kelime ya
+  /// da cümle). Null ise kartlar kendiliğinden okunmaz.
+  final String Function(Term term)? speechText;
 
   @override
   State<TermPager> createState() => _TermPagerState();
@@ -36,7 +41,27 @@ class _TermPagerState extends State<TermPager> {
   @override
   void initState() {
     super.initState();
+    _load();
+  }
+
+  void _load() {
     _termsFuture = widget.repository.loadShuffledTerms();
+    // İlk kart yüklenince (otomatik okuma açıksa) okunsun. Yükleme hatası
+    // FutureBuilder'da gösterilir; burada yok sayılır.
+    _termsFuture.then(
+      (List<Term> terms) {
+        if (mounted && terms.isNotEmpty) {
+          _speakAuto(terms.first);
+        }
+      },
+      onError: (Object _) {},
+    );
+  }
+
+  void _speakAuto(Term term) {
+    if (widget.speechText case final String Function(Term) text) {
+      TtsService.instance.speakIfAuto(text(term));
+    }
   }
 
   @override
@@ -49,7 +74,7 @@ class _TermPagerState extends State<TermPager> {
   void _retry() {
     setState(() {
       _currentIndex = 0;
-      _termsFuture = widget.repository.loadShuffledTerms();
+      _load();
     });
   }
 
@@ -138,6 +163,7 @@ class _TermPagerState extends State<TermPager> {
               onPageChanged: (int index) {
                 TtsService.instance.stop();
                 setState(() => _currentIndex = index);
+                _speakAuto(terms[index]);
               },
               itemBuilder: (BuildContext context, int index) {
                 return Padding(
