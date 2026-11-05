@@ -163,7 +163,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen>
   }
 
   /// Soruyu bitirir; [scored] ise ve bu soruda yanlış denenmediyse puan
-  /// verilir. Cümle sesli okunur.
+  /// verilir. Otomatik okuma açıksa cümle okunur.
   void _finishQuestion({required bool scored}) {
     ProgressService.instance.recordPractice();
     setState(() {
@@ -173,7 +173,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen>
       _solved = true;
       _wrong = false;
     });
-    TtsService.instance.speak(_questions[_index].exampleSentence);
+    TtsService.instance.speakIfAuto(_questions[_index].exampleSentence);
   }
 
   void _next() {

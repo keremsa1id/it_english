@@ -222,7 +222,7 @@ class _QuizScreenState extends State<QuizScreen> with StudyTimer<QuizScreen> {
   }
 
   /// Soruyu çözülmüş yapar. [firstTry] ise puan verilir ve kelime öğrenilmiş
-  /// sayılır. Ardından cümle (ya da terim) sesli okunur.
+  /// sayılır. Otomatik okuma açıksa ardından cümle (ya da terim) okunur.
   void _markSolved(QuizQuestion question, {required bool firstTry}) {
     if (firstTry) {
       ProgressService.instance.recordAnswer(question.answer, correct: true);
@@ -234,7 +234,7 @@ class _QuizScreenState extends State<QuizScreen> with StudyTimer<QuizScreen> {
         _score++;
       }
     });
-    TtsService.instance.speak(
+    TtsService.instance.speakIfAuto(
       widget.mode.needsBlank
           ? question.answer.exampleSentence
           : question.answer.term,

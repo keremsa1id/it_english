@@ -23,6 +23,7 @@ class SentencesScreen extends StatelessWidget {
       repository: repository,
       cardBuilder: (BuildContext context, Term term) =>
           _SentenceCard(term: term),
+      speechText: (Term term) => term.exampleSentence,
     );
   }
 }

@@ -98,8 +98,9 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                     const _SectionTitle('VOICE'),
                     const SizedBox(height: 4),
                     Text(
-                      'The most natural English voice on your device is '
-                      'chosen automatically. You can pick another one.',
+                      'Choose when words are read aloud. The most natural '
+                      'English voice on your device is chosen automatically; '
+                      'you can pick another one.',
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
                     const SizedBox(height: 12),

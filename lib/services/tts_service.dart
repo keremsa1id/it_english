@@ -71,8 +71,16 @@ class TtsService {
   static const double pitch = 1.0;
   static const double volume = 1.0;
   static const String _voiceKey = 'ttsVoice';
+  static const String _autoSpeakKey = 'ttsAutoSpeak';
+
+  /// Varsayılan: yalnızca hoparlör butonuna basınca okunur.
+  static const bool defaultAutoSpeak = false;
 
   final FlutterTts _tts = FlutterTts();
+
+  /// Kelimeler ve cümleler kendiliğinden okunsun mu; ilk kullanımda
+  /// cihazdan okunur.
+  bool? _autoSpeak;
 
   bool _initialized = false;
   Future<void>? _initFuture;
@@ -196,6 +204,44 @@ class TtsService {
 
   /// Kullanıcının kaydettiği ses; otomatik seçimdeyse null.
   Future<String?> savedVoiceName() => _savedVoiceName();
+
+  /// Otomatik okuma açık mı: açıksa kart ekrana gelince kelime ya da cümle,
+  /// quiz'de soru çözülünce cevap kendiliğinden okunur. Kapalıysa yalnızca
+  /// hoparlör butonuna basınca okunur.
+  Future<bool> autoSpeak() async {
+    if (_autoSpeak case final bool value) {
+      return value;
+    }
+    bool value = defaultAutoSpeak;
+    try {
+      value = (await SharedPreferences.getInstance()).getBool(_autoSpeakKey) ??
+          defaultAutoSpeak;
+    } catch (_) {
+      // Okunamazsa varsayılan kullanılır.
+    }
+    return _autoSpeak ??= value;
+  }
+
+  /// Otomatik okumayı açar ya da kapatır ve kaydeder.
+  Future<void> setAutoSpeak(bool enabled) async {
+    _autoSpeak = enabled;
+    try {
+      await (await SharedPreferences.getInstance())
+          .setBool(_autoSpeakKey, enabled);
+    } catch (error) {
+      debugPrint('TtsService: okuma ayarı kaydedilemedi: $error');
+    }
+    if (!enabled) {
+      await stop();
+    }
+  }
+
+  /// Otomatik okuma açıksa [text]'i okur; kapalıysa bir şey yapmaz.
+  Future<void> speakIfAuto(String text) async {
+    if (await autoSpeak()) {
+      await speak(text);
+    }
+  }
 
   /// [text] metnini okur. Önceki konuşma varsa önce durdurulur.
   ///

@@ -42,6 +42,17 @@ class _VoiceSectionState extends State<VoiceSection> {
 
   @override
   Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const ReadingModeSelector(),
+        const SizedBox(height: 16),
+        _buildVoicePicker(context),
+      ],
+    );
+  }
+
+  Widget _buildVoicePicker(BuildContext context) {
     final ThemeData theme = Theme.of(context);
 
     return FutureBuilder<List<TtsVoice>>(
@@ -106,6 +117,72 @@ class _VoiceSectionState extends State<VoiceSection> {
           ],
         );
       },
+    );
+  }
+}
+
+/// Okuma şekli: yalnızca hoparlör butonuna basınca ya da kendiliğinden
+/// (kart ekrana gelince, quiz'de soru çözülünce).
+class ReadingModeSelector extends StatefulWidget {
+  const ReadingModeSelector({super.key});
+
+  @override
+  State<ReadingModeSelector> createState() => _ReadingModeSelectorState();
+}
+
+class _ReadingModeSelectorState extends State<ReadingModeSelector> {
+  bool _auto = TtsService.defaultAutoSpeak;
+
+  @override
+  void initState() {
+    super.initState();
+    TtsService.instance.autoSpeak().then((bool value) {
+      if (mounted) {
+        setState(() => _auto = value);
+      }
+    });
+  }
+
+  Future<void> _set(bool auto) async {
+    setState(() => _auto = auto);
+    await TtsService.instance.setAutoSpeak(auto);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        SegmentedButton<bool>(
+          segments: const <ButtonSegment<bool>>[
+            ButtonSegment<bool>(
+              value: false,
+              icon: Icon(Icons.touch_app_rounded),
+              label: Text('On tap'),
+            ),
+            ButtonSegment<bool>(
+              value: true,
+              icon: Icon(Icons.record_voice_over_rounded),
+              label: Text('Automatic'),
+            ),
+          ],
+          selected: <bool>{_auto},
+          onSelectionChanged: (Set<bool> selection) => _set(selection.first),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          _auto
+              ? 'Words and sentences are read aloud when a card appears and '
+                  'after you answer a quiz question.'
+              : 'Words and sentences are read only when you tap the speaker '
+                  'button.',
+          style: theme.textTheme.bodySmall?.copyWith(
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
     );
   }
 }
