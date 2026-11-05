@@ -1,7 +1,7 @@
 [
   {
     "term": "ahead of the curve",
-    "turkish": "çağın ilerisinde",
+    "turkish": "gelişmelerin önünde, rakiplerden önde",
     "category": "idiom",
     "definition": "More advanced than others.",
     "exampleSentence": "Our company stays ahead of the curve by testing new technology early."
@@ -106,7 +106,7 @@
   },
   {
     "term": "off the top of my head",
-    "turkish": "aklıma ilk gelen",
+    "turkish": "ilk aklıma gelen, hazırlıksız söylersem",
     "category": "idiom",
     "definition": "Without checking or thinking carefully.",
     "exampleSentence": "Off the top of my head, I think the meeting is on Tuesday."
@@ -120,7 +120,7 @@
   },
   {
     "term": "on the back burner",
-    "turkish": "rafa kaldırılmış",
+    "turkish": "ikinci plana atılmış",
     "category": "idiom",
     "definition": "Delayed because it is not urgent.",
     "exampleSentence": "The mobile app is on the back burner until the website is finished."
@@ -190,7 +190,7 @@
   },
   {
     "term": "the elephant in the room",
-    "turkish": "herkesin görüp konuşmadığı sorun",
+    "turkish": "herkesin bildiği ama kimsenin açmadığı sorun",
     "category": "idiom",
     "definition": "A big problem that everyone notices but avoids talking about.",
     "exampleSentence": "The budget cuts were the elephant in the room during the meeting."
@@ -246,7 +246,7 @@
   },
   {
     "term": "actions speak louder than words",
-    "turkish": "söz değil davranış önemlidir",
+    "turkish": "laf değil, icraat önemli",
     "category": "idiom",
     "definition": "What you do matters more than what you say.",
     "exampleSentence": "He promised to change, but actions speak louder than words."

@@ -36,7 +36,7 @@
   },
   {
     "term": "onboarding",
-    "turkish": "işe alışma süreci",
+    "turkish": "işe alışma (oryantasyon) süreci",
     "category": "noun",
     "definition": "The process of helping new employees start their job.",
     "exampleSentence": "Good onboarding helps new employees feel welcome and productive quickly."
@@ -71,7 +71,7 @@
   },
   {
     "term": "wireframe",
-    "turkish": "ekran iskelet taslağı",
+    "turkish": "arayüz taslağı, tel çerçeve",
     "category": "software",
     "definition": "A simple drawing that shows the layout of a screen.",
     "exampleSentence": "The designer shared a wireframe of the new home page with the team."
@@ -141,7 +141,7 @@
   },
   {
     "term": "action item",
-    "turkish": "yapılacak iş maddesi",
+    "turkish": "yapılacak iş, aksiyon maddesi",
     "category": "noun",
     "definition": "A task that someone must do after a meeting.",
     "exampleSentence": "Each action item from the meeting has an owner and a deadline."
@@ -169,7 +169,7 @@
   },
   {
     "term": "streamline",
-    "turkish": "sadeleştirmek",
+    "turkish": "sadeleştirmek, verimli hale getirmek",
     "category": "verb",
     "definition": "To make a process simpler and more efficient.",
     "exampleSentence": "The new software will streamline the way we handle invoices."

@@ -169,7 +169,7 @@
   },
   {
     "term": "whiteboard interview",
-    "turkish": "tahtada çözümlü mülakat",
+    "turkish": "tahtada problem çözdürülen mülakat",
     "category": "interview",
     "definition": "An interview where you solve problems on a whiteboard.",
     "exampleSentence": "In my whiteboard interview, I had to draw the database design."
@@ -204,7 +204,7 @@
   },
   {
     "term": "background check",
-    "turkish": "geçmiş araştırması",
+    "turkish": "geçmiş kontrolü (referans, sicil)",
     "category": "interview",
     "definition": "A check of your past jobs, education or records before hiring.",
     "exampleSentence": "The company runs a background check before sending the contract."
