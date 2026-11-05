@@ -30,6 +30,10 @@ class Term {
   /// Kısaltma olmayan terimlerde boş metindir.
   final String fullForm;
 
+  /// Ekranda gösterilecek ad: kısaltmalarda açılımı parantez içinde eklenir,
+  /// ör. "CDN (Content Delivery Network)". Diğer terimlerde [term] aynen.
+  String get displayTerm => fullForm.isEmpty ? term : '$term ($fullForm)';
+
   /// JSON verisinden [Term] oluşturur.
   ///
   /// Zorunlu bir alan eksikse veya String değilse [FormatException] fırlatır.

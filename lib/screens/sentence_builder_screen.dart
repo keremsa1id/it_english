@@ -225,8 +225,8 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen>
     final Term term = _questions[_index];
     final bool isLast = _index >= _questions.length - 1;
     final String hint = term.turkish.isEmpty
-        ? 'Use the word: ${term.term}'
-        : 'Use the word: ${term.term} (${term.turkish})';
+        ? 'Use the word: ${term.displayTerm}'
+        : 'Use the word: ${term.displayTerm} · ${term.turkish}';
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),

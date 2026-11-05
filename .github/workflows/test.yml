@@ -1,6 +1,7 @@
 name: Test
 
 # Her dalda ve her PR'da çalışır; böylece main'e gelmeden hatalar görülür.
+# APK, main'de Build APK workflow'unda derlenir.
 on:
   push:
   pull_request:
@@ -12,14 +13,7 @@ jobs:
 
     steps:
       - name: Kodu indir
-        uses: actions/checkout@v4
-
-      # Android derlemesi (aşağıdaki APK adımı) için.
-      - name: Java 17 kur
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
+        uses: actions/checkout@v5
 
       - name: Flutter kur
         uses: subosito/flutter-action@v2
@@ -35,9 +29,3 @@ jobs:
 
       - name: Testleri çalıştır
         run: flutter test
-
-      # Android ayarları (izinler, paket gereksinimleri) bozuksa main'e
-      # gelmeden görülsün. Hızlı olsun diye debug derlenir; yayınlanacak
-      # APK main'de Build APK workflow'unda derlenir.
-      - name: Android derlemesini dene
-        run: flutter build apk --debug

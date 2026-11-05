@@ -195,7 +195,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
               ListTile(
                 contentPadding: EdgeInsets.zero,
                 title: Text(
-                  terms[key]?.term ?? key,
+                  terms[key]?.displayTerm ?? key,
                   style: const TextStyle(fontWeight: FontWeight.w600),
                 ),
                 subtitle: terms[key]?.turkish.isNotEmpty ?? false
