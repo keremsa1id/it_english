@@ -1,0 +1,322 @@
+[
+  {
+    "term": "Monolith",
+    "fullForm": "",
+    "turkish": "tek parça uygulama mimarisi",
+    "category": "software",
+    "definition": "An application built as one single unit instead of many small services.",
+    "exampleSentence": "Our old monolith is hard to update because every change requires deploying the whole application."
+  },
+  {
+    "term": "Event-driven architecture",
+    "fullForm": "",
+    "turkish": "olay güdümlü mimari",
+    "category": "software",
+    "definition": "A design where parts of a system react to events instead of calling each other directly.",
+    "exampleSentence": "With event-driven architecture, the billing service reacts as soon as an order is placed."
+  },
+  {
+    "term": "Message queue",
+    "fullForm": "",
+    "turkish": "mesaj kuyruğu",
+    "category": "software",
+    "definition": "A waiting line where programs leave messages for other programs to process later.",
+    "exampleSentence": "Orders go into a message queue so the warehouse system can handle them one by one."
+  },
+  {
+    "term": "Pub/Sub",
+    "fullForm": "",
+    "turkish": "yayınla / abone ol modeli",
+    "category": "software",
+    "definition": "A model where senders publish messages to a topic and subscribers receive them.",
+    "exampleSentence": "We use Pub/Sub so any team can listen to new customer events without changing the sender."
+  },
+  {
+    "term": "API gateway",
+    "fullForm": "",
+    "turkish": "API geçidi",
+    "category": "software",
+    "definition": "A single entry point that receives all API requests and sends them to the right service.",
+    "exampleSentence": "The API gateway checks the token and then forwards each request to the correct service."
+  },
+  {
+    "term": "Service mesh",
+    "fullForm": "",
+    "turkish": "servisler arası iletişim katmanı",
+    "category": "software",
+    "definition": "A layer that manages, secures and monitors the communication between microservices.",
+    "exampleSentence": "The service mesh encrypts all traffic between our services without changing their code."
+  },
+  {
+    "term": "Event sourcing",
+    "fullForm": "",
+    "turkish": "durumu olay kayıtlarıyla tutma",
+    "category": "software",
+    "definition": "Storing every change as an event instead of saving only the latest state.",
+    "exampleSentence": "With event sourcing, we can replay every change and see exactly how the account balance changed."
+  },
+  {
+    "term": "Domain-driven design",
+    "fullForm": "",
+    "turkish": "alan odaklı tasarım",
+    "category": "software",
+    "definition": "A way of designing software around the real business concepts and language.",
+    "exampleSentence": "Domain-driven design helped developers and sales people use the same words for the same things."
+  },
+  {
+    "term": "Bounded context",
+    "fullForm": "",
+    "turkish": "sınırlı bağlam",
+    "category": "software",
+    "definition": "A clear boundary inside which a word or model has one exact meaning.",
+    "exampleSentence": "The word customer means something different in billing, so it lives in its own bounded context."
+  },
+  {
+    "term": "Separation of concerns",
+    "fullForm": "",
+    "turkish": "sorumlulukların ayrılması",
+    "category": "software",
+    "definition": "Dividing a program into parts so that each part handles one clear job.",
+    "exampleSentence": "Separation of concerns means the screen code should not contain database queries."
+  },
+  {
+    "term": "Loose coupling",
+    "fullForm": "",
+    "turkish": "gevşek bağlılık",
+    "category": "software",
+    "definition": "A design where components depend on each other as little as possible.",
+    "exampleSentence": "Loose coupling lets us replace the payment provider without touching the order code."
+  },
+  {
+    "term": "High cohesion",
+    "fullForm": "",
+    "turkish": "yüksek uyum",
+    "category": "software",
+    "definition": "When the parts of a module are closely related and focused on one purpose.",
+    "exampleSentence": "A class with high cohesion is easy to name because it does only one thing."
+  },
+  {
+    "term": "Design pattern",
+    "fullForm": "",
+    "turkish": "tasarım deseni",
+    "category": "software",
+    "definition": "A proven, reusable solution to a common problem in software design.",
+    "exampleSentence": "The observer is a design pattern that lets objects get notified when something changes."
+  },
+  {
+    "term": "Dependency injection",
+    "fullForm": "",
+    "turkish": "bağımlılık enjeksiyonu",
+    "category": "software",
+    "definition": "Passing the objects a class needs from outside instead of creating them inside.",
+    "exampleSentence": "Dependency injection made the class easy to test because we could pass in a fake database."
+  },
+  {
+    "term": "Idempotency",
+    "fullForm": "",
+    "turkish": "aynı isteğin tekrarında aynı sonuç",
+    "category": "software",
+    "definition": "A property where repeating the same request has the same effect as sending it once.",
+    "exampleSentence": "Idempotency ensures that a customer is not charged twice if the payment request is retried."
+  },
+  {
+    "term": "Circuit breaker",
+    "fullForm": "",
+    "turkish": "hata durumunda çağrıyı kesme deseni",
+    "category": "software",
+    "definition": "A pattern that stops calling a failing service for a while so it can recover.",
+    "exampleSentence": "The circuit breaker opened after ten errors, so the app stopped calling the broken payment service."
+  },
+  {
+    "term": "Backpressure",
+    "fullForm": "",
+    "turkish": "aşırı yükte akışı yavaşlatma",
+    "category": "software",
+    "definition": "A way for a slow part of a system to tell the sender to slow down.",
+    "exampleSentence": "Backpressure protects the consumer by telling the producer to slow down when the queue is full."
+  },
+  {
+    "term": "CAP theorem",
+    "fullForm": "",
+    "turkish": "tutarlılık, erişilebilirlik, bölünme toleransı teoremi",
+    "category": "data",
+    "definition": "A rule saying a distributed system cannot guarantee consistency, availability and partition tolerance all at once.",
+    "exampleSentence": "The CAP theorem explains why we must choose between strict consistency and always being available."
+  },
+  {
+    "term": "Eventual consistency",
+    "fullForm": "",
+    "turkish": "sonunda tutarlılık",
+    "category": "data",
+    "definition": "A model where all copies of the data become equal after a short delay.",
+    "exampleSentence": "Because of eventual consistency, a new profile photo may take a few seconds to appear everywhere."
+  },
+  {
+    "term": "Distributed transaction",
+    "fullForm": "",
+    "turkish": "dağıtık işlem",
+    "category": "data",
+    "definition": "One operation that must succeed or fail across several different systems.",
+    "exampleSentence": "A distributed transaction was needed to update both the payment system and the inventory."
+  },
+  {
+    "term": "Saga pattern",
+    "fullForm": "",
+    "turkish": "dağıtık işlem yönetim deseni",
+    "category": "software",
+    "definition": "A way to manage a long operation across services using steps and undo actions.",
+    "exampleSentence": "In the saga pattern, a failed shipment step triggers an action that refunds the payment."
+  },
+  {
+    "term": "Two-phase commit",
+    "fullForm": "",
+    "turkish": "iki aşamalı onay",
+    "category": "data",
+    "definition": "A protocol where all systems first agree to commit and then complete the change together.",
+    "exampleSentence": "The two-phase commit made the operation safe but slow, because every system had to wait for the others."
+  },
+  {
+    "term": "Optimistic locking",
+    "fullForm": "",
+    "turkish": "iyimser kilitleme",
+    "category": "data",
+    "definition": "A method that lets users edit freely and checks for conflicts only when saving.",
+    "exampleSentence": "Optimistic locking rejected my save because someone else had edited the record in the meantime."
+  },
+  {
+    "term": "Pessimistic locking",
+    "fullForm": "",
+    "turkish": "kötümser kilitleme",
+    "category": "data",
+    "definition": "A method that locks a record as soon as someone starts to edit it.",
+    "exampleSentence": "With pessimistic locking, nobody else can edit the invoice until the first person finishes."
+  },
+  {
+    "term": "Mutex",
+    "fullForm": "",
+    "turkish": "karşılıklı dışlama kilidi",
+    "category": "software",
+    "definition": "A lock that lets only one thread use a shared resource at a time.",
+    "exampleSentence": "The thread must acquire the mutex before it writes to the shared file."
+  },
+  {
+    "term": "Isolation level",
+    "fullForm": "",
+    "turkish": "işlem yalıtım seviyesi",
+    "category": "data",
+    "definition": "A database setting that controls how much concurrent transactions can see of each other.",
+    "exampleSentence": "We raised the isolation level to stop the report from reading half-finished updates."
+  },
+  {
+    "term": "Write-ahead log",
+    "fullForm": "",
+    "turkish": "yazma öncesi kayıt",
+    "category": "data",
+    "definition": "A log where a database first records changes so it can recover after a crash.",
+    "exampleSentence": "After the power cut, the database used its write-ahead log to restore the last changes."
+  },
+  {
+    "term": "Read replica",
+    "fullForm": "",
+    "turkish": "okuma kopyası",
+    "category": "data",
+    "definition": "A copy of a database used only for reading, to reduce the load on the main one.",
+    "exampleSentence": "Reports now run on a read replica, so the main database stays fast for customers."
+  },
+  {
+    "term": "Partitioning",
+    "fullForm": "",
+    "turkish": "bölümleme",
+    "category": "data",
+    "definition": "Splitting a large table into smaller parts to make it faster and easier to manage.",
+    "exampleSentence": "Partitioning the logs table by month made old data easy to delete."
+  },
+  {
+    "term": "Denormalization",
+    "fullForm": "",
+    "turkish": "normalleştirmeyi geri alma",
+    "category": "data",
+    "definition": "Adding duplicate data to a database on purpose to make reading faster.",
+    "exampleSentence": "We used denormalization to store the customer name in the orders table and avoid a slow join."
+  },
+  {
+    "term": "Query optimizer",
+    "fullForm": "",
+    "turkish": "sorgu iyileştirici",
+    "category": "data",
+    "definition": "The part of a database that decides the fastest way to run a query.",
+    "exampleSentence": "The query optimizer ignored our index because the table was too small to need it."
+  },
+  {
+    "term": "Covering index",
+    "fullForm": "",
+    "turkish": "kapsayan dizin",
+    "category": "data",
+    "definition": "An index that contains all the columns a query needs, so the table is not read.",
+    "exampleSentence": "A covering index made the query ten times faster because the database never touched the table."
+  },
+  {
+    "term": "Cache invalidation",
+    "fullForm": "",
+    "turkish": "önbelleği geçersiz kılma",
+    "category": "software",
+    "definition": "Removing or updating stored cache data when the original data has changed.",
+    "exampleSentence": "Cache invalidation is hard, because users still saw the old price after we changed it."
+  },
+  {
+    "term": "Data pipeline",
+    "fullForm": "",
+    "turkish": "veri işleme hattı",
+    "category": "data",
+    "definition": "A series of automated steps that move and transform data from one place to another.",
+    "exampleSentence": "The nightly data pipeline collects sales files, cleans them and loads them into the warehouse."
+  },
+  {
+    "term": "Schema migration",
+    "fullForm": "",
+    "turkish": "şema geçişi",
+    "category": "data",
+    "definition": "A controlled change to the structure of a database, such as adding a column.",
+    "exampleSentence": "The schema migration adds a new column to the users table without any downtime."
+  },
+  {
+    "term": "Sharding",
+    "fullForm": "",
+    "turkish": "veriyi parçalara bölme",
+    "category": "data",
+    "definition": "Splitting a large database across several servers, each holding part of the data.",
+    "exampleSentence": "After sharding, each server stores only the customers from one region."
+  },
+  {
+    "term": "Rate limiting",
+    "fullForm": "",
+    "turkish": "istek sınırlama",
+    "category": "software",
+    "definition": "Limiting how many requests a user or app can send in a given time.",
+    "exampleSentence": "Rate limiting blocked the script after it sent a thousand requests in one minute."
+  },
+  {
+    "term": "Message broker",
+    "fullForm": "",
+    "turkish": "mesaj aracısı",
+    "category": "software",
+    "definition": "A program that receives messages from senders and delivers them to the right receivers.",
+    "exampleSentence": "The message broker keeps messages safe until the receiving service is ready to process them."
+  },
+  {
+    "term": "Dead letter queue",
+    "fullForm": "",
+    "turkish": "başarısız mesaj kuyruğu",
+    "category": "software",
+    "definition": "A special queue that stores messages that could not be processed successfully.",
+    "exampleSentence": "Failed payment messages end up in the dead letter queue, where the team checks them every morning."
+  },
+  {
+    "term": "Leader election",
+    "fullForm": "",
+    "turkish": "lider seçimi",
+    "category": "software",
+    "definition": "The process by which servers in a group choose one to coordinate the others.",
+    "exampleSentence": "After the main node crashed, leader election picked a new coordinator within seconds."
+  }
+]

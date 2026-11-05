@@ -1,0 +1,322 @@
+[
+  {
+    "term": "VLAN",
+    "fullForm": "Virtual Local Area Network",
+    "turkish": "sanal yerel ağ",
+    "category": "networking",
+    "definition": "A way to split one physical network into separate logical networks.",
+    "exampleSentence": "We put the guest Wi-Fi on its own VLAN so visitors cannot reach internal servers."
+  },
+  {
+    "term": "CIDR",
+    "fullForm": "Classless Inter-Domain Routing",
+    "turkish": "sınıfsız IP adres bloğu gösterimi",
+    "category": "networking",
+    "definition": "A short notation such as 10.0.0.0/24 that describes a block of IP addresses.",
+    "exampleSentence": "The firewall rule allows the whole office range written in CIDR notation as 10.20.0.0/16."
+  },
+  {
+    "term": "NAT",
+    "fullForm": "Network Address Translation",
+    "turkish": "ağ adresi çevirme",
+    "category": "networking",
+    "definition": "A method that lets many private devices share one public IP address.",
+    "exampleSentence": "The router uses NAT so all our laptops can reach the internet through one address."
+  },
+  {
+    "term": "BGP",
+    "fullForm": "Border Gateway Protocol",
+    "turkish": "sınır ağ geçidi protokolü",
+    "category": "networking",
+    "definition": "The routing protocol that exchanges routes between large networks on the internet.",
+    "exampleSentence": "A wrong BGP announcement sent part of the internet traffic to the wrong country."
+  },
+  {
+    "term": "OSPF",
+    "fullForm": "Open Shortest Path First",
+    "turkish": "önce en kısa yolu aç protokolü",
+    "category": "networking",
+    "definition": "A routing protocol that finds the shortest path inside one company network.",
+    "exampleSentence": "Our core switches use OSPF to learn the best route between office buildings."
+  },
+  {
+    "term": "MTU",
+    "fullForm": "Maximum Transmission Unit",
+    "turkish": "en büyük paket boyutu",
+    "category": "networking",
+    "definition": "The largest packet size that a network link can send without splitting it.",
+    "exampleSentence": "The VPN was slow because the MTU was too large and packets kept being fragmented."
+  },
+  {
+    "term": "QoS",
+    "fullForm": "Quality of Service",
+    "turkish": "hizmet kalitesi önceliklendirme",
+    "category": "networking",
+    "definition": "Rules that give important traffic, such as voice calls, priority on the network.",
+    "exampleSentence": "We enabled QoS so video meetings do not stutter when someone downloads a big file."
+  },
+  {
+    "term": "DMZ",
+    "fullForm": "Demilitarized Zone",
+    "turkish": "askerden arındırılmış bölge",
+    "category": "networking",
+    "definition": "A separate network area for servers that must be reachable from the internet.",
+    "exampleSentence": "The public web server sits in the DMZ, away from our internal file servers."
+  },
+  {
+    "term": "IDS",
+    "fullForm": "Intrusion Detection System",
+    "turkish": "saldırı tespit sistemi",
+    "category": "security",
+    "definition": "A system that watches network traffic and raises an alert when it sees an attack.",
+    "exampleSentence": "The IDS flagged hundreds of strange login attempts coming from a single address."
+  },
+  {
+    "term": "IPS",
+    "fullForm": "Intrusion Prevention System",
+    "turkish": "saldırı önleme sistemi",
+    "category": "security",
+    "definition": "A system that not only detects attacks but also blocks them automatically.",
+    "exampleSentence": "After we turned on the IPS, known exploit traffic was dropped before reaching our servers."
+  },
+  {
+    "term": "WAF",
+    "fullForm": "Web Application Firewall",
+    "turkish": "web uygulama güvenlik duvarı",
+    "category": "security",
+    "definition": "A firewall that filters HTTP traffic to protect a website from common attacks.",
+    "exampleSentence": "The WAF blocked a SQL injection attempt against our login page last night."
+  },
+  {
+    "term": "SAML",
+    "fullForm": "Security Assertion Markup Language",
+    "turkish": "güvenlik doğrulama işaretleme dili",
+    "category": "security",
+    "definition": "An XML standard that lets one system tell another that a user is already signed in.",
+    "exampleSentence": "Our HR portal uses SAML so employees sign in with their company account."
+  },
+  {
+    "term": "OAuth",
+    "fullForm": "Open Authorization",
+    "turkish": "açık yetkilendirme protokolü",
+    "category": "security",
+    "definition": "A standard that lets an app access your data without knowing your password.",
+    "exampleSentence": "The calendar app asked for OAuth permission before reading my meetings."
+  },
+  {
+    "term": "OIDC",
+    "fullForm": "OpenID Connect",
+    "turkish": "OpenID bağlantısı (kimlik katmanı)",
+    "category": "security",
+    "definition": "A layer on top of OAuth that tells an app who the signed-in user is.",
+    "exampleSentence": "We replaced the old login form with OIDC so users can sign in with their work account."
+  },
+  {
+    "term": "LDAP",
+    "fullForm": "Lightweight Directory Access Protocol",
+    "turkish": "hafif dizin erişim protokolü",
+    "category": "networking",
+    "definition": "A protocol for searching and reading user information stored in a directory.",
+    "exampleSentence": "The VPN checks the username and password against our LDAP server."
+  },
+  {
+    "term": "RBAC",
+    "fullForm": "Role-Based Access Control",
+    "turkish": "rol tabanlı erişim denetimi",
+    "category": "security",
+    "definition": "A system where permissions are given to roles instead of single people.",
+    "exampleSentence": "With RBAC, a new support engineer gets the right access just by joining the team."
+  },
+  {
+    "term": "PAM",
+    "fullForm": "Privileged Access Management",
+    "turkish": "ayrıcalıklı erişim yönetimi",
+    "category": "security",
+    "definition": "Tools and rules that control and record the use of powerful admin accounts.",
+    "exampleSentence": "Admins must check out the root password from the PAM tool and every session is recorded."
+  },
+  {
+    "term": "MDM",
+    "fullForm": "Mobile Device Management",
+    "turkish": "mobil cihaz yönetimi",
+    "category": "software",
+    "definition": "Software that lets a company configure, secure and wipe employee phones remotely.",
+    "exampleSentence": "When Ayşe lost her phone, we used MDM to wipe all company data from it."
+  },
+  {
+    "term": "SIEM",
+    "fullForm": "Security Information and Event Management",
+    "turkish": "güvenlik olayı toplama ve analiz sistemi",
+    "category": "security",
+    "definition": "A platform that collects logs from many systems and finds suspicious patterns.",
+    "exampleSentence": "The SIEM linked a failed VPN login with an odd file download and created one alert."
+  },
+  {
+    "term": "EDR",
+    "fullForm": "Endpoint Detection and Response",
+    "turkish": "uç nokta tespit ve müdahale",
+    "category": "security",
+    "definition": "Software on laptops and servers that spots attacks and helps the team respond.",
+    "exampleSentence": "The EDR isolated the infected laptop from the network within seconds."
+  },
+  {
+    "term": "CVE",
+    "fullForm": "Common Vulnerabilities and Exposures",
+    "turkish": "bilinen güvenlik açığı kaydı",
+    "category": "security",
+    "definition": "A public ID number given to a known security vulnerability.",
+    "exampleSentence": "Please check whether our servers are affected by the new CVE published this morning."
+  },
+  {
+    "term": "IOC",
+    "fullForm": "Indicators of Compromise",
+    "turkish": "ele geçirilme belirtileri",
+    "category": "security",
+    "definition": "Clues, such as strange files or IP addresses, that show a system may be hacked.",
+    "exampleSentence": "The security team shared a list of IOC values so we could search our logs for them."
+  },
+  {
+    "term": "CQRS",
+    "fullForm": "Command Query Responsibility Segregation",
+    "turkish": "komut ve sorgu sorumluluğunu ayırma",
+    "category": "software",
+    "definition": "A design that uses separate models for writing data and for reading data.",
+    "exampleSentence": "We adopted CQRS so the busy reporting queries no longer slow down order creation."
+  },
+  {
+    "term": "SOLID",
+    "fullForm": "Single responsibility, Open-closed, Liskov, Interface segregation, Dependency inversion",
+    "turkish": "nesne yönelimli tasarım ilkeleri",
+    "category": "software",
+    "definition": "Five design principles that help developers write code that is easy to change.",
+    "exampleSentence": "The reviewer said this class breaks SOLID because it handles payments and also sends emails."
+  },
+  {
+    "term": "TTL",
+    "fullForm": "Time To Live",
+    "turkish": "yaşam süresi",
+    "category": "data",
+    "definition": "The amount of time a piece of data may be kept before it expires.",
+    "exampleSentence": "We set the TTL of the cache entry to five minutes so prices stay fresh."
+  },
+  {
+    "term": "SLI",
+    "fullForm": "Service Level Indicator",
+    "turkish": "hizmet seviyesi göstergesi",
+    "category": "business",
+    "definition": "A measured number, such as success rate, that shows how well a service performs.",
+    "exampleSentence": "Our main SLI is the percentage of requests that finish in under 300 milliseconds."
+  },
+  {
+    "term": "SLO",
+    "fullForm": "Service Level Objective",
+    "turkish": "hizmet seviyesi hedefi",
+    "category": "business",
+    "definition": "A target value for an SLI that the team promises to reach.",
+    "exampleSentence": "Our SLO says the API must be available 99.9 percent of the time each month."
+  },
+  {
+    "term": "JWT",
+    "fullForm": "JSON Web Token",
+    "turkish": "JSON tabanlı erişim belirteci",
+    "category": "security",
+    "definition": "A small signed token that proves who the user is when calling an API.",
+    "exampleSentence": "The mobile app sends a JWT in the header of every request to the backend."
+  },
+  {
+    "term": "XSS",
+    "fullForm": "Cross-Site Scripting",
+    "turkish": "siteler arası betik çalıştırma",
+    "category": "security",
+    "definition": "An attack where a hacker makes a website run malicious script in a visitor's browser.",
+    "exampleSentence": "The comment form was vulnerable to XSS because it displayed user input without cleaning it."
+  },
+  {
+    "term": "CSRF",
+    "fullForm": "Cross-Site Request Forgery",
+    "turkish": "siteler arası istek sahteciliği",
+    "category": "security",
+    "definition": "An attack that tricks a logged-in user's browser into sending an unwanted request.",
+    "exampleSentence": "We added a hidden token to every form to protect the site against CSRF."
+  },
+  {
+    "term": "OWASP Top 10",
+    "fullForm": "Open Worldwide Application Security Project Top 10",
+    "turkish": "en yaygın web güvenlik riskleri listesi",
+    "category": "security",
+    "definition": "A well-known list of the ten most serious security risks for web applications.",
+    "exampleSentence": "Our security training explains each risk in the OWASP Top 10 with a real example."
+  },
+  {
+    "term": "SAN",
+    "fullForm": "Storage Area Network",
+    "turkish": "depolama alan ağı",
+    "category": "hardware",
+    "definition": "A fast dedicated network that connects servers to shared storage devices.",
+    "exampleSentence": "The database servers read their disks from the SAN instead of using local drives."
+  },
+  {
+    "term": "ACL",
+    "fullForm": "Access Control List",
+    "turkish": "erişim denetim listesi",
+    "category": "security",
+    "definition": "A list of rules that says who or what is allowed to use a resource.",
+    "exampleSentence": "We updated the ACL on the shared folder so only the finance team can open it."
+  },
+  {
+    "term": "PKI",
+    "fullForm": "Public Key Infrastructure",
+    "turkish": "açık anahtar altyapısı",
+    "category": "security",
+    "definition": "The system of certificates and keys that lets computers trust each other.",
+    "exampleSentence": "Our internal PKI issues a certificate to every laptop that joins the company network."
+  },
+  {
+    "term": "DLP",
+    "fullForm": "Data Loss Prevention",
+    "turkish": "veri kaybı önleme",
+    "category": "security",
+    "definition": "Tools that stop sensitive data from leaving the company by mistake or on purpose.",
+    "exampleSentence": "The DLP policy blocked an email that contained a list of customer credit card numbers."
+  },
+  {
+    "term": "SOAR",
+    "fullForm": "Security Orchestration, Automation and Response",
+    "turkish": "güvenlik orkestrasyonu, otomasyonu ve müdahalesi",
+    "category": "security",
+    "definition": "A platform that automates the steps of handling security alerts.",
+    "exampleSentence": "With SOAR, a phishing report now deletes the email from every inbox automatically."
+  },
+  {
+    "term": "SBOM",
+    "fullForm": "Software Bill of Materials",
+    "turkish": "yazılım malzeme listesi",
+    "category": "software",
+    "definition": "A complete list of all the components and libraries inside a piece of software.",
+    "exampleSentence": "The customer asked us to send an SBOM so they can check our libraries for known risks."
+  },
+  {
+    "term": "IaC",
+    "fullForm": "Infrastructure as Code",
+    "turkish": "kod olarak altyapı",
+    "category": "software",
+    "definition": "Managing servers and networks with code files instead of clicking in a console.",
+    "exampleSentence": "Thanks to IaC, we can rebuild the whole test environment with a single command."
+  },
+  {
+    "term": "SAST",
+    "fullForm": "Static Application Security Testing",
+    "turkish": "statik uygulama güvenlik testi",
+    "category": "security",
+    "definition": "Scanning source code for security problems without running the program.",
+    "exampleSentence": "The pipeline runs SAST on every pull request and fails if it finds a serious issue."
+  },
+  {
+    "term": "XDR",
+    "fullForm": "Extended Detection and Response",
+    "turkish": "genişletilmiş tespit ve müdahale",
+    "category": "security",
+    "definition": "A platform that combines alerts from endpoints, email, network and cloud into one view.",
+    "exampleSentence": "The XDR connected a suspicious email with a strange login and a file download in one incident."
+  }
+]
