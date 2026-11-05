@@ -1,0 +1,322 @@
+[
+  {
+    "term": "Distributed tracing",
+    "fullForm": "",
+    "turkish": "dağıtık izleme",
+    "category": "software",
+    "definition": "Following a single request as it travels through many different services.",
+    "exampleSentence": "Distributed tracing showed that the slow checkout was caused by one service in the middle."
+  },
+  {
+    "term": "p99 latency",
+    "fullForm": "",
+    "turkish": "isteklerin %99'unun gecikmesi",
+    "category": "software",
+    "definition": "The response time that 99 percent of requests are faster than.",
+    "exampleSentence": "Average speed looks fine, but our p99 latency shows that some users wait over five seconds."
+  },
+  {
+    "term": "Error budget",
+    "fullForm": "",
+    "turkish": "hata bütçesi",
+    "category": "business",
+    "definition": "The amount of failure a service is allowed to have while still meeting its target.",
+    "exampleSentence": "We used up the whole error budget this month, so we paused new features to fix reliability."
+  },
+  {
+    "term": "Thread pool",
+    "fullForm": "",
+    "turkish": "iş parçacığı havuzu",
+    "category": "software",
+    "definition": "A group of ready-made threads that a program reuses to run tasks.",
+    "exampleSentence": "The server became slow because every thread in the thread pool was waiting for the database."
+  },
+  {
+    "term": "Connection pool",
+    "fullForm": "",
+    "turkish": "bağlantı havuzu",
+    "category": "data",
+    "definition": "A set of open database connections that an application shares and reuses.",
+    "exampleSentence": "We increased the connection pool size because requests were waiting for a free connection."
+  },
+  {
+    "term": "Flame graph",
+    "fullForm": "",
+    "turkish": "çağrı süresi görselleştirmesi",
+    "category": "software",
+    "definition": "A chart that shows which functions use the most time in a program.",
+    "exampleSentence": "The flame graph showed that most of the time was spent in one image resizing function."
+  },
+  {
+    "term": "Load testing",
+    "fullForm": "",
+    "turkish": "yük testi",
+    "category": "software",
+    "definition": "Testing how a system behaves under the number of users it is expected to have.",
+    "exampleSentence": "Load testing showed that the website stays fast with up to five thousand visitors."
+  },
+  {
+    "term": "Stress testing",
+    "fullForm": "",
+    "turkish": "zorlama testi",
+    "category": "software",
+    "definition": "Pushing a system beyond its normal limits to find out when and how it breaks.",
+    "exampleSentence": "Stress testing revealed that the server crashes when memory use reaches ninety-five percent."
+  },
+  {
+    "term": "Horizontal scaling",
+    "fullForm": "",
+    "turkish": "yatay ölçekleme",
+    "category": "software",
+    "definition": "Handling more load by adding more servers instead of making one server bigger.",
+    "exampleSentence": "Horizontal scaling lets us add two more web servers before the big sale starts."
+  },
+  {
+    "term": "Vertical scaling",
+    "fullForm": "",
+    "turkish": "dikey ölçekleme",
+    "category": "software",
+    "definition": "Handling more load by giving one server more CPU and memory.",
+    "exampleSentence": "Vertical scaling was the quick fix, but a single bigger server is still a single point of failure."
+  },
+  {
+    "term": "Autoscaling",
+    "fullForm": "",
+    "turkish": "otomatik ölçekleme",
+    "category": "software",
+    "definition": "Automatically adding or removing servers depending on the current load.",
+    "exampleSentence": "Autoscaling added six servers during the campaign and removed them again at night."
+  },
+  {
+    "term": "Cold start",
+    "fullForm": "",
+    "turkish": "soğuk başlangıç gecikmesi",
+    "category": "software",
+    "definition": "The extra delay when a service or function starts after being idle.",
+    "exampleSentence": "The first request after midnight is slow because of the cold start of the serverless function."
+  },
+  {
+    "term": "Garbage collection",
+    "fullForm": "",
+    "turkish": "otomatik bellek temizleme",
+    "category": "software",
+    "definition": "The automatic process that frees memory that a program no longer uses.",
+    "exampleSentence": "Long pauses from garbage collection made the app freeze for a second every few minutes."
+  },
+  {
+    "term": "Kubernetes",
+    "fullForm": "",
+    "turkish": "konteyner orkestrasyon platformu",
+    "category": "software",
+    "definition": "A platform that runs, scales and manages containers across many servers.",
+    "exampleSentence": "Kubernetes restarts the failed container automatically, so the service stays online."
+  },
+  {
+    "term": "Helm chart",
+    "fullForm": "",
+    "turkish": "Kubernetes paket şablonu",
+    "category": "software",
+    "definition": "A package of templates that describes how to install an application on Kubernetes.",
+    "exampleSentence": "We install the whole monitoring tool on the cluster with a single Helm chart."
+  },
+  {
+    "term": "Blue-green deployment",
+    "fullForm": "",
+    "turkish": "iki ortamlı kesintisiz geçiş",
+    "category": "software",
+    "definition": "Running two identical environments and switching traffic to the new one when it is ready.",
+    "exampleSentence": "With a blue-green deployment, we can go back to the old version in seconds if something fails."
+  },
+  {
+    "term": "Canary release",
+    "fullForm": "",
+    "turkish": "kademeli sürüm yayılımı",
+    "category": "software",
+    "definition": "Giving a new version to a small group of users first to check for problems.",
+    "exampleSentence": "The canary release reached five percent of users, and we watched the error rate before continuing."
+  },
+  {
+    "term": "Trunk-based development",
+    "fullForm": "",
+    "turkish": "ana dal odaklı geliştirme",
+    "category": "software",
+    "definition": "A way of working where developers merge small changes into the main branch very often.",
+    "exampleSentence": "Trunk-based development means we avoid long branches and merge conflicts."
+  },
+  {
+    "term": "GitOps",
+    "fullForm": "",
+    "turkish": "Git ile altyapı yönetimi",
+    "category": "software",
+    "definition": "Managing infrastructure by keeping its desired state in Git and applying changes automatically.",
+    "exampleSentence": "With GitOps, a pull request is the only way to change the production setup."
+  },
+  {
+    "term": "Immutable infrastructure",
+    "fullForm": "",
+    "turkish": "değiştirilemez altyapı",
+    "category": "software",
+    "definition": "Servers are never changed after creation; you replace them with new ones instead.",
+    "exampleSentence": "Immutable infrastructure means we never patch a running server but deploy a fresh one."
+  },
+  {
+    "term": "Environment parity",
+    "fullForm": "",
+    "turkish": "ortamlar arası benzerlik",
+    "category": "software",
+    "definition": "Keeping development, test and production environments as similar as possible.",
+    "exampleSentence": "Environment parity helps us avoid bugs that appear only in production."
+  },
+  {
+    "term": "Secret management",
+    "fullForm": "",
+    "turkish": "gizli bilgi yönetimi",
+    "category": "security",
+    "definition": "Storing and controlling passwords, keys and tokens safely instead of putting them in code.",
+    "exampleSentence": "Secret management tools rotate the database password every month without any developer seeing it."
+  },
+  {
+    "term": "Contract testing",
+    "fullForm": "",
+    "turkish": "servisler arası sözleşme testi",
+    "category": "software",
+    "definition": "Testing that two services still agree on the format of the messages they exchange.",
+    "exampleSentence": "Contract testing caught the breaking change before the new API version reached production."
+  },
+  {
+    "term": "Property-based testing",
+    "fullForm": "",
+    "turkish": "özellik tabanlı test",
+    "category": "software",
+    "definition": "Testing that a rule always holds by trying many automatically generated inputs.",
+    "exampleSentence": "Property-based testing found a bug that only appeared with very long names."
+  },
+  {
+    "term": "Mutation testing",
+    "fullForm": "",
+    "turkish": "kodu bozarak test kalitesini ölçme",
+    "category": "software",
+    "definition": "Making small changes to the code to check whether the tests notice them.",
+    "exampleSentence": "Mutation testing showed that our tests still passed when we broke an important condition."
+  },
+  {
+    "term": "Flaky test",
+    "fullForm": "",
+    "turkish": "kararsız test",
+    "category": "software",
+    "definition": "A test that sometimes passes and sometimes fails without any change to the code.",
+    "exampleSentence": "One flaky test keeps failing the pipeline, so the team no longer trusts the results."
+  },
+  {
+    "term": "Test double",
+    "fullForm": "",
+    "turkish": "test yedeği (mock, stub, fake)",
+    "category": "software",
+    "definition": "A fake object used in a test in place of a real dependency.",
+    "exampleSentence": "We used a test double for the email service so the test does not send real emails."
+  },
+  {
+    "term": "Chaos engineering",
+    "fullForm": "",
+    "turkish": "kontrollü arıza testi",
+    "category": "software",
+    "definition": "Deliberately causing failures in a system to learn whether it can survive them.",
+    "exampleSentence": "Chaos engineering helped us discover that the app crashes when one database node disappears."
+  },
+  {
+    "term": "Smoke test",
+    "fullForm": "",
+    "turkish": "temel işlev testi",
+    "category": "software",
+    "definition": "A quick, basic test that checks whether the most important functions work.",
+    "exampleSentence": "After every deployment, a smoke test checks that the login page and the API respond."
+  },
+  {
+    "term": "Shift-left testing",
+    "fullForm": "",
+    "turkish": "testi erken aşamaya çekme",
+    "category": "software",
+    "definition": "Moving testing and quality checks to earlier steps of the development process.",
+    "exampleSentence": "Shift-left testing means developers run security checks on their own laptops before committing."
+  },
+  {
+    "term": "Static analysis",
+    "fullForm": "",
+    "turkish": "statik kod analizi",
+    "category": "software",
+    "definition": "Automatically checking source code for problems without running it.",
+    "exampleSentence": "Static analysis warned us about an unused variable and a possible null reference."
+  },
+  {
+    "term": "Code smell",
+    "fullForm": "",
+    "turkish": "kod kokusu",
+    "category": "software",
+    "definition": "A sign in the code that may point to a deeper design problem.",
+    "exampleSentence": "A method with two hundred lines is a clear code smell and should be split up."
+  },
+  {
+    "term": "Cyclomatic complexity",
+    "fullForm": "",
+    "turkish": "döngüsel karmaşıklık",
+    "category": "software",
+    "definition": "A number that shows how many different paths exist through a piece of code.",
+    "exampleSentence": "The function has a cyclomatic complexity of thirty, so it is too hard to test."
+  },
+  {
+    "term": "Technical debt interest",
+    "fullForm": "",
+    "turkish": "teknik borcun getirdiği ek maliyet",
+    "category": "business",
+    "definition": "The extra effort you pay later because of quick, poor solutions taken earlier.",
+    "exampleSentence": "Every new feature takes longer because of technical debt interest from old shortcuts."
+  },
+  {
+    "term": "Input validation",
+    "fullForm": "",
+    "turkish": "girdi doğrulama",
+    "category": "security",
+    "definition": "Checking that the data a user sends is in the expected and safe format.",
+    "exampleSentence": "Input validation rejects any phone number that contains letters before it reaches the database."
+  },
+  {
+    "term": "Sanitization",
+    "fullForm": "",
+    "turkish": "girdi temizleme",
+    "category": "security",
+    "definition": "Removing or escaping dangerous characters from data before it is used.",
+    "exampleSentence": "Sanitization removes script tags from comments so they cannot run in other users' browsers."
+  },
+  {
+    "term": "Hashing",
+    "fullForm": "",
+    "turkish": "özetleme",
+    "category": "security",
+    "definition": "Turning data into a fixed-length code that cannot easily be reversed.",
+    "exampleSentence": "Hashing is used to store passwords so that even admins cannot read them."
+  },
+  {
+    "term": "Salting",
+    "fullForm": "",
+    "turkish": "tuzlama",
+    "category": "security",
+    "definition": "Adding random data to a password before hashing it, so equal passwords have different hashes.",
+    "exampleSentence": "Salting makes it much harder for attackers to crack many passwords at once."
+  },
+  {
+    "term": "Supply chain attack",
+    "fullForm": "",
+    "turkish": "tedarik zinciri saldırısı",
+    "category": "security",
+    "definition": "An attack that targets a supplier or a software library to reach many victims.",
+    "exampleSentence": "The supply chain attack spread through a popular library that thousands of projects had installed."
+  },
+  {
+    "term": "Threat modeling",
+    "fullForm": "",
+    "turkish": "tehdit modelleme",
+    "category": "security",
+    "definition": "Thinking through who might attack a system and how, before it is built.",
+    "exampleSentence": "We ran a threat modeling workshop before building the new payment feature."
+  }
+]

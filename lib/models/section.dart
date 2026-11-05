@@ -67,6 +67,24 @@ class Section {
     kind: SectionKind.itTerms,
     assetPath: 'assets/data/it_terms_4.json',
   );
+  static const Section itTerms5 = Section(
+    title: 'IT Terms 5',
+    subtitle: 'Expert level: networks, identity, security operations',
+    kind: SectionKind.itTerms,
+    assetPath: 'assets/data/it_terms_5.json',
+  );
+  static const Section itTerms6 = Section(
+    title: 'IT Terms 6',
+    subtitle: 'Expert level: architecture and distributed systems',
+    kind: SectionKind.itTerms,
+    assetPath: 'assets/data/it_terms_6.json',
+  );
+  static const Section itTerms7 = Section(
+    title: 'IT Terms 7',
+    subtitle: 'Expert level: performance, DevOps, testing and app security',
+    kind: SectionKind.itTerms,
+    assetPath: 'assets/data/it_terms_7.json',
+  );
   static const Section advancedIt1 = Section(
     title: 'Advanced IT 1',
     subtitle: 'Tech abbreviations and what they stand for',
@@ -78,6 +96,12 @@ class Section {
     subtitle: 'Business and office abbreviations: KPI, HR, ASAP',
     kind: SectionKind.advancedIt,
     assetPath: 'assets/data/advanced_it_2.json',
+  );
+  static const Section advancedIt3 = Section(
+    title: 'Advanced IT 3',
+    subtitle: 'Expert abbreviations: VLAN, SIEM, RBAC, JWT, SLO',
+    kind: SectionKind.advancedIt,
+    assetPath: 'assets/data/advanced_it_3.json',
   );
   static const Section verbs1 = Section(
     title: 'Verbs 1',
@@ -285,8 +309,12 @@ class Section {
     itTerms2,
     itTerms3,
     itTerms4,
+    itTerms5,
+    itTerms6,
+    itTerms7,
     advancedIt1,
     advancedIt2,
+    advancedIt3,
     verbs1,
     verbs2,
     verbs3,
@@ -350,13 +378,20 @@ class SectionGroup {
         Section.itTerms2,
         Section.itTerms3,
         Section.itTerms4,
+        Section.itTerms5,
+        Section.itTerms6,
+        Section.itTerms7,
       ],
     ),
     SectionGroup(
       title: 'Advanced IT',
       subtitle: 'Tech and business abbreviations',
       kind: SectionKind.advancedIt,
-      sections: <Section>[Section.advancedIt1, Section.advancedIt2],
+      sections: <Section>[
+        Section.advancedIt1,
+        Section.advancedIt2,
+        Section.advancedIt3,
+      ],
     ),
     SectionGroup(
       title: 'Chat & Code Review',

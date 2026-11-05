@@ -1,0 +1,322 @@
+[
+  {
+    "term": "Subnetting",
+    "fullForm": "",
+    "turkish": "alt ağlara bölme",
+    "category": "networking",
+    "definition": "Dividing one large network into smaller networks to organize and secure traffic.",
+    "exampleSentence": "Subnetting lets us give each department its own small network with a clear address range."
+  },
+  {
+    "term": "Routing table",
+    "fullForm": "",
+    "turkish": "yönlendirme tablosu",
+    "category": "networking",
+    "definition": "A list of rules that tells a router where to send each packet.",
+    "exampleSentence": "I checked the routing table and found that no route existed for the new office network."
+  },
+  {
+    "term": "Switch",
+    "fullForm": "",
+    "turkish": "anahtar (ağ anahtarı)",
+    "category": "hardware",
+    "definition": "A network device that connects computers in the same local network.",
+    "exampleSentence": "The cable from the printer is plugged into the wrong port on the switch."
+  },
+  {
+    "term": "Packet loss",
+    "fullForm": "",
+    "turkish": "paket kaybı",
+    "category": "networking",
+    "definition": "When some data packets never reach their destination.",
+    "exampleSentence": "Video calls freeze because the Wi-Fi in that room has serious packet loss."
+  },
+  {
+    "term": "Packet capture",
+    "fullForm": "",
+    "turkish": "ağ paketi yakalama",
+    "category": "networking",
+    "definition": "Recording the real network traffic so that it can be analyzed later.",
+    "exampleSentence": "We ran a packet capture on the server to see why the connection kept resetting."
+  },
+  {
+    "term": "Load balancing",
+    "fullForm": "",
+    "turkish": "yük dağıtımı",
+    "category": "networking",
+    "definition": "Spreading incoming requests across several servers so that none is overloaded.",
+    "exampleSentence": "Load balancing keeps the website fast even when thousands of users arrive at once."
+  },
+  {
+    "term": "Reverse proxy",
+    "fullForm": "",
+    "turkish": "ters vekil sunucu",
+    "category": "networking",
+    "definition": "A server that receives requests from the internet and passes them to internal servers.",
+    "exampleSentence": "A reverse proxy in front of the application handles HTTPS and hides the real servers."
+  },
+  {
+    "term": "Zero trust",
+    "fullForm": "",
+    "turkish": "sıfır güven mimarisi",
+    "category": "security",
+    "definition": "A security model that never trusts a user or device automatically, even inside the network.",
+    "exampleSentence": "With zero trust, every request must prove who it is, even from the office network."
+  },
+  {
+    "term": "Network segmentation",
+    "fullForm": "",
+    "turkish": "ağ segmentasyonu",
+    "category": "security",
+    "definition": "Splitting a network into zones so an attack cannot spread easily.",
+    "exampleSentence": "Network segmentation stopped the malware from moving from the guest Wi-Fi to the servers."
+  },
+  {
+    "term": "Kerberos",
+    "fullForm": "",
+    "turkish": "bilet tabanlı kimlik doğrulama protokolü",
+    "category": "security",
+    "definition": "A protocol that uses encrypted tickets to prove identity inside a company network.",
+    "exampleSentence": "Users log in once and Kerberos gives them tickets to open file shares without typing a password again."
+  },
+  {
+    "term": "Service account",
+    "fullForm": "",
+    "turkish": "servis hesabı",
+    "category": "security",
+    "definition": "A special account used by an application or script instead of a real person.",
+    "exampleSentence": "The backup job runs under a service account that has no permission to sign in interactively."
+  },
+  {
+    "term": "Conditional access",
+    "fullForm": "",
+    "turkish": "koşullu erişim",
+    "category": "security",
+    "definition": "Rules that allow or block sign-in depending on the user, device or location.",
+    "exampleSentence": "Conditional access asks for extra verification when someone logs in from another country."
+  },
+  {
+    "term": "Identity provider",
+    "fullForm": "",
+    "turkish": "kimlik sağlayıcı",
+    "category": "security",
+    "definition": "A service that stores user identities and confirms them for other applications.",
+    "exampleSentence": "Our identity provider confirms who you are, so each app does not need its own password."
+  },
+  {
+    "term": "Hypervisor",
+    "fullForm": "",
+    "turkish": "sanallaştırma katmanı",
+    "category": "software",
+    "definition": "Software that creates and runs virtual machines on a physical server.",
+    "exampleSentence": "We installed a hypervisor on the new server to run ten virtual machines on it."
+  },
+  {
+    "term": "Snapshot",
+    "fullForm": "",
+    "turkish": "anlık görüntü",
+    "category": "software",
+    "definition": "A saved copy of a system's state that you can return to later.",
+    "exampleSentence": "Take a snapshot of the virtual machine before you install the update."
+  },
+  {
+    "term": "High availability",
+    "fullForm": "",
+    "turkish": "yüksek erişilebilirlik",
+    "category": "software",
+    "definition": "A design that keeps a service running even when one component fails.",
+    "exampleSentence": "The database uses high availability, so a second server takes over if the first one crashes."
+  },
+  {
+    "term": "Failover",
+    "fullForm": "",
+    "turkish": "yedek sisteme geçiş",
+    "category": "software",
+    "definition": "The automatic switch to a backup system when the main one fails.",
+    "exampleSentence": "During the outage, failover moved all traffic to the second data center in under a minute."
+  },
+  {
+    "term": "Cluster",
+    "fullForm": "",
+    "turkish": "sunucu kümesi",
+    "category": "hardware",
+    "definition": "A group of servers that work together as one system.",
+    "exampleSentence": "The application runs on a cluster of five servers so it never depends on a single machine."
+  },
+  {
+    "term": "Disaster recovery",
+    "fullForm": "",
+    "turkish": "felaket kurtarma",
+    "category": "business",
+    "definition": "The plan and tools used to restore systems after a major failure.",
+    "exampleSentence": "Our disaster recovery plan says we must restore the main systems within four hours."
+  },
+  {
+    "term": "Business continuity",
+    "fullForm": "",
+    "turkish": "iş sürekliliği",
+    "category": "business",
+    "definition": "Keeping the most important business activities running during a crisis.",
+    "exampleSentence": "Business continuity planning helped us keep serving customers while the office was closed."
+  },
+  {
+    "term": "Configuration management",
+    "fullForm": "",
+    "turkish": "yapılandırma yönetimi",
+    "category": "software",
+    "definition": "Keeping the settings of servers consistent and tracked in a controlled way.",
+    "exampleSentence": "Configuration management makes sure every web server has exactly the same settings."
+  },
+  {
+    "term": "Infrastructure as Code",
+    "fullForm": "",
+    "turkish": "kod olarak altyapı",
+    "category": "software",
+    "definition": "Describing servers and networks in code files so they can be created automatically.",
+    "exampleSentence": "We describe our whole network with Infrastructure as Code and store it in Git."
+  },
+  {
+    "term": "Patch management",
+    "fullForm": "",
+    "turkish": "yama yönetimi",
+    "category": "security",
+    "definition": "The process of planning, testing and installing software updates on all systems.",
+    "exampleSentence": "Good patch management means no server stays unpatched for more than two weeks."
+  },
+  {
+    "term": "Golden image",
+    "fullForm": "",
+    "turkish": "standart sistem imajı",
+    "category": "software",
+    "definition": "A prepared, approved system copy used to set up new computers quickly.",
+    "exampleSentence": "New laptops are installed from the golden image, so every employee starts with the same software."
+  },
+  {
+    "term": "Capacity planning",
+    "fullForm": "",
+    "turkish": "kapasite planlama",
+    "category": "business",
+    "definition": "Estimating how many resources you will need so systems do not run out.",
+    "exampleSentence": "Capacity planning showed that we need more storage before the end of the year."
+  },
+  {
+    "term": "Baseline",
+    "fullForm": "",
+    "turkish": "normal çalışma referans değeri",
+    "category": "software",
+    "definition": "The normal level of performance used to notice when something changes.",
+    "exampleSentence": "Our monitoring tool learns the baseline and warns us when traffic is far above it."
+  },
+  {
+    "term": "Threat hunting",
+    "fullForm": "",
+    "turkish": "tehdit avı",
+    "category": "security",
+    "definition": "Actively searching a network for hidden attackers instead of waiting for alerts.",
+    "exampleSentence": "The team spends every Friday on threat hunting to look for signs that tools may have missed."
+  },
+  {
+    "term": "Penetration testing",
+    "fullForm": "",
+    "turkish": "sızma testi",
+    "category": "security",
+    "definition": "An authorized attack on your own systems to find weaknesses before real hackers do.",
+    "exampleSentence": "We hired an outside company to run penetration testing on our new customer portal."
+  },
+  {
+    "term": "Lateral movement",
+    "fullForm": "",
+    "turkish": "ağ içinde yanal hareket",
+    "category": "security",
+    "definition": "When an attacker moves from one compromised machine to others inside a network.",
+    "exampleSentence": "The logs showed lateral movement from a reception computer to the finance server."
+  },
+  {
+    "term": "Privilege escalation",
+    "fullForm": "",
+    "turkish": "yetki yükseltme",
+    "category": "security",
+    "definition": "Gaining higher permissions than you were given, often by exploiting a bug.",
+    "exampleSentence": "The attacker used a bug to perform privilege escalation and became an administrator."
+  },
+  {
+    "term": "Zero-day",
+    "fullForm": "",
+    "turkish": "bilinmeyen güvenlik açığı",
+    "category": "security",
+    "definition": "A security flaw that attackers use before the vendor knows about it or has a fix.",
+    "exampleSentence": "Nobody had a patch yet, because the attack used a zero-day in the browser."
+  },
+  {
+    "term": "Hardening",
+    "fullForm": "",
+    "turkish": "sistemi sertleştirme",
+    "category": "security",
+    "definition": "Reducing a system's attack surface by turning off unneeded features and tightening settings.",
+    "exampleSentence": "Server hardening includes closing unused ports and removing default accounts."
+  },
+  {
+    "term": "Forensics",
+    "fullForm": "",
+    "turkish": "adli bilişim",
+    "category": "security",
+    "definition": "Collecting and analyzing digital evidence to understand what happened in an incident.",
+    "exampleSentence": "Forensics showed that the attacker first entered through a forgotten test server."
+  },
+  {
+    "term": "Chain of custody",
+    "fullForm": "",
+    "turkish": "delil zinciri",
+    "category": "security",
+    "definition": "A record of who handled digital evidence so that it can be trusted.",
+    "exampleSentence": "We documented every step in the chain of custody before giving the disk to the lawyers."
+  },
+  {
+    "term": "Data exfiltration",
+    "fullForm": "",
+    "turkish": "veri sızdırma",
+    "category": "security",
+    "definition": "The unauthorized copying or sending of data out of an organization.",
+    "exampleSentence": "Unusual uploads at night were the first sign of data exfiltration from the file server."
+  },
+  {
+    "term": "Principle of least privilege",
+    "fullForm": "",
+    "turkish": "en az yetki ilkesi",
+    "category": "security",
+    "definition": "Giving users and programs only the access they need to do their job.",
+    "exampleSentence": "Following the principle of least privilege, interns can read the documents but cannot delete them."
+  },
+  {
+    "term": "Jump host",
+    "fullForm": "",
+    "turkish": "atlama sunucusu",
+    "category": "networking",
+    "definition": "A secured server that admins must pass through to reach other internal systems.",
+    "exampleSentence": "You must connect to the jump host first, then open an SSH session to the database."
+  },
+  {
+    "term": "Bastion host",
+    "fullForm": "",
+    "turkish": "savunma noktası sunucusu",
+    "category": "security",
+    "definition": "A hardened server that is the only public entry point into a private network.",
+    "exampleSentence": "Only the bastion host accepts connections from the internet, and every login on it is logged."
+  },
+  {
+    "term": "Air gap",
+    "fullForm": "",
+    "turkish": "fiziksel ağ yalıtımı",
+    "category": "security",
+    "definition": "Keeping a system completely disconnected from other networks, including the internet.",
+    "exampleSentence": "The most sensitive backups are stored on an air gap system that no hacker can reach remotely."
+  },
+  {
+    "term": "Honeypot",
+    "fullForm": "",
+    "turkish": "tuzak sistem",
+    "category": "security",
+    "definition": "A fake system built to attract attackers so that the team can study their methods.",
+    "exampleSentence": "The honeypot looked like a real server, and it caught three scanning attempts in one day."
+  }
+]
