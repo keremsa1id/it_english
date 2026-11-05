@@ -168,6 +168,8 @@ void main() {
       (WidgetTester tester) async {
     await tester.pumpWidget(const ItEnglishApp());
 
+    // Kartların sırası değişebilir; önce görünür yap.
+    await tester.scrollUntilVisible(find.text('Daily Goal'), 100);
     await tester.tap(find.text('Daily Goal'));
     await tester.pumpAndSettle();
 

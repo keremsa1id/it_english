@@ -166,6 +166,29 @@ class HomeScreen extends StatelessWidget {
                       color: theme.colorScheme.onSurfaceVariant,
                     ),
                   ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Favorites',
+                    subtitle: 'Words you marked with a star',
+                    icon: Icons.star_rounded,
+                    onTap: () => _open(context, const FavoritesScreen()),
+                    footer: _CountFooter(
+                      (ProgressService progress) => switch (
+                          progress.favoriteCount) {
+                        0 => 'No favorites yet',
+                        1 => '1 favorite word',
+                        final int count => '$count favorite words',
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  MenuCard(
+                    title: 'Weekly Words',
+                    subtitle: '40 new work and IT words every Monday',
+                    icon: Icons.calendar_month_rounded,
+                    onTap: () => _open(context, const WeeklyScreen()),
+                    footer: const WeeklyFooter(),
+                  ),
                   const SizedBox(height: 40),
                   const DailyGoalCard(),
                   const SizedBox(height: 16),
@@ -187,14 +210,7 @@ class HomeScreen extends StatelessWidget {
                       quizId: mixedQuizId,
                     ),
                   ),
-                  const SizedBox(height: 16),
-                  MenuCard(
-                    title: 'Weekly Words',
-                    subtitle: '40 new work and IT words every Monday',
-                    icon: Icons.calendar_month_rounded,
-                    onTap: () => _open(context, const WeeklyScreen()),
-                    footer: const WeeklyFooter(),
-                  ),
+                  
                   const SizedBox(height: 16),
                   MenuCard(
                     title: 'Review',
@@ -210,21 +226,7 @@ class HomeScreen extends StatelessWidget {
                       },
                     ),
                   ),
-                  const SizedBox(height: 16),
-                  MenuCard(
-                    title: 'Favorites',
-                    subtitle: 'Words you marked with a star',
-                    icon: Icons.star_rounded,
-                    onTap: () => _open(context, const FavoritesScreen()),
-                    footer: _CountFooter(
-                      (ProgressService progress) => switch (
-                          progress.favoriteCount) {
-                        0 => 'No favorites yet',
-                        1 => '1 favorite word',
-                        final int count => '$count favorite words',
-                      },
-                    ),
-                  ),
+                  
                 ],
               ),
             ),

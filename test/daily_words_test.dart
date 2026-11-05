@@ -134,6 +134,8 @@ void main() {
       (WidgetTester tester) async {
     await tester.pumpWidget(const ItEnglishApp());
 
+    // Kartların sırası değişebilir; önce görünür yap.
+    await tester.scrollUntilVisible(find.text("Today's words"), 100);
     await tester.tap(find.text("Today's words"));
     // Kelimeler yüklenirken gösterge döndüğü için pumpAndSettle kullanılmıyor.
     await tester.pump();
