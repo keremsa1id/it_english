@@ -232,7 +232,7 @@
   },
   {
     "term": "time-sensitive",
-    "turkish": "zamana duyarlı, acil",
+    "turkish": "acil, zamanı kısıtlı",
     "category": "adjective",
     "definition": "Needing attention quickly because it will soon be too late.",
     "exampleSentence": "This request is time-sensitive, so please answer before noon."
@@ -260,7 +260,7 @@
   },
   {
     "term": "ramp up",
-    "turkish": "hızlandırmak, artırmak",
+    "turkish": "kademeli olarak artırmak, hızlandırmak",
     "category": "phrasal",
     "definition": "To increase the speed or amount of something.",
     "exampleSentence": "We need to ramp up production before the holiday season."
