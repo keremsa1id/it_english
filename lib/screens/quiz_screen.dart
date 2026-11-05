@@ -434,7 +434,7 @@ class _QuizScreenState extends State<QuizScreen> with StudyTimer<QuizScreen> {
               _OptionButton(
                 // Soru değişince buton durumu (animasyon) sıfırlansın.
                 key: ValueKey<String>('$_currentIndex-${option.term}'),
-                label: option.term,
+                label: option.displayTerm,
                 state: _stateOf(question, option),
                 onPressed: () => _onOptionTap(option),
               ),
@@ -627,7 +627,7 @@ class _ListeningCard extends StatelessWidget {
                 FittedBox(
                   fit: BoxFit.scaleDown,
                   child: Text(
-                    term.term,
+                    term.displayTerm,
                     style: theme.textTheme.headlineMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                       color: _correctColor,
@@ -971,17 +971,20 @@ class _OptionButton extends StatelessWidget {
             children: [
               const SizedBox(width: 28),
               Expanded(
-                child: Text(
-                  label,
-                  textAlign: TextAlign.center,
-                  overflow: TextOverflow.ellipsis,
-                  style: state == _OptionState.wrong
-                      ? const TextStyle(
-                          decoration: TextDecoration.lineThrough,
-                          decorationColor: _wrongColor,
-                          decorationThickness: 2,
-                        )
-                      : null,
+                // Açılımlı uzun şıklar kesilmesin, küçülerek sığsın.
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    label,
+                    textAlign: TextAlign.center,
+                    style: state == _OptionState.wrong
+                        ? const TextStyle(
+                            decoration: TextDecoration.lineThrough,
+                            decorationColor: _wrongColor,
+                            decorationThickness: 2,
+                          )
+                        : null,
+                  ),
                 ),
               ),
               SizedBox(width: 28, child: icon == null ? null : Icon(icon)),

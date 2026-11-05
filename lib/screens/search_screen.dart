@@ -145,7 +145,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           return ListTile(
                             leading: Icon(style.icon, color: style.color),
                             title: Text(
-                              entry.term.term,
+                              entry.term.displayTerm,
                               style: const TextStyle(fontWeight: FontWeight.w600),
                             ),
                             subtitle: Text(

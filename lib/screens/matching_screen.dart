@@ -191,7 +191,10 @@ class _MatchingScreenState extends State<MatchingScreen>
                   children: [
                     for (final Term term in _left)
                       _buildTile(
-                        label: term.term,
+                        // Kısaltmada açılım alt satıra; kutucuk küçülerek sığdırır.
+                        label: term.fullForm.isEmpty
+                            ? term.term
+                            : '${term.term}\n(${term.fullForm})',
                         term: term,
                         selected: identical(_selectedLeft, term),
                         wrong: identical(_wrongPair?.$1, term),
