@@ -54,7 +54,11 @@ class _ReminderSettings extends StatelessWidget {
           SwitchListTile(
             secondary: const Icon(Icons.notifications_active_rounded),
             title: const Text('Daily reminder'),
-            subtitle: const Text("Skipped on days you've reached your goal"),
+            subtitle: const Text(
+              'Good morning (07:00) and afternoon (12:00) messages, plus a '
+              '22:00 warning when your streak is about to end. Skipped once '
+              "you've reached your goal.",
+            ),
             value: progress.reminderEnabled,
             onChanged: (bool value) => _toggle(context, value),
           ),
