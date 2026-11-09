@@ -293,7 +293,7 @@ class ReminderService {
         goalReachedToday: progress.goalReachedToday,
         reminderMinutes: progress.reminderMinutes,
       )) {
-        final int hours = (24 * 60 - streakWarningMinutes) ~/ 60;
+        const int hours = (24 * 60 - streakWarningMinutes) ~/ 60;
         await _plugin.zonedSchedule(
           id: _warningFirstId + day,
           scheduledDate: tz.TZDateTime.from(at, tz.UTC),
