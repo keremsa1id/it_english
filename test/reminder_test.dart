@@ -54,6 +54,93 @@ void main() {
     });
   });
 
+  group('streakWarningTimes', () {
+    const int eightPm = 20 * 60;
+
+    test('seri yoksa uyarı kurulmaz', () {
+      expect(
+        streakWarningTimes(
+          now: DateTime(2026, 11, 5, 9),
+          streak: 0,
+          goalReachedToday: false,
+          reminderMinutes: eightPm,
+        ),
+        isEmpty,
+      );
+    });
+
+    test('hedef tutturulmadıysa yalnızca bugün 22:00 için kurulur', () {
+      final List<(int, DateTime)> times = streakWarningTimes(
+        now: DateTime(2026, 11, 5, 9),
+        streak: 4,
+        goalReachedToday: false,
+        reminderMinutes: eightPm,
+      );
+
+      expect(times, <(int, DateTime)>[(0, DateTime(2026, 11, 5, 22))]);
+    });
+
+    test('hedef tutturulduysa yalnızca yarın için kurulur', () {
+      final List<(int, DateTime)> times = streakWarningTimes(
+        now: DateTime(2026, 11, 5, 9),
+        streak: 4,
+        goalReachedToday: true,
+        reminderMinutes: eightPm,
+      );
+
+      expect(times, <(int, DateTime)>[(1, DateTime(2026, 11, 6, 22))]);
+    });
+
+    test('bugünün uyarı saati geçtiyse bugün için kurulmaz', () {
+      expect(
+        streakWarningTimes(
+          now: DateTime(2026, 11, 5, 23),
+          streak: 4,
+          goalReachedToday: false,
+          reminderMinutes: eightPm,
+        ),
+        isEmpty,
+      );
+    });
+
+    test('günlük hatırlatma uyarıya 60 dakikadan yakınsa atlanır', () {
+      expect(
+        streakWarningTimes(
+          now: DateTime(2026, 11, 5, 9),
+          streak: 4,
+          goalReachedToday: false,
+          reminderMinutes: 21 * 60 + 30,
+        ),
+        isEmpty,
+      );
+    });
+  });
+
+  group('greetingMessage', () {
+    test('sabah mesajı seriyi ve hedefi söyler', () {
+      final (String title, String body) =
+          greetingMessage(morning: true, streak: 5, goal: 10);
+
+      expect(title, 'Good morning!');
+      expect(body, contains('5-day streak'));
+      expect(body, contains('10 quiz questions'));
+    });
+
+    test('öğlen mesajı seri yoksa seri başlatmayı önerir', () {
+      final (String title, String body) =
+          greetingMessage(morning: false, streak: 0, goal: 20);
+
+      expect(title, 'Good afternoon!');
+      expect(body, contains('starts your streak'));
+      expect(body, contains('20 questions'));
+    });
+
+    test('selamlama saatleri 07:00 ve 12:00', () {
+      expect(morningGreetingMinutes, 7 * 60);
+      expect(noonGreetingMinutes, 12 * 60);
+    });
+  });
+
   group('hatırlatma ayarları', () {
     test('varsayılan olarak kapalı ve saat 20:00', () async {
       final ProgressService progress = ProgressService.forTest();
