@@ -113,6 +113,9 @@ void main() {
       expect(find.text(group.title), findsOneWidget);
     }
 
+    // Döngüde aşağı kaydırdığımız için "Cyber Basics" ekrandan çıkmış
+    // olabilir; tıklamadan önce tekrar görünür yap.
+    await tester.scrollUntilVisible(find.text('Cyber Basics'), 100);
     await tester.tap(find.text('Cyber Basics'));
     await tester.pumpAndSettle();
 
