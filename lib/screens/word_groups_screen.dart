@@ -4,6 +4,7 @@ import '../models/section.dart';
 import '../widgets/menu_card.dart';
 import '../widgets/progress_footer.dart';
 import '../widgets/section_icon.dart';
+import 'cyber_screen.dart';
 import 'group_screen.dart';
 import 'section_screen.dart';
 
@@ -37,7 +38,7 @@ class WordGroupsScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  for (final SectionGroup group in SectionGroup.all) ...[
+                  for (final SectionGroup group in SectionGroup.menu) ...[
                     MenuCard(
                       title: group.title,
                       subtitle: group.subtitle,
@@ -51,6 +52,22 @@ class WordGroupsScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
+                    // Cyber klasörü Advanced IT'nin hemen altında durur.
+                    if (group.kind == SectionKind.advancedIt) ...[
+                      MenuCard(
+                        title: CyberScreen.title,
+                        subtitle: CyberScreen.subtitle,
+                        icon: sectionIcon(SectionKind.cyber),
+                        onTap: () => Navigator.of(context).push(
+                          MaterialPageRoute<void>(
+                            builder: (BuildContext context) =>
+                                const CyberScreen(),
+                          ),
+                        ),
+                        footer: ProgressFooter(sections: CyberScreen.sections),
+                      ),
+                      const SizedBox(height: 16),
+                    ],
                   ],
                 ],
               ),

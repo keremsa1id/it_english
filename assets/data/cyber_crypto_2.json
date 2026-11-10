@@ -1,0 +1,289 @@
+[
+  {
+    "term": "public key infrastructure",
+    "turkish": "açık anahtar altyapısı",
+    "category": "security",
+    "definition": "The system of people, rules and tools that issues and manages digital certificates.",
+    "exampleSentence": "A public key infrastructure lets every employee device prove its identity safely."
+  },
+  {
+    "term": "certificate authority",
+    "turkish": "sertifika otoritesi",
+    "category": "security",
+    "definition": "A trusted organization that issues digital certificates after checking identity.",
+    "exampleSentence": "The browser trusts the website because a known certificate authority signed it."
+  },
+  {
+    "term": "digital certificate",
+    "turkish": "dijital sertifika",
+    "category": "security",
+    "definition": "An electronic document that links a public key to a person or website.",
+    "exampleSentence": "A digital certificate shows visitors that the website really belongs to our company."
+  },
+  {
+    "term": "root certificate",
+    "turkish": "kök sertifika",
+    "category": "security",
+    "definition": "The top-level certificate that all other certificates in a chain depend on.",
+    "exampleSentence": "Devices must trust our root certificate before they can accept internal websites."
+  },
+  {
+    "term": "certificate chain",
+    "turkish": "sertifika zinciri",
+    "category": "security",
+    "definition": "The series of certificates that links a website certificate to a trusted root.",
+    "exampleSentence": "The error appeared because the certificate chain was missing an intermediate certificate."
+  },
+  {
+    "term": "certificate revocation",
+    "turkish": "sertifika iptali",
+    "category": "security",
+    "definition": "Cancelling a certificate before it expires because it is no longer trustworthy.",
+    "exampleSentence": "After the key leak, we started certificate revocation for all affected servers."
+  },
+  {
+    "term": "self-signed certificate",
+    "turkish": "kendinden imzalı sertifika",
+    "category": "security",
+    "definition": "A certificate signed by its owner instead of a trusted authority.",
+    "exampleSentence": "The browser warned us because the test server used a self-signed certificate."
+  },
+  {
+    "term": "X.509",
+    "turkish": "X.509 sertifika standardı",
+    "category": "security",
+    "definition": "The standard format used for public key certificates on the internet.",
+    "exampleSentence": "Each X.509 certificate contains the owner, the public key and an expiry date."
+  },
+  {
+    "term": "CSR",
+    "fullForm": "Certificate Signing Request",
+    "turkish": "sertifika imzalama isteği",
+    "category": "security",
+    "definition": "A message sent to a certificate authority to request a signed certificate.",
+    "exampleSentence": "Generate a CSR on the server and send it to the authority."
+  },
+  {
+    "term": "wildcard certificate",
+    "turkish": "joker sertifika",
+    "category": "security",
+    "definition": "A certificate that covers a domain and all of its direct subdomains.",
+    "exampleSentence": "One wildcard certificate protects every subdomain of our main website."
+  },
+  {
+    "term": "certificate pinning",
+    "turkish": "sertifika sabitleme",
+    "category": "security",
+    "definition": "Making an app accept only a specific known certificate or key.",
+    "exampleSentence": "Certificate pinning in the mobile app stops attackers from using fake certificates."
+  },
+  {
+    "term": "TLS handshake",
+    "turkish": "TLS el sıkışma",
+    "category": "security",
+    "definition": "The first exchange where a client and server agree on how to encrypt a connection.",
+    "exampleSentence": "A slow TLS handshake can make a website feel sluggish on mobile networks."
+  },
+  {
+    "term": "perfect forward secrecy",
+    "turkish": "mükemmel ileri gizlilik",
+    "category": "security",
+    "definition": "A property that keeps past sessions safe even if a long-term key is stolen later.",
+    "exampleSentence": "Perfect forward secrecy means old recorded traffic stays unreadable after a key leak."
+  },
+  {
+    "term": "cipher suite",
+    "turkish": "şifre paketi",
+    "category": "security",
+    "definition": "A set of algorithms that a secure connection uses for key exchange and encryption.",
+    "exampleSentence": "We disabled every weak cipher suite on the load balancer last month."
+  },
+  {
+    "term": "IPsec",
+    "fullForm": "Internet Protocol Security",
+    "turkish": "IPsec (IP güvenliği)",
+    "category": "security",
+    "definition": "A group of protocols that encrypt and authenticate traffic at the network layer.",
+    "exampleSentence": "The branch office connects to headquarters through an IPsec tunnel."
+  },
+  {
+    "term": "WireGuard",
+    "turkish": "WireGuard VPN protokolü",
+    "category": "security",
+    "definition": "A modern, fast and simple VPN protocol with a small code base.",
+    "exampleSentence": "We replaced the old VPN with WireGuard, and connections became faster."
+  },
+  {
+    "term": "OpenSSL",
+    "turkish": "OpenSSL kütüphanesi",
+    "category": "security",
+    "definition": "A widely used open-source library for TLS and general cryptography.",
+    "exampleSentence": "The team updated OpenSSL after the vendor announced a serious security bug."
+  },
+  {
+    "term": "Let's Encrypt",
+    "turkish": "Let's Encrypt (ücretsiz sertifika servisi)",
+    "category": "security",
+    "definition": "A free and automated certificate authority.",
+    "exampleSentence": "We use Let's Encrypt to renew our website certificates automatically every three months."
+  },
+  {
+    "term": "HSM",
+    "fullForm": "Hardware Security Module",
+    "turkish": "donanım güvenlik modülü",
+    "category": "security",
+    "definition": "A tamper-resistant device that stores keys and performs cryptographic operations.",
+    "exampleSentence": "The bank keeps its signing keys inside an HSM that nobody can copy."
+  },
+  {
+    "term": "KMS",
+    "fullForm": "Key Management Service",
+    "turkish": "anahtar yönetim servisi",
+    "category": "security",
+    "definition": "A cloud service for creating, storing and controlling encryption keys.",
+    "exampleSentence": "The application asks the KMS to decrypt the data instead of storing the key."
+  },
+  {
+    "term": "tokenization",
+    "turkish": "tokenlaştırma",
+    "category": "security",
+    "definition": "Replacing sensitive data with a harmless token that has no real value.",
+    "exampleSentence": "Tokenization lets us process payments without storing real card numbers."
+  },
+  {
+    "term": "bcrypt",
+    "turkish": "bcrypt parola özeti",
+    "category": "security",
+    "definition": "A slow password hashing algorithm designed to resist brute force attacks.",
+    "exampleSentence": "We changed the login system to hash passwords with bcrypt."
+  },
+  {
+    "term": "Argon2",
+    "turkish": "Argon2 parola özeti",
+    "category": "security",
+    "definition": "A modern memory-hard algorithm for hashing passwords securely.",
+    "exampleSentence": "Argon2 was selected because it makes large-scale password cracking very expensive."
+  },
+  {
+    "term": "SHA-256",
+    "turkish": "SHA-256 özet algoritması",
+    "category": "security",
+    "definition": "A common hash algorithm that creates a 256-bit fingerprint of data.",
+    "exampleSentence": "The website publishes the SHA-256 value so you can verify your download."
+  },
+  {
+    "term": "MD5",
+    "turkish": "MD5 özet algoritması",
+    "category": "security",
+    "definition": "An old hash algorithm that is no longer safe for security uses.",
+    "exampleSentence": "Never use MD5 to protect passwords, because it can be broken very quickly."
+  },
+  {
+    "term": "post-quantum cryptography",
+    "turkish": "kuantum sonrası kriptografi",
+    "category": "security",
+    "definition": "Algorithms designed to stay secure even against future quantum computers.",
+    "exampleSentence": "Governments already recommend post-quantum cryptography for data that must stay secret for decades."
+  },
+  {
+    "term": "zero-knowledge proof",
+    "turkish": "sıfır bilgi ispatı",
+    "category": "security",
+    "definition": "A method to prove something is true without revealing the secret itself.",
+    "exampleSentence": "A zero-knowledge proof lets you show you know a password without sending it."
+  },
+  {
+    "term": "blockchain",
+    "turkish": "blok zinciri",
+    "category": "security",
+    "definition": "A shared ledger where records are linked and protected by cryptography.",
+    "exampleSentence": "Each block in the blockchain contains the hash of the previous block."
+  },
+  {
+    "term": "PGP",
+    "fullForm": "Pretty Good Privacy",
+    "turkish": "PGP (e-posta ve dosya şifreleme)",
+    "category": "security",
+    "definition": "A program and standard used to encrypt and sign emails and files.",
+    "exampleSentence": "Journalists often use PGP to protect messages from their sources."
+  },
+  {
+    "term": "S/MIME",
+    "fullForm": "Secure/Multipurpose Internet Mail Extensions",
+    "turkish": "S/MIME e-posta güvenliği",
+    "category": "security",
+    "definition": "A standard for signing and encrypting email using certificates.",
+    "exampleSentence": "The company configured S/MIME so that executives can sign their emails."
+  },
+  {
+    "term": "secure enclave",
+    "turkish": "güvenli bölge (donanım)",
+    "category": "security",
+    "definition": "An isolated hardware area that protects sensitive keys and operations.",
+    "exampleSentence": "The phone keeps your fingerprint data in a secure enclave."
+  },
+  {
+    "term": "code signing",
+    "turkish": "kod imzalama",
+    "category": "security",
+    "definition": "Digitally signing software so users can verify its author and integrity.",
+    "exampleSentence": "Code signing helps users trust that the installer was not modified by anyone."
+  },
+  {
+    "term": "trust store",
+    "turkish": "güven deposu",
+    "category": "security",
+    "definition": "A collection of trusted root certificates stored on a device or system.",
+    "exampleSentence": "We added our company root to the trust store of every laptop."
+  },
+  {
+    "term": "trusted timestamping",
+    "turkish": "güvenilir zaman damgası",
+    "category": "security",
+    "definition": "Proving that data existed at a specific time using a trusted authority.",
+    "exampleSentence": "Trusted timestamping proved that the contract was signed before the deadline."
+  },
+  {
+    "term": "brute-force resistance",
+    "turkish": "kaba kuvvete dayanıklılık",
+    "category": "security",
+    "definition": "How well a system or algorithm withstands attempts to guess every possible key.",
+    "exampleSentence": "Long random keys give excellent brute-force resistance against modern computers."
+  },
+  {
+    "term": "cryptographic agility",
+    "turkish": "kriptografik çeviklik",
+    "category": "security",
+    "definition": "The ability to switch quickly to new algorithms when old ones become weak.",
+    "exampleSentence": "Cryptographic agility will make our migration to new algorithms much easier."
+  },
+  {
+    "term": "downgrade attack",
+    "turkish": "sürüm düşürme saldırısı",
+    "category": "security",
+    "definition": "Forcing a connection to use an older, weaker protocol or cipher.",
+    "exampleSentence": "Disabling old protocol versions prevents a downgrade attack on the server."
+  },
+  {
+    "term": "certificate transparency",
+    "turkish": "sertifika şeffaflığı",
+    "category": "security",
+    "definition": "Public logs that record issued certificates so that mistakes and abuse can be found.",
+    "exampleSentence": "Certificate transparency helped the security team discover a fake certificate for our domain."
+  },
+  {
+    "term": "OCSP",
+    "fullForm": "Online Certificate Status Protocol",
+    "turkish": "çevrimiçi sertifika durum protokolü",
+    "category": "security",
+    "definition": "A protocol that checks in real time whether a certificate has been revoked.",
+    "exampleSentence": "The browser uses OCSP to ask if the website certificate is still valid."
+  },
+  {
+    "term": "mutual TLS",
+    "turkish": "karşılıklı TLS",
+    "category": "security",
+    "definition": "A TLS setup where both client and server prove their identity with certificates.",
+    "exampleSentence": "Mutual TLS ensures that only approved services can call the payment API."
+  }
+]

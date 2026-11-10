@@ -18,6 +18,9 @@ enum SectionKind {
   falseFriends,
   confusables,
 
+  /// Siber güvenlik klasörleri (bkz. SectionGroup.cyberGroups).
+  cyber,
+
   /// Haftalık paketler (bkz. WeeklyPack).
   weekly,
 }
@@ -303,6 +306,67 @@ class Section {
     assetPath: 'assets/data/confusing_words.json',
   );
 
+  static const Section cyberBasics1 = Section(
+    title: 'Cyber Basics 1',
+    subtitle: 'Core ideas: CIA triad, threat, risk, exploit',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_basics_1.json',
+  );
+  static const Section cyberBasics2 = Section(
+    title: 'Cyber Basics 2',
+    subtitle: 'Standards, governance and data protection',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_basics_2.json',
+  );
+  static const Section cyberAttacks1 = Section(
+    title: 'Cyber Attacks 1',
+    subtitle: 'Social engineering, phishing types and malware',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_attacks_1.json',
+  );
+  static const Section cyberAttacks2 = Section(
+    title: 'Cyber Attacks 2',
+    subtitle: 'Network, web and system attacks',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_attacks_2.json',
+  );
+  static const Section cyberDefense1 = Section(
+    title: 'Cyber Defense 1',
+    subtitle: 'Network and endpoint protection',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_defense_1.json',
+  );
+  static const Section cyberDefense2 = Section(
+    title: 'Cyber Defense 2',
+    subtitle: 'Identity, monitoring and incident response',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_defense_2.json',
+  );
+  static const Section cyberCrypto1 = Section(
+    title: 'Cryptography 1',
+    subtitle: 'Hashes, keys and encryption basics',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_crypto_1.json',
+  );
+  static const Section cyberCrypto2 = Section(
+    title: 'Cryptography 2',
+    subtitle: 'Certificates, TLS and modern algorithms',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_crypto_2.json',
+  );
+  static const Section cyberCareer1 = Section(
+    title: 'Cyber Careers 1',
+    subtitle: 'Pentest, red team, blue team, CTF, bug bounty',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_career_1.json',
+  );
+  static const Section cyberCareer2 = Section(
+    title: 'Cyber Careers 2',
+    subtitle: 'Security tools, labs, reports and certifications',
+    kind: SectionKind.cyber,
+    assetPath: 'assets/data/cyber_career_2.json',
+  );
+
   /// Bütün bölümler. Karışık quiz ve veri testleri bunu kullanır.
   static const List<Section> all = <Section>[
     itTerms1,
@@ -348,6 +412,16 @@ class Section {
     interview,
     falseFriends,
     confusables,
+    cyberBasics1,
+    cyberBasics2,
+    cyberAttacks1,
+    cyberAttacks2,
+    cyberDefense1,
+    cyberDefense2,
+    cyberCrypto1,
+    cyberCrypto2,
+    cyberCareer1,
+    cyberCareer2,
   ];
 }
 
@@ -367,7 +441,50 @@ class SectionGroup {
   final SectionKind kind;
   final List<Section> sections;
 
-  /// Ana ekranda gösterilen klasörler, gösterim sırasıyla.
+  /// "Cyber" klasörünün 5 alt grubu; her birinde 2 bölüm vardır. Kilit,
+  /// rozet ve veri kuralları için [all] içinde de yer alırlar ama Word
+  /// Groups ekranında tek bir "Cyber" kartı olarak görünürler.
+  static const List<SectionGroup> cyberGroups = <SectionGroup>[
+    SectionGroup(
+      title: 'Cyber Basics',
+      subtitle: 'Core ideas, standards and governance',
+      kind: SectionKind.cyber,
+      sections: <Section>[Section.cyberBasics1, Section.cyberBasics2],
+    ),
+    SectionGroup(
+      title: 'Cyber Attacks',
+      subtitle: 'Social engineering, malware, network and web attacks',
+      kind: SectionKind.cyber,
+      sections: <Section>[Section.cyberAttacks1, Section.cyberAttacks2],
+    ),
+    SectionGroup(
+      title: 'Cyber Defense',
+      subtitle: 'Protection, identity, monitoring and response',
+      kind: SectionKind.cyber,
+      sections: <Section>[Section.cyberDefense1, Section.cyberDefense2],
+    ),
+    SectionGroup(
+      title: 'Cryptography',
+      subtitle: 'Hashes, keys, certificates and TLS',
+      kind: SectionKind.cyber,
+      sections: <Section>[Section.cyberCrypto1, Section.cyberCrypto2],
+    ),
+    SectionGroup(
+      title: 'Cyber Careers',
+      subtitle: 'Roles, teams, tools and certifications',
+      kind: SectionKind.cyber,
+      sections: <Section>[Section.cyberCareer1, Section.cyberCareer2],
+    ),
+  ];
+
+  /// Word Groups ekranında listelenen klasörler: [all] eksi Cyber alt grupları.
+  /// "Cyber" kartı ekranda ayrıca eklenir.
+  static List<SectionGroup> get menu => <SectionGroup>[
+        for (final SectionGroup group in all)
+          if (!cyberGroups.contains(group)) group,
+      ];
+
+  /// Bütün klasörler (Cyber alt grupları dahil), gösterim sırasıyla.
   static const List<SectionGroup> all = <SectionGroup>[
     SectionGroup(
       title: 'IT Terms',
@@ -495,5 +612,6 @@ class SectionGroup {
       kind: SectionKind.confusables,
       sections: <Section>[Section.confusables],
     ),
+    ...cyberGroups,
   ];
 }

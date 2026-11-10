@@ -1,0 +1,286 @@
+[
+  {
+    "term": "hash",
+    "turkish": "özet (hash)",
+    "category": "security",
+    "definition": "A fixed-length value created from data that cannot be turned back into the original.",
+    "exampleSentence": "Comparing the hash of two files is a quick way to see if they differ."
+  },
+  {
+    "term": "symmetric encryption",
+    "turkish": "simetrik şifreleme",
+    "category": "security",
+    "definition": "Encryption that uses the same secret key to lock and unlock data.",
+    "exampleSentence": "AES is the most common example of symmetric encryption in daily use."
+  },
+  {
+    "term": "asymmetric encryption",
+    "turkish": "asimetrik şifreleme",
+    "category": "security",
+    "definition": "Encryption that uses a public key to lock and a private key to unlock data.",
+    "exampleSentence": "Asymmetric encryption lets strangers send you secrets without sharing a password first."
+  },
+  {
+    "term": "digital signature",
+    "turkish": "dijital imza",
+    "category": "security",
+    "definition": "A value that proves who created data and that it has not been changed.",
+    "exampleSentence": "The update is protected by a digital signature that the installer checks before running."
+  },
+  {
+    "term": "plaintext",
+    "turkish": "düz metin",
+    "category": "security",
+    "definition": "Readable data that has not been encrypted.",
+    "exampleSentence": "Never store passwords as plaintext in a database or in a log file."
+  },
+  {
+    "term": "ciphertext",
+    "turkish": "şifreli metin",
+    "category": "security",
+    "definition": "Data that has been encrypted and looks like random characters.",
+    "exampleSentence": "Without the key, the ciphertext is just meaningless random-looking text."
+  },
+  {
+    "term": "private key",
+    "turkish": "özel anahtar",
+    "category": "security",
+    "definition": "The secret half of a key pair that must never be shared.",
+    "exampleSentence": "If someone steals your private key, they can pretend to be you."
+  },
+  {
+    "term": "public key",
+    "turkish": "açık anahtar",
+    "category": "security",
+    "definition": "The shareable half of a key pair used to encrypt data or check signatures.",
+    "exampleSentence": "You can publish your public key on your website without any risk."
+  },
+  {
+    "term": "key pair",
+    "turkish": "anahtar çifti",
+    "category": "security",
+    "definition": "A matching public key and private key used together in asymmetric encryption.",
+    "exampleSentence": "The server generated a new key pair when the certificate was renewed."
+  },
+  {
+    "term": "key exchange",
+    "turkish": "anahtar değişimi",
+    "category": "security",
+    "definition": "A method for two parties to agree on a secret key over an insecure channel.",
+    "exampleSentence": "The key exchange happens in the first milliseconds of every secure connection."
+  },
+  {
+    "term": "key length",
+    "turkish": "anahtar uzunluğu",
+    "category": "security",
+    "definition": "The size of a key in bits, which affects how hard it is to break.",
+    "exampleSentence": "A longer key length makes brute force attacks much more expensive."
+  },
+  {
+    "term": "key rotation",
+    "turkish": "anahtar döndürme",
+    "category": "security",
+    "definition": "Regularly replacing encryption keys with new ones to limit the damage of a leak.",
+    "exampleSentence": "Automatic key rotation replaces our encryption keys every ninety days."
+  },
+  {
+    "term": "key management",
+    "turkish": "anahtar yönetimi",
+    "category": "security",
+    "definition": "Creating, storing, using and retiring encryption keys safely.",
+    "exampleSentence": "Strong encryption is useless without careful key management."
+  },
+  {
+    "term": "salt",
+    "turkish": "tuz (salt)",
+    "category": "security",
+    "definition": "Random data added to a password before hashing so equal passwords look different.",
+    "exampleSentence": "A unique salt makes pre-built attack tables useless for stolen passwords."
+  },
+  {
+    "term": "pepper",
+    "turkish": "biber (pepper)",
+    "category": "security",
+    "definition": "A secret value added to passwords before hashing and stored outside the database.",
+    "exampleSentence": "The pepper is kept in a separate vault, not next to the hashed passwords."
+  },
+  {
+    "term": "rainbow table",
+    "turkish": "gökkuşağı tablosu",
+    "category": "security",
+    "definition": "A precomputed table of hashes used to quickly reverse simple passwords.",
+    "exampleSentence": "A rainbow table can crack unsalted passwords in just a few seconds."
+  },
+  {
+    "term": "hash collision",
+    "turkish": "hash çakışması",
+    "category": "security",
+    "definition": "A situation where two different inputs produce the same hash value.",
+    "exampleSentence": "Researchers found a hash collision, so the old algorithm is no longer trusted."
+  },
+  {
+    "term": "checksum",
+    "turkish": "sağlama toplamı",
+    "category": "security",
+    "definition": "A small value calculated from data to detect errors or changes.",
+    "exampleSentence": "Verify the checksum of the download before you install the program."
+  },
+  {
+    "term": "message digest",
+    "turkish": "mesaj özeti",
+    "category": "security",
+    "definition": "The fixed-size output created by a hash function from a message.",
+    "exampleSentence": "The message digest is signed instead of the whole large document."
+  },
+  {
+    "term": "HMAC",
+    "fullForm": "Hash-based Message Authentication Code",
+    "turkish": "HMAC (anahtarlı mesaj doğrulama kodu)",
+    "category": "security",
+    "definition": "A code that uses a secret key and a hash to check message authenticity.",
+    "exampleSentence": "The API checks the HMAC to confirm that the request really came from our partner."
+  },
+  {
+    "term": "AES",
+    "fullForm": "Advanced Encryption Standard",
+    "turkish": "AES (gelişmiş şifreleme standardı)",
+    "category": "security",
+    "definition": "A fast and widely used symmetric encryption algorithm.",
+    "exampleSentence": "The laptop disk is protected with AES using a 256-bit key."
+  },
+  {
+    "term": "RSA",
+    "fullForm": "Rivest–Shamir–Adleman",
+    "turkish": "RSA şifreleme algoritması",
+    "category": "security",
+    "definition": "A popular asymmetric algorithm used for encryption and digital signatures.",
+    "exampleSentence": "The old system still signs its tokens with a short RSA key."
+  },
+  {
+    "term": "ECC",
+    "fullForm": "Elliptic Curve Cryptography",
+    "turkish": "eliptik eğri kriptografisi",
+    "category": "security",
+    "definition": "A modern kind of asymmetric cryptography that offers strong security with short keys.",
+    "exampleSentence": "Mobile devices prefer ECC because it needs less power and smaller keys."
+  },
+  {
+    "term": "Diffie-Hellman",
+    "turkish": "Diffie-Hellman anahtar değişimi",
+    "category": "security",
+    "definition": "A method for two parties to create a shared secret over a public channel.",
+    "exampleSentence": "The Diffie-Hellman exchange lets two strangers agree on a secret key in public."
+  },
+  {
+    "term": "block cipher",
+    "turkish": "blok şifre",
+    "category": "security",
+    "definition": "A cipher that encrypts data in fixed-size blocks.",
+    "exampleSentence": "AES is a block cipher that works on sixteen bytes at a time."
+  },
+  {
+    "term": "stream cipher",
+    "turkish": "akış şifresi",
+    "category": "security",
+    "definition": "A cipher that encrypts data one bit or byte at a time.",
+    "exampleSentence": "A stream cipher is a good choice for encrypting live video calls."
+  },
+  {
+    "term": "initialization vector",
+    "turkish": "başlatma vektörü",
+    "category": "security",
+    "definition": "A random starting value that makes each encryption of the same data different.",
+    "exampleSentence": "Reusing an initialization vector can leak patterns in the encrypted data."
+  },
+  {
+    "term": "nonce",
+    "turkish": "nonce (tek kullanımlık sayı)",
+    "category": "security",
+    "definition": "A number used only once to prevent replay and reuse in cryptographic protocols.",
+    "exampleSentence": "Each request includes a unique nonce so that old messages cannot be replayed."
+  },
+  {
+    "term": "entropy",
+    "turkish": "entropi (rastgelelik)",
+    "category": "security",
+    "definition": "A measure of randomness, important for creating strong keys and passwords.",
+    "exampleSentence": "A new virtual machine may have low entropy right after it starts."
+  },
+  {
+    "term": "random number generator",
+    "turkish": "rastgele sayı üreteci",
+    "category": "security",
+    "definition": "A tool that produces unpredictable numbers needed for keys and tokens.",
+    "exampleSentence": "A weak random number generator made the session tokens easy to guess."
+  },
+  {
+    "term": "cryptanalysis",
+    "turkish": "kriptanaliz",
+    "category": "security",
+    "definition": "The study of breaking or weakening encryption systems.",
+    "exampleSentence": "Cryptanalysis of the old algorithm revealed several serious weaknesses."
+  },
+  {
+    "term": "one-way function",
+    "turkish": "tek yönlü fonksiyon",
+    "category": "security",
+    "definition": "A calculation that is easy to perform but practically impossible to reverse.",
+    "exampleSentence": "Hashing is a one-way function, so you cannot recover a password from it."
+  },
+  {
+    "term": "obfuscation",
+    "turkish": "karartma",
+    "category": "security",
+    "definition": "Making code or data hard to read, which is not the same as real encryption.",
+    "exampleSentence": "Obfuscation slows reverse engineers down, but it does not replace real security."
+  },
+  {
+    "term": "steganography",
+    "turkish": "steganografi",
+    "category": "security",
+    "definition": "Hiding secret data inside ordinary files such as images or audio.",
+    "exampleSentence": "With steganography, the attacker hid a message in the pixels of a photo."
+  },
+  {
+    "term": "end-to-end encryption",
+    "turkish": "uçtan uca şifreleme",
+    "category": "security",
+    "definition": "Encryption where only the sender and receiver can read the message.",
+    "exampleSentence": "With end-to-end encryption, even the service provider cannot read your chats."
+  },
+  {
+    "term": "encryption at rest",
+    "turkish": "bekleyen veri şifreleme",
+    "category": "security",
+    "definition": "Encrypting stored data on disks, databases and backups.",
+    "exampleSentence": "Encryption at rest protects the database files if somebody steals the drive."
+  },
+  {
+    "term": "encryption in transit",
+    "turkish": "aktarımdaki veri şifreleme",
+    "category": "security",
+    "definition": "Encrypting data while it moves across a network.",
+    "exampleSentence": "Encryption in transit stops people on the same network from reading your traffic."
+  },
+  {
+    "term": "data masking",
+    "turkish": "veri maskeleme",
+    "category": "security",
+    "definition": "Hiding real values, like card numbers, by replacing them with fake characters.",
+    "exampleSentence": "Data masking shows only the last four digits of the card on the screen."
+  },
+  {
+    "term": "cipher",
+    "turkish": "şifreleme algoritması",
+    "category": "security",
+    "definition": "An algorithm used to encrypt and decrypt information.",
+    "exampleSentence": "Each cipher is designed so that attackers cannot break it with today's computers."
+  },
+  {
+    "term": "cryptographic algorithm",
+    "turkish": "kriptografik algoritma",
+    "category": "security",
+    "definition": "A mathematical method used for encryption, hashing or signing.",
+    "exampleSentence": "Only an approved cryptographic algorithm may be used in our products."
+  }
+]

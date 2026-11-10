@@ -1,0 +1,285 @@
+[
+  {
+    "term": "session hijacking",
+    "turkish": "oturum ele geçirme",
+    "category": "security",
+    "definition": "Taking over a user's active login session by stealing the session token.",
+    "exampleSentence": "Session hijacking lets an attacker act as you without knowing your password."
+  },
+  {
+    "term": "DNS spoofing",
+    "turkish": "DNS sahteciliği",
+    "category": "security",
+    "definition": "Sending fake DNS answers to redirect users to a malicious website.",
+    "exampleSentence": "Because of DNS spoofing, the bank's address opened a fake page."
+  },
+  {
+    "term": "ARP spoofing",
+    "turkish": "ARP sahteciliği",
+    "category": "security",
+    "definition": "Sending fake ARP messages to redirect traffic inside a local network.",
+    "exampleSentence": "ARP spoofing allowed the attacker to read traffic between two office computers."
+  },
+  {
+    "term": "IP spoofing",
+    "turkish": "IP sahteciliği",
+    "category": "security",
+    "definition": "Faking the source IP address of packets to hide identity or trick a system.",
+    "exampleSentence": "IP spoofing makes it hard to know where the attack traffic really comes from."
+  },
+  {
+    "term": "packet sniffing",
+    "turkish": "paket dinleme",
+    "category": "security",
+    "definition": "Capturing and reading data that travels through a network.",
+    "exampleSentence": "Packet sniffing on an unencrypted network can reveal login details in plain text."
+  },
+  {
+    "term": "port scanning",
+    "turkish": "port taraması",
+    "category": "security",
+    "definition": "Checking which ports on a machine are open to find possible entry points.",
+    "exampleSentence": "The logs showed port scanning from one address against all of our servers."
+  },
+  {
+    "term": "replay attack",
+    "turkish": "tekrar saldırısı",
+    "category": "security",
+    "definition": "Recording a valid message and sending it again to trick a system.",
+    "exampleSentence": "A replay attack allowed the thief to open the car using a copied signal."
+  },
+  {
+    "term": "SYN flood",
+    "turkish": "SYN seli",
+    "category": "security",
+    "definition": "A denial-of-service attack that sends many half-open connection requests.",
+    "exampleSentence": "A SYN flood filled the connection table and the web server stopped answering."
+  },
+  {
+    "term": "DNS poisoning",
+    "turkish": "DNS zehirlenmesi",
+    "category": "security",
+    "definition": "Putting false data into a DNS cache so that users are sent to wrong addresses.",
+    "exampleSentence": "After DNS poisoning, many customers landed on a page controlled by criminals."
+  },
+  {
+    "term": "evil twin",
+    "turkish": "kötü ikiz (sahte Wi-Fi)",
+    "category": "security",
+    "definition": "A fake Wi-Fi hotspot that copies a real one to steal user data.",
+    "exampleSentence": "At the airport, an evil twin network copied the name of the official hotspot."
+  },
+  {
+    "term": "rogue access point",
+    "turkish": "yetkisiz erişim noktası",
+    "category": "security",
+    "definition": "An unauthorized Wi-Fi device connected to a company network.",
+    "exampleSentence": "Security found a rogue access point hidden under a desk in the meeting room."
+  },
+  {
+    "term": "deauthentication attack",
+    "turkish": "bağlantı kesme saldırısı",
+    "category": "security",
+    "definition": "Forcing devices off a Wi-Fi network by sending fake disconnect messages.",
+    "exampleSentence": "A deauthentication attack kept disconnecting our laptops from the office Wi-Fi."
+  },
+  {
+    "term": "buffer overflow",
+    "turkish": "arabellek taşması",
+    "category": "security",
+    "definition": "A bug where a program writes more data than a memory area can hold.",
+    "exampleSentence": "A buffer overflow in the old software allowed attackers to run their own code."
+  },
+  {
+    "term": "remote code execution",
+    "turkish": "uzaktan kod çalıştırma",
+    "category": "security",
+    "definition": "A flaw that lets an attacker run commands on a system from far away.",
+    "exampleSentence": "The patch fixes a remote code execution bug that was already used in attacks."
+  },
+  {
+    "term": "command injection",
+    "turkish": "komut enjeksiyonu",
+    "category": "security",
+    "definition": "Inserting operating system commands into an app that does not check its input.",
+    "exampleSentence": "Command injection happened because the script passed user text directly to the shell."
+  },
+  {
+    "term": "path traversal",
+    "turkish": "dizin gezinme saldırısı",
+    "category": "security",
+    "definition": "Using special paths like ../ to read files outside the allowed folder.",
+    "exampleSentence": "The path traversal bug exposed the server's configuration file to everyone."
+  },
+  {
+    "term": "clickjacking",
+    "turkish": "tıklama tuzağı",
+    "category": "security",
+    "definition": "Tricking users into clicking a hidden button placed under a harmless-looking page.",
+    "exampleSentence": "Clickjacking hides a real payment button behind a fake game on the screen."
+  },
+  {
+    "term": "open redirect",
+    "turkish": "açık yönlendirme",
+    "category": "security",
+    "definition": "A flaw that lets attackers send users from a trusted site to a malicious one.",
+    "exampleSentence": "Phishers abused an open redirect on our website to make their links look safe."
+  },
+  {
+    "term": "SSRF",
+    "fullForm": "Server-Side Request Forgery",
+    "turkish": "sunucu taraflı istek sahteciliği",
+    "category": "security",
+    "definition": "An attack that makes a server send requests to places chosen by the attacker.",
+    "exampleSentence": "The SSRF flaw let the attacker reach the internal cloud metadata service."
+  },
+  {
+    "term": "XXE",
+    "fullForm": "XML External Entity",
+    "turkish": "XML harici varlık saldırısı",
+    "category": "security",
+    "definition": "An attack that abuses XML parsers to read files or call internal services.",
+    "exampleSentence": "Disabling external entities in the parser prevents an XXE attack."
+  },
+  {
+    "term": "insecure deserialization",
+    "turkish": "güvensiz seri durumdan çıkarma",
+    "category": "security",
+    "definition": "A flaw where untrusted data is turned into objects and can run harmful code.",
+    "exampleSentence": "Insecure deserialization allowed the attacker to upload a crafted object and take control."
+  },
+  {
+    "term": "IDOR",
+    "fullForm": "Insecure Direct Object Reference",
+    "turkish": "güvensiz doğrudan nesne referansı",
+    "category": "security",
+    "definition": "A flaw where changing an ID in a request shows another user's data.",
+    "exampleSentence": "With an IDOR bug, changing the number in the URL showed someone else's invoice."
+  },
+  {
+    "term": "dependency confusion",
+    "turkish": "bağımlılık karışıklığı",
+    "category": "security",
+    "definition": "Tricking a build system into downloading a malicious public package instead of a private one.",
+    "exampleSentence": "Dependency confusion put a fake package with the same name into our build."
+  },
+  {
+    "term": "zero-click exploit",
+    "turkish": "sıfır tıklama istismarı",
+    "category": "security",
+    "definition": "An attack that works without any action from the victim.",
+    "exampleSentence": "A zero-click exploit infected the phone as soon as the message arrived."
+  },
+  {
+    "term": "sandbox escape",
+    "turkish": "korumalı alandan kaçış",
+    "category": "security",
+    "definition": "A bug that lets code break out of an isolated environment.",
+    "exampleSentence": "Researchers demonstrated a sandbox escape that gave them control of the whole browser."
+  },
+  {
+    "term": "container escape",
+    "turkish": "konteyner kaçışı",
+    "category": "security",
+    "definition": "A flaw that lets code leave a container and reach the host machine.",
+    "exampleSentence": "A container escape would give the attacker access to every other service on the node."
+  },
+  {
+    "term": "subdomain takeover",
+    "turkish": "alt alan adı ele geçirme",
+    "category": "security",
+    "definition": "Claiming an unused subdomain that still points to an external service.",
+    "exampleSentence": "A forgotten DNS record led to a subdomain takeover on our marketing site."
+  },
+  {
+    "term": "API abuse",
+    "turkish": "API kötüye kullanımı",
+    "category": "security",
+    "definition": "Using an API in ways its owner did not intend, often at large scale.",
+    "exampleSentence": "Rate limits were added after API abuse slowed down the mobile application."
+  },
+  {
+    "term": "cache poisoning",
+    "turkish": "önbellek zehirlenmesi",
+    "category": "security",
+    "definition": "Placing harmful content in a cache so that other users receive it.",
+    "exampleSentence": "Cache poisoning made the CDN serve a malicious script to thousands of visitors."
+  },
+  {
+    "term": "HTTP request smuggling",
+    "turkish": "HTTP istek kaçakçılığı",
+    "category": "security",
+    "definition": "Sending specially crafted requests that confuse servers about where one request ends.",
+    "exampleSentence": "HTTP request smuggling can bypass the security checks in front of the application."
+  },
+  {
+    "term": "credential theft",
+    "turkish": "kimlik bilgisi hırsızlığı",
+    "category": "security",
+    "definition": "Stealing usernames, passwords or tokens to access accounts.",
+    "exampleSentence": "After the credential theft, the attacker logged in like a normal employee."
+  },
+  {
+    "term": "pass-the-hash",
+    "turkish": "hash geçirme saldırısı",
+    "category": "security",
+    "definition": "Using a stolen password hash to log in without knowing the real password.",
+    "exampleSentence": "The pass-the-hash technique helped the intruder move between Windows servers quietly."
+  },
+  {
+    "term": "kerberoasting",
+    "turkish": "Kerberoasting saldırısı",
+    "category": "security",
+    "definition": "Requesting service tickets in Windows networks to crack service account passwords offline.",
+    "exampleSentence": "Kerberoasting works when service accounts have weak and old passwords."
+  },
+  {
+    "term": "golden ticket",
+    "turkish": "altın bilet saldırısı",
+    "category": "security",
+    "definition": "A forged Kerberos ticket that gives an attacker long-lasting domain access.",
+    "exampleSentence": "The golden ticket gave the attacker access to every system in the domain."
+  },
+  {
+    "term": "DLL hijacking",
+    "turkish": "DLL kaçırma",
+    "category": "security",
+    "definition": "Making a program load a malicious library instead of the real one.",
+    "exampleSentence": "DLL hijacking worked because the program searched an unsafe folder first."
+  },
+  {
+    "term": "living off the land",
+    "turkish": "sistemdeki araçları kullanma",
+    "category": "security",
+    "definition": "Using tools already on the system to avoid detection by security software.",
+    "exampleSentence": "Living off the land makes attacks hard to see because only normal tools are used."
+  },
+  {
+    "term": "persistence",
+    "turkish": "kalıcılık",
+    "category": "security",
+    "definition": "Methods an attacker uses to keep access after a reboot or password change.",
+    "exampleSentence": "The attacker created a hidden scheduled task for persistence on the server."
+  },
+  {
+    "term": "LDAP injection",
+    "turkish": "LDAP enjeksiyonu",
+    "category": "security",
+    "definition": "An attack that changes directory queries by inserting malicious input.",
+    "exampleSentence": "LDAP injection let the attacker bypass the login form of the intranet."
+  },
+  {
+    "term": "NoSQL injection",
+    "turkish": "NoSQL enjeksiyonu",
+    "category": "security",
+    "definition": "An attack that manipulates queries to a NoSQL database through unsafe input.",
+    "exampleSentence": "A NoSQL injection in the search box returned documents that users should not see."
+  },
+  {
+    "term": "formjacking",
+    "turkish": "form ele geçirme",
+    "category": "security",
+    "definition": "Stealing payment details by injecting malicious code into online checkout forms.",
+    "exampleSentence": "Formjacking copied the card numbers that customers typed into the store checkout."
+  }
+]

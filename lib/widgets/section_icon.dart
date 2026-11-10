@@ -21,5 +21,6 @@ IconData sectionIcon(SectionKind kind) => switch (kind) {
       SectionKind.errors => Icons.error_outline_rounded,
       SectionKind.falseFriends => Icons.warning_amber_rounded,
       SectionKind.confusables => Icons.compare_arrows_rounded,
+      SectionKind.cyber => Icons.shield_rounded,
       SectionKind.weekly => Icons.calendar_month_rounded,
     };

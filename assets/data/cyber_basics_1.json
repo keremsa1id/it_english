@@ -1,0 +1,283 @@
+[
+  {
+    "term": "CIA triad",
+    "turkish": "CIA üçlüsü",
+    "category": "security",
+    "definition": "The three core goals of security: confidentiality, integrity and availability.",
+    "exampleSentence": "Every security policy in our company is built around the CIA triad."
+  },
+  {
+    "term": "confidentiality",
+    "turkish": "gizlilik",
+    "category": "security",
+    "definition": "The rule that only authorized people can read sensitive information.",
+    "exampleSentence": "Doctors must protect patient confidentiality when they store records online."
+  },
+  {
+    "term": "integrity",
+    "turkish": "bütünlük",
+    "category": "security",
+    "definition": "The guarantee that data has not been changed by anyone without permission.",
+    "exampleSentence": "A checksum helps us prove the integrity of a file after the download."
+  },
+  {
+    "term": "availability",
+    "turkish": "erişilebilirlik",
+    "category": "security",
+    "definition": "The goal of keeping systems and data ready for users whenever they need them.",
+    "exampleSentence": "Cloud providers promise high availability so that customers can reach services all day."
+  },
+  {
+    "term": "threat",
+    "turkish": "tehdit",
+    "category": "security",
+    "definition": "Anything that could cause harm to a system by using a weakness.",
+    "exampleSentence": "The team wrote a report about each threat to the new payment system."
+  },
+  {
+    "term": "risk",
+    "turkish": "risk",
+    "category": "security",
+    "definition": "The chance of damage when a threat meets a weakness, and how bad it would be.",
+    "exampleSentence": "We accepted the risk because fixing the old server would cost too much."
+  },
+  {
+    "term": "exploit",
+    "turkish": "istismar kodu",
+    "category": "security",
+    "definition": "A piece of code or a method that takes advantage of a weakness.",
+    "exampleSentence": "Attackers published an exploit only two days after the bug became public."
+  },
+  {
+    "term": "payload",
+    "turkish": "yük",
+    "category": "security",
+    "definition": "The part of an attack that does the real harm after the exploit works.",
+    "exampleSentence": "The payload downloaded a second program and started to encrypt the disk."
+  },
+  {
+    "term": "attack surface",
+    "turkish": "saldırı yüzeyi",
+    "category": "security",
+    "definition": "All the points where an attacker can try to enter a system.",
+    "exampleSentence": "Closing unused ports reduces the attack surface of every public server."
+  },
+  {
+    "term": "CVSS",
+    "fullForm": "Common Vulnerability Scoring System",
+    "turkish": "CVSS puanı",
+    "category": "security",
+    "definition": "A scoring system from 0 to 10 that shows how serious a weakness is.",
+    "exampleSentence": "The bug received a CVSS score of 9.8, so we patched it immediately."
+  },
+  {
+    "term": "threat actor",
+    "turkish": "tehdit aktörü",
+    "category": "security",
+    "definition": "A person or group that carries out or plans a cyber attack.",
+    "exampleSentence": "The report names a known threat actor that targets banks in Europe."
+  },
+  {
+    "term": "attack vector",
+    "turkish": "saldırı vektörü",
+    "category": "security",
+    "definition": "The path or method an attacker uses to reach a target.",
+    "exampleSentence": "Email is still the most common attack vector for companies of any size."
+  },
+  {
+    "term": "asset",
+    "turkish": "varlık",
+    "category": "security",
+    "definition": "Anything valuable to a company that needs protection, such as data or servers.",
+    "exampleSentence": "You cannot protect an asset if you do not know that it exists."
+  },
+  {
+    "term": "security posture",
+    "turkish": "güvenlik duruşu",
+    "category": "security",
+    "definition": "The overall strength of an organization's defenses and its readiness to respond.",
+    "exampleSentence": "After the audit, our security posture improved a lot in just six months."
+  },
+  {
+    "term": "risk assessment",
+    "turkish": "risk değerlendirmesi",
+    "category": "security",
+    "definition": "The process of finding risks and deciding how serious each one is.",
+    "exampleSentence": "A full risk assessment is required before we move customer data to the cloud."
+  },
+  {
+    "term": "risk appetite",
+    "turkish": "risk iştahı",
+    "category": "security",
+    "definition": "The amount of risk an organization is willing to accept to reach its goals.",
+    "exampleSentence": "The board defined a low risk appetite for anything that touches payment data."
+  },
+  {
+    "term": "residual risk",
+    "turkish": "artık risk",
+    "category": "security",
+    "definition": "The risk that remains after all security controls have been applied.",
+    "exampleSentence": "Some residual risk always remains, even when every control works as planned."
+  },
+  {
+    "term": "security control",
+    "turkish": "güvenlik kontrolü",
+    "category": "security",
+    "definition": "A safeguard or rule that reduces risk, such as a lock or a log review.",
+    "exampleSentence": "Each security control in the checklist has an owner and a review date."
+  },
+  {
+    "term": "audit trail",
+    "turkish": "denetim izi",
+    "category": "security",
+    "definition": "A record of who did what and when, used to review past activity.",
+    "exampleSentence": "The audit trail showed that an old account had deleted the files at midnight."
+  },
+  {
+    "term": "non-repudiation",
+    "turkish": "inkâr edilemezlik",
+    "category": "security",
+    "definition": "Proof that someone really performed an action and cannot deny it later.",
+    "exampleSentence": "Digital signatures give non-repudiation, so the sender cannot deny the contract."
+  },
+  {
+    "term": "authentication",
+    "turkish": "kimlik doğrulama",
+    "category": "security",
+    "definition": "The process of proving that a user is really who they claim to be.",
+    "exampleSentence": "Strong authentication stops most attackers who only know a stolen username."
+  },
+  {
+    "term": "authorization",
+    "turkish": "yetkilendirme",
+    "category": "security",
+    "definition": "The process of deciding what an authenticated user is allowed to do.",
+    "exampleSentence": "Authorization rules decide which employees may open the payroll folder."
+  },
+  {
+    "term": "accountability",
+    "turkish": "hesap verebilirlik",
+    "category": "security",
+    "definition": "The ability to trace every action back to a specific person or system.",
+    "exampleSentence": "Shared admin accounts destroy accountability because nobody knows who made a change."
+  },
+  {
+    "term": "least privilege",
+    "turkish": "en az yetki",
+    "category": "security",
+    "definition": "The principle of giving users only the access they need for their job.",
+    "exampleSentence": "We follow least privilege, so interns cannot read production databases."
+  },
+  {
+    "term": "defense in depth",
+    "turkish": "derinlemesine savunma",
+    "category": "security",
+    "definition": "Using several layers of protection so that one failure does not break security.",
+    "exampleSentence": "Defense in depth means that a stolen password alone is not enough to get in."
+  },
+  {
+    "term": "security by design",
+    "turkish": "tasarımdan güvenlik",
+    "category": "security",
+    "definition": "Building security into a product from the first step, not adding it later.",
+    "exampleSentence": "Security by design saved us weeks of rework before the product launched."
+  },
+  {
+    "term": "threat landscape",
+    "turkish": "tehdit ortamı",
+    "category": "security",
+    "definition": "The set of current threats and attack trends that affect an industry.",
+    "exampleSentence": "The threat landscape changed quickly when attackers started to use AI tools."
+  },
+  {
+    "term": "data breach",
+    "turkish": "veri ihlali",
+    "category": "security",
+    "definition": "An event where private data is seen or stolen by an unauthorized person.",
+    "exampleSentence": "The company paid a large fine after the data breach exposed customer emails."
+  },
+  {
+    "term": "data leak",
+    "turkish": "veri sızıntısı",
+    "category": "security",
+    "definition": "An accidental exposure of private data, often caused by a mistake.",
+    "exampleSentence": "A public storage bucket caused a data leak that nobody noticed for months."
+  },
+  {
+    "term": "insider threat",
+    "turkish": "iç tehdit",
+    "category": "security",
+    "definition": "A risk that comes from an employee or partner who already has access.",
+    "exampleSentence": "Monitoring tools help us detect an insider threat before data leaves the building."
+  },
+  {
+    "term": "security policy",
+    "turkish": "güvenlik politikası",
+    "category": "security",
+    "definition": "A written document that explains the security rules everyone must follow.",
+    "exampleSentence": "New employees must read the security policy during their first week at work."
+  },
+  {
+    "term": "vulnerability scan",
+    "turkish": "zafiyet taraması",
+    "category": "security",
+    "definition": "An automatic check that looks for known weaknesses in systems.",
+    "exampleSentence": "The weekly vulnerability scan found three servers with outdated software."
+  },
+  {
+    "term": "attack chain",
+    "turkish": "saldırı zinciri",
+    "category": "security",
+    "definition": "The ordered steps an attacker follows from first contact to final goal.",
+    "exampleSentence": "Breaking one step of the attack chain can stop the whole operation."
+  },
+  {
+    "term": "indicator of compromise",
+    "turkish": "ele geçirilme göstergesi",
+    "category": "security",
+    "definition": "A clue, like a strange file or IP address, showing that a system was attacked.",
+    "exampleSentence": "Each indicator of compromise is shared with partners through a secure feed."
+  },
+  {
+    "term": "misconfiguration",
+    "turkish": "yanlış yapılandırma",
+    "category": "security",
+    "definition": "A wrong setting that leaves a system open to attack.",
+    "exampleSentence": "A single misconfiguration in the firewall exposed the database to the internet."
+  },
+  {
+    "term": "exposure",
+    "turkish": "maruziyet",
+    "category": "security",
+    "definition": "The state of being open to attack, for example a service reachable from the internet.",
+    "exampleSentence": "The scan showed an exposure on port 22 that nobody had approved."
+  },
+  {
+    "term": "security incident",
+    "turkish": "güvenlik olayı",
+    "category": "security",
+    "definition": "A confirmed or suspected event that threatens the safety of data or systems.",
+    "exampleSentence": "Every security incident must be reported to the response team within one hour."
+  },
+  {
+    "term": "attack path",
+    "turkish": "saldırı yolu",
+    "category": "security",
+    "definition": "A route through connected systems that an attacker could follow to reach a valuable target.",
+    "exampleSentence": "The diagram of the attack path showed how a printer could lead to the database."
+  },
+  {
+    "term": "cyber hygiene",
+    "turkish": "siber hijyen",
+    "category": "security",
+    "definition": "Simple daily habits that keep devices and accounts safe, like updating and using strong passwords.",
+    "exampleSentence": "Good cyber hygiene prevents most of the attacks that reach ordinary employees."
+  },
+  {
+    "term": "risk score",
+    "turkish": "risk puanı",
+    "category": "security",
+    "definition": "A number that combines the likelihood and impact of a risk to help rank it.",
+    "exampleSentence": "The new database received a high risk score because it stores payment details."
+  }
+]

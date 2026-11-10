@@ -1,0 +1,285 @@
+[
+  {
+    "term": "proxy server",
+    "turkish": "vekil sunucu",
+    "category": "security",
+    "definition": "A server that sits between users and the internet and can filter or log traffic.",
+    "exampleSentence": "The proxy server blocks access to risky websites for all employees."
+  },
+  {
+    "term": "web application firewall",
+    "turkish": "web uygulama güvenlik duvarı",
+    "category": "security",
+    "definition": "A firewall that filters and blocks harmful HTTP traffic aimed at web apps.",
+    "exampleSentence": "A web application firewall blocked thousands of injection attempts every single day."
+  },
+  {
+    "term": "next-generation firewall",
+    "turkish": "yeni nesil güvenlik duvarı",
+    "category": "security",
+    "definition": "A firewall that also inspects applications, users and threats, not only ports.",
+    "exampleSentence": "The next-generation firewall can block a risky app even if it uses port 443."
+  },
+  {
+    "term": "sandboxing",
+    "turkish": "korumalı alanda çalıştırma",
+    "category": "security",
+    "definition": "Running suspicious files in an isolated environment to watch what they do.",
+    "exampleSentence": "Sandboxing showed that the invoice attachment tried to contact a strange server."
+  },
+  {
+    "term": "NAC",
+    "fullForm": "Network Access Control",
+    "turkish": "ağ erişim kontrolü",
+    "category": "security",
+    "definition": "A system that checks devices and decides whether they may join the network.",
+    "exampleSentence": "NAC refused to connect the laptop because its antivirus was out of date."
+  },
+  {
+    "term": "port security",
+    "turkish": "port güvenliği",
+    "category": "security",
+    "definition": "Limiting which devices may use a physical or switch port.",
+    "exampleSentence": "Port security shut down the socket when an unknown laptop was plugged in."
+  },
+  {
+    "term": "allowlist",
+    "turkish": "izin listesi",
+    "category": "security",
+    "definition": "A list of approved items, such as apps or addresses, that are the only ones allowed.",
+    "exampleSentence": "Only apps on the allowlist can run on the cash register computers."
+  },
+  {
+    "term": "blocklist",
+    "turkish": "engelleme listesi",
+    "category": "security",
+    "definition": "A list of items, such as addresses or domains, that are always denied.",
+    "exampleSentence": "The mail filter added the sender to the blocklist after the third scam email."
+  },
+  {
+    "term": "antimalware",
+    "turkish": "zararlı yazılım önleme",
+    "category": "security",
+    "definition": "Software that finds and removes harmful programs from a device.",
+    "exampleSentence": "The antimalware tool quarantined the file before anybody could open it."
+  },
+  {
+    "term": "endpoint protection",
+    "turkish": "uç nokta koruması",
+    "category": "security",
+    "definition": "Security software and settings that protect laptops, phones and servers.",
+    "exampleSentence": "Endpoint protection must be installed on every device before it joins the network."
+  },
+  {
+    "term": "MDR",
+    "fullForm": "Managed Detection and Response",
+    "turkish": "yönetilen tespit ve müdahale",
+    "category": "security",
+    "definition": "A service where outside experts monitor and respond to threats for a company.",
+    "exampleSentence": "A small company without night staff can buy an MDR service for round-the-clock monitoring."
+  },
+  {
+    "term": "application whitelisting",
+    "turkish": "uygulama beyaz listesi",
+    "category": "security",
+    "definition": "Allowing only approved programs to run on a computer.",
+    "exampleSentence": "Application whitelisting stopped the unknown installer from starting on the kiosk."
+  },
+  {
+    "term": "device encryption",
+    "turkish": "cihaz şifreleme",
+    "category": "security",
+    "definition": "Encrypting all data on a laptop or phone so a thief cannot read it.",
+    "exampleSentence": "Device encryption protected our files when a laptop was stolen from the train."
+  },
+  {
+    "term": "secure boot",
+    "turkish": "güvenli önyükleme",
+    "category": "security",
+    "definition": "A startup feature that allows only trusted software to load when a computer starts.",
+    "exampleSentence": "Secure boot refused to start the system after somebody changed the boot files."
+  },
+  {
+    "term": "TPM",
+    "fullForm": "Trusted Platform Module",
+    "turkish": "güvenilir platform modülü",
+    "category": "security",
+    "definition": "A chip in a computer that stores keys and checks that the system is trusted.",
+    "exampleSentence": "The disk key is stored in the TPM, so it cannot be copied easily."
+  },
+  {
+    "term": "mobile device management",
+    "turkish": "mobil cihaz yönetimi",
+    "category": "security",
+    "definition": "Software that lets IT enforce security settings on company phones and tablets.",
+    "exampleSentence": "Mobile device management lets us erase a lost phone from the office."
+  },
+  {
+    "term": "email filtering",
+    "turkish": "e-posta filtreleme",
+    "category": "security",
+    "definition": "Scanning incoming email to block spam, phishing and harmful attachments.",
+    "exampleSentence": "Email filtering stops most scam messages before employees see them."
+  },
+  {
+    "term": "DNS filtering",
+    "turkish": "DNS filtreleme",
+    "category": "security",
+    "definition": "Blocking access to dangerous websites at the DNS level.",
+    "exampleSentence": "DNS filtering warned the user when she clicked a link to a known scam site."
+  },
+  {
+    "term": "content filtering",
+    "turkish": "içerik filtreleme",
+    "category": "security",
+    "definition": "Blocking or allowing web content based on categories and rules.",
+    "exampleSentence": "Content filtering prevents downloads from file sharing sites on the office network."
+  },
+  {
+    "term": "geo-blocking",
+    "turkish": "coğrafi engelleme",
+    "category": "security",
+    "definition": "Blocking traffic that comes from certain countries or regions.",
+    "exampleSentence": "We use geo-blocking because our admin panel is never used outside the country."
+  },
+  {
+    "term": "network monitoring",
+    "turkish": "ağ izleme",
+    "category": "security",
+    "definition": "Constantly watching network traffic and devices to spot problems and attacks.",
+    "exampleSentence": "Network monitoring alerted us when one server began to send huge amounts of data."
+  },
+  {
+    "term": "traffic analysis",
+    "turkish": "trafik analizi",
+    "category": "security",
+    "definition": "Studying network traffic patterns to find unusual or harmful behavior.",
+    "exampleSentence": "Traffic analysis showed that a device was sending data every sixty seconds."
+  },
+  {
+    "term": "deep packet inspection",
+    "turkish": "derin paket incelemesi",
+    "category": "security",
+    "definition": "Examining the content of network packets, not only their headers.",
+    "exampleSentence": "Deep packet inspection found hidden commands inside normal-looking web traffic."
+  },
+  {
+    "term": "microsegmentation",
+    "turkish": "mikro bölümlendirme",
+    "category": "security",
+    "definition": "Applying separate security rules to each workload inside a data center or cloud.",
+    "exampleSentence": "Microsegmentation means a hacked web server cannot talk to the payroll system."
+  },
+  {
+    "term": "jump server",
+    "turkish": "atlama sunucusu",
+    "category": "security",
+    "definition": "A controlled machine used to reach other servers in a secure zone.",
+    "exampleSentence": "Every session on the jump server is recorded for later review."
+  },
+  {
+    "term": "vulnerability disclosure",
+    "turkish": "zafiyet bildirimi",
+    "category": "security",
+    "definition": "A process for reporting and publicly sharing information about a security flaw.",
+    "exampleSentence": "The vendor published a vulnerability disclosure together with the fixed version."
+  },
+  {
+    "term": "egress filtering",
+    "turkish": "çıkış filtreleme",
+    "category": "security",
+    "definition": "Controlling and limiting traffic that leaves a network.",
+    "exampleSentence": "Egress filtering blocked the malware from contacting its remote server."
+  },
+  {
+    "term": "ingress filtering",
+    "turkish": "giriş filtreleme",
+    "category": "security",
+    "definition": "Checking and limiting traffic that enters a network.",
+    "exampleSentence": "Ingress filtering drops packets that claim to come from our own internal addresses."
+  },
+  {
+    "term": "default deny",
+    "turkish": "varsayılan reddet",
+    "category": "security",
+    "definition": "A rule that blocks everything unless it is specifically allowed.",
+    "exampleSentence": "A default deny policy forces teams to ask before opening any new port."
+  },
+  {
+    "term": "secure configuration",
+    "turkish": "güvenli yapılandırma",
+    "category": "security",
+    "definition": "Settings chosen to reduce risk and remove unnecessary features from a system.",
+    "exampleSentence": "A secure configuration guide is attached to every new server request."
+  },
+  {
+    "term": "network access policy",
+    "turkish": "ağ erişim politikası",
+    "category": "security",
+    "definition": "Rules that define which users and devices may reach which network resources.",
+    "exampleSentence": "The network access policy says guests can only use the visitor Wi-Fi."
+  },
+  {
+    "term": "stateful firewall",
+    "turkish": "durum denetimli güvenlik duvarı",
+    "category": "security",
+    "definition": "A firewall that tracks active connections and allows only matching replies.",
+    "exampleSentence": "A stateful firewall only accepts replies for connections that users started."
+  },
+  {
+    "term": "packet filtering",
+    "turkish": "paket filtreleme",
+    "category": "security",
+    "definition": "Allowing or blocking network packets based on addresses, ports and protocols.",
+    "exampleSentence": "Basic packet filtering at the router already blocks a lot of unwanted traffic."
+  },
+  {
+    "term": "intrusion prevention system",
+    "turkish": "saldırı önleme sistemi",
+    "category": "security",
+    "definition": "A tool that detects attacks in network traffic and blocks them automatically.",
+    "exampleSentence": "The intrusion prevention system dropped the exploit before it reached the server."
+  },
+  {
+    "term": "endpoint hardening",
+    "turkish": "uç nokta sıkılaştırma",
+    "category": "security",
+    "definition": "Removing unneeded features and tightening settings on laptops and servers.",
+    "exampleSentence": "Endpoint hardening disabled macros and old protocols on every company laptop."
+  },
+  {
+    "term": "application control",
+    "turkish": "uygulama kontrolü",
+    "category": "security",
+    "definition": "Rules that decide which programs may run on a device.",
+    "exampleSentence": "Application control prevented the downloaded tool from starting on the work laptop."
+  },
+  {
+    "term": "browser isolation",
+    "turkish": "tarayıcı izolasyonu",
+    "category": "security",
+    "definition": "Running web browsing in a separate environment so threats cannot reach the device.",
+    "exampleSentence": "With browser isolation, a malicious page cannot touch the employee's computer."
+  },
+  {
+    "term": "USB blocking",
+    "turkish": "USB engelleme",
+    "category": "security",
+    "definition": "Preventing unapproved USB devices from connecting to company computers.",
+    "exampleSentence": "USB blocking stopped a staff member from copying files to a personal drive."
+  },
+  {
+    "term": "DDoS protection",
+    "turkish": "DDoS koruması",
+    "category": "security",
+    "definition": "Services that absorb or filter huge floods of traffic aimed at a website.",
+    "exampleSentence": "DDoS protection kept the shop online during the biggest attack of the year."
+  },
+  {
+    "term": "perimeter security",
+    "turkish": "çevre güvenliği",
+    "category": "security",
+    "definition": "Protecting the outer boundary of a network with firewalls and similar controls.",
+    "exampleSentence": "Perimeter security alone is not enough when staff work from home."
+  }
+]
