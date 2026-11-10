@@ -1,0 +1,286 @@
+[
+  {
+    "term": "pentest",
+    "turkish": "sızma testi",
+    "category": "security",
+    "definition": "An authorized simulated attack that checks how well a system resists real attackers.",
+    "exampleSentence": "The company hired a specialist firm to run a pentest before the product launch."
+  },
+  {
+    "term": "red team",
+    "turkish": "kırmızı takım",
+    "category": "security",
+    "definition": "A group that plays the role of attackers to test an organization's defenses.",
+    "exampleSentence": "The red team entered the building by pretending to be a delivery driver."
+  },
+  {
+    "term": "blue team",
+    "turkish": "mavi takım",
+    "category": "security",
+    "definition": "The defenders who detect, stop and recover from attacks.",
+    "exampleSentence": "The blue team noticed the unusual login and shut down the account quickly."
+  },
+  {
+    "term": "CTF",
+    "fullForm": "Capture The Flag",
+    "turkish": "bayrak kapma yarışması",
+    "category": "security",
+    "definition": "A competition where players solve security challenges to find hidden flags.",
+    "exampleSentence": "Our university team won first place at the national CTF last weekend."
+  },
+  {
+    "term": "bug bounty",
+    "turkish": "hata ödül programı",
+    "category": "security",
+    "definition": "A program that pays researchers for finding and reporting security flaws.",
+    "exampleSentence": "She earned five thousand dollars from a bug bounty by reporting a serious login flaw."
+  },
+  {
+    "term": "OSINT",
+    "fullForm": "Open Source Intelligence",
+    "turkish": "açık kaynak istihbaratı",
+    "category": "security",
+    "definition": "Collecting information from public sources such as websites and social media.",
+    "exampleSentence": "The investigator used OSINT to find the company's employees and email format."
+  },
+  {
+    "term": "purple team",
+    "turkish": "mor takım",
+    "category": "security",
+    "definition": "A collaboration where attackers and defenders work together to improve detection.",
+    "exampleSentence": "The purple team session helped us write new alerts for the techniques we missed."
+  },
+  {
+    "term": "white hat",
+    "turkish": "beyaz şapkalı hacker",
+    "category": "security",
+    "definition": "An ethical hacker who finds weaknesses with permission to help fix them.",
+    "exampleSentence": "A white hat researcher privately told us about the flaw before anyone abused it."
+  },
+  {
+    "term": "black hat",
+    "turkish": "siyah şapkalı hacker",
+    "category": "security",
+    "definition": "A hacker who breaks into systems illegally for personal gain or damage.",
+    "exampleSentence": "The black hat sold the stolen customer list on an underground forum."
+  },
+  {
+    "term": "gray hat",
+    "turkish": "gri şapkalı hacker",
+    "category": "security",
+    "definition": "A hacker who acts between ethical and illegal, often without permission but without bad intent.",
+    "exampleSentence": "A gray hat found the open database and warned the company without asking first."
+  },
+  {
+    "term": "script kiddie",
+    "turkish": "amatör saldırgan (hazır araç kullanan)",
+    "category": "security",
+    "definition": "An unskilled attacker who uses ready-made tools without understanding them.",
+    "exampleSentence": "The noisy scan came from a script kiddie who copied a tool from a forum."
+  },
+  {
+    "term": "hacktivist",
+    "turkish": "hacktivist (aktivist hacker)",
+    "category": "security",
+    "definition": "A hacker who attacks systems to promote a political or social cause.",
+    "exampleSentence": "A hacktivist group defaced the website of the energy company to protest its policy."
+  },
+  {
+    "term": "nation-state actor",
+    "turkish": "devlet destekli saldırgan",
+    "category": "security",
+    "definition": "A hacking group backed by a government, usually with large resources.",
+    "exampleSentence": "A nation-state actor spent months inside the network before anyone detected it."
+  },
+  {
+    "term": "threat hunter",
+    "turkish": "tehdit avcısı",
+    "category": "security",
+    "definition": "An analyst who proactively searches for hidden attackers in a network.",
+    "exampleSentence": "The threat hunter found a hidden tool that normal alerts had never detected."
+  },
+  {
+    "term": "SOC analyst",
+    "turkish": "SOC analisti",
+    "category": "security",
+    "definition": "A professional who monitors alerts and investigates incidents in a security operations center.",
+    "exampleSentence": "The SOC analyst checked the alert and found that the login was from another country."
+  },
+  {
+    "term": "incident responder",
+    "turkish": "olay müdahale uzmanı",
+    "category": "security",
+    "definition": "A specialist who handles security incidents from detection to recovery.",
+    "exampleSentence": "The incident responder arrived within an hour and started to collect evidence."
+  },
+  {
+    "term": "security engineer",
+    "turkish": "güvenlik mühendisi",
+    "category": "security",
+    "definition": "An engineer who designs, builds and maintains security systems and controls.",
+    "exampleSentence": "As a security engineer, he spends most of his day improving the logging pipeline."
+  },
+  {
+    "term": "security architect",
+    "turkish": "güvenlik mimarı",
+    "category": "security",
+    "definition": "An expert who designs the overall security structure of systems and networks.",
+    "exampleSentence": "The security architect reviewed the cloud design before the team started coding."
+  },
+  {
+    "term": "CISO",
+    "fullForm": "Chief Information Security Officer",
+    "turkish": "bilgi güvenliği direktörü",
+    "category": "security",
+    "definition": "The senior executive responsible for the security strategy of an organization.",
+    "exampleSentence": "The CISO presented the yearly risk report to the board of directors."
+  },
+  {
+    "term": "penetration tester",
+    "turkish": "sızma testi uzmanı",
+    "category": "security",
+    "definition": "A professional who legally tries to break into systems to find weaknesses.",
+    "exampleSentence": "A penetration tester needs strong technical skills and very clear writing skills."
+  },
+  {
+    "term": "malware analyst",
+    "turkish": "zararlı yazılım analisti",
+    "category": "security",
+    "definition": "A specialist who studies malicious programs to understand how they work.",
+    "exampleSentence": "The malware analyst ran the sample in an isolated lab and wrote a detailed report."
+  },
+  {
+    "term": "forensic analyst",
+    "turkish": "adli analist",
+    "category": "security",
+    "definition": "An expert who examines devices and logs to reconstruct what happened in an incident.",
+    "exampleSentence": "The forensic analyst recovered deleted files from the stolen laptop."
+  },
+  {
+    "term": "GRC analyst",
+    "turkish": "GRC analisti",
+    "category": "security",
+    "definition": "A specialist who works on governance, risk and compliance tasks.",
+    "exampleSentence": "The GRC analyst prepared the documents for the annual compliance audit."
+  },
+  {
+    "term": "security consultant",
+    "turkish": "güvenlik danışmanı",
+    "category": "security",
+    "definition": "An outside expert who advises companies on how to improve their security.",
+    "exampleSentence": "We hired a security consultant to review our cloud setup and policies."
+  },
+  {
+    "term": "vulnerability researcher",
+    "turkish": "zafiyet araştırmacısı",
+    "category": "security",
+    "definition": "A person who searches for unknown flaws in software and hardware.",
+    "exampleSentence": "The vulnerability researcher spent six months looking for bugs in a router firmware."
+  },
+  {
+    "term": "reverse engineer",
+    "turkish": "tersine mühendis",
+    "category": "security",
+    "definition": "A specialist who studies finished software to understand how it works inside.",
+    "exampleSentence": "A reverse engineer took the program apart to find out how it communicates."
+  },
+  {
+    "term": "DFIR",
+    "fullForm": "Digital Forensics and Incident Response",
+    "turkish": "adli bilişim ve olay müdahalesi",
+    "category": "security",
+    "definition": "The field that combines digital evidence analysis with incident handling.",
+    "exampleSentence": "She works in DFIR and helps companies after a serious breach."
+  },
+  {
+    "term": "security operations",
+    "turkish": "güvenlik operasyonları",
+    "category": "security",
+    "definition": "The daily work of monitoring, detecting and responding to security events.",
+    "exampleSentence": "Security operations run in three shifts to cover every hour of the day."
+  },
+  {
+    "term": "tier 1 analyst",
+    "turkish": "birinci seviye analist",
+    "category": "security",
+    "definition": "An entry-level SOC member who triages alerts and escalates serious ones.",
+    "exampleSentence": "The tier 1 analyst escalated the alert after seeing signs of a real attack."
+  },
+  {
+    "term": "on-call rotation",
+    "turkish": "nöbet çizelgesi",
+    "category": "security",
+    "definition": "A schedule in which team members take turns being available for emergencies.",
+    "exampleSentence": "Our on-call rotation changes every Monday, so everyone shares the night work."
+  },
+  {
+    "term": "shift handover",
+    "turkish": "vardiya devri",
+    "category": "security",
+    "definition": "The transfer of information when one team finishes work and another begins.",
+    "exampleSentence": "A clear shift handover prevents open incidents from being forgotten overnight."
+  },
+  {
+    "term": "security clearance",
+    "turkish": "güvenlik izni",
+    "category": "security",
+    "definition": "Official approval that allows a person to access classified information.",
+    "exampleSentence": "He needed a security clearance before he could work on the government project."
+  },
+  {
+    "term": "responsible disclosure",
+    "turkish": "sorumlu ifşa",
+    "category": "security",
+    "definition": "Privately telling a vendor about a flaw and giving time to fix it before going public.",
+    "exampleSentence": "Responsible disclosure gave the vendor ninety days to release a patch."
+  },
+  {
+    "term": "coordinated disclosure",
+    "turkish": "koordineli ifşa",
+    "category": "security",
+    "definition": "Reporting a vulnerability while working with the vendor on timing and public release.",
+    "exampleSentence": "The researcher chose coordinated disclosure and published details only after the fix."
+  },
+  {
+    "term": "security advisory",
+    "turkish": "güvenlik duyurusu",
+    "category": "security",
+    "definition": "An official notice that describes a flaw and explains how to fix or avoid it.",
+    "exampleSentence": "The vendor sent a security advisory with clear steps for affected customers."
+  },
+  {
+    "term": "proof of concept",
+    "turkish": "kavram kanıtı",
+    "category": "security",
+    "definition": "A small demonstration that shows a security flaw can really be exploited.",
+    "exampleSentence": "The researcher sent a short proof of concept to show the bug was real."
+  },
+  {
+    "term": "scope of engagement",
+    "turkish": "görev kapsamı",
+    "category": "security",
+    "definition": "The agreed list of systems and activities allowed during a security test.",
+    "exampleSentence": "The scope of engagement excluded the production database from the pentest."
+  },
+  {
+    "term": "rules of engagement",
+    "turkish": "görev kuralları",
+    "category": "security",
+    "definition": "Written rules that define what testers may and may not do in a security test.",
+    "exampleSentence": "Under the rules of engagement, testers could not attack systems after midnight."
+  },
+  {
+    "term": "authorization letter",
+    "turkish": "yetki mektubu",
+    "category": "security",
+    "definition": "A signed document that gives testers legal permission to perform a security test.",
+    "exampleSentence": "Carry the authorization letter with you in case security guards stop you."
+  },
+  {
+    "term": "escalation path",
+    "turkish": "yükseltme yolu",
+    "category": "security",
+    "definition": "The defined chain of people to contact when a problem is too serious for the first responder.",
+    "exampleSentence": "The escalation path in our runbook ends with the CISO and the legal team."
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "term": "social engineering",
+    "turkish": "sosyal mühendislik",
+    "category": "security",
+    "definition": "Tricking people into giving away information or access instead of hacking a system.",
+    "exampleSentence": "Social engineering works because people want to be helpful and trust easily."
+  },
+  {
+    "term": "man-in-the-middle",
+    "turkish": "ortadaki adam saldırısı",
+    "category": "security",
+    "definition": "An attack where someone secretly sits between two parties and reads or changes messages.",
+    "exampleSentence": "On public Wi-Fi, a man-in-the-middle attack can expose your passwords."
+  },
+  {
+    "term": "SQL injection",
+    "fullForm": "Structured Query Language injection",
+    "turkish": "SQL enjeksiyonu",
+    "category": "security",
+    "definition": "An attack that inserts malicious database commands into an input field.",
+    "exampleSentence": "A simple SQL injection let the attacker download the whole customer table."
+  },
+  {
+    "term": "brute force",
+    "turkish": "kaba kuvvet saldırısı",
+    "category": "security",
+    "definition": "Trying every possible password or key until the right one works.",
+    "exampleSentence": "A brute force attack against short passwords can succeed in just a few minutes."
+  },
+  {
+    "term": "spear phishing",
+    "turkish": "hedefli oltalama",
+    "category": "security",
+    "definition": "A phishing attack written for one specific person or company.",
+    "exampleSentence": "The spear phishing email used the name of my real manager and a real project."
+  },
+  {
+    "term": "whaling",
+    "turkish": "balina avı (üst düzey yöneticilere oltalama)",
+    "category": "security",
+    "definition": "A phishing attack aimed at senior executives such as the CEO.",
+    "exampleSentence": "Whaling attacks often ask a finance director to make an urgent bank transfer."
+  },
+  {
+    "term": "vishing",
+    "turkish": "sesli oltalama",
+    "category": "security",
+    "definition": "Phishing carried out over a phone call or voice message.",
+    "exampleSentence": "The vishing caller pretended to be from the bank and asked for a code."
+  },
+  {
+    "term": "smishing",
+    "turkish": "SMS oltalaması",
+    "category": "security",
+    "definition": "Phishing carried out through text messages.",
+    "exampleSentence": "I received a smishing message that said my parcel was waiting behind a strange link."
+  },
+  {
+    "term": "pretexting",
+    "turkish": "uydurma senaryo ile kandırma",
+    "category": "security",
+    "definition": "Inventing a believable story to make a victim share information.",
+    "exampleSentence": "Through pretexting, the attacker called the help desk and pretended to be a new employee."
+  },
+  {
+    "term": "baiting",
+    "turkish": "yemleme",
+    "category": "security",
+    "definition": "Leaving something attractive, like an infected USB stick, to tempt a victim.",
+    "exampleSentence": "The baiting attack started when someone found a USB drive near the elevator."
+  },
+  {
+    "term": "tailgating",
+    "turkish": "izinsiz arkadan girme",
+    "category": "security",
+    "definition": "Following an authorized person through a secured door without permission.",
+    "exampleSentence": "Tailgating is easy when employees hold the door for people they do not know."
+  },
+  {
+    "term": "shoulder surfing",
+    "turkish": "omuz üstünden gözetleme",
+    "category": "security",
+    "definition": "Watching someone's screen or keyboard to steal passwords or private data.",
+    "exampleSentence": "Use a privacy screen to protect yourself from shoulder surfing in busy cafes."
+  },
+  {
+    "term": "dumpster diving",
+    "turkish": "çöpten bilgi toplama",
+    "category": "security",
+    "definition": "Searching through trash to find documents with useful information.",
+    "exampleSentence": "Dumpster diving is the reason why we shred every paper with names on it."
+  },
+  {
+    "term": "business email compromise",
+    "turkish": "iş e-postası dolandırıcılığı",
+    "category": "security",
+    "definition": "A scam where an attacker uses a hacked or fake business email to steal money.",
+    "exampleSentence": "A business email compromise attack cost the company two hundred thousand dollars last year."
+  },
+  {
+    "term": "typosquatting",
+    "turkish": "yazım hatası alan adı tuzağı",
+    "category": "security",
+    "definition": "Registering a domain with a common spelling mistake to trick visitors.",
+    "exampleSentence": "Typosquatting domains look almost the same as the real website at first glance."
+  },
+  {
+    "term": "watering hole",
+    "turkish": "sulak alan saldırısı",
+    "category": "security",
+    "definition": "An attack that infects a website often visited by the target group.",
+    "exampleSentence": "In the watering hole attack, the hackers infected a news site that engineers read daily."
+  },
+  {
+    "term": "credential stuffing",
+    "turkish": "çalıntı kimlik bilgisi denemesi",
+    "category": "security",
+    "definition": "Trying stolen username and password pairs on many different websites.",
+    "exampleSentence": "Credential stuffing succeeds when people reuse the same password everywhere."
+  },
+  {
+    "term": "password spraying",
+    "turkish": "parola püskürtme",
+    "category": "security",
+    "definition": "Trying a few common passwords against many accounts to avoid lockouts.",
+    "exampleSentence": "Password spraying is hard to notice because each account gets only one attempt."
+  },
+  {
+    "term": "keylogger",
+    "turkish": "tuş kaydedici",
+    "category": "security",
+    "definition": "A program or device that secretly records every key a user presses.",
+    "exampleSentence": "The antivirus found a keylogger that had been recording her passwords for weeks."
+  },
+  {
+    "term": "spyware",
+    "turkish": "casus yazılım",
+    "category": "security",
+    "definition": "Software that secretly collects information about a user's activity.",
+    "exampleSentence": "The free app hid spyware that sent browsing history to an unknown server."
+  },
+  {
+    "term": "adware",
+    "turkish": "reklam yazılımı",
+    "category": "security",
+    "definition": "Software that shows unwanted ads and often tracks user behavior.",
+    "exampleSentence": "The browser became slow after the adware installed itself with a free tool."
+  },
+  {
+    "term": "rootkit",
+    "turkish": "kök dizin gizleme yazılımı",
+    "category": "security",
+    "definition": "Malware that hides itself deep in the system and keeps privileged access.",
+    "exampleSentence": "A rootkit can hide its files even from the operating system tools."
+  },
+  {
+    "term": "trojan",
+    "turkish": "truva atı",
+    "category": "security",
+    "definition": "Malware that pretends to be a useful program to trick the user into installing it.",
+    "exampleSentence": "He downloaded a cracked game, but it was a trojan that opened his computer to attackers."
+  },
+  {
+    "term": "worm",
+    "turkish": "solucan",
+    "category": "security",
+    "definition": "Malware that copies itself and spreads across networks without user action.",
+    "exampleSentence": "The worm spread to hundreds of computers within minutes of the first infection."
+  },
+  {
+    "term": "botnet",
+    "turkish": "botnet (zombi ağı)",
+    "category": "security",
+    "definition": "A network of infected devices controlled by an attacker.",
+    "exampleSentence": "Thousands of hacked cameras were part of the botnet that attacked the website."
+  },
+  {
+    "term": "backdoor",
+    "turkish": "arka kapı",
+    "category": "security",
+    "definition": "A hidden way to enter a system while avoiding normal security checks.",
+    "exampleSentence": "The attackers left a backdoor so that they could return after we fixed the bug."
+  },
+  {
+    "term": "dropper",
+    "turkish": "yükleyici zararlı",
+    "category": "security",
+    "definition": "A small malware program whose only job is to install other malware.",
+    "exampleSentence": "The email attachment was just a dropper that fetched the real ransomware later."
+  },
+  {
+    "term": "logic bomb",
+    "turkish": "mantık bombası",
+    "category": "security",
+    "definition": "Harmful code that runs only when a certain condition or date is reached.",
+    "exampleSentence": "The angry developer planted a logic bomb that deleted files after his last day."
+  },
+  {
+    "term": "cryptojacking",
+    "turkish": "kripto madenciliği ile kaynak çalma",
+    "category": "security",
+    "definition": "Secretly using someone's computer to mine cryptocurrency.",
+    "exampleSentence": "The sudden CPU spikes on our servers were caused by cryptojacking."
+  },
+  {
+    "term": "fileless malware",
+    "turkish": "dosyasız zararlı",
+    "category": "security",
+    "definition": "Malware that runs in memory and leaves almost no files on the disk.",
+    "exampleSentence": "Fileless malware is difficult to find because traditional scanners look for files."
+  },
+  {
+    "term": "wiper",
+    "turkish": "veri silici zararlı",
+    "category": "security",
+    "definition": "Malware designed to destroy data permanently instead of asking for a ransom.",
+    "exampleSentence": "The wiper erased the boot sector and left hundreds of machines unusable."
+  },
+  {
+    "term": "scareware",
+    "turkish": "korkutma yazılımı",
+    "category": "security",
+    "definition": "Fake warnings that scare users into buying useless or harmful software.",
+    "exampleSentence": "A pop-up claimed the laptop had fifty viruses, but it was only scareware."
+  },
+  {
+    "term": "remote access trojan",
+    "turkish": "uzaktan erişim truva atı",
+    "category": "security",
+    "definition": "Malware that gives an attacker full remote control of the victim's computer.",
+    "exampleSentence": "A remote access trojan let the attacker watch the employee's screen all day."
+  },
+  {
+    "term": "infostealer",
+    "turkish": "bilgi çalan zararlı",
+    "category": "security",
+    "definition": "Malware built to steal passwords, cookies and saved data from a device.",
+    "exampleSentence": "The infostealer copied browser cookies and sent them to a criminal forum."
+  },
+  {
+    "term": "malvertising",
+    "turkish": "zararlı reklam",
+    "category": "security",
+    "definition": "Spreading malware through online advertisements.",
+    "exampleSentence": "Malvertising can infect a computer even when the user visits a trusted website."
+  },
+  {
+    "term": "drive-by download",
+    "turkish": "ziyaret ile zararlı indirme",
+    "category": "security",
+    "definition": "An automatic malware download that happens just by visiting a webpage.",
+    "exampleSentence": "A drive-by download installed the malware as soon as the page finished loading."
+  },
+  {
+    "term": "polymorphic malware",
+    "turkish": "çok biçimli zararlı",
+    "category": "security",
+    "definition": "Malware that changes its own code to avoid detection by antivirus tools.",
+    "exampleSentence": "Polymorphic malware creates a new version of itself every time it spreads."
+  },
+  {
+    "term": "sandbox evasion",
+    "turkish": "sanal ortamdan kaçınma",
+    "category": "security",
+    "definition": "Techniques malware uses to detect and avoid analysis in a test environment.",
+    "exampleSentence": "The sample used sandbox evasion and stayed quiet until it was on a real laptop."
+  },
+  {
+    "term": "command and control",
+    "turkish": "komuta kontrol sunucusu",
+    "category": "security",
+    "definition": "The servers an attacker uses to send orders to infected devices.",
+    "exampleSentence": "The firewall blocked traffic to a known command and control address."
+  },
+  {
+    "term": "payload delivery",
+    "turkish": "yük teslimi",
+    "category": "security",
+    "definition": "The stage of an attack when the harmful code is delivered to the victim.",
+    "exampleSentence": "Payload delivery usually happens through an email attachment or a hidden download link."
+  }
+]

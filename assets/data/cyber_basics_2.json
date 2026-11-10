@@ -1,0 +1,290 @@
+[
+  {
+    "term": "ISO 27001",
+    "turkish": "ISO 27001 standardı",
+    "category": "security",
+    "definition": "An international standard for managing information security in an organization.",
+    "exampleSentence": "Our company earned ISO 27001 certification after a year of hard preparation."
+  },
+  {
+    "term": "NIST",
+    "fullForm": "National Institute of Standards and Technology",
+    "turkish": "NIST (ABD standartlar enstitüsü)",
+    "category": "security",
+    "definition": "A US agency whose frameworks are widely used to organize security work.",
+    "exampleSentence": "We organized our security roadmap around the NIST guidelines for risk management."
+  },
+  {
+    "term": "PCI DSS",
+    "fullForm": "Payment Card Industry Data Security Standard",
+    "turkish": "PCI DSS (ödeme kartı güvenlik standardı)",
+    "category": "security",
+    "definition": "A security standard for companies that store or process card payments.",
+    "exampleSentence": "Passing the PCI DSS audit was required before we could accept credit cards."
+  },
+  {
+    "term": "SOC 2",
+    "turkish": "SOC 2 raporu",
+    "category": "security",
+    "definition": "A report that shows a service provider handles customer data securely.",
+    "exampleSentence": "Many clients ask for our SOC 2 report before they sign a contract."
+  },
+  {
+    "term": "HIPAA",
+    "fullForm": "Health Insurance Portability and Accountability Act",
+    "turkish": "HIPAA (ABD sağlık verisi yasası)",
+    "category": "security",
+    "definition": "A US law that protects the privacy of patients' health information.",
+    "exampleSentence": "The hospital app must follow HIPAA rules when it stores medical records."
+  },
+  {
+    "term": "MITRE ATT&CK",
+    "turkish": "MITRE ATT&CK bilgi tabanı",
+    "category": "security",
+    "definition": "A public knowledge base that lists attacker tactics and techniques.",
+    "exampleSentence": "The red team described each step of the test using MITRE ATT&CK names."
+  },
+  {
+    "term": "OWASP",
+    "fullForm": "Open Worldwide Application Security Project",
+    "turkish": "OWASP (web uygulama güvenliği topluluğu)",
+    "category": "security",
+    "definition": "A community that publishes free guides and tools for web application security.",
+    "exampleSentence": "Our developers use the OWASP cheat sheets when they build login pages."
+  },
+  {
+    "term": "CIS Benchmarks",
+    "turkish": "CIS kılavuzları",
+    "category": "security",
+    "definition": "Detailed guides that show how to configure systems securely.",
+    "exampleSentence": "The administrator applied the CIS Benchmarks to every new Linux server."
+  },
+  {
+    "term": "security framework",
+    "turkish": "güvenlik çerçevesi",
+    "category": "security",
+    "definition": "A structured set of guidelines used to build and improve a security program.",
+    "exampleSentence": "We chose a security framework that fits the size of our small company."
+  },
+  {
+    "term": "governance",
+    "turkish": "yönetişim",
+    "category": "security",
+    "definition": "The way an organization sets rules and decides who is responsible for what.",
+    "exampleSentence": "Good governance makes sure that someone owns every security decision."
+  },
+  {
+    "term": "risk register",
+    "turkish": "risk kaydı",
+    "category": "security",
+    "definition": "A document that lists known risks, their owners and the plans to handle them.",
+    "exampleSentence": "Every new project must add its main concerns to the risk register."
+  },
+  {
+    "term": "RTO",
+    "fullForm": "Recovery Time Objective",
+    "turkish": "kurtarma süresi hedefi",
+    "category": "security",
+    "definition": "The maximum time a system can be down before the damage becomes unacceptable.",
+    "exampleSentence": "The business set an RTO of four hours for the online shop."
+  },
+  {
+    "term": "RPO",
+    "fullForm": "Recovery Point Objective",
+    "turkish": "kurtarma noktası hedefi",
+    "category": "security",
+    "definition": "The maximum amount of data, measured in time, that a company can afford to lose.",
+    "exampleSentence": "With an RPO of one hour, we must back up the database every hour."
+  },
+  {
+    "term": "data classification",
+    "turkish": "veri sınıflandırma",
+    "category": "security",
+    "definition": "Sorting data into levels, such as public or secret, to decide how to protect it.",
+    "exampleSentence": "Data classification tells staff which documents may be shared outside the company."
+  },
+  {
+    "term": "PII",
+    "fullForm": "Personally Identifiable Information",
+    "turkish": "kişisel olarak tanımlanabilir bilgi",
+    "category": "security",
+    "definition": "Any data that can identify a person, such as a name or an ID number.",
+    "exampleSentence": "Never paste PII into a public chatbot or a shared online document."
+  },
+  {
+    "term": "data retention",
+    "turkish": "veri saklama süresi",
+    "category": "security",
+    "definition": "The rules that say how long data must be kept before it is deleted.",
+    "exampleSentence": "Our data retention policy requires us to delete old logs after one year."
+  },
+  {
+    "term": "data protection",
+    "turkish": "veri koruma",
+    "category": "security",
+    "definition": "The practice of keeping personal and business data safe from loss or misuse.",
+    "exampleSentence": "Data protection training is mandatory for every person who handles customer files."
+  },
+  {
+    "term": "privacy by design",
+    "turkish": "tasarımdan gizlilik",
+    "category": "security",
+    "definition": "Building privacy protection into a product from the start.",
+    "exampleSentence": "Privacy by design means the app collects only the data it really needs."
+  },
+  {
+    "term": "security awareness",
+    "turkish": "güvenlik farkındalığı",
+    "category": "security",
+    "definition": "Employees' knowledge of common threats and the safe way to behave.",
+    "exampleSentence": "Regular security awareness sessions teach staff how to spot strange emails."
+  },
+  {
+    "term": "tabletop exercise",
+    "turkish": "masa başı tatbikat",
+    "category": "security",
+    "definition": "A discussion-based practice where a team walks through a made-up incident.",
+    "exampleSentence": "During the tabletop exercise, the managers practiced how to announce a data breach."
+  },
+  {
+    "term": "third-party risk",
+    "turkish": "üçüncü taraf riski",
+    "category": "security",
+    "definition": "The risk that comes from vendors, partners or suppliers who access your systems.",
+    "exampleSentence": "Third-party risk is high because one supplier has full access to our network."
+  },
+  {
+    "term": "vendor assessment",
+    "turkish": "tedarikçi değerlendirmesi",
+    "category": "security",
+    "definition": "A review of a supplier's security before and during the business relationship.",
+    "exampleSentence": "The vendor assessment showed that the supplier did not encrypt customer files."
+  },
+  {
+    "term": "shadow IT",
+    "turkish": "gölge BT",
+    "category": "security",
+    "definition": "Apps or devices that employees use at work without approval from the IT team.",
+    "exampleSentence": "Shadow IT grows fast when employees find official tools too slow or limited."
+  },
+  {
+    "term": "asset inventory",
+    "turkish": "varlık envanteri",
+    "category": "security",
+    "definition": "A complete list of all hardware, software and data a company owns.",
+    "exampleSentence": "An accurate asset inventory is the first step of every security project."
+  },
+  {
+    "term": "security audit",
+    "turkish": "güvenlik denetimi",
+    "category": "security",
+    "definition": "A formal review that checks whether systems and processes follow security rules.",
+    "exampleSentence": "The external security audit found two serious gaps in our access process."
+  },
+  {
+    "term": "gap analysis",
+    "turkish": "boşluk analizi",
+    "category": "security",
+    "definition": "A comparison between the current security level and the level that is required.",
+    "exampleSentence": "The gap analysis showed we still lack logging for our cloud accounts."
+  },
+  {
+    "term": "policy exception",
+    "turkish": "politika istisnası",
+    "category": "security",
+    "definition": "A formal approval to break a security rule for a limited time and reason.",
+    "exampleSentence": "Each policy exception must be approved by a manager and expires after thirty days."
+  },
+  {
+    "term": "due diligence",
+    "turkish": "durum tespiti",
+    "category": "security",
+    "definition": "The careful research a company does before trusting a partner or buying a product.",
+    "exampleSentence": "Proper due diligence would have revealed that the vendor had been hacked before."
+  },
+  {
+    "term": "data sovereignty",
+    "turkish": "veri egemenliği",
+    "category": "security",
+    "definition": "The idea that data is subject to the laws of the country where it is stored.",
+    "exampleSentence": "Data sovereignty rules require us to keep citizen records on servers in our country."
+  },
+  {
+    "term": "regulatory fine",
+    "turkish": "yasal para cezası",
+    "category": "security",
+    "definition": "A financial penalty from an authority when a company breaks data or security laws.",
+    "exampleSentence": "A heavy regulatory fine pushed the company to invest in better protection."
+  },
+  {
+    "term": "breach notification",
+    "turkish": "ihlal bildirimi",
+    "category": "security",
+    "definition": "The duty to inform authorities and affected people after a data breach.",
+    "exampleSentence": "Our legal team prepared the breach notification within the required seventy-two hours."
+  },
+  {
+    "term": "security champion",
+    "turkish": "güvenlik elçisi",
+    "category": "security",
+    "definition": "A developer or employee who promotes good security habits inside their own team.",
+    "exampleSentence": "Each squad has a security champion who reviews risky pull requests."
+  },
+  {
+    "term": "cyber insurance",
+    "turkish": "siber sigorta",
+    "category": "security",
+    "definition": "An insurance policy that covers financial losses caused by cyber incidents.",
+    "exampleSentence": "Cyber insurance paid for part of the recovery costs after the ransomware attack."
+  },
+  {
+    "term": "security roadmap",
+    "turkish": "güvenlik yol haritası",
+    "category": "security",
+    "definition": "A plan that shows which security improvements will be made and when.",
+    "exampleSentence": "The security roadmap for next year includes passwordless login and better logging."
+  },
+  {
+    "term": "control objective",
+    "turkish": "kontrol hedefi",
+    "category": "security",
+    "definition": "A clear goal that a security control should achieve.",
+    "exampleSentence": "Each control objective in the audit has evidence that proves it is met."
+  },
+  {
+    "term": "information security",
+    "turkish": "bilgi güvenliği",
+    "category": "security",
+    "definition": "The practice of protecting information in any form from unauthorized access or loss.",
+    "exampleSentence": "Information security covers paper documents as well as servers and cloud storage."
+  },
+  {
+    "term": "cyber resilience",
+    "turkish": "siber dayanıklılık",
+    "category": "security",
+    "definition": "The ability to keep operating and recover quickly while under cyber attack.",
+    "exampleSentence": "Cyber resilience means that customers barely notice when one system goes down."
+  },
+  {
+    "term": "NIS2",
+    "fullForm": "Network and Information Security Directive 2",
+    "turkish": "NIS2 (AB siber güvenlik direktifi)",
+    "category": "security",
+    "definition": "A European directive that sets stricter cybersecurity rules for important organizations.",
+    "exampleSentence": "Our energy partner must follow NIS2 and report serious incidents quickly."
+  },
+  {
+    "term": "security metrics",
+    "turkish": "güvenlik metrikleri",
+    "category": "security",
+    "definition": "Measurements, like time to patch, that show how well security work is going.",
+    "exampleSentence": "We track security metrics every month and share them with the leadership team."
+  },
+  {
+    "term": "security governance",
+    "turkish": "güvenlik yönetişimi",
+    "category": "security",
+    "definition": "The structure of roles, decisions and oversight that guides security in a company.",
+    "exampleSentence": "Strong security governance means that the board understands the main cyber risks."
+  }
+]

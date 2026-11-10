@@ -1,0 +1,285 @@
+[
+  {
+    "term": "Kali Linux",
+    "turkish": "Kali Linux",
+    "category": "security",
+    "definition": "A Linux distribution packed with tools for penetration testing and forensics.",
+    "exampleSentence": "Most students install Kali Linux in a virtual machine for their first lab."
+  },
+  {
+    "term": "Metasploit",
+    "turkish": "Metasploit çerçevesi",
+    "category": "security",
+    "definition": "A popular framework for developing and running exploits during security tests.",
+    "exampleSentence": "He used Metasploit to demonstrate that the old server was easy to take over."
+  },
+  {
+    "term": "Nmap",
+    "turkish": "Nmap ağ tarayıcısı",
+    "category": "security",
+    "definition": "A free tool for discovering devices and open ports on a network.",
+    "exampleSentence": "Run Nmap against the test subnet to see which services are exposed."
+  },
+  {
+    "term": "Wireshark",
+    "turkish": "Wireshark paket analizcisi",
+    "category": "security",
+    "definition": "A tool that captures and displays network traffic in detail.",
+    "exampleSentence": "With Wireshark, we saw the login request travelling in plain text."
+  },
+  {
+    "term": "Burp Suite",
+    "turkish": "Burp Suite web test aracı",
+    "category": "security",
+    "definition": "A toolkit for testing the security of web applications by intercepting requests.",
+    "exampleSentence": "The tester used Burp Suite to change the price in the shopping cart request."
+  },
+  {
+    "term": "Nessus",
+    "turkish": "Nessus zafiyet tarayıcısı",
+    "category": "security",
+    "definition": "A widely used commercial scanner for finding vulnerabilities.",
+    "exampleSentence": "Nessus listed forty critical findings after scanning the new network."
+  },
+  {
+    "term": "Hashcat",
+    "turkish": "Hashcat parola kırma aracı",
+    "category": "security",
+    "definition": "A fast tool that tries to recover passwords from hashes.",
+    "exampleSentence": "The auditor used Hashcat to prove that many staff passwords were weak."
+  },
+  {
+    "term": "John the Ripper",
+    "turkish": "John the Ripper parola kırıcı",
+    "category": "security",
+    "definition": "A classic open-source tool for testing password strength.",
+    "exampleSentence": "John the Ripper cracked the weak passwords in the test file in minutes."
+  },
+  {
+    "term": "Shodan",
+    "turkish": "Shodan arama motoru",
+    "category": "security",
+    "definition": "A search engine that finds internet-connected devices and their open services.",
+    "exampleSentence": "A quick Shodan search showed that our camera system was visible to everyone."
+  },
+  {
+    "term": "Maltego",
+    "turkish": "Maltego araştırma aracı",
+    "category": "security",
+    "definition": "A tool that maps relationships between people, domains and infrastructure.",
+    "exampleSentence": "Maltego created a graph linking the attacker's domains to the same email."
+  },
+  {
+    "term": "reconnaissance",
+    "turkish": "keşif",
+    "category": "security",
+    "definition": "The first phase of an attack or test, gathering information about the target.",
+    "exampleSentence": "Careful reconnaissance revealed the names of the servers and the technologies they use."
+  },
+  {
+    "term": "enumeration",
+    "turkish": "numaralandırma",
+    "category": "security",
+    "definition": "Listing users, shares, services or resources on a target system.",
+    "exampleSentence": "Enumeration showed a list of valid usernames that the attacker could try."
+  },
+  {
+    "term": "footprinting",
+    "turkish": "ayak izi çıkarma",
+    "category": "security",
+    "definition": "Collecting basic information about a target's systems and network.",
+    "exampleSentence": "Footprinting began with a search for the company's public domain names."
+  },
+  {
+    "term": "vulnerability assessment",
+    "turkish": "zafiyet değerlendirmesi",
+    "category": "security",
+    "definition": "A review that finds and ranks weaknesses without actually exploiting them.",
+    "exampleSentence": "The vulnerability assessment gave the team a ranked list of problems to fix."
+  },
+  {
+    "term": "exploitation",
+    "turkish": "istismar etme",
+    "category": "security",
+    "definition": "The phase where a tester uses a weakness to gain access.",
+    "exampleSentence": "During exploitation, the tester gained a shell on the old web server."
+  },
+  {
+    "term": "post-exploitation",
+    "turkish": "sızma sonrası aşama",
+    "category": "security",
+    "definition": "Activities after gaining access, such as exploring and collecting data.",
+    "exampleSentence": "In post-exploitation, the team checked what data an attacker could reach."
+  },
+  {
+    "term": "pivoting",
+    "turkish": "pivotlama (içeri sıçrama)",
+    "category": "security",
+    "definition": "Using a compromised machine as a stepping stone to reach other networks.",
+    "exampleSentence": "By pivoting through the web server, the tester reached the internal network."
+  },
+  {
+    "term": "remediation",
+    "turkish": "iyileştirme (düzeltme)",
+    "category": "security",
+    "definition": "The actions taken to fix a weakness or reduce a risk.",
+    "exampleSentence": "The remediation plan lists each fix, its owner and its deadline."
+  },
+  {
+    "term": "retest",
+    "turkish": "yeniden test",
+    "category": "security",
+    "definition": "A repeat test to confirm that a previous finding was fixed.",
+    "exampleSentence": "After the patch, the tester ran a retest and confirmed the flaw was gone."
+  },
+  {
+    "term": "security report",
+    "turkish": "güvenlik raporu",
+    "category": "security",
+    "definition": "A document that summarizes test results, risks and recommendations.",
+    "exampleSentence": "The security report was clear enough for both managers and engineers."
+  },
+  {
+    "term": "executive summary",
+    "turkish": "yönetici özeti",
+    "category": "security",
+    "definition": "A short section for leaders that explains the main results in simple language.",
+    "exampleSentence": "The executive summary fits on one page and avoids technical details."
+  },
+  {
+    "term": "severity rating",
+    "turkish": "önem derecesi",
+    "category": "security",
+    "definition": "A label such as low, medium, high or critical that shows how serious a problem is.",
+    "exampleSentence": "Each finding in the report has a severity rating and a clear explanation."
+  },
+  {
+    "term": "finding",
+    "turkish": "bulgu",
+    "category": "security",
+    "definition": "A security problem discovered during a test or an audit.",
+    "exampleSentence": "The most serious finding was an admin panel that anyone could open."
+  },
+  {
+    "term": "writeup",
+    "turkish": "çözüm yazısı",
+    "category": "security",
+    "definition": "A written explanation of how a challenge or a bug was solved.",
+    "exampleSentence": "He published a writeup that explains how he solved the hardest challenge."
+  },
+  {
+    "term": "flag",
+    "turkish": "bayrak (CTF)",
+    "category": "security",
+    "definition": "A secret string hidden in a challenge that proves you solved it.",
+    "exampleSentence": "Once we got the shell, the flag was in the home directory."
+  },
+  {
+    "term": "Hack The Box",
+    "turkish": "Hack The Box platformu",
+    "category": "security",
+    "definition": "An online platform with practice machines for learning penetration testing.",
+    "exampleSentence": "I practice on Hack The Box every evening to improve my skills."
+  },
+  {
+    "term": "TryHackMe",
+    "turkish": "TryHackMe platformu",
+    "category": "security",
+    "definition": "A beginner-friendly website with guided security labs.",
+    "exampleSentence": "TryHackMe is a nice place to begin if you have never used Linux."
+  },
+  {
+    "term": "Security+",
+    "turkish": "CompTIA Security+ sertifikası",
+    "category": "security",
+    "definition": "A beginner-level certification that covers the basics of cybersecurity.",
+    "exampleSentence": "He studied for two months and passed the Security+ exam on his first attempt."
+  },
+  {
+    "term": "CEH",
+    "fullForm": "Certified Ethical Hacker",
+    "turkish": "sertifikalı etik hacker",
+    "category": "security",
+    "definition": "A certification that covers the tools and techniques of ethical hacking.",
+    "exampleSentence": "The CEH certificate helped her get her first job in a security team."
+  },
+  {
+    "term": "OSCP",
+    "fullForm": "Offensive Security Certified Professional",
+    "turkish": "OSCP sertifikası",
+    "category": "security",
+    "definition": "A hands-on certification known for its difficult practical exam.",
+    "exampleSentence": "The OSCP exam lasts twenty-four hours and tests real hacking skills."
+  },
+  {
+    "term": "CISSP",
+    "fullForm": "Certified Information Systems Security Professional",
+    "turkish": "CISSP sertifikası",
+    "category": "security",
+    "definition": "A respected certification for experienced security professionals and managers.",
+    "exampleSentence": "Many security managers hold a CISSP and at least five years of experience."
+  },
+  {
+    "term": "bug report",
+    "turkish": "hata raporu",
+    "category": "security",
+    "definition": "A document that explains a problem, how to reproduce it and its impact.",
+    "exampleSentence": "A good bug report includes clear steps, screenshots and the expected result."
+  },
+  {
+    "term": "triage",
+    "turkish": "önceliklendirme (triyaj)",
+    "category": "security",
+    "definition": "Sorting reports or alerts by importance to decide what to handle first.",
+    "exampleSentence": "Triage of the new reports takes the security team about an hour each morning."
+  },
+  {
+    "term": "bounty payout",
+    "turkish": "ödül ödemesi",
+    "category": "security",
+    "definition": "The money paid to a researcher for a valid vulnerability report.",
+    "exampleSentence": "The bounty payout was higher because the bug exposed customer data."
+  },
+  {
+    "term": "duplicate report",
+    "turkish": "tekrar eden rapor",
+    "category": "security",
+    "definition": "A vulnerability report that someone else has already submitted.",
+    "exampleSentence": "My finding was marked as a duplicate report, so I received no reward."
+  },
+  {
+    "term": "attack simulation",
+    "turkish": "saldırı simülasyonu",
+    "category": "security",
+    "definition": "A controlled exercise that imitates real attacks to test defenses.",
+    "exampleSentence": "The attack simulation showed that our alerts were too slow to stop ransomware."
+  },
+  {
+    "term": "lab environment",
+    "turkish": "laboratuvar ortamı",
+    "category": "security",
+    "definition": "A safe, isolated setup for practicing security techniques legally.",
+    "exampleSentence": "Build a lab environment at home so you can practice without breaking laws."
+  },
+  {
+    "term": "virtual machine",
+    "turkish": "sanal makine",
+    "category": "security",
+    "definition": "A software-based computer that runs inside another computer, often used for safe testing.",
+    "exampleSentence": "Run the suspicious file inside a virtual machine, not on your real laptop."
+  },
+  {
+    "term": "ethical hacking",
+    "turkish": "etik hackleme",
+    "category": "security",
+    "definition": "Testing systems for weaknesses with permission in order to improve their security.",
+    "exampleSentence": "Ethical hacking is only legal when you have written permission from the owner."
+  },
+  {
+    "term": "security mindset",
+    "turkish": "güvenlik zihniyeti",
+    "category": "security",
+    "definition": "A way of thinking that always asks how something could be abused or broken.",
+    "exampleSentence": "Developers with a security mindset review their own code like an attacker would."
+  }
+]

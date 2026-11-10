@@ -7,6 +7,7 @@ import 'package:it_english/models/section.dart';
 import 'package:it_english/screens/group_screen.dart';
 import 'package:it_english/models/quiz_mode.dart';
 import 'package:it_english/models/term.dart';
+import 'package:it_english/screens/cyber_screen.dart';
 import 'package:it_english/screens/favorites_screen.dart';
 import 'package:it_english/screens/quiz_mode_screen.dart';
 import 'package:it_english/screens/quiz_screen.dart';
@@ -86,10 +87,41 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(WordGroupsScreen), findsOneWidget);
-    for (final SectionGroup group in SectionGroup.all) {
+    for (final SectionGroup group in SectionGroup.menu) {
       await tester.scrollUntilVisible(find.text(group.title), 100);
       expect(find.text(group.title), findsOneWidget);
     }
+    // Cyber alt grupları ayrı kart değil, tek "Cyber" kartının içindedir.
+    await tester.scrollUntilVisible(find.text(CyberScreen.title), 100);
+    expect(find.text(CyberScreen.title), findsOneWidget);
+    expect(find.text('Cyber Basics'), findsNothing);
+  });
+
+  testWidgets('Cyber klasörü 5 alt grubu, alt grup da 2 bölümü gösterir',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const MaterialApp(home: WordGroupsScreen()));
+
+    await tester.scrollUntilVisible(find.text(CyberScreen.title), 100);
+    await tester.tap(find.text(CyberScreen.title));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(CyberScreen), findsOneWidget);
+    expect(SectionGroup.cyberGroups, hasLength(5));
+    for (final SectionGroup group in SectionGroup.cyberGroups) {
+      expect(group.sections, hasLength(2));
+      await tester.scrollUntilVisible(find.text(group.title), 100);
+      expect(find.text(group.title), findsOneWidget);
+    }
+
+    // Döngüde aşağı kaydırdığımız için "Cyber Basics" ekrandan çıkmış
+    // olabilir; tıklamadan önce tekrar görünür yap.
+    await tester.scrollUntilVisible(find.text('Cyber Basics'), 100);
+    await tester.tap(find.text('Cyber Basics'));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(GroupScreen), findsOneWidget);
+    expect(find.text('Cyber Basics 1'), findsOneWidget);
+    expect(find.text('Cyber Basics 2'), findsOneWidget);
   });
 
   test('Her bölüm bir klasörde yer alır', () {

@@ -1,0 +1,282 @@
+[
+  {
+    "term": "passwordless",
+    "turkish": "parolasız",
+    "category": "security",
+    "definition": "A way of logging in that does not use a typed password.",
+    "exampleSentence": "We want to become passwordless and use biometrics and security keys instead."
+  },
+  {
+    "term": "biometric authentication",
+    "turkish": "biyometrik doğrulama",
+    "category": "security",
+    "definition": "Verifying identity with a fingerprint, face or other body feature.",
+    "exampleSentence": "Biometric authentication makes unlocking the tablet quick and harder to steal."
+  },
+  {
+    "term": "hardware security key",
+    "turkish": "donanım güvenlik anahtarı",
+    "category": "security",
+    "definition": "A small physical device used to approve a login and resist phishing.",
+    "exampleSentence": "She touched her hardware security key to confirm the login on the new laptop."
+  },
+  {
+    "term": "passkey",
+    "turkish": "geçiş anahtarı (passkey)",
+    "category": "security",
+    "definition": "A phishing-resistant login credential stored on a device instead of a password.",
+    "exampleSentence": "I created a passkey, so I no longer type a password on that site."
+  },
+  {
+    "term": "privileged access management",
+    "turkish": "ayrıcalıklı erişim yönetimi",
+    "category": "security",
+    "definition": "Tools that control and record the use of powerful admin accounts.",
+    "exampleSentence": "Privileged access management gives admins temporary rights and records every action."
+  },
+  {
+    "term": "role-based access control",
+    "turkish": "rol tabanlı erişim kontrolü",
+    "category": "security",
+    "definition": "Giving permissions to roles, and then assigning people to those roles.",
+    "exampleSentence": "Role-based access control makes it easy to give a new employee the right access."
+  },
+  {
+    "term": "access review",
+    "turkish": "erişim gözden geçirme",
+    "category": "security",
+    "definition": "A regular check of who has access to what and whether they still need it.",
+    "exampleSentence": "During the quarterly access review, we removed twenty accounts of former staff."
+  },
+  {
+    "term": "password manager",
+    "turkish": "parola yöneticisi",
+    "category": "security",
+    "definition": "An app that creates and stores strong unique passwords safely.",
+    "exampleSentence": "A password manager helps you use a different strong password for every site."
+  },
+  {
+    "term": "password policy",
+    "turkish": "parola politikası",
+    "category": "security",
+    "definition": "Rules about password length, complexity and how often they must change.",
+    "exampleSentence": "The new password policy requires at least fourteen characters for every account."
+  },
+  {
+    "term": "account lockout",
+    "turkish": "hesap kilitleme",
+    "category": "security",
+    "definition": "Temporarily blocking an account after too many wrong login attempts.",
+    "exampleSentence": "Account lockout stopped the attacker after five failed password guesses."
+  },
+  {
+    "term": "session timeout",
+    "turkish": "oturum zaman aşımı",
+    "category": "security",
+    "definition": "Automatically ending a login session after a period of inactivity.",
+    "exampleSentence": "The session timeout logs you out after ten minutes if you do nothing."
+  },
+  {
+    "term": "just-in-time access",
+    "turkish": "tam zamanında erişim",
+    "category": "security",
+    "definition": "Giving elevated rights only for the short time they are really needed.",
+    "exampleSentence": "With just-in-time access, engineers receive admin rights for only one hour."
+  },
+  {
+    "term": "secrets management",
+    "turkish": "sır yönetimi",
+    "category": "security",
+    "definition": "Safely storing and controlling passwords, tokens and keys used by applications.",
+    "exampleSentence": "Secrets management tools keep database passwords out of the source code."
+  },
+  {
+    "term": "vulnerability management",
+    "turkish": "zafiyet yönetimi",
+    "category": "security",
+    "definition": "The ongoing process of finding, ranking and fixing security weaknesses.",
+    "exampleSentence": "Vulnerability management is a cycle that never really ends in a growing company."
+  },
+  {
+    "term": "log aggregation",
+    "turkish": "log toplama",
+    "category": "security",
+    "definition": "Collecting logs from many systems into one place for search and analysis.",
+    "exampleSentence": "Log aggregation lets us search all servers with a single query."
+  },
+  {
+    "term": "security monitoring",
+    "turkish": "güvenlik izleme",
+    "category": "security",
+    "definition": "Continuously watching systems and logs to detect suspicious activity.",
+    "exampleSentence": "Good security monitoring depends on clear alerts that analysts actually trust."
+  },
+  {
+    "term": "alert fatigue",
+    "turkish": "alarm yorgunluğu",
+    "category": "security",
+    "definition": "Stress and missed warnings caused by too many low-quality alerts.",
+    "exampleSentence": "Alert fatigue made the team ignore a real warning among hundreds of noisy ones."
+  },
+  {
+    "term": "false positive",
+    "turkish": "yanlış alarm",
+    "category": "security",
+    "definition": "An alert that says something is dangerous when it is actually safe.",
+    "exampleSentence": "Every false positive wastes analyst time, so we tune the rules each week."
+  },
+  {
+    "term": "false negative",
+    "turkish": "kaçırılan tehdit",
+    "category": "security",
+    "definition": "A failure to raise an alert when something dangerous really happens.",
+    "exampleSentence": "The worst result is a false negative, because the attack goes unnoticed."
+  },
+  {
+    "term": "threat intelligence",
+    "turkish": "tehdit istihbaratı",
+    "category": "security",
+    "definition": "Information about attackers, their tools and methods that helps defenders prepare.",
+    "exampleSentence": "Threat intelligence told us which groups were attacking companies in our sector."
+  },
+  {
+    "term": "threat feed",
+    "turkish": "tehdit akışı",
+    "category": "security",
+    "definition": "A regularly updated list of malicious addresses, domains and file hashes.",
+    "exampleSentence": "We import a commercial threat feed into our firewall every hour."
+  },
+  {
+    "term": "incident response",
+    "turkish": "olay müdahalesi",
+    "category": "security",
+    "definition": "The organized approach to handling and recovering from a security incident.",
+    "exampleSentence": "A clear incident response plan helps people stay calm during an attack."
+  },
+  {
+    "term": "playbook",
+    "turkish": "oyun kitabı (müdahale adımları)",
+    "category": "security",
+    "definition": "A step-by-step guide for handling a specific type of security event.",
+    "exampleSentence": "The phishing playbook explains exactly how to isolate a mailbox and reset the password."
+  },
+  {
+    "term": "containment",
+    "turkish": "sınırlama (yayılmayı durdurma)",
+    "category": "security",
+    "definition": "Actions taken to stop an incident from spreading further.",
+    "exampleSentence": "Containment started when we disconnected the infected laptop from the network."
+  },
+  {
+    "term": "eradication",
+    "turkish": "kök temizleme",
+    "category": "security",
+    "definition": "Removing the cause of an incident, such as malware or an attacker's access.",
+    "exampleSentence": "Eradication is not complete until all backdoors and bad accounts are removed."
+  },
+  {
+    "term": "digital forensics",
+    "turkish": "adli bilişim",
+    "category": "security",
+    "definition": "Collecting and analyzing digital evidence to find out what happened.",
+    "exampleSentence": "Digital forensics proved that the files were copied at three in the morning."
+  },
+  {
+    "term": "root cause analysis",
+    "turkish": "kök neden analizi",
+    "category": "security",
+    "definition": "Investigating an incident to find the real reason it happened.",
+    "exampleSentence": "The root cause analysis showed that a forgotten test account started everything."
+  },
+  {
+    "term": "post-incident review",
+    "turkish": "olay sonrası değerlendirme",
+    "category": "security",
+    "definition": "A meeting after an incident to learn what worked and what should improve.",
+    "exampleSentence": "At the post-incident review, we agreed on five actions to avoid a repeat."
+  },
+  {
+    "term": "immutable backup",
+    "turkish": "değiştirilemez yedek",
+    "category": "security",
+    "definition": "A backup that cannot be changed or deleted for a fixed period.",
+    "exampleSentence": "An immutable backup saved us because the ransomware could not encrypt it."
+  },
+  {
+    "term": "offline backup",
+    "turkish": "çevrimdışı yedek",
+    "category": "security",
+    "definition": "A backup copy kept disconnected from the network so attackers cannot reach it.",
+    "exampleSentence": "We keep an offline backup in a safe room, separate from the main network."
+  },
+  {
+    "term": "security patch cycle",
+    "turkish": "güvenlik yaması döngüsü",
+    "category": "security",
+    "definition": "A fixed schedule for testing and installing security updates.",
+    "exampleSentence": "Our security patch cycle installs critical fixes within forty-eight hours."
+  },
+  {
+    "term": "break-glass account",
+    "turkish": "acil durum hesabı",
+    "category": "security",
+    "definition": "A special emergency admin account used only when normal access fails.",
+    "exampleSentence": "The break-glass account is locked in a vault and every use triggers an alarm."
+  },
+  {
+    "term": "kill switch",
+    "turkish": "acil kapatma düğmesi",
+    "category": "security",
+    "definition": "A mechanism that can quickly shut down a system or feature during an attack.",
+    "exampleSentence": "The team used a kill switch to stop the vulnerable feature within minutes."
+  },
+  {
+    "term": "quarantine",
+    "turkish": "karantina",
+    "category": "security",
+    "definition": "Isolating a suspicious file or device so it cannot cause harm.",
+    "exampleSentence": "The email gateway moved the suspicious attachment to quarantine automatically."
+  },
+  {
+    "term": "MFA fatigue",
+    "turkish": "MFA yorgunluğu saldırısı",
+    "category": "security",
+    "definition": "An attack that floods a user with approval requests until they accept one.",
+    "exampleSentence": "The MFA fatigue attack worked because the tired employee approved a prompt at night."
+  },
+  {
+    "term": "identity governance",
+    "turkish": "kimlik yönetişimi",
+    "category": "security",
+    "definition": "Managing who has which accounts and permissions throughout their time at a company.",
+    "exampleSentence": "Identity governance removes access automatically when an employee leaves the company."
+  },
+  {
+    "term": "credential rotation",
+    "turkish": "kimlik bilgisi yenileme",
+    "category": "security",
+    "definition": "Regularly changing passwords, keys and tokens to limit damage if they leak.",
+    "exampleSentence": "Automatic credential rotation changes the database password every thirty days."
+  },
+  {
+    "term": "security orchestration",
+    "turkish": "güvenlik orkestrasyonu",
+    "category": "security",
+    "definition": "Connecting different security tools so they can work together in one process.",
+    "exampleSentence": "Security orchestration links the email filter, the firewall and the ticket system."
+  },
+  {
+    "term": "detection engineering",
+    "turkish": "tespit mühendisliği",
+    "category": "security",
+    "definition": "Designing and tuning rules that find malicious activity in logs and events.",
+    "exampleSentence": "Detection engineering helped us write rules that catch stolen cloud tokens."
+  },
+  {
+    "term": "incident commander",
+    "turkish": "olay komutanı",
+    "category": "security",
+    "definition": "The person who leads the response team and makes decisions during an incident.",
+    "exampleSentence": "The incident commander asked everyone to write down their actions in the shared log."
+  }
+]
